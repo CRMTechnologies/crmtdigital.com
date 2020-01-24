@@ -23,24 +23,9 @@ section4:
 
 	<section class="block-light clearfix" id="block-homepage-logos">
 		<ul class="logo-grey">
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/12-symantec.png" width="220" height="70"></li>
-			<li><img alt="" class="square" src="https://www.crmtechnologies.com/sites/default/files/hpe_aruba_s_pos_rgb.png" height="70"></li>
-			<li><img alt="McAfee" src="https://www.crmtechnologies.com/sites/default/files/Mcafee-logo.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/arkadin_0.png" width="209" height="61"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/14-Lenovo.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/10-canon.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/13-equinix.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/logo-basware.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/6-Microfocus.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/11-talktalk.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/rsz_sage-logo.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/9-ca.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/4-rspca.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/2-Tetronix.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/1-Thomson.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/3-Alfresco_0.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/5-colt.png" width="220" height="70"></li>
-			<li><img alt="" src="https://www.crmtechnologies.com/sites/default/files/13-Bizagi_1_0.png" width="220" height="70"></li>
+			{{ range $.Site.Data.customerd }}
+			   {{ partial "customerLogo.html" . }}
+			{{ end }}
 		</ul>
 	</section>  
   
