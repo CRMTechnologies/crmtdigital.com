@@ -40,7 +40,7 @@
 		{{ $myAsset := .Params.resource }}
 		{{ $myAsset}}		
 		{{ $myAsset := "SuccessfulDemandGen" }}
-		{{ range where $.Site.Data.resources.assets "name" eq $myAsset  }}
+		{{ range where $.Site.Data.resources.assets "name" $myAsset  }}
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}		
 	</main>
