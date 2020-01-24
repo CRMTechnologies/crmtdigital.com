@@ -1,0 +1,27 @@
+{
+	"name": "SuccessfulDemandGen",
+	"image": "https://www.crmtechnologies.com/sites/default/files/AGuideToSuccessful.png",		
+	"cta_image": "https://www.crmtechnologies.com/sites/default/files/AGuideToSuccessful_0.png",	
+	"title": "A guide to successful demand gen led marketing execution",
+	"description": "Demand generation strategies can drive great marketing results, but you must get the creation and implementation of these strategies right.",	
+	"type": "eGuide",
+	"link": "http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing"
+},
+{
+	"name": "mops-whitepaper",
+	"image": "https://www.crmtechnologies.com/sites/default/files/whitepaper-exc-hub_0.png",		
+	"cta_image": "https://www.crmtechnologies.com/sites/default/files/mops-whitepaper-thumb_0.png",	
+	"title": "Marketing Operations, It's Your Time to Shine",
+	"description": "Marketing Operations is playing a critical role in the future of global marketing success. Find out how.",	
+	"type": "eGuide",
+	"link": "http://crmtechnologies.lookbookhq.com/c/marketing-ops-time-to-shine?x=Pylp84"
+},
+{
+	"name": "CrossEnterpriseCollab",
+	"image": "https://www.crmtechnologies.com/sites/default/files/SuccessfulExecution_1.png",		
+	"cta_image": "https://www.crmtechnologies.com/sites/default/files/SuccessfulExecution.png",	
+	"title": "Successful Execution of Your Marketing Ops Strategy Through Cross Enterprise Collaboration",
+	"description": "Marketing Operations is becoming increasingly important, but it won’t work without cross enterprise collaboration. Find out why.",	
+	"type": "eGuide",
+	"link": "http://interact.crmtechnologies.com/successful-execution-of-your-marketing-ops-strategy"
+}

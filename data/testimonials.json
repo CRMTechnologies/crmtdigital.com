@@ -1,0 +1,24 @@
+{
+	"name": "f5",
+	"customer": "F5",
+	"logo": "https://www.crmtechnologies.com/sites/default/files/logo-f5.png",	
+	"quote": "CRMT’s technical skill-set has been an important resource for F5. We are marketers, not technical specialists in CSS, Javascript or coding, so when we see that there is something that needs a more technical approach to improve it, we know we can rely on CRMT.",
+	"industry": "Application Delivery Networking (ADN) technology.",
+	"link": "/customers/f5"
+},
+{
+	"name": "foundry",
+	"customer": "The Foundry",	
+	"logo": "https://www.crmtechnologies.com/sites/default/files/logo-the-foundry.png",	
+	"quote": "CRMT identified that they were not populating the job role field effectively and advised us on the benefits of having this data available on all our contacts, ensuring that we could further segment and target effectively.",
+	"industry": "Visual effects and image processing technology",
+	"link": "/customers/foundry"
+},
+{
+	"name": "basware",
+	"customer": "Basware",		
+	"logo": "https://www.crmtechnologies.com/sites/default/files/logo-basware.png",	
+	"quote": "CRMT laid the foundations for their accelerated growth and changed the perception of marketing within the company, right up to executive and board level due to the visibility and insight that the Eloqua platform provides.",
+	"industry": "Financial management software.",
+	"link": "/customers/basware"
+}
