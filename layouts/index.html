@@ -5,7 +5,7 @@
       <ol class="carousel-indicators">
 	{{range $i, $e := $.Site.Data.banners.homepage}}
 	      
-	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $ }}" {{ if mod $i 0 }}class="active"{{ end }} ></li> 
+	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $i }}" {{ if mod $i 0 }}class="active"{{ end }} ></li> 
 	{{ end }}	      
       </ol>
       <div class="carousel-inner" role="listbox">
