@@ -32,7 +32,7 @@
       		{{ .Content }}
 		
 		{{ $myQuote := .Params.testimonial }}		
-		{{ range $.Site.Data.testimonials.quotes "name" $myQuote  }}
+		{{ range where $.Site.Data.testimonials.quotes "name" $myQuote  }}
 		   {{ partial "blockQuote.html" . }}
 		{{ end }}		
 		
