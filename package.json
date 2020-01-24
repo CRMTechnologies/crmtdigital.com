@@ -1,5 +1,5 @@
 {
-  "name": "alanchatfield.net",
+  "name": "crmtdigital.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Al-Toran/alanchatfield.net.git"
+    "url": "git+https://github.com/AlanChatfield/crmtdigital.com.git"
 },  
   "author": "Alan Chatfield",
   "license": "MIT"
