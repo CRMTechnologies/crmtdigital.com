@@ -4,7 +4,7 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
 	{{range $index, $element := $.Site.Data.banners.homepage}}
-	     <li data-target="#carouselExampleIndicators" data-slide-to={{ $index }}" ></li> 
+	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $index }}" ></li> 
 	{{ end }}	      
       </ol>
       <div class="carousel-inner" role="listbox">
