@@ -3,8 +3,7 @@
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-	{{range $i, $e := $.Site.Data.banners.homepage}}
-	      
+	{{range $i, $e := $.Site.Data.banners.homepage}}	      
 	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $i }}" {{ if eq $i 0 }}class="active"{{ end }} ></li> 
 	{{ end }}	      
       </ol>
