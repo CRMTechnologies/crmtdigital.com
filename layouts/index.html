@@ -37,7 +37,7 @@
 		
 		{{ partial "blockContact.html" . }}
 		
-		{{ range where $.Site.Data.resources.assets "name" .testimonial }}
+		{{ range where $.Site.Data.resources.assets "name" .Params.testimonial }}
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}		
 	</main>
