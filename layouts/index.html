@@ -36,7 +36,15 @@
     </div>
   </header>
 	<main>
-      {{ .Content }}
+		<section class="block-light clearfix" id="block-homepage-logos">
+			<ul class="logo-grey">
+				{{ range $.Site.Data.logos.customers }}
+				   {{ partial "customerLogo.html" . }}
+				{{ end }}
+			</ul>
+		</section>  
+		
+      		{{ .Content }}
 	</main>
 	  
 {{end}}
