@@ -39,5 +39,9 @@
 	{{ range where $.Site.Data.resources.assets "name" $myAsset  }}
 	   {{ partial "blockAsset.html" . }}
 	{{ end }}		  
-  </main> 
+  </main>
+
+{{ if eq .Params.show_contact true }}  
+	{{ partial floatingContactButton.html" . }}
+{{ end }} 
 {{ end }}
