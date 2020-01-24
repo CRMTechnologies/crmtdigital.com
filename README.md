@@ -1,6 +1,6 @@
-# alanchatfield.net
+# crmtdigital.com
 CRMT Website using Hugo
 
-TOTO:
-Update CMS Version
-Configure Forestry
+TODO:
+* Update CMS Version
+* Configure Forestry
