@@ -30,7 +30,16 @@
 		</section>  
 		
       		{{ .Content }}
-		{{ partial "blockContact.html" . }}		
+		
+		{{ range last 1 $.Site.Data.testimonials.quotes }}
+		   {{ partial "blockQuote.html" . }}
+		{{ end }}		
+		
+		{{ partial "blockContact.html" . }}
+		
+		{{ range where $.Site.Data.resources.assets "name" .testimonial }}
+		   {{ partial "blockAsset.html" . }}
+		{{ end }}		
 	</main>
 	  
 {{end}}
