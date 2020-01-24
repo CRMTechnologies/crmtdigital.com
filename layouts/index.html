@@ -37,7 +37,11 @@
 		
 		{{ partial "blockContact.html" . }}
 		
-		{{ range where $.Site.Data.resources.assets "name" .Params.testimonial }}
+		
+		{{ $myAsset := "SuccessfulDemandGen" }}
+		{{ $myAsset := .testimonial }}
+		{{ $myAsset}}
+		{{ range where $.Site.Data.resources.assets "name" eq $myAsset  }}
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}		
 	</main>
