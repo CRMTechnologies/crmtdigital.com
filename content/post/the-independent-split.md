@@ -1,4 +1,4 @@
-+++
+---
 banner = "top-align"
 categories = ["opinion"]
 date = "2019-02-19T22:00:00+00:00"
@@ -8,7 +8,7 @@ tags = ["Politics"]
 title = "Breaking Away: The Independent Group"
 topic = "Politics"
 url = "/the-independent-split/"
-+++
+---
 It finally happened. After years of rumours and non-denials, the UK Labour Party has finally split. On Monday morning, seven MPs resigned from the Labour Party to sit in Parliament as The Independent Group. They are not as yet a new political party. That decision has been kicked into the future once the current Brexit crisis gripping Westminster has been resolved. Chuka Umunna and Chris Leslie - the two best known figures in the breakaway are leading lights of the People's Vote campaign for a second referendum, and for now that campaign takes priority.
 
 The reaction from the Labour leadership has been mixed. John McDonnell called for a massive listening exercise, Jeremy Corbyn assured MPs that his door was always open. Few believe them. Deputy leader Tom Watson struck a very different tone in an emotional Facebook video where he threatened to resign himself unless changes were made to the leadership's attitude to their MPs. There has been a lot of sympathy for the 7 amongst their erstwhile colleagues, and it is widely believed that more Labour MPs will join the independent group over the next few weeks.
