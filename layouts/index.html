@@ -3,13 +3,14 @@
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-	{{range $index, $element := $.Site.Data.banners.homepage}}
-	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $index }}" ></li> 
+	{{range $i, $e := $.Site.Data.banners.homepage}}
+	      
+	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $ }}" {{ if modBool eq 0 }}class="active"{{ end }} ></li> 
 	{{ end }}	      
       </ol>
       <div class="carousel-inner" role="listbox">
-	{{ range $.Site.Data.banners.homepage }}
-	<div class="carousel-item" style="background-image: linear-gradient(rgba(55,26,190,0.4225),rgba(55,26,190,0.4225)),url('{{ .image }}')">
+	{{ range $i, $e :=  $.Site.Data.banners.homepage }}
+	<div class="carousel-item {{ if modBool eq 0 }}active{{ end }}" style="background-image: linear-gradient(rgba(55,26,190,0.4225),rgba(55,26,190,0.4225)),url('{{ .image }}')">
 	  <div class="carousel-caption">
 	    <h3>{{ .line1 }}<br>
 		{{ .line2 }}</h3>
