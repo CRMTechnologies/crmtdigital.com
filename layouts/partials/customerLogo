@@ -1,0 +1,1 @@
+<li><img alt="{{.Site.Data.customers.name}}" src="{{.Site.Data.customers.image}}" height="70" class="{{.Site.Data.customers.class}}"></li>
