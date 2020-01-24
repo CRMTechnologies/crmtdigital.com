@@ -31,15 +31,14 @@
 		
       		{{ .Content }}
 		
-		{{ range last 1 $.Site.Data.testimonials.quotes }}
+		{{ $myQuote := .Params.testimonial }}		
+		{{ range $.Site.Data.testimonials.quotes "name" $myQuote  }}
 		   {{ partial "blockQuote.html" . }}
 		{{ end }}		
 		
 		{{ partial "blockContact.html" . }}
 		
 		{{ $myAsset := .Params.resource }}
-		{{ $myAsset}}		
-		{{ $myAsset := "SuccessfulDemandGen" }}
 		{{ range where $.Site.Data.resources.assets "name" $myAsset  }}
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}		
