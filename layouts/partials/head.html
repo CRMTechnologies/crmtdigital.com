@@ -2,7 +2,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-	<meta name="description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+	<meta name="description" content="{{ if .description }}{{ .description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,10 +14,4 @@
 	<link rel="shortcut icon" href="https://www.crmtechnologies.com/themes/tp_theme/favicon.ico" type="image/vnd.microsoft.icon" />
 	<link rel="manifest" href="/manifest.json">
 	<meta name="theme-color" content="#0e1d45">
-
-	<meta property="og:locale" content="en_GB">
-	<meta property="og:title" content="{{ if .title }}{{ .title }}{{ else }}{{ .Site.Title }}{{ end }}">
-	<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/img/og-image.jpg{{ end }}">
-	<meta property="og:description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
-	<meta property="og:site_name" content="{{ .Site.Title }}">
 </head>
