@@ -498,7 +498,7 @@ footer .footer-copyright ul li span {
 }	
 @media screen and (max-width:992px){
 		body { padding-top: 70px; }
-		.navbar { background-color: rgba(255,255,255,0.95);  } 
+		.navbar { background-color: rgb(255,255,255);  } 
 		.logo-color { display: inline-block;margin-left: calc(50vw - 92px); }
 		.logo-white { display: none;  }
 		.navbar .container {max-width: 100%;}
