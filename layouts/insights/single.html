@@ -7,16 +7,19 @@
 		<div class="container">
 			<div class="row">	
 				<article class="col-sm-8">	
-					<header>
-						<h2 >{{.Title}}</h2>		
-						<div class="meta">{{ .Date.Format "2 January 2006" }} by {{ Params.author | default "CRM Technologies" }}  | {{ partial "tags" . }} </div>		
-						<div class="social">
+					<header class="clearfix">
+						<h2 class="col-xs-12">{{.Title}}</h2>		
+						<div class="meta col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}
+						<div class="meta col-sm-4 pull-left">By {{ Params.author | default "CRM Technologies" }}</div>		
+						<div class="social col-sm-4 pull-right">
 							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
 							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
 							<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>			
 						</div>					
 					</header>
-					{{ .Content }}	
+					</div>
+						{{ .Content }}	
+					</div>	
 				</article> 
 				<div class="col-sm-1 d-none d-sm-block"></div>
 				<div class="col-sm-3">
