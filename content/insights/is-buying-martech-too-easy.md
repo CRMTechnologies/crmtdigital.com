@@ -3,11 +3,12 @@ title: "Is Buying MarTech Too Easy?"
 description: Building a technology stack is far harder than it should be, but for many buyers, it's probably not hard enough.
 image: "https://source.unsplash.com/geNNFqfvw48/1920x1080"
 
-heading: "Is Buying MarTech Too Easy?"
-subheading: ""
+heading: "Insights from CRMT"
+subheading: "Is Buying MarTech Too Easy?"
 
 tags: ["Digital Transformation","Marketing Technology","Procurement"]
-topic: "Digital Transformation"
+author: "Alan Chatfield"
+resource: "CrossEnterpriseCollab"
 date: 2019-02-01T08:30:00.000Z
 
 ---
