@@ -62,6 +62,7 @@ a {
 img { max-width: 100%; height: auto; }
 .pull-left { float: left; text-align: left; }
 .pull-right { float: right; text-align: right; }
+.text-green { color: #a1bd17; font-weight: 400; }
 .btn-split {	
     padding: 14px 3%;
     border-radius: 2px;
@@ -282,8 +283,9 @@ article .social a.icon-li { background: #009FE3 url(https://www.crmtechnologies.
 article .social a.icon-tw { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
 article .social a.icon-fb { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 article .social a:hover {  background-color: #371abe; }
-article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px;}
-.card-insight { border: none; border-bottom: 2px solid #0e1d45; }
+article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px; border-radius: 0px; }
+.card-insight { border: none; border-bottom: 2px solid #0e1d45; border-radius: 0px;  }
+.card-insight .card-body a.btn {  padding: 12px 8%; font-size: 0.9em; }
 .card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 .card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
 .card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
