@@ -6,23 +6,23 @@
 	<section class=" pt-5 pb-50">
 		<div class="container">
 			<div class="row">	
-				<article class="col-sm-8">	
+				<article class="col-lg-8">	
 					<header class="clearfix">
-						<h2 class="col-xs-12">{{.Title}}</h2>		
-						<div class="meta col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}</div>	
-						<div class="meta col-sm-4 pull-left">By {{ .Params.author | default "CRM Technologies" }}</div>		
-						<div class="social col-sm-4 pull-right">
+						<h1 class="col-12">{{.Title}}</h1>		
+						<div class="meta col-7 col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}</div>	
+						<div class="social col-5 col-sm-4 pull-right">
 							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
 							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
 							<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>			
-						</div>					
+						</div>							
+						<div class="meta col-7 col-sm-4 pull-left">By {{ .Params.author | default "CRM Technologies" }}</div>						
 					</header>
 					<div class=" mt-5">
 						{{ .Content }}	
 					</div>	
 				</article> 
-				<div class="col-sm-1 d-none d-sm-block"></div>
-				<div class="col-sm-3 px-0">
+				<div class="col-lg-1 d-none d-lg-block"></div>
+				<div class="col-lg-3 px-0 d-none d-lg-block">
 					<div class="card card-follow">
 					  <div class="card-header">Follow CRMT</div>
 					  <div class="card-body social">
@@ -36,7 +36,7 @@
 					{{ $related := .Site.RegularPages.Related . | first 3 }}
 					{{ with $related }}
 					<div class="card card-related">
-					  <div class="card-header">Follow CRMT</div>
+					  <div class="card-header">Related Posts</div>
 						{{ range . }}
 							<div class="card-body row mx-0">
 								<div class="col-sm-6 pl-0">
