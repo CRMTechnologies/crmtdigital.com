@@ -22,7 +22,7 @@
 					</div>	
 				</article> 
 				<div class="col-sm-1 d-none d-sm-block"></div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 px-0">
 					<div class="card card-follow">
 					  <div class="card-header">Follow CRMT</div>
 					  <div class="card-body social">
@@ -32,7 +32,25 @@
 							<a class="icon-yt" href="https://www.youtube.com/user/CRMTechChannel" target="_blank">yt</a>							
 					  </div>
 					</div>	
-				</div>
+					
+					{{ $related := .Site.RegularPages.Related . | first 3 }}
+					{{ with $related }}
+					<div class="card card-related">
+					  <div class="card-header">Follow CRMT</div>
+						{{ range . }}
+							<div class="card-body row mx-0">
+								<div class="col-sm-6 pl-0">
+									<img src="{{ .Param.image }}" alt="">
+								</div>
+								<div class="col-sm-6 px-0">
+									<h6>{{ .Title }}</h6>
+									<a class="btn green-btn" href="{{ .URL }}">Read More</a>
+								</div>
+							</div>
+						{{ end }}
+					</div>	
+					{{ end }}
+				</div>				
 			</div>
 		</div>		
 	</section>		
