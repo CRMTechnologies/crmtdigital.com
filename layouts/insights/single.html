@@ -40,11 +40,11 @@
 						{{ range . }}
 							<div class="card-body row mx-0">
 								<div class="col-sm-6 pl-0">
-									<img src="{{ .Params.image }}" alt="">
+									<img src="{{ .Params.image }}" alt="{{ .Title }}">
 								</div>
 								<div class="col-sm-6 px-0">
-									<h6>{{ .Title }}</h6>
-									<a class="btn green-btn" href="{{ .URL }}">Read More</a>
+									<p>{{ .Title }}</p>
+									<a class="btn btn-split green-btn" href="{{ .URL }}">Read More</a>
 								</div>
 							</div>
 						{{ end }}
