@@ -277,12 +277,12 @@ header .jumbotron { margin-bottom: 0px; border-radius: 0; position: relative;  m
 #asset-block img { max-width: 100%; }
 #block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
 
-article .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; }
+article .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 article .social a.icon-li { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
 article .social a.icon-tw { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
 article .social a.icon-fb { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 article .social a:hover {  background-color: #371abe; }
-article .meta { font-weight: 300; color: #333; padding: 0px;}
+article .meta { font-weight: 300; color: #666; padding: 0px;}
 
 /*Content area */
 main > section { position: relative; }
