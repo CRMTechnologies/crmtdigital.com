@@ -1,8 +1,10 @@
-<div class="card col-sm-6 col-sm-4">
-	<a href="{{ .RelPermalink }}" rel="prefetch"><img src="{{ with .Params.image }}{{ . }}{{ end }}" class="card-img-top"></img></a>
-	<div class="card-body">	
-		<h5>{{ .Title }}</h2>
-		<div class="meta">{{ .Date.Format "Jan 02, 2006" }} |  By {{ .Params.author }}</div>
-		<a href="{{ .RelPermalink }}" class="btn btn-split green-btn" >Read more</a>
+<div class="card">
+	<div class="col-sm-6 col-sm-4">
+		<a href="{{ .RelPermalink }}" rel="prefetch"><img src="{{ with .Params.image }}{{ . }}{{ end }}" class="card-img-top"></img></a>
+		<div class="card-body">	
+			<h5>{{ .Title }}</h2>
+			<div class="meta">{{ .Date.Format "Jan 02, 2006" }} |  By {{ .Params.author }}</div>
+			<a href="{{ .RelPermalink }}" class="btn btn-split green-btn" >Read more</a>
+		</div>
 	</div>
-</section>
+</div>
