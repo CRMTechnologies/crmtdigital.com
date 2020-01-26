@@ -285,10 +285,10 @@ article .social a:hover {  background-color: #371abe; }
 article .meta { font-weight: 300; color: #666; padding: 0px;}
 
 .card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-.card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
-.card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
-.card-follow .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
-.card-follow .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
+.card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: 0px top; }
+.card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -26px top; }
+.card-follow .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
+.card-follow .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
 .card-follow .social a:hover {  opacity: 0.6; }
 
 .card-follow { border: none; background: #f8f8f8; margin-bottom: 32px; }
