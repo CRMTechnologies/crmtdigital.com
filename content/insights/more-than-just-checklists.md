@@ -1,18 +1,18 @@
 ---
 title: More Than Just Checklists
-categories:
-- marketing
-tags:
-- Marketing Operations
-- QA
-topic: Marketing Operations
-date: 2019-02-22 08:30:00 +0000
-description: If updating the QA Checklist is your typical reaction to a campaign error,
-  then its time to ask questions about whether you are testing campaigns properly.
+description: If updating the QA Checklist is your typical reaction to a campaign error, then its time to ask questions about whether you are testing campaigns properly.
 image: https://source.unsplash.com/RLw-UC03Gwc/1920x1080
 
-heading: More Than Just Checklists
-subheading: Its time to ask whether you're testing campaigns properly
+keywords:
+- Marketing Operations
+- QA
+
+heading: Insights from CRMT
+subheading: Is Buying MarTech Too Easy?
+date: 2019-02-22 08:30:00 +0000
+
+show_contact: true
+resource: CrossEnterpriseCollab
 ---
 It's the part of the campaign execution process that always takes the longest time, yet it is also the task which is most frequently rushed or skipped. QA isn't glamorous, but it is critical to a successful launch. Surveys show that testing is the aspect of the production cycle that marketers struggle the most with. Finding the right balance is hard. Too much time testing reduces agility and increases costs, too little time testing results in errors routinely slipping into live campaigns.Your CEO is more likely to remember that one mistake than the hundreds of successful campaigns. Failure to spot a critical error can have financial consequences for a business, but the time spent trying to find those errors is a cost that no one can afford to invest in. More likely are the reputational costs of a mistake, which can range from unnoticeable to headlines news, depending on audience and severity.
 
