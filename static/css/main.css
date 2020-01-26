@@ -266,15 +266,20 @@ header .jumbotron { margin-bottom: 0px; border-radius: 0; position: relative;  m
 #block-homepage-logos li:nth-child(n+5) {   display: none;  }
 #block-homepage-logos li:nth-child(-n+2) {   display: none;  }
 }   
-  .logo-grey{ filter: grayscale(100%); margin: 0; padding: 0 0 0 0;  }
-  .logo-grey img{ filter: grayscale(100%);  }
+.logo-grey{ filter: grayscale(100%); margin: 0; padding: 0 0 0 0;  }
+.logo-grey img{ filter: grayscale(100%);  }
 
-	.card-customer {  border: none; border-radius: 0px;margin-right: 0.2%;flex-grow:1;flex-basis:0;}
-	.flex-lg-row .card-customer:last-of-type {  margin-right: 0%;}
-	.flex-lg-row .card-customer .card-body:first-of-type {  max-height: 166px;min-height: 166px;}	
-	#asset-block img { max-width: 100%; }
-	#block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
-	
+.card-customer {  border: none; border-radius: 0px;margin-right: 0.2%;flex-grow:1;flex-basis:0;}
+.flex-lg-row .card-customer:last-of-type {  margin-right: 0%;}
+.flex-lg-row .card-customer .card-body:first-of-type {  max-height: 166px;min-height: 166px;}	
+#asset-block img { max-width: 100%; }
+#block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
+
+article .social .a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; }
+article .social .a :hover {  background-color: #371abe; }
+article .social .a.icon-li { background: #009FE3 url(/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+article .social .a.icon-tw { background: #009FE3 url(/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+article .social .a.icon-fb { background: #009FE3 url(/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
