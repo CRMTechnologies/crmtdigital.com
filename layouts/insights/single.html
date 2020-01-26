@@ -10,7 +10,7 @@
 					<header class="clearfix">
 						<h2 class="col-xs-12">{{.Title}}</h2>		
 						<div class="meta col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}
-						<div class="meta col-sm-4 pull-left">By {{ Params.author | default "CRM Technologies" }}</div>		
+						<div class="meta col-sm-4 pull-left">By {{ .Params.author | default "CRM Technologies" }}</div>		
 						<div class="social col-sm-4 pull-right">
 							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
 							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
