@@ -2,8 +2,8 @@
 	<div class="card card-insight">
 		<a href="{{ .RelPermalink }}" rel="prefetch"><img src="{{ with .Params.image }}{{ . }}{{ end }}" class="card-img-top"></img></a>
 		<div class="card-body">	
-			<h5>{{ .Title }}</h2>
-			<div class="meta">{{ .Date.Format "Jan 02, 2006" }} |  By {{ .Params.author | default "CRM Technologies" }}</div>
+			<h6><strong>{{ .Title }</strong>}</h2>
+			<div class="meta">{{ .Date.Format "January 02, 2006" }} |  By {{ .Params.author | default "CRM Technologies" }}</div>
 			<a href="{{ .RelPermalink }}" class="btn btn-split green-btn" >Read more</a>
 		</div>
 	</div>
