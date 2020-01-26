@@ -1,14 +1,15 @@
 ---
 title: "Oracle Eloqua 19A Release Overview"
-categories: ["martech"]
-tags: ["Marketing Automation","Eloqua","Releases"]
-topic: "Marketing Automation"
-date: 2019-02-15T08:30:00.000Z
 description: This quarter's release brings a new form layout editor and a greater emphasis on the app marketplace. The major new features for 2019 are still to come.
+keywords: ["Marketing Technology","Marketing Automation","Eloqua","Releases"]
 image: "https://source.unsplash.com/ZoiZOkh1pbc/1920x1080"
-banner: "bottom-align"
+
 heading: Insights from CRMT
 subheading: Oracle Eloqua 19A Release Overview
+date: 2019-02-15T08:30:00.000Z
+
+show_contact: true
+resource: "CrossEnterpriseCollab"
 ---
 2018 was a big year for Eloqua. The once dominant marketing automation platform has been losing customers to their competitors, whilst their status as thought leader was usurped by Marketo years ago. Instead, the product appeared to be neglected as Oracle Marketing Cloud chased high profile opportunities in the B2C space with Responsys and BlueKai. Change was clearly needed, and over the course of last year a succession of new features and major updates delivered it. As a result, many of the biggest usability issues that have dogged the platform since its inception have finally been resolved. For the first time, the platform has responsive email and landing page templates that are simple enough for a standard marketing user to manipulate. Steps are being taken to modernise admin screens and native integrations beset by a UI that hasn't been updated since the days of Eloqua 9 over a decade ago. The first release of 2019 drops this weekend with further improvements in these areas.
 
@@ -26,4 +27,6 @@ Security conscious admins should also be aware that it is going to be much easie
 
 The Eloqua reporting dashboards get a useful UI refresh, with Insight click-through and export capabilities becoming much more prominent where available. These options have also been added to more campaign reports. The individual email dashboards are now much easier to get to, with direct links to them from the email editor. As part of this, the email click-through visualizer option in the email editor menus has been removed, because this report is also found on the aforementioned email performance dashboards.
 
-Finally, there are quite a few API changes in this release, some of which were introduced last month. The most useful is the LinkedToContactDate activity field in the Bulk API, which indicates when a visitor record was linked to a contact. This enables the export of historical activity data for contacts that have just become known, facilitating more comprehensive reporting through BI tools and data warehouses. Another change is the creation of an Audit Log API, which can interrogate the system log of user actions through the API. The actual export link is sent by email, but the change will be welcome by security and compliance teams.</p><small>The Oracle Eloqua 19A Update is scheduled for February 16th, 2018. Contents of the release are subject to change. Full details, including smaller changes not mentioned in this article, can be found in the official <a href="https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/eloqua/releases/19A/19A-eloqua-nfs.htm">release notes</a>.</small>				
+Finally, there are quite a few API changes in this release, some of which were introduced last month. The most useful is the LinkedToContactDate activity field in the Bulk API, which indicates when a visitor record was linked to a contact. This enables the export of historical activity data for contacts that have just become known, facilitating more comprehensive reporting through BI tools and data warehouses. Another change is the creation of an Audit Log API, which can interrogate the system log of user actions through the API. The actual export link is sent by email, but the change will be welcome by security and compliance teams.
+
+<small>The Oracle Eloqua 19A Update is scheduled for February 16th, 2018. Contents of the release are subject to change. Full details, including smaller changes not mentioned in this article, can be found in the official <a href="https://www.oracle.com/webfolder/technetwork/tutorials/tutorial/cloud/eloqua/releases/19A/19A-eloqua-nfs.htm">release notes</a>.</small>				
