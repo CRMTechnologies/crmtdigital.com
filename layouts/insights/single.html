@@ -9,7 +9,7 @@
 				<article class="col-sm-8">	
 					<header>
 						<h2 >{{.Title}}</h2>		
-						<div class="meta">{{ .Date.Format "2 January 2006" }} by {{ Params.author }}  | {{ partial "tags" . }} </div>		
+						<div class="meta">{{ .Date.Format "2 January 2006" }} by {{ .Params.author | default "CRM Technologies" }}  | {{ partial "tags" . }} </div>		
 						<div class="social">
 							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank"><i class="fab fa-twitter fa-sm"></i></a>
 							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank"><i class="fab fa-linkedin-in fa-sm"></i></a>			
