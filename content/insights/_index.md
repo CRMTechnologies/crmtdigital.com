@@ -1,7 +1,7 @@
 ---
-title: "Marketing via Technology"
-description: "Views from the intersection of digital marketing and enterprise technology"
-image: "/img/mountain-road-1556177_rgb-1.jpg"
-banner: home
+title: "Marketing Insights from CRMT"
+description: "Read our blog for opinions, advice and industry knowledge from the experts at CRMT,"
+image: "https://www.crmtechnologies.com/themes/tp_theme/images/banners/banner-insights.jpg"
+
 type: "posts"
 ---
