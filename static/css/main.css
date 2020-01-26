@@ -284,15 +284,15 @@ article .social a.icon-fb { background: #009FE3 url(https://www.crmtechnologies.
 article .social a:hover {  background-color: #371abe; }
 article .meta { font-weight: 300; color: #666; padding: 0px;}
 
-.card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-.card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: 0px top; }
-.card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -26px top; }
+.card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
+.card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
+.card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
 .card-follow .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
 .card-follow .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
 .card-follow .social a:hover {  opacity: 0.6; }
 
-.card-follow { border: none; background: #f8f8f8; margin-bottom: 32px; }
-.card-follow .card-header {
+.card-follow, .card-related { border: none; background: #f8f8f8; margin-bottom: 32px; }
+.card-follow .card-header, .card-related .card-header {
     background: #ebeaea;
     padding: 22px 0;
     text-align: center;
