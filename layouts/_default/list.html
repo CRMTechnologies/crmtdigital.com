@@ -1,12 +1,23 @@
 {{ define "main" }}
 
-{{ partial "banner" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.Description "bannerStyle" .Params.banner) }}
+{{ partial "jumbotron.html" . }} 
 
-<article class="container">
-      {{ range (.Paginator 10).Pages.ByPublishDate.Reverse }}
-            {{ .Render "li"}}
-      {{ end }}
-  {{ partial "pagination" . }}
-</article>
+<main>
+	<section class=" pt-5 pb-50">
+		<div class="container">
+			<div class="row">
+                        {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
+                              {{ .Render "li"}}
+                        {{ end }}
+			</div>                        
+			<div class="row">                        
+                        {{ partial "pagination" . }}
+			</div>
+		</div>		
+	</section>		
+ </main>
 
-{{end}}
+{{ if eq .Params.show_contact true }}  
+	{{ partial "floatingContactButton.html" . }}
+{{ end }} 
+{{ end }}
