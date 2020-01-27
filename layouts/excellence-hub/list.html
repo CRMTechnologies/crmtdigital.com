@@ -6,7 +6,7 @@
 	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-                        {{ range (.Paginator 12).$.Site.Data.resources.assets }}
+                        {{ range $.Site.Data.resources.assets }}
                                {{ partial "blockAsset.html" . }}
                         {{ end }}
 			</div>                        
