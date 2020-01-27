@@ -1,10 +1,10 @@
 <div class="col-sm-6 col-lg-4 mb-5">	
   <div class="card card-resource">
-     <div class="card-footer bg-light text-center pt-3 pb-0">		
+     <div class="card-header bg-light text-center pt-4 pb-0">		
        <div class="tag {{ .content_type | urlize }}">{{ .content_type }}</div>
-       <a href="{{ .link }}"><img src="{{ .image }}" alt="{{ .title }}"></a>
+       <a href="{{ .link }}"><img class="pt-3" src="{{ .image }}" alt="{{ .title }}"></a>
     </div>   
-		<div class="card-body text-center bg-mid pt-2 pb-5 px-4">
+    <div class="card-body text-center bg-mid pt-2 pb-5 px-4">
       <h6 class="card-text">{{ .title }}</h6>
       <a href="{{ .link }}" class="btn btn-split mx-auto green-btn px-4">{{ .cta }}</a>
     </div>     
