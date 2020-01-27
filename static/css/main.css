@@ -286,6 +286,23 @@ article .social a:hover {  background-color: #371abe; }
 article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px; border-radius: 0px; }
 .card-insight { border: none; border-bottom: 2px solid #0e1d45; border-radius: 0px;  }
 .card-insight .card-body a.btn {  padding: 12px 8%; font-size: 0.9em; }
+.card-insight > a { overflow: hidden;position: relative;display:block;}
+.card-insight > a:hover::before {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    opacity: 1;
+    transition-property: height,width,opacity;
+    transition-delay: 0.2s,0.3s;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: calc(50% - 30px);
+    z-index: 1;
+    top: calc(50% - 30px);
+}
+.card-insight > a .card-img-top {  border-radius: 0; transform: scale(1.05); transition: transform 0.5s;  }
+.card-insight > a:hover .card-img-top { transform: scale(1); }
 .card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 .card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
 .card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
