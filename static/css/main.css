@@ -207,6 +207,13 @@ header .jumbotron a.btn::after, header .jumbotron a.btn::before { background: #3
 
 header .jumbotron { margin-bottom: 0px; border-radius: 0; position: relative;  min-height: 350px; height: 40%;background-size: cover;}
 
+body.no-banner {padding-top: 105px;}
+body.no-banner .navbar { background-color: rgb(255,255,255); border-bottom: 5px solid #a1bd17;  } 
+body.no-banner .logo-color { display: inline-block; }
+body.no-banner .logo-white { display: none;  }
+body.no-banner .navbar-nav .nav-link {	color: #666; }
+body.no-banner header { display: none; background: transparent; }
+
 .breadcrumb { background-color: rgba(14,29,69,0.8); border-radius: 0; padding: 1em; text-align: center;}
 .breadcrumb-item + .breadcrumb-item::before {  padding-right: 0; content: ""; }
 .breadcrumb-item + .breadcrumb-item { padding-left: 0; }
