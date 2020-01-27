@@ -6,7 +6,7 @@
 	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-                        {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
+                        {{ range (.Paginator 1).Pages.ByPublishDate.Reverse }}
                               {{ .Render "li"}}
                         {{ end }}
 			</div>                        
