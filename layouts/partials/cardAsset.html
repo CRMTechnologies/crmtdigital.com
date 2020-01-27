@@ -1,7 +1,7 @@
 <div class="col-sm-6 col-lg-4 mb-5">	
   <div class="card card-resource">
      <div class="card-footer bg-light text-center pt-3">		
-       <div class="tag {{ .format | urlize }}">{{format}}</div>
+       <div class="tag {{ .format | urlize }}">{{.format}}</div>
        <a href="{{ .link }}"><img src="{{ .image }}" alt="{{ .Title }}"></a>
     </div>   
 		<div class="card-body text-center bg-mid py-5 px-4">
