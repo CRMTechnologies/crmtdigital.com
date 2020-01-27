@@ -5,5 +5,6 @@ preserveTaxonomyNames = true
 disableKinds = ["taxonomyTerm"]
 [permalinks]
   post = "/:title/"
+  who-we-work-with = "/customers/:slug"
 [params]
   mainSections = ["marketing", "technology","martech","opinion"]
