@@ -623,6 +623,7 @@ footer .footer-copyright ul li span {
 		#block-quote .h3 { font-size: 1.32em; margin: -1em auto;padding: 0px;max-width: 20em; }
 		#block-quote .h3 strong { font-weight: 500; }	
 		#asset-block img { max-width: none; width: 100% }
+		.block-cs-quote .p {font-size: 1.32em; }	
 		
 		.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
 		footer .social-block { margin-left: 1em; }
