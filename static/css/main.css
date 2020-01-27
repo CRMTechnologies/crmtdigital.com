@@ -384,7 +384,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     line-height: 1.5em;
 }
 .block-cs-quote { background: linear-gradient(rgba(55,26,190,0.67),rgba(55,26,190,0.67)),url('https://www.crmtechnologies.com/sites/default/files/styles/home_banner/public/2019-05/Banner-alt.jpg'); }
-.block-cs-quote h4 { line-height: 1.5em; }
+.block-cs-quote p { line-height: 1.5em; }
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
@@ -623,7 +623,7 @@ footer .footer-copyright ul li span {
 		#block-quote .h3 { font-size: 1.32em; margin: -1em auto;padding: 0px;max-width: 20em; }
 		#block-quote .h3 strong { font-weight: 500; }	
 		#asset-block img { max-width: none; width: 100% }
-		.block-cs-quote .p {font-size: 1.32em; }	
+		.block-cs-quote p {font-size: 1.32em; }	
 		
 		.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
 		footer .social-block { margin-left: 1em; }
