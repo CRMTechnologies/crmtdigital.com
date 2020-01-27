@@ -246,7 +246,7 @@ body.no-banner header { display: none; background: transparent; }
 
 #block-homepage-logos img {padding: 5% 10%; height: auto; max-width: 100%;} 
 #block-homepage-logos img.square { max-height: 70px; width: auto; }
-#block-homepage-logos .logo-carousel img.square {max-height: 94px; }
+#block-homepage-logos .logo-carousel img {max-height: 94px; margin: auto; text-align: center; }
 #block-homepage-logos li {float: left; list-style: none; position: relative; width: 12.5%; margin: 40px auto 40px; text-align: center; display: block} 
 #block-homepage-logos ul {width: 90%; margin: 0px auto;} 
 #block-homepage-logos.grey { background-color: #f4f4f4; }
