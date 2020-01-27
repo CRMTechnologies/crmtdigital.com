@@ -297,7 +297,7 @@ article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px
     transition-delay: 0.2s,0.3s;
 	transition-duration: 0.45s;
 	transition-timing-function: ease-out;	
-    display: inline-block;
+    display: block;
     content: "";
     position: absolute;
     left: calc(50% - 30px);
@@ -314,7 +314,7 @@ article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px
     transition-delay: 0.4s,0.5s;
 	transition-duration: 0.45s;
 	transition-timing-function: ease-out;		
-    display: inline-block;
+    display: block;
     content: "";
     position: absolute;
     left: calc(50% - 30px);
@@ -346,6 +346,9 @@ article .meta, .card-insight .meta { font-weight: 300; color: #666; padding: 0px
 .card-related .card-body a.btn { font-size: 0.7em;padding: 6px 14%;width: 100%;}
 .card-related .card-body { border-bottom: 1px solid #ccc; }
 .card-related .card-body:last-of-type { border-bottom: none; }
+
+.pagination .page-link { color: #000; background-color: #fff;  border: none;  font-size: 0.7em; }
+.pagination .page-item.active .page-link {  color: black;background-color:transparent;border-color:transparent; font-weight: 600;}
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
