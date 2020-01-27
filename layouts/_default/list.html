@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row">
                         {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
-                              {{ .Render "li" . }}
+                              {{ .Render "li"}}
                         {{ end }}
 			</div>                        
 			<div class="row justify-content-center">                        
