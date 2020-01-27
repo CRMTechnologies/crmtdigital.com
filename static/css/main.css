@@ -349,6 +349,42 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 
 .pagination .page-link { color: #000; background-color: #fff;  border: none;  font-size: 0.7em; }
 .pagination .page-item.active .page-link {  color: black;background-color:transparent;border-color:transparent; font-weight: 600;}
+
+.card-cs-challenges, .card-cs-results  { border: none; border-radius: 0px;  }
+.card-cs-challenges .card-body, .card-cs-results  .card-body { padding: 34px;  }
+.card-cs-challenges h5 {
+    background-image: url(https://www.crmtechnologies.com/themes/tp_theme/images/icons/icon-challenge.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.card-cs-challenges li {
+    margin-bottom: 1.2em;
+    color: #333;
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.card-cs-results h5 {
+    background-image: url(https://www.crmtechnologies.com/themes/tp_theme/images/icons/icon-solution.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;    
+}
+.card-cs-results li {
+    margin-bottom: 1.2em;
+    color: #fff;
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.block-cs-quote { background: linear-gradient(rgba(55,26,190,0.67),rgba(55,26,190,0.67)),url('https://www.crmtechnologies.com/sites/default/files/styles/home_banner/public/2019-05/Banner-alt.jpg'); }
+.block-cs-quote h4 { line-height: 1.5em; }
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
