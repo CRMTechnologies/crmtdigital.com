@@ -6,8 +6,8 @@
 	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-                        {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
-                              {{ .Render "li"}}
+                        {{ range (.Paginator 12).Site.Data.resources.assets }}
+                               {{ partial "blockAsset.html" . }}
                         {{ end }}
 			</div>                        
 			<div class="row justify-content-center">                        
