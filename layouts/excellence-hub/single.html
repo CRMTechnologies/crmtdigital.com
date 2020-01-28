@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ partial "jumbotron.html" . }} 		
+
+  <main>
+	<section class="pb-50 pt-75 text-center">  
+	  <h2>{{ .Title }}</h2>
+ 	  <p>{{ .Description }}</p>
+    {{ if eq .Params.content_type "video" }} 
+      <a href="{{ .Params.asset_link }}" class="btn btn-split mx-auto green-btn px-4">Watch {{.Params.content_type}}</a>    
+    {{ else }}	         
+        <a href="{{ .Params.asset_link }}" class="btn btn-split mx-auto green-btn px-4">Download {{.Params.content_type}}</a>
+    {{ end }}	    
+	</section> 
+  
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+	{{ with $related }}
+	    <section class="pb-50 pt-75">  
+         <div class="row text-center pb-5">  
+	        <h3>Related Assets</h2>
+         </div>          
+         <div class="row text-center">
+						{{ range . }}
+              <div class="col-sm-6 col-lg-4 mb-5">	
+                <div class="card card-resource">
+                   <div class="card-header bg-light text-center pt-4 pb-0">		
+                     <div class="tag {{ .Params.content_type | urlize }}">{{ .Params.content_type }}</div>
+                     <a href="{{ .Params.asset_link }}"><img class="pt-3" src="{{ .Params.image }}" alt="{{ .Title }}"></a>
+                  </div>   
+                  <div class="card-body bg-mid pt-3 pb-5 px-4">
+                    <h6 class="card-text">{{ .Params.card_title }} <span>{{ .Params.card_subtitle }}</span></h6>
+                    <a href="{{ .Params.asset_link }}" class="btn btn-split mx-auto green-btn py-2 px-4">{{ .Params.cta }}</a>
+                  </div>     
+                </div>
+              </div>
+						{{ end }}
+         </div>
+	</section>          
+{{ end }}
+  
+	{{ if eq .Params.show_contact true }}  
+	{{ partial "blockContact.html" . }}
+	{{ end }}	
+  
+  </main>
+
+{{ if eq .Params.show_contact true }}  
+	{{ partial "floatingContactButton.html" . }}
+{{ end }} 
+{{ end }}
