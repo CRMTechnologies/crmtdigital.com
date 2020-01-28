@@ -14,6 +14,6 @@ card_subtitle: "Successful Demand Gen Led Marketing Execution"
 content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing"
 
-heading: "Download our eGuide to Demand Gen Marketing"
+heading: "Free eGuide to Demand Gen Marketing"
 subheading: "Move towards marketing excellence with the actionable insights contained in our free resources."
 ---
