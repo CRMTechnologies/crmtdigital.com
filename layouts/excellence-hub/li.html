@@ -2,11 +2,11 @@
                 <div class="card card-resource">
                    <div class="card-header bg-light text-center pt-4 pb-0">		
                      <div class="tag {{ .Params.content_type | urlize }}">{{ .Params.content_type }}</div>
-                     <a href="{{ .RelPermalink }}"><img class="pt-3" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
+                     <a href="{{ .Params.gated_link |.RelPermalink }}"><img class="pt-3" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
                   </div>   
                   <div class="card-body bg-mid pt-3 pb-5 px-4">
                     <h6 class="card-text">{{ .Params.card_title }} <span>{{ .Params.card_subtitle }}</span></h6>
-                    <a href="{{ .RelPermalink }}" class="btn btn-split mx-auto green-btn py-2 px-4">{{ .Params.cta }}</a>
+                    <a href="{{ .Params.gated_link | .RelPermalink }}" class="btn btn-split mx-auto green-btn py-2 px-4">{{ .Params.cta }}</a>
                   </div>     
                 </div>
               </div>
