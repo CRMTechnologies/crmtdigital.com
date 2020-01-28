@@ -16,4 +16,5 @@ asset_link: "http://interact.crmtechnologies.com/a-guide-to-successful-demand-ge
 
 heading: "Download our free eGuide to Demand Gen Marketing"
 subheading: "Move towards marketing excellence with the actionable insights contained in our free resources."
+hide_banner: true
 ---
