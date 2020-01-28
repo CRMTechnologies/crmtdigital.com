@@ -5,21 +5,20 @@
   <main>
 	<section class="pt-75 pb-5">		
 	  <div class="container">
-		<div class="row text-align-center">		  
+		<div class="row mx-0 text-center">		  
 			<h1 class="text-dark pb-3">{{ .Title }}</h1>		  
-			<p class="text-dark pb-3 mb-5">{{ .Description }}</p>		  
+			<p class="text-dark mb-5">{{ .Description }}</p>		  
 		</div>
 	  </div>
 	</section>		  
 	<section id="asset-block" class="block-caret block-blue pt-5">		
 	  <div class="container">		  
-		<div class="row align-items-lg-end ">
+		<div class="row align-items-lg-center">
 			<div class="col-lg-6 text-center order-lg-last">				
 				<a href="{{ .Params.asset_link }}"><img src="{{ .Params.cta_image }}" alt="{{ .Title }}"></a>
 			</div>		
 			<div class="col-lg-6 mx-4 mt-4 mx-lg-0 mt-lg-0">
-				<h4 class="h6 text-dark pb-3">Hi, here’s your free {{.Params.content_type}}!</h4>
-				<a class="btn btn-split indigo-btn mb-4" href="{{ .Params.asset_link }}">Download {{.Params.content_type}}</a>
+				<a class="btn btn-split green-btn mb-4" href="{{ .Params.asset_link }}">Download {{.Params.content_type}}</a>
 	<p class="h6">Don't forget to share!</p>
 	  <div class="social">
 		<a class="icon-li" href='https://www.linkedin.com/company/crm-technologies' target="_blank">li</a>								
