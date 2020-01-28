@@ -438,7 +438,18 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     background: #E8E8E8;
     line-height: initial;	
 }
-
+#form-contact-block .description {
+    font-size: 0.85em;
+    margin-left: 2.4em;   
+    margin-bottom: 1.8em;       
+}
+#form-contact-block label {
+    margin-left: 1em;  
+    margin-bottom: 0px;    
+}
+#form-contact-block .btn {
+    max-width: 100%; 
+}
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
