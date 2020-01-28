@@ -15,5 +15,5 @@ content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing"
 
 heading: "Download our free eGuide to Demand Gen Marketing"
-subheading: ""
+subheading: "Move towards marketing excellence with the actionable insights contained in our free resources."
 ---
