@@ -22,12 +22,11 @@
 			<div class="col-lg-6 text-center mx-4 mt-4 mx-lg-0 mt-lg-0">
 	<p class="h6 pb-2 pt-1 pb-0">Download our free eGuide!</p>			
 				<a class="btn btn-split green-btn mb-4" href="{{ .Params.asset_link }}">Download {{.Params.content_type}}</a>
-	<p class="pt-3 pb-0 mb-0">Don't forget to share!</p>
+	<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
 	  <div class="social">
-		<a class="icon-li" href='https://www.linkedin.com/company/crm-technologies' target="_blank">li</a>								
-		<a class="icon-tw" href='https://twitter.com/crmtechnologies' target="_blank">tw</a>	
-		<a class="icon-fb" href="https://www.facebook.com/crmtechnologies" target="_blank">fb</a>
-		<a class="icon-yt" href="https://www.youtube.com/user/CRMTechChannel" target="_blank">yt</a>							
+		<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
+		<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
+		<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
 	  </div>
 													</div>	
 		</div>	
