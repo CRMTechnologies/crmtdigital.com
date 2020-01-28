@@ -438,6 +438,9 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     background: #E8E8E8;
     line-height: initial;	
 }
+#form-contact-block textarea {
+    height: 7.3em;	
+}	
 #form-contact-block .description {
     font-size: 0.85em;
     margin-left: 2.4em;   
