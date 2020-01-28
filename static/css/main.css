@@ -414,7 +414,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     background-repeat: no-repeat;
     line-height: 1.2em;
 }
-.card-resource h6 {  color: #333; margin-bottom: 0; font-weight: 600; }
+.card-resource h6 {  color: #333; margin-bottom: 0; font-weight: 600;line-height: 1.5em; }
 .card-resource h6 span {  color: #666; font-weight: 300; }
 .card-resource .tag.eguide{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-eguide.png);}
 .card-resource .tag.infographic{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-infographic.png);}
