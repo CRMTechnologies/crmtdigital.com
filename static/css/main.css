@@ -436,6 +436,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     margin-bottom: 1.9em;
     font-weight: 300;
     background: #E8E8E8;
+    line-height: initial;	
 }
 
 /*Content area */
