@@ -14,7 +14,8 @@
                         {{ template "_internal/pagination.html" . }}
 			</div>
 		</div>		
-	</section>		
+	</section>	
+	{{ partial "blockContact.html" . }}	
  </main>
 
 {{ if eq .Params.show_contact true }}  
