@@ -245,8 +245,10 @@ body.no-banner header { display: none; background: transparent; }
 
 #block-quote { background: #f8f8f8; }
 section.block-light + #block-quote { background: #fff; }
-section#block-quote + section.block-caret::before { background: #f8f8f8;}
-section.block-light + section#block-quote + section.block-caret::before { background: #f8f8f8;}
+#block-hp-casestudies + #block-quote { background: #fff; }
+section#block-quote + section.block-caret::before { border-top-color: #f8f8f8;}
+section.block-light + section#block-quote + section.block-caret::before { border-top-color: #fff;}
+#block-hp-casestudies + section#block-quote + section.block-caret::before { border-top-color: #fff;}
 
 #block-homepage-logos img {padding: 5% 10%; height: auto; max-width: 100%;} 
 #block-homepage-logos img.square { max-height: 70px; width: auto; }
