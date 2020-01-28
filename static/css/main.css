@@ -338,6 +338,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 }
 .card-insight > a .card-img-top {  border-radius: 0; transform: scale(1.05); transition: transform 0.5s;  }
 .card-insight > a:hover .card-img-top { transform: scale(1); }
+.card-insight h6 { color:#333;font-family: "Open Sans",sans-serif; }
 .card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 .card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
 .card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
