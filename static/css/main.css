@@ -402,12 +402,10 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .block-cs-quote { background: linear-gradient(rgba(55,26,190,0.67),rgba(55,26,190,0.67)),url('https://www.crmtechnologies.com/sites/default/files/styles/home_banner/public/2019-05/Banner-alt.jpg'); }
 .block-cs-quote p { line-height: 1.5em; }
 
-#asset-block .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-#asset-block .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
-#asset-block .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
-#asset-block .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
-#asset-block .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
-
+#asset-block .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
+#asset-block .social a.icon-li { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+#asset-block .social a.icon-tw { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+#asset-block.social a.icon-fb { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 
 .card-resource {  border: none; border-radius: 0px;height: 100%; }
 .card-resource .tag {
