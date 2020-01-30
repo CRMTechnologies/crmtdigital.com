@@ -14,6 +14,13 @@ card_subtitle: "Successful Demand Gen Led Marketing Execution"
 content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing"
 
-heading: "Free eGuide to Demand Gen Marketing"
-subheading: "Move towards marketing excellence with the actionable insights contained in our free resources."
+heading: "Successfully execute demand gen led marketing strategies"
+subheading: ""
 ---
+Our eGuide offers six how-to tips, including:
+
+* Integrating all technologies so data touchpoints provide consistent information about customers.
+* Putting end-users first when it comes to changing processes to improve adoption rates.
+* Aligning your brand strategy with demand gen targets to garner more loyalty from customers.
+
+[Download](http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing) our eGuide to successfully execute demand gen led marketing strategies.
