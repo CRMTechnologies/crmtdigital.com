@@ -166,7 +166,7 @@ header .jumbotron.banner-asset h1 {
 	text-align: center;
 	line-height: 1.5em;
 }
-header .jumbotron-banner-asset h3 span {
+header .jumbotron.banner-asset h1 span {
     width: 100%;
     color: #ffffff;
     letter-spacing: -1px;
@@ -219,6 +219,7 @@ header .jumbotron .banner-content {
     position: absolute;
     text-align: center;
 }
+header .jumbotron.banner-asset .banner-content { top: 38px; }
 header .carousel-inner a.btn, header .jumbotron a.btn { color: #fff; }
 header .carousel-inner a.btn::after, header .carousel-inner a.btn::before { background: #371abe; }
 header .jumbotron a.btn::after, header .jumbotron a.btn::before { background: #371abe; }
@@ -716,7 +717,7 @@ footer .footer-copyright ul li span {
 		#block-quote .h3 strong { font-weight: 500; }	
 		#asset-block img { max-width: none; width: 100% }
 		.block-cs-quote p {font-size: 1.32em; }	
-		
+		header .jumbotron.banner-asset h1 { font-size: 2.28em; }
 		.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
 		footer .social-block { margin-left: 1em; }
 }
@@ -725,11 +726,13 @@ footer .footer-copyright ul li span {
 		p.intro-text { font-size: 1.04em; }
 		header .carousel-inner h3 br { display: none; }	
 		header .carousel-item {	height: 70vh; }	
+		header .jumbotron.banner-asset h1 { font-size: 2.12em; }	
 		header .jumbotron .banner-content { top: 50%; transform: translate(-50%, -50%); }	
 		header .jumbotron { min-height: 220px; }	
 }
 @media screen and (max-width:576px){
 		main h1, main  h2, main h3, main .h1, main .h2, main .h3 { font-size: 1.75em; }
+		header .jumbotron.banner-asset h1 { font-size: 1.75em; }	
 		header .carousel-inner h3, header .jumbotron h3 { font-size: 2.12em; }
 		header .jumbotron p, p.intro-text { font-size: 0.95em; }		
 		header .carousel-caption, header .jumbotron .banner-content { width: 90%; }			
