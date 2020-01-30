@@ -156,6 +156,24 @@ header .jumbotron h3 {
     font-weight: 400;
 	text-align: center;
 }
+header .banner-asset h1 {
+	font-size: 2.8em;
+	background:transparent;
+	border: none !important;
+	color:#fff;
+	margin: 0.4em auto 0.2em;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.5em;
+}
+header .jumbotron.asset h3 span {
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: -1px;
+    background: #F9005E;
+    background: rgba(55,26,190, 0.7);
+    padding: 0px 5px;
+}
 header .jumbotron p {
     font-size: 1.12em;		
     background: transparent;
