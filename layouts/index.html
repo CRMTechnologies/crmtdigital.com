@@ -27,20 +27,11 @@
 				   {{ partial "customerLogo.html" . }}
 				{{ end }}
 			</ul>
-		</section>  
-		
-      		{{ .Content }}
-		
-		{{ $myQuote := .Params.testimonial }}		
-		{{ range where $.Site.Data.testimonials.quotes "name" $myQuote  }}
-		   {{ partial "blockQuote.html" . }}
-		{{ end }}		
-		
+		</section>  		
+      		{{ .Content }}		
+		{{ partial "blockQuote.html" . }}
 		{{ partial "blockContact.html" . }}
-		{{ partial "blockAsset.html" . }}		
- 		
+		{{ partial "blockAsset.html" . }}
 	</main>
-
-	{{ partial "floatingContactButton.html" . }}
-  
+	{{ partial "floatingContactButton.html" . }}  
 {{end}}
