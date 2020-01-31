@@ -22,4 +22,4 @@ If you're a Marketing Operations leader - this is your time to step up and influ
 * Industrialization of shared marketing services.
 * Taming of technology and standardization of processes.
 
-[Download](http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing) our Marketing Operations Whitepaper to influence big change.
+[Download](http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing) our Marketing Operations Whitepaper to start influencing change.
