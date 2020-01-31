@@ -56,10 +56,7 @@
 			</div>
 		</div>		
 	</section>	
-	{{ $myAsset := string .Params.resource }}
-	{{ with .Site.GetPage $myAsset }}  
-	   {{ partial "blockAsset.html" . }}
-	{{ end }}
+	{{ partial "blockAsset.html" . }}
 	
 	{{ if eq .Params.show_contact true }}  
 	{{ partial "blockContact.html" . }}
