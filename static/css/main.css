@@ -137,6 +137,7 @@ img { max-width: 100%; height: auto; }
 .navbar-collapse { margin-left: 3%; }
 
 /*Banner area */
+header .jumbotron { background-position: center; }
 header .carousel-inner h3 {
     font-size: 3.5em;
     background: transparent;
@@ -728,7 +729,7 @@ footer .footer-copyright ul li span {
 		header .carousel-item {	height: 70vh; }	
 		header .jumbotron.banner-asset h1 { font-size: 2.12em; }	
 		header .jumbotron.banner-asset .banner-content, header .jumbotron .banner-content { top: 50%; transform: translate(-50%, -50%); }	
-		header .jumbotron { background-position: center;min-height: 220px; }	
+		header .jumbotron { min-height: 220px; }	
 }
 @media screen and (max-width:576px){
 		main h1, main  h2, main h3, main .h1, main .h2, main .h3 { font-size: 1.75em; }
