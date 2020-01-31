@@ -184,6 +184,15 @@ header .jumbotron p {
     font-weight: 300;
 	text-align: center;
 }
+header .jumbotron.banner-asset p span {
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: -1px;
+    background: #F9005E;
+    background: rgba(55,26,190, 0.7);
+    padding: 0px 10px;
+    font-weight: 500;	
+}
 header .carousel-inner a.btn, header .jumbotron a.btn {
     background: transparent;
 	border: 1px solid  #FFFFFF;
@@ -232,7 +241,7 @@ body.no-banner .navbar { background-color: rgb(255,255,255); border-bottom: 5px 
 body.no-banner .logo-color { display: inline-block; }
 body.no-banner .logo-white { display: none;  }
 body.no-banner .navbar-nav .nav-link {	color: #666; }
-body.no-banner header { display: none; background: transparent; }
+body.no-banner > header { display: none; background: transparent; }
 
 .breadcrumb { background-color: rgba(14,29,69,0.8); border-radius: 0; padding: 1em; text-align: center;}
 .breadcrumb-item + .breadcrumb-item::before {  padding-right: 0; content: ""; }
