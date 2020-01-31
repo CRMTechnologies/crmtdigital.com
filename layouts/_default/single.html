@@ -25,8 +25,8 @@
 	  
 {{ $myAsset := string .Params.resource }}
 {{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ".md" ) }}
-{{ with .Site.GetPage "/excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md" }} 
- 	{{if .Title }}
+{{ with .Site.GetPage $myAsset }} 
+ 	{{isset .Params.cta_image }}
 	<section id="asset-block" class=" block-caret block-blue pt-100">		
 	  <div class="container">	
 		<div class="row align-items-lg-end ">
