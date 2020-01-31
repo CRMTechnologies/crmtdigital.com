@@ -19,11 +19,13 @@
 	  
 	{{ .Content }}
 	  
-	{{ $myQuote := .Params.testimonial }}		
-	{{ range where $.Site.Data.testimonials.quotes "name" $myQuote  }}
-	   {{ partial "blockQuote.html" . }}
-	{{ end }}		
-
+	{{ if .Params.resource }}	
+		{{ $myAsset := .Params.resource }}
+		{{ with site.GetPage $myAsset }}  
+		   {{ partial "blockAsset.html" . }}
+		{{ end }}
+	{{ end }}
+	  
 	{{ if eq .Params.show_contact true }}  
 	{{ partial "blockContact.html" . }}
 	{{ end }}
