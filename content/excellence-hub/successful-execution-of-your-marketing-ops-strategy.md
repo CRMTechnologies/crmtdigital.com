@@ -10,7 +10,7 @@ thumbnail: "https://www.crmtechnologies.com/sites/default/files/SuccessfulExecut
 cta_image: "https://www.crmtechnologies.com/sites/default/files/SuccessfulExecution.png"
 cta: "Read More"
 card_title: "Successful Execution of Your Marketing Ops Strategy"
-card_subtitle: Through Cross Enterprise Collaboration"	
+card_subtitle: "Through Cross Enterprise Collaboration"	
 content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/successful-execution-of-your-marketing-ops-strategy"
 
