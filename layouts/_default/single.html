@@ -23,26 +23,7 @@
 	{{ partial "blockContact.html" . }}
 	{{ end }}
 	  
-{{ $myAsset := string .Params.resource }}
-{{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ".md" ) }}
-{{ with .Site.GetPage $myAsset }} 
- 	{{if ne .Params.cta_image "" }}
-	<section id="asset-block" class=" block-caret block-blue pt-100">		
-	  <div class="container">	
-		<div class="row align-items-lg-end ">
-			<div class="col-lg-6 text-center order-lg-last">				
-				<img src="{{ .Params.cta_image }}" alt="{{ .Title }}">
-			</div>		
-			<div class="col-lg-6 mx-4 mt-4 mx-lg-0 mt-lg-0">
-				<h4 class="h4 text-white">{{ .Title }}</h4>
-				<p class="text-dark">{{ .Description }}</p>
-				<a class="btn btn-split green-btn mb-4" href="{{ .Params.asset_link }}">Download now!</a>
-			</div>	
-		</div>	
-	  </div>
-	</section>
-	{{ end }}  
-{{ end }}  
+	{{ partial "blockAsset.html" . }}
 
 	    		  
   </main>
