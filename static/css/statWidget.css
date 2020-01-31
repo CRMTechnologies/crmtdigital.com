@@ -1,0 +1,22 @@
+.statwidget{font-size:85px;display:inline-block;}
+.statwidget .postfix,.statwidget .prefix{font-size:64px;}
+.statwidget .label,.statwidget label{display:block;font-size:14px;}
+@media (max-width:800px){
+	.statwidget{display:block;width:90%;}
+}
+.stats-wrap .statwidget{border-right:1px solid #dbdbdb;padding:28px 6%;text-align:center;font-size:85px;}
+.stats-wrap .statwidget:nth-child(3){border-right:none;}
+.stats-wrap .statwidget .value{color:#284b82;font-weight:300;margin:0 0 0.3em;line-height:1em;}
+.stats-wrap .statwidget .postfix,.stats-wrap .statwidget .prefix{color:#284b82;font-size:32px;font-weight:300;margin-left:-27px;}
+.stats-wrap .statwidget .label{font-weight:600;}
+@media (max-width:1200px){
+	.stats-wrap .statwidget .value{}
+}
+@media (max-width:600px){
+	.stats-wrap .statwidget .value{}
+	.stats-wrap .statwidget .label{}	
+	.stats-wrap .statwidget{padding:28px 3%;}
+}
+@media (max-width:500px){
+	.stats-wrap .statwidget{width:100%;border-right:none;}
+}
