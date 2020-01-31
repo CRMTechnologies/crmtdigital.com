@@ -39,7 +39,7 @@
 		{{ partial "blockContact.html" . }}
 		
 		{{ $myAsset := string .Params.resource }}
-		{{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ".md" ) }}
+		{{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ) }}
 		{{ printf "%s" $myAssetPath }}
 		{{ with .Site.GetPage $myAssetPath }} 
 			{{if ne .Params.cta_image "" }}
