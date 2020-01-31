@@ -4,6 +4,7 @@ description: Building a technology stack is far harder than it should be, but fo
 image: "https://source.unsplash.com/geNNFqfvw48/1920x1080"
 keywords: ["Digital Transformation","Marketing Operations","Marketing Technology","Procurement"]
 
+hide_banner: true
 heading: "Insights from CRMT"
 subheading: ""
 
