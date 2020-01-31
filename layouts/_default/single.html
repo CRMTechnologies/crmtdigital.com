@@ -25,7 +25,7 @@
 	  
 {{ $myAsset := string .Params.resource }}
 {{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ".md" ) }}
-{{ with .Site.GetPage $myAsset }} 
+{{ with .Site.GetPage "/excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md" }} 
  	{{if .Title }}
 	<section id="asset-block" class=" block-caret block-blue pt-100">		
 	  <div class="container">	
