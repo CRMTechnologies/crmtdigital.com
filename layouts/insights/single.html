@@ -58,7 +58,7 @@
 	</section>
 	{{ if ne .Params.resource "" }}		
 		{{ $myAsset := .Params.resource }}
-		{{ with Site.GetPage $myAsset }}  
+		{{ with .Site.GetPage $myAsset }}  
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}
 	{{ end }}
