@@ -55,12 +55,10 @@
 				</div>				
 			</div>
 		</div>		
-	</section>
-	{{ if ne .Params.resource "" }}		
-		{{ $myAsset := .Params.resource }}
-		{{ with .Site.GetPage $myAsset }}  
-		   {{ partial "blockAsset.html" . }}
-		{{ end }}
+	</section>	
+	{{ $myAsset := string .Params.resource }}
+	{{ with .Site.GetPage $myAsset }}  
+	   {{ partial "blockAsset.html" . }}
 	{{ end }}
 	
 	{{ if eq .Params.show_contact true }}  
