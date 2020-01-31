@@ -58,10 +58,10 @@
 	</section>
 	{{ isset .Params "resource" }}		
 		{{ $myAsset := .Params.resource }}
-		{{ with site.GetPage $myAsset }}  
+		{{ with $.site.GetPage $myAsset }}  
 		   {{ partial "blockAsset.html" . }}
 		{{ end }}
-	{{ end }}
+	
 	
 	{{ if eq .Params.show_contact true }}  
 	{{ partial "blockContact.html" . }}
