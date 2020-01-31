@@ -7,8 +7,9 @@ keywords:
 - Marketing Operations
 - QA
 
+hide_banner: true
 heading: Insights from CRMT
-subheading: Is Buying MarTech Too Easy?
+subheading: 
 date: 2019-02-22 08:30:00 +0000
 
 show_contact: true
