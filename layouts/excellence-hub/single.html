@@ -30,7 +30,7 @@
 	  
 
   
-  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ $related := (where (.Site.RegularPages.Related .) "Section" "excellence-hub") | first 3 }}
 	{{ with $related }}
 	    <section class="pb-50 pt-75 block-light">  
          <div class="row text-center pb-5">  
