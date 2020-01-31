@@ -23,7 +23,6 @@
 		{{ $myAsset := .Params.resource }}
 		{{ with site.GetPage $myAsset }}  
 		   {{ partial "blockAsset.html" . }}
-		{{ end }}
 	{{ end }}
 	  
 	{{ if eq .Params.show_contact true }}  
