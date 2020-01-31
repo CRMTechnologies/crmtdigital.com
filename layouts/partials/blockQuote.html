@@ -1,5 +1,5 @@
 {{ $myAsset := string .Params.testimonial }}
-{{ $myAssetPath := (printf "/customers/%s" $myAsset ) }}
+{{ $myAssetPath := (printf "/what-we-do/%s" $myAsset ) }}
 {{ with .Site.GetPage $myAssetPath }} 
 	{{if ne .Params.quote "" }}
 	<section id="block-quote" class="block-caret pt-75 pb-100">		
