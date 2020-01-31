@@ -19,7 +19,7 @@
 	  
 	{{ .Content }}
 	  
-	{{ if .Params.resource }}	
+	{{ isset .Params "resource" }}	
 		{{ $myAsset := .Params.resource }}
 		{{ with site.GetPage $myAsset }}  
 		   {{ partial "blockAsset.html" . }}
