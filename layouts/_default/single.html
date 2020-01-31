@@ -18,7 +18,8 @@
 	{{ end }}
 	  
 	{{ .Content }}
-	  
+
+	{{ partial "blockQuote.html" . }}	  
 	{{ if eq .Params.show_contact true }}  
 	{{ partial "blockContact.html" . }}
 	{{ end }}
