@@ -19,21 +19,18 @@
 	  
 	{{ .Content }}
 	  
-	{{ if ne .Params.resource "" }}		
-		{{ $myAsset := .Params.resource }}
-		{{ with Site.GetPage $myAsset }}  
-		   {{ partial "blockAsset.html" . }}
-		{{ end }}
-	{{ end }}
-	  
 	{{ if eq .Params.show_contact true }}  
 	{{ partial "blockContact.html" . }}
 	{{ end }}
 	  
-	{{ $myAsset := .Params.resource }}
-	{{ with site.GetPage $myAsset }}  
-	   {{ partial "blockAsset.html" . }}
-	{{ end }}		  
+	{{ if ne .Params.resource "" }}		
+		{{ $myAsset := .Params.resource }}
+		{{ with .Site.GetPage $myAsset }}  
+		   {{ partial "blockAsset.html" . }}
+		{{ end }}
+	{{ end }}	  
+	  
+	  		  
   </main>
 
 {{ if eq .Params.show_contact true }}  
