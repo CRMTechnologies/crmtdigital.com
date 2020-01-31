@@ -57,7 +57,7 @@
 		</div>		
 	</section>		
 	{{ $myAsset := .Params.resource }}
-	{{ range where $.Site.Data.resources.assets "name" $myAsset  }}
+	{{ with site.GetPage $myAsset }}  
 	   {{ partial "blockAsset.html" . }}
 	{{ end }}
 
