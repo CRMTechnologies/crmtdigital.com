@@ -40,6 +40,7 @@
 		
 		{{ $myAsset := string .Params.resource }}
 		{{ $myAssetPath := (printf "/excellence-hub/%s" $myAsset ".md" ) }}
+		{{ (printf "%s" $myAssetPath }}
 		{{ with .Site.GetPage $myAssetPath }} 
 			{{if ne .Params.cta_image "" }}
 			<section id="asset-block" class=" block-caret block-blue pt-100">		
