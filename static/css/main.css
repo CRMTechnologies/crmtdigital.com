@@ -722,7 +722,7 @@ footer .footer-copyright ul li span {
 		.navbar-toggler {outline: none !important;}		
 		.navbar-toggler-icon { height: 1.1em; }
 		.breadcrumb { display: none; }
-		.card-customer {  border: none; border-radius: 0px; margin-bottom: 1em; margin-left: 2%; margin-right: 2%; max-width: 26em;}
+		.card-customer {  border: none; border-radius: 0px; margin-bottom: 1em; margin-left: 2%; margin-right: 2%; height: auto; max-width: 26em;}
 		#block-quote .h3 { font-size: 1.32em; margin: -1em auto;padding: 0px;max-width: 20em; }
 		#block-quote .h3 strong { font-weight: 500; }	
 		#asset-block img { max-width: none; width: 100% }
@@ -730,7 +730,6 @@ footer .footer-copyright ul li span {
 		header .jumbotron.banner-asset h1 { font-size: 2.28em; }
 		.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
 		footer .social-block { margin-left: 1em; }
-		.card-customer [ height: auto; ]
 }
 @media screen and (max-width:768px){
 		main h1, main  h2, main h3, main .h1, main .h2, main .h3 { font-size: 2.28em; }	
