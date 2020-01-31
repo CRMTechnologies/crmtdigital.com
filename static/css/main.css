@@ -730,6 +730,7 @@ footer .footer-copyright ul li span {
 		header .jumbotron.banner-asset h1 { font-size: 2.28em; }
 		.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
 		footer .social-block { margin-left: 1em; }
+		.card-customer [ height: auto; ]
 }
 @media screen and (max-width:768px){
 		main h1, main  h2, main h3, main .h1, main .h2, main .h3 { font-size: 2.28em; }	
