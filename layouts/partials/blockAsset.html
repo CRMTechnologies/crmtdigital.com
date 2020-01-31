@@ -1,6 +1,6 @@
 {{ $myAsset := string .Params.resource }}
 {{ $myAssetPath := (printf "%s%s" "/excellence-hub/" $myAsset ".md" ) }}
-{{ with .Site.GetPage myAssetPath }}  
+{{ with .Site.GetPage $myAssetPath }}  
  	{{if .Title }}
 	<section id="asset-block" class=" block-caret block-blue pt-100">		
 	  <div class="container">	
