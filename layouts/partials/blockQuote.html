@@ -1,11 +1,18 @@
+{{ $myAsset := string .Params.testimonial }}
+{{ $myAssetPath := (printf "/customers/%s" $myAsset ) }}
+{{ with .Site.GetPage $myAssetPath }} 
+	{{if ne .Params.quote "" }}
 	<section id="block-quote" class="block-caret pt-75 pb-100">		
 	  <div class="container">	
 		<div class="row">
 			<div class="col-12 text-center">		
-				<img class="py-4" src="{{ .logo }}" alt="{{ .customer }}" >
-				<p class="h3 py-4"><strong>"{{ .quote }}"</strong></p>
-				<p class="py-4">{{ .industry }}</p>
-				<a class="btn btn-split btn-auto-wide green-btn mt-lg-5" href="{{ .link }}" title="">Read our success stories</a>
+				<img class="py-4" src="{{ .Params.image }}" alt="{{ .Title }}" >
+				<p class="h3 py-4"><strong>"{{ .Params.quote }}"</strong></p>
+				<p class="py-4">{{ .Params.industry }}</p>
+				<a class="btn btn-split btn-auto-wide green-btn mt-lg-5" href="{{ .Permalink }}" title="">Read our success stories</a>
 		</div>	
 	  </div>
-	</section>	
+	</section>
+	{{ end }}
+{{ end }}
+
