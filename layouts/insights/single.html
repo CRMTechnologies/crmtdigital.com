@@ -56,7 +56,7 @@
 			</div>
 		</div>		
 	</section>
-	{{ if .Params.resource }}	
+	{{ isset .Params "resource" }}		
 		{{ $myAsset := .Params.resource }}
 		{{ with site.GetPage $myAsset }}  
 		   {{ partial "blockAsset.html" . }}
