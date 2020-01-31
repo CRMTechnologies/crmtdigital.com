@@ -4,6 +4,7 @@ description: This quarter's release brings a new form layout editor and a greate
 keywords: ["Marketing Technology","Marketing Automation","Eloqua","Releases"]
 image: "https://source.unsplash.com/ZoiZOkh1pbc/1920x1080"
 
+hide_banner: true
 heading: Insights from CRMT
 subheading: Oracle Eloqua 19A Release Overview
 date: 2019-02-15T08:30:00.000Z
