@@ -1,0 +1,12 @@
+	 {{ if eq .Section "what-we-do" }} 	  	  
+	    <ol class="breadcrumb justify-content-center">
+		<li class="breadcrumb-item {{ if eq .Title "What we do" }}active{{ end }}"><a href="/what-we-do">Overview</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Marketing Operations" }}active{{ end }}"><a href="/what-we-do/marketing-operations">Marketing Operations</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Campaign Services" }}active{{ end }}"><a href="/what-we-do/campaign-services">Campaign Services</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Consulting & Best Practice" }}active{{ end }}"><a href="/what-we-do/consultancy">Consulting &amp; Best Practice</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Data Management" }}active{{ end }}"><a href="/what-we-do/data-analytics">Data Management</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Technology Services" }}active{{ end }}"><a href="/what-we-do/technology-services">Technology Services</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Analytics &Performance" }}active{{ end }}"><a href="/what-we-do/marketing-analytics-performance">Analytics &amp; Performance</a></li>
+		<li class="breadcrumb-item {{ if eq .Title "Assessments & Audits" }}active{{ end }}"><a href="/what-we-do/assessments-audits">Assessments &amp; Audits</a></li>
+	    </ol>	  
+	{{ end }}
