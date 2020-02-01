@@ -2,6 +2,7 @@
 	<div class="jumbotron banner-asset" style="background-image: linear-gradient(rgba(16,46,47,0.5775),rgba(16,46,47,0.4225)),url('{{ with .Params.image }}{{ . }}{{ end }}')">
 	  <div class="banner-content">
 		<h1><span>{{.Params.heading}}</span></h1>
+		{{ if .Params.subheading }}<p><span>{{.Params.subheading}}</span></p>{{ end }}
 	  </div>  	
 	</div>  
   </header> 
