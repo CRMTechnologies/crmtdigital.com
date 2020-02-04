@@ -79,6 +79,7 @@ img { max-width: 100%; height: auto; }
     min-width: 100px;
 	border: none;
 }
+.btn-split.p { font-size: 0.88em; line-height: 1.5em; }
 .btn-split:hover {
     color: #fff;	
 }	
@@ -488,6 +489,9 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 #form-contact-block .btn {
     max-width: 100%; 
 }
+#careers-block .col-sm-6 { border: 1px solid #ccc;border-bottom: none; }
+#careers-block .col-sm-6:nth-child(2n+1) { border-right: none; }
+#careers-block .row {border-bottom: 1px solid #ccc; }
 /*Content area */
 main > section { position: relative; }
 main > section.block-caret::before {
