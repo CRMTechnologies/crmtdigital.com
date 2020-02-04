@@ -5,6 +5,18 @@
   <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
+	<section class="block-caret pt-75 pb-50">	
+	  <div class="container">
+		{{ range $.Site.Data.careers.job }}
+			<div class="col-sm-6 mx-4 my-4">
+				<h5>{{ .role }}</h5>
+				<p>{{ .teaser}}</p>
+				<a href="{{ .spec }}" class="btn btn-split indigo-btn mt-auto">Job Description</a>
+				<a href="mailto:hr@crmtechnologies.com?subject={{ .role }} Role" class="btn btn-split green-btn mt-auto">Apply Now</a>
+		  	</div>	
+		{{ end }}  
+		</div>
+	</section>	  	  
 	{{ partial "blockQuote.html" . }}
 	{{ if eq .Params.show_contact true }}{{ partial "blockContact.html" . }}{{ end }}	  
 	{{ partial "blockAsset.html" . }}
