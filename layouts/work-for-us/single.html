@@ -5,7 +5,7 @@
   <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
-	<section id="careers-block" class="pb-50">	
+	<section id="careers-block" class="pb-75">	
 	  <div class="container">
 	  	<div class="row">		  
 		{{ range $.Site.Data.careers.job }}
@@ -20,7 +20,7 @@
 	  </div>
 	</section>	  	  
 	{{ partial "blockQuote.html" . }}
-	{{ if eq .Params.show_contact true }}{{ partial "blockContact.html" . }}{{ end }}	  
+	{{ if eq .Params.show_contact true }}{{ partial "formContact.html" . }}{{ end }}	  
 	{{ partial "blockAsset.html" . }}
   </main>
 
