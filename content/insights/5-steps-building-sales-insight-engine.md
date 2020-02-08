@@ -28,7 +28,7 @@ But where do you start?
    * Online and offline events – ON24 and atEvent
    * Intent data – Bombora or Cyance
    * Website CMS – Adobe Experience Manager or Drupal 
-        
+
 2. Next, identify whether one (or more) of these technologies store engagement data from all of your channels. Your MAP is the most likely source. If there are any channels missing, configure the necessary integrations and voila – you have a single source of engagement data.
 
 3. The next step is the complicated part – aggregating all of this lovely engagement data and making it available in your BI platform. Don’t be blinded by data here - there will inevitably be hundreds, if not thousands, of data points at your disposal. It’s critical that you identify which ones are meaningful at this stage so the output is digestible and doesn’t become an overwhelming source of endless data points.
