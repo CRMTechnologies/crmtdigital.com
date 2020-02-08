@@ -22,13 +22,12 @@ For me, the starting point for alignment as a Marketing team is to find a mechan
 But where do you start?
 
 1. Firstly, make a list of all currently active Marketing channels and map out the technologies that support these channels and how they are integrated. This list could look something like:
-
-       * Email marketing – Eloqua or Marketo
-       * Social media (paid and organic) – LinkedIn and Twitter
-       * Content syndication – TechTarget or Cognism
-       * Online and offline events – ON24 and atEvent
-       * Intent data – Bombora or Cyance
-       * Website CMS – Adobe Experience Manager or Drupal 
+   * Email marketing – Eloqua or Marketo
+   * Social media (paid and organic) – LinkedIn and Twitter
+   * Content syndication – TechTarget or Cognism
+   * Online and offline events – ON24 and atEvent
+   * Intent data – Bombora or Cyance
+   * Website CMS – Adobe Experience Manager or Drupal 
         
 2. Next, identify whether one (or more) of these technologies store engagement data from all of your channels. Your MAP is the most likely source. If there are any channels missing, configure the necessary integrations and voila – you have a single source of engagement data.
 
