@@ -9,7 +9,7 @@ heading: "Insights from CRMT"
 subheading: ""
 
 author: "Joanna Mills"
-resource: "CrossEnterpriseCollab"
+resource: successful-execution-of-your-marketing-ops-strategy
 date: 2019-12-09T12:30:00.000Z
 ---
 
