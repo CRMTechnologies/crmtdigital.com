@@ -22,6 +22,7 @@ For me, the starting point for alignment as a Marketing team is to find a mechan
 But where do you start?
 
 1. Firstly, make a list of all currently active Marketing channels and map out the technologies that support these channels and how they are integrated. This list could look something like:
+
        * Email marketing – Eloqua or Marketo
        * Social media (paid and organic) – LinkedIn and Twitter
        * Content syndication – TechTarget or Cognism
