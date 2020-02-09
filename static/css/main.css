@@ -355,6 +355,59 @@ section.block-light + section#block-quote + section.block-caret::before { border
     border-right: none;
 }
 
+.team-member  { max-width: 380px;width: 100%;position: relative;}
+.team-member .text {
+    background: #009FE3;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 110px;
+    padding: 1.4em 6%;
+    text-align: center;
+    -moz-transition: background 0.45s;
+    -o-transition: background 0.45s;
+    -ms-transition: background 0.45s;
+    -webkit-transition: background 0.45s;
+    transition: background 0.45s;
+    overflow: hidden;
+}
+.team-member .title {
+    transform: translateY(0.4em);
+    transition: all 0.55s;
+    margin-bottom: 1.5em;
+}
+.team-member .title p  {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1em;      
+}    
+.team-member h3 {
+    color: #fff;
+    margin: 0 0 0.4em;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+.team-member .summary {
+    opacity: 0;
+    transform: translateY(3em);
+    transition: all 0.5s;
+}
+.team-member .summary p {
+    color: #fff;
+}
+.team-member:hover .summary {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team-member:hover .text {
+    height: 100%;
+    background:rgba(40,75,130,0.8);
+}
+
 article .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 article .social a.icon-li { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
 article .social a.icon-tw { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
