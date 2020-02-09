@@ -4,7 +4,7 @@ description: Are you expected to deliver the BAU while continuing to innovate an
 keywords: ["Marketing Operations","Marketing Automation","Skills","Releases"]
 image: https://www.crmtechnologies.com/sites/default/files/obstacles-pushing-challenges.jpg
 
-hide_banner: true
+banner_type: "none"
 date: 2019-10-17T16:30:00.000Z
 
 show_contact: true
