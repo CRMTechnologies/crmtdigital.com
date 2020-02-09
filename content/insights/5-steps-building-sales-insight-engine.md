@@ -4,7 +4,7 @@ description: Need to align your Marketing and Sales organisations but don't know
 image: https://www.crmtechnologies.com/sites/default/files/sales-insight.jpg
 keywords: ["Analytics","Marketing Operations","Data","Sales Operations"]
 
-hide_banner: true
+banner_type: "none"
 heading: "Insights from CRMT"
 subheading: ""
 
