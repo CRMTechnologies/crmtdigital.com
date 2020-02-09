@@ -4,7 +4,37 @@
 
   <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
-	{{ .Content }}	  	  
+	{{ .Content }}
+
+	<section class="pt-5 pb-5">	
+	  <div class="text-center container-fluid">   
+      <div class="row justify-content-center">
+	{{ range $.Site.Data.team.bios }}	      
+        <div class="mx-4 my-4 team-member">
+          <div class="image"><img src="{{ .photo }}" alt="{{ .name }}" width="380" height="414"></div>
+          <div class="text">
+            <div class="title">
+              <h3>{{ .name }}</h3>
+              <p>{{ .role }}</p>
+            </div>
+            <div class="summary">
+              <p>{{ .bio }}</p>
+            </div>
+          </div>
+        </div>     
+	{{ end }}
+	<!-- /.row -->
+		</div>
+	</section>
+	<section class="pb-50">	
+	  <div class="text-center container">   
+	             <div class="row justify-content-center">		
+		<a href="/what-we-do/overview" class="btn btn-split green-btn mt-auto">Read more about our services</a>
+	              </div>        
+			<!-- /.row -->
+		</div>
+	</section>
+	  
 	{{ partial "blockQuote.html" . }}
 	{{ if eq .Params.show_contact true }}{{ partial "formContact.html" . }}{{ end }}	  
 	{{ partial "blockAsset.html" . }}
