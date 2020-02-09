@@ -5,6 +5,7 @@ TODO:
 * Enable Forms
 * Configure Forestry
 * Sort Favicons & Images
+* Gated Assets in Excellence Hub Template
 
 MISSING CONTENT:
 * How We Work Page
