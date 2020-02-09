@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron.html" . }} 		
+{{ if eq .Params.banner_type "highlight" }}{{ partial "banner.html" . }}{{ else }}{{ partial "jumbotron.html" . }}{{ end }} 		
 
   <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
