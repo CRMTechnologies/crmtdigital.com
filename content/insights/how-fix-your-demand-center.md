@@ -10,7 +10,7 @@ keywords:
 author: Len van Hoogenhuijze
 date: 2019-11-28 14:30:00 +0000
 
-hide_banner: true
+banner_type: "none"
 show_contact: true
 resource: developing-a-demand-center
 ---
