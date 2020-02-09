@@ -1,0 +1,10 @@
+	<section class="block-caret block-light clearfix pt-75 pb-50 " id="block-homepage-logos">
+		<div class="container">		
+			<h2 class="text-center">Technology Skills</h2>
+			<ul class="logo-carousel">
+				{{ range $.Site.Data.logos.partners }}
+				   {{ partial "customerLogo.html" . }}
+				{{ end }}
+			</ul>
+		</div>
+	</section>  
