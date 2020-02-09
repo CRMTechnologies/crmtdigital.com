@@ -5,5 +5,6 @@ image: "https://www.crmtechnologies.com/themes/tp_theme/images/banners/banner-in
 
 heading: "Marketing Insights from CRMT"
 subheading: "Read our blog for opinions, advice and industry knowledge from the experts at CRMT,"
+banner_type: "highlight"
 type: "posts"
 ---
