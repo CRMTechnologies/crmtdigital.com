@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body {{ if eq .Params.hide_banner true }}class="no-banner"{{ end }}>
+  <body {{ if eq .Params.banner_type "none" }}class="no-banner"{{ end }}>
     {{ partial "nav" . }}
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }} 
