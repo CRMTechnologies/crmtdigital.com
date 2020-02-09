@@ -1,5 +1,5 @@
 {
-	"name": "Alan Chatfield - Marketing via Technology",
+	"name": "CRM Technologies",
 	"icons": [
 		{
 			"src": "\/img\/android-chrome-192x192.png",
@@ -12,6 +12,6 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#109954",
+	"theme_color": "#284b82",
 	"display": "standalone"
 }
