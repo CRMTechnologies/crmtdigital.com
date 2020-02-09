@@ -109,4 +109,50 @@
 		"class": ""
 	}			
 	]
+},
+{
+    "partners" : [
+	{
+		"name": "Bombora",
+		"image": "https://www.crmtechnologies.com/sites/default/files/Bombora-Tech.png",
+		"url": "https://bombora.com",	
+		"class": ""
+	},	
+	{
+		"name": "Bizible",
+		"image": "https://www.crmtechnologies.com/sites/default/files/Bizible-Tech.png",
+		"url": "",	
+		"class": ""
+	},	
+	{
+		"name": "Vidyard",
+		"image": "https://www.crmtechnologies.com/sites/default/files/Vidyard-skill_0.png",
+		"url": "",
+		"class": ""
+	},	
+	{
+		"name": "Tableau",
+		"image": "https://www.crmtechnologies.com/sites/default/files/Tableau-skill_0.png",
+		"url": "",	
+		"class": ""
+	},
+	{
+		"name": "Allocadia",
+		"image": "https://www.crmtechnologies.com/sites/default/files/allocadialogo_0.png",
+		"url": "",	
+		"class": ""
+	},	
+	{
+		"name": "Demandbase",
+		"image": "https://www.crmtechnologies.com/sites/default/files/Dbase-skill_0.png",
+		"url": "",	
+		"class": ""
+	},	
+	{
+		"name": "PathFactory",
+		"image": "https://www.crmtechnologies.com/sites/default/files/PF-Tech_0.png",
+		"url": "",	
+		"class": ""
+	}			
+	]
 }
