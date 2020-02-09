@@ -324,6 +324,37 @@ section.block-light + section#block-quote + section.block-caret::before { border
 #asset-block img { max-width: 100%; }
 #block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
 
+#who-quote p { font-size: 1.5em; width: 80%; margin: auto; max-width: 475px;}
+#who-quote h4 { font-size: 1em; width: 80%; margin: auto; margin-top: 3em; max-width: 475px;}
+.text-stat h3 {
+    font-weight: 600;
+    color:  #284b82;
+    display: block;
+    width: 47%;
+    float: left;
+    font-size: 48px;
+    height: 100px;
+    padding-left: 13px;
+}
+.text-stat p {
+    font-size: 11px !important;
+    color: black;
+    font-weight: normal;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    max-width: 150px;
+}
+.text-stat > div {
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+    text-align: center;
+    padding: 0.1em 0;
+}
+.text-stat > div.third {
+    border-right: none;
+}
+
 article .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
 article .social a.icon-li { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
 article .social a.icon-tw { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
@@ -376,7 +407,6 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-follow .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
 .card-follow .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
 .card-follow .social a:hover {  opacity: 0.6; }
-
 .card-follow, .card-related { border: none; background: #f8f8f8; margin-bottom: 32px; }
 .card-follow .card-header, .card-related .card-header {
     background: #ebeaea;
@@ -500,8 +530,8 @@ main > section.block-caret::before {
     width: 0;
     height: 0;
     border-left: 24px solid transparent;
-	border-right: 24px solid transparent;
-	border-top: 24px solid #fff;
+    border-right: 24px solid transparent;
+    border-top: 24px solid #fff;
     top: 0px;
     right: 0;
     bottom: auto;
@@ -509,6 +539,7 @@ main > section.block-caret::before {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    z-index: 4;
 }
 main > section.block-caret::after {
     content: '';
