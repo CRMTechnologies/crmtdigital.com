@@ -5,6 +5,7 @@
   <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
+	{{ partial "blockPartnerLogos.html" . }}	  
 	{{ partial "blockQuote.html" . }}
 	{{ if eq .Params.show_contact true }}{{ partial "blockContact.html" . }}{{ end }}	  
 	{{ partial "blockAsset.html" . }}
