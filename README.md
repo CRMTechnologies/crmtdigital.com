@@ -2,6 +2,6 @@
 CRMT Website using Hugo
 
 TODO:
-* Update CMS Version
+* Enable Forms
 * Configure Forestry
 * Sort Favicons & Images
