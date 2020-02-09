@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron.html" . }} 
+{{ if eq .Params.banner_type "highlight" }}{{ partial "banner.html" . }}{{ else if eq .Params.banner_type "plain" }}{{ partial "jumbotron.html" . }}{{ end }} 		
 
 <main>
 	<section class=" pt-5 pb-50">
