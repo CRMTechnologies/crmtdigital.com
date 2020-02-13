@@ -14,8 +14,11 @@ card_subtitle: "Successful Demand Gen Led Marketing Execution"
 content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing"
 
+banner_type: "highlight"
 heading: "Successfully execute demand gen led marketing strategies"
 subheading: ""
+
+show_contact: "button"
 ---
 Our eGuide offers six how-to tips, including:
 

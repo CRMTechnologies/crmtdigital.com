@@ -1,15 +1,9 @@
 {{ define "main" }}
-
-{{ if eq .Params.banner_type "highlight" }}{{ partial "banner.html" . }}{{ else if eq .Params.banner_type "none" }} {{ else }}{{ partial "jumbotron.html" . }}{{ end }} 		
-
-  <main>
 	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
 	{{ partial "blockPartnerLogos.html" . }}	  
 	{{ partial "blockQuote.html" . }}
-	{{ if eq .Params.show_contact true }}{{ partial "blockContact.html" . }}{{ end }}	  
+	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	
 	{{ partial "blockAsset.html" . }}
-  </main>
-
-{{ if eq .Params.show_contact true }}{{ partial "floatingContactButton.html" . }}{{ end }} 
 {{ end }}

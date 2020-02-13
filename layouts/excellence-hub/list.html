@@ -1,8 +1,4 @@
 {{ define "main" }}
-
-{{ partial "banner.html" . }} 
-
-<main>
 	<section class=" pt-5 pb-50">
 		<div class="container">
 			<div class="row">
@@ -15,10 +11,6 @@
 			</div>
 		</div>		
 	</section>		
-	{{ partial "formContact.html" . }}		
- </main>
-
-{{ if eq .Params.show_contact true }}  
-	{{ partial "floatingContactButton.html" . }}
-{{ end }} 
+	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	
 {{ end }} 

@@ -5,11 +5,12 @@ keywords: ["Marketing Operations","Marketing Automation","Skills","Releases"]
 image: https://www.crmtechnologies.com/sites/default/files/obstacles-pushing-challenges.jpg
 
 banner_type: "none"
-date: 2019-10-17T16:30:00.000Z
 
-show_contact: true
-author: Joanna Mills
+show_contact: "form"
 resource: developing-a-demand-center
+
+date: 2019-10-17T16:30:00.000Z
+author: Joanna Mills
 ---
 Today’s Modern Marketer has it tough – they are expected to deliver the BAU, churn out an endless supply of high-quality leads, coordinate events, be a Photoshop wizard, understand and be able to execute campaigns in Marketing Automation, all while continuing to innovate and improve the maturity of marketing efforts, slicing and dicing data to provide valuable insights.
 

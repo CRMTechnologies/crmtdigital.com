@@ -1,9 +1,4 @@
-{{ define "main" }}
-
-{{ partial "banner.html" . }} 		
-
-  <main>
-	{{ partial "navWhatWeDo.html" . }} 	  
+{{ define "main" }}  
 	{{ .Content }}
 	<section id="careers-block" class="pb-100">	
 	  <div class="container">
@@ -20,9 +15,7 @@
 	  </div>
 	</section>	  	  
 	{{ partial "blockQuote.html" . }}
-	{{ if eq .Params.show_contact true }}{{ partial "formContact.html" . }}{{ end }}	  
+	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	   
 	{{ partial "blockAsset.html" . }}
-  </main>
-
-{{ if eq .Params.show_contact true }}{{ partial "floatingContactButton.html" . }}{{ end }} 
 {{ end }}

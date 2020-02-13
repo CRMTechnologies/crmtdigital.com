@@ -13,8 +13,11 @@ card_title: "Marketing Operations, It's Your Time to Shine"
 content_type: "eGuide"
 asset_link: "http://crmtechnologies.lookbookhq.com/c/marketing-ops-time-to-shine?x=Pylp84"
 
+banner_type: "highlight"
 heading: "Marketing Operations, It's Your Time to Shine"
 subheading: ""
+
+show_contact: "button"
 ---
 If you're a Marketing Operations leader - this is your time to step up and influence big change. Our Whitepaper explores how Marketing Operations is quickly becoming the agent of change and enabling:
 

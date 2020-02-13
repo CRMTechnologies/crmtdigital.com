@@ -1,11 +1,5 @@
 {{ define "main" }}
-
-{{ partial "banner.html" . }} 		
-
-  <main>
-	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
-
 	<section class="pt-5 pb-5">	
 	  <div class="text-center container-fluid">   
       <div class="row justify-content-center">
@@ -33,12 +27,9 @@
 	              </div>        
 			<!-- /.row -->
 		</div>
-	</section>
-	  
+	</section>	  
 	{{ partial "blockQuote.html" . }}
-	{{ if eq .Params.show_contact true }}{{ partial "formContact.html" . }}{{ end }}	  
+	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	   
 	{{ partial "blockAsset.html" . }}
-  </main>
-
-{{ if eq .Params.show_contact true }}{{ partial "floatingContactButton.html" . }}{{ end }} 
 {{ end }}

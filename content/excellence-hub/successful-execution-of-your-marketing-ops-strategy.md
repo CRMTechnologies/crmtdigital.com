@@ -14,8 +14,11 @@ card_subtitle: "Through Cross Enterprise Collaboration"
 content_type: "eGuide"
 asset_link: "http://interact.crmtechnologies.com/successful-execution-of-your-marketing-ops-strategy"
 
+banner_type: "highlight"
 heading: "Embed a collaborative culture shift throughout your business"
 subheading: ""
+
+show_contact: "button"
 ---
 Our eGuide highlights how you can create a collaborative culture, including:
 

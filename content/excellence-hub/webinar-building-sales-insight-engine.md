@@ -16,8 +16,11 @@ card_subtitle: ""
 content_type: "Video"
 asset_link: "https://crmtechnologies.lookbookhq.com/c/building-a-sales-ins"
 
+banner_type: "highlight"
 heading: "Webinar On Demand: Building a Sales Insight Engine"
 subheading: ""
+
+show_contact: "button"
 ---
 The shift to data-driven marketing in the B2B world has brought about advances in targeting, account insights and analytics. But many marketers still struggle to reach a single source of truth and have confidence in their data to provide actionable insights to sales and turbo-charge demand gen.
 

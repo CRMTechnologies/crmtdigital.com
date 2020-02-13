@@ -1,37 +1,14 @@
 {{ define "main" }}
-
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-	{{range $i, $e := $.Site.Data.banners.homepage}}	      
-	     <li data-target="#carouselExampleIndicators" data-slide-to="{{ $i }}" {{ if eq $i 0 }}class="active"{{ end }} ></li> 
-	{{ end }}	      
-      </ol>
-      <div class="carousel-inner" role="listbox">
-	{{ range $i, $e :=  $.Site.Data.banners.homepage }}
-	<div class="carousel-item {{ if eq $i 0 }}active{{ end }}" style="background-image: linear-gradient(rgba(55,26,190,0.4225),rgba(55,26,190,0.4225)),url('{{ .image }}')">
-	  <div class="carousel-caption">
-	    <h3>{{ .line1 }}<br>
-		{{ .line2 }}</h3>
-	    <a class="btn btn-split" href="{{ .link }}">{{ .text }}</a>
-	  </div>
-	</div>
-	{{ end }}	      
-      </div>
-    </div>
-  </header>
-	<main>
-		<section class="block-light clearfix" id="block-homepage-logos">
-			<ul class="logo-grey">
-				{{ range $.Site.Data.logos.customers }}
-				   {{ partial "customerLogo.html" . }}
-				{{ end }}
-			</ul>
-		</section>  		
-      		{{ .Content }}		
-		{{ partial "blockQuote.html" . }}
-		{{ partial "blockContact.html" . }}
-		{{ partial "blockAsset.html" . }}
-	</main>
-	{{ partial "floatingContactButton.html" . }}  
+	<section class="block-light clearfix" id="block-homepage-logos">
+		<ul class="logo-grey">
+			{{ range $.Site.Data.logos.customers }}
+			   {{ partial "customerLogo.html" . }}
+			{{ end }}
+		</ul>
+	</section>  		
+	{{ .Content }}		
+	{{ partial "blockQuote.html" . }}
+	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	
+	{{ partial "blockAsset.html" . }}
 {{end}}
