@@ -64,6 +64,7 @@ img { max-width: 100%; height: auto; }
 .pull-left { float: left; text-align: left; }
 .pull-right { float: right; text-align: right; }
 .text-green { color: #a1bd17; font-weight: 400; }
+.text-dark { color: #102e2f !important; line-height: 1.5em; }
 .btn-split {	
     padding: 14px 3%;
     border-radius: 2px;
