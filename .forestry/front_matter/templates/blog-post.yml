@@ -4,34 +4,69 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Meta Title
 - type: textarea
   name: description
-  label: description
-- type: file
-  name: image
-  label: image
+  label: Meta Description
 - type: list
   name: keywords
-  label: keywords
-- type: text
-  name: banner_type
-  label: banner_type
-- type: text
-  name: heading
-  label: heading
+  label: Meta Keywords
+- type: file
+  name: image
+  label: Image
+- name: banner_type
+  type: select
+  default: none
+  config:
+    required: false
+    options:
+    - highlight
+    - plain
+    - carousel
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Banner Type
 - type: text
   name: subheading
-  label: subheading
+  label: Banner Sub-heading
 - type: text
-  name: show_contact
-  label: show_contact
-- type: text
-  name: resource
-  label: resource
+  name: heading
+  label: Banner Heading
+- name: resource
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: excellence-hub
+      file: 
+      path: 
+  label: Resource CTA
+- name: show_contact
+  type: select
+  default: button
+  config:
+    required: false
+    options:
+    - button
+    - banner
+    - form
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Contact us CTA
 - type: text
   name: author
-  label: author
+  label: Article Author
 - type: datetime
   name: date
-  label: date
+  label: Publication Date
