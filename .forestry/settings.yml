@@ -4,15 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: data/logos.json
-  label: Customer Logos
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 - type: directory
   path: content/insights
   label: Blog Post
@@ -22,18 +13,20 @@ sections:
   path: content/who-we-work-with
   label: Case Studies
   create: none
-  new_doc_ext: ".html"
+  match: "**/*"
+  new_doc_ext: html
+- type: document
+  path: data/logos.json
+  label: Customer Logos
 - type: document
   path: data/team.json
   label: Executive Biographies
-  match: "**/*"
 - type: document
   path: data/banners.json
   label: Home Page Banners
 - type: document
   path: data/careers.json
   label: Job Postings
-  match: "**/*"
 - type: directory
   path: content/excellence-hub
   label: Resources
