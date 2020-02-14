@@ -8,16 +8,18 @@ fields:
   fields:
   - type: text
     name: line1
-    label: line1
+    label: First Line of Text
   - type: text
     name: line2
-    label: line2
-  - type: textarea
-    name: image
-    label: image
+    label: Second Line of Text
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   - type: text
     name: text
-    label: text
+    label: CTA Label
   - type: text
     name: link
-    label: link
+    label: CTA URL
