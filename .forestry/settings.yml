@@ -15,9 +15,12 @@ sections:
 - type: directory
   path: content/who-we-work-with
   label: Case Studies
-  create: none
+  create: all
   match: "**/*"
+  exclude: _index.html
   new_doc_ext: html
+  templates:
+  - case-study
 - type: document
   path: data/logos.json
   label: Customer Logos
@@ -35,6 +38,9 @@ sections:
   label: Resources
   create: all
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - resource
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
