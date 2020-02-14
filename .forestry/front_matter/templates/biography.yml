@@ -8,13 +8,13 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: text
     name: role
-    label: role
+    label: Job Title
   - type: textarea
     name: bio
-    label: bio
+    label: Biography
   - type: file
     name: photo
-    label: photo
+    label: Photo
