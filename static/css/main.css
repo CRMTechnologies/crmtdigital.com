@@ -477,6 +477,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     border-bottom: 1px solid #ccc;
     margin-bottom: 0;
 }
+.card-header.no-border { border: none}
 .card-follow .card-body {padding: 1.4em 6%;text-align: center;}
 .card-related .card-body p {line-height: 1.3; font-weight: 300; font-size: 0.95em; color: #333; margin: 0 0 0.9em;}
 .card-related .card-body a.btn { font-size: 0.7em;padding: 6px 14%;width: 100%;}
