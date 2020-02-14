@@ -2,11 +2,10 @@
 CRMT Website using Hugo
 
 TODO:
-* Enable Forms
 * Configure Forestry
 * Sort Favicons & Images
 * Gated Assets in Excellence Hub Template
-* Thank You Page Content
+* Thank You Page Content for Gated Assets
 
 MISSING CONTENT:
 * Remaining 5 Case Studies

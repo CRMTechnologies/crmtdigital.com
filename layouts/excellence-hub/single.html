@@ -3,15 +3,16 @@
 	  <div class="container">
 		{{ if eq .Params.banner_type "none" }}
 			<div class="row">	
-				<div class="mb-4 mx-auto"><h1>{{ .Params.heading }}</h1></div>
+				<div class="mb-4 mx-auto"><h1 class="px-1">{{ .Params.heading }}</h1></div>
 			</div>
 		{{ end }}
 		<div class="row">
 			<article class="col-lg-6">	
 				{{ if ne .Params.banner_type "none" }}<p class="intro-text text-left text-dark">{{ .Description }}</p>{{ end }}
 				{{ .Content }}			
-			</article>		
-			<div class="offset-lg-1 col-lg-5 text-center">
+			</article>	
+			{{ if ne .Params.content_type "Video" }}<div class="offset-lg-1 col-lg-5 text-center ">{{ end }}			
+			{{ if eq .Params.content_type "Video" }}<div class="offset-lg-1 col-lg-5 d-none d-lg-flex text-center ">{{ end }}
 				<div class="bg-blue mt-4 pt-4 pb-5 mt-lg-1">
 					{{ if ne .Params.content_type "Video" }}<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>{{ end }}
 					{{ if eq .Params.content_type "Video" }}<p class="h5 pb-3 pt-1">Watch our free {{.Params.content_type}}!</p>{{ end }}					
