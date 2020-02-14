@@ -327,7 +327,9 @@ section.block-light + section#block-quote + section.block-caret::before { border
 .card-customer .card-footer {border: 1px solid #ccc; padding: 14px 0;border-radius: 0px; background: #fff; }
 .flex-lg-row .card-customer:last-of-type {  margin-right: 0%;}
 .flex-lg-row .card-customer .card-body:first-of-type {  max-height: 166px;min-height: 166px;}	
-#asset-block img { max-width: 100%; }
+#asset-block img { max-width: 100%; max-height: 180px; }
+#asset-block article h2 { font-size: 1.32em; font-weight: 400; line-height: 1.7em;	}
+#asset-block article h3 { font-size: 1.111em; font-weight: 400; line-height: 1.7em;	padding: 0 0 1em; }
 #block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
 
 #who-quote p { font-size: 1.5em; line-height: 1.5em; margin: auto; max-width: 475px;}

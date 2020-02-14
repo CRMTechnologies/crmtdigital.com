@@ -10,11 +10,11 @@ date: 2020-02-13  12:34:49 +0000
 
 thumbnail: "https://www.crmtechnologies.com/sites/default/files/CRMT%20Sales%20Insight%20Engine%20Webinar%20Final%20Deck%282%29.png"
 cta_image: "https://www.crmtechnologies.com/sites/default/files/CRMT%20Sales%20Insight%20Engine%20Webinar%20Final%20Deck%282%29.png"
-cta: "Read More"
+cta: "Watch video"
 card_title: "Webinar On Demand: Building a Sales Insight Engine"
 card_subtitle: ""	
 content_type: "Video"
-asset_link: "https://crmtechnologies.lookbookhq.com/c/building-a-sales-ins"
+asset_link: "https://www.youtube.com/embed/TELzNt6x1X8"
 
 banner_type: "highlight"
 heading: "Webinar On Demand: Building a Sales Insight Engine"
@@ -35,4 +35,4 @@ Watch our on-demand webinar with SiriusDecisions to learn how to solve the data 
 * Aligning with Sales
 * Why invest?
 
-<iframe frameborder="0" height="515" src="https://www.youtube.com/embed/TELzNt6x1X8" width="760"></iframe>
+<iframe frameborder="0" height="515" src="" width="760"></iframe>

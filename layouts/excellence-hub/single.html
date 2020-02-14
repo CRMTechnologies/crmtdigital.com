@@ -2,18 +2,40 @@
 	<section id="asset-block" class="pt-5 pb-50">		
 	  <div class="container">		  
 		<div class="row">
-			<div class="col-lg-6">	
+			<article class="col-lg-6">	
 				<p class="intro-text text-left text-dark">{{ .Description }}</p>
 				{{ .Content }}			
-			</div>		
+			</article>		
 			<div class="offset-lg-1 col-lg-5 text-center">
 				<div class="bg-blue mt-4 pt-4 pb-5 mt-lg-1">
-					<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>
+					{{ if ne .Params.content_type "video" }}<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>{{ end }}
+					{{ if eq .Params.content_type "video" }}<p class="h5 pb-3 pt-1">Watch our free {{.Params.content_type}}!</p>{{ end }}					
 					<a href="{{ .Params.asset_link }}"><img src="{{ .Params.cta_image }}" alt="{{ .Title }}"></a>
-					<a class="btn btn-split green-btn" href="{{ .Params.asset_link }}" style="width: 75%;">Download now</a>
+					{{ if ne .Params.content_type "video" }}<a class="btn btn-split green-btn" href="{{ .Params.asset_link }}" style="width: 75%;">Download now</a>{{ end }}
+					{{ if eq .Params.content_type "video" }}<a class="btn btn-split green-btn" href="#videoframe" style="width: 75%;">Watch now</a>{{ end }}
 				</div>
 			</div>
-			<div class="col-lg-6">				
+			{{ if eq .Params.content_type "video" }}
+			<div class="offset-lg-2 col-lg-8">				
+				<div id="videoframe" name="videoframe" class="videoWrapper"><iframe frameborder="0" height="515" src="" width="760" allowfullscreen></iframe></div>
+			</div>	
+			<style>
+				.videoWrapper {
+					position: relative;
+					padding-bottom: 56.25%; /* 16:9 */
+					padding-top: 25px;
+					height: 0;
+				}
+				.videoWrapper iframe {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
+			</style>
+			{{ end }}	
+			<div class="offset-lg-3 col-lg-6 text-center">			
 				<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
 				  <div class="social">
 					<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
