@@ -34,5 +34,3 @@ Watch our on-demand webinar with SiriusDecisions to learn how to solve the data 
 * Tech stack requirements
 * Aligning with Sales
 * Why invest?
-
-<iframe frameborder="0" height="515" src="" width="760"></iframe>
