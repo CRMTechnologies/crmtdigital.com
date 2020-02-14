@@ -647,12 +647,22 @@ section.block-green + section.block-caret::before  { border-top-color: #a1bd17; 
 
 .green-btn{ background: #a1bd17; }
 .green-btn::after, .green-btn::before { background: #371abe; }
+.bg-indigo .green-btn::after, .bg-indigo .green-btn::before { background: #fff; }
+.bg-indigo .btn-split.green-btn:hover { color: #371abe; }
+.bg-dark-blue .green-btn::after, .bg-dark-blue .green-btn::before { background: #fff; }
+.bg-dark-blue .btn-split.green-btn:hover { color: #284b81; }
 
 .purple-btn{ background: #744091; }
 .purple-btn::after, .purple-btn::before { background: #371abe; }
+.bg-indigo .purple-btn::after, .bg-indigo .purple-btn::before { background: #fff; }
+.bg-indigo .btn-split.purple-btn:hover { color: #371abe; }
+.bg-dark-blue .purple-btn::after, .bg-dark-blue .purple-btn::before { background: #fff; }
+.bg-dark-blue .btn-split.purple-btn:hover { color: #284b81; }
 
 .indigo-btn{ background: #371abe; }
 .indigo-btn::after, .indigo-btn::before { background: #a1bd17; }
+.bg-green .indigo-btn::after, .bg-green .indigo-btn::before { background: #fff; }
+.bg-green .btn-split.indigo-btn:hover { color: #371abe; }
 
 #float-contact-us-button {
     transition: 0.3s;
