@@ -812,8 +812,10 @@ footer .footer-copyright ul li span {
 		.navbar .container {max-width: 100%;}
 		header .carousel-inner h3 {	font-size: 2.62em;	}
 		.navbar-collapse, .navbar .dropdown-menu  {	background: rgb(39, 75, 129);}
+		.navbar-color .navbar-nav .nav-link {  color: #fff; }
 		.navbar .dropdown-menu { border: 0px; }
-		.navbar-collapse {	margin: .5rem -1rem -.5rem;	padding: .5rem 1rem; }
+		.navbar-collapse {	margin: .5rem -1rem -.5rem;	padding: .5rem 1rem; transition: none;}
+		.navbar-collapse.show {	position: absolute; right:0px;width:100%;top:75px;margin: 0px; }
 		.navbar-toggler {outline: none !important;}		
 		.navbar-toggler-icon { height: 1.1em; }
 		.breadcrumb { display: none; }
