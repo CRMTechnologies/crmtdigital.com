@@ -1,0 +1,36 @@
+---
+label: Logo
+hide_body: true
+fields:
+- type: field_group_list
+  name: customers
+  label: customers
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: class
+    label: class
+- type: field_group_list
+  name: partners
+  label: partners
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: class
+    label: class
