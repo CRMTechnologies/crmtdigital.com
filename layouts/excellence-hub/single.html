@@ -21,9 +21,9 @@
 				</div>
 			</div>
 			{{ if eq .Params.content_type "Video" }}
-			<a id="videoframe" name="videoframe"></a>  
-			<div class="mt-5 col-12">				
-				<div class="videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
+			
+			<div class="col-12"><a id="videoframe" name="videoframe"></a>  				
+				<div class="mt-5 videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
 			</div>	
 			<style>
 				.videoWrapper {
