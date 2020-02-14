@@ -7,8 +7,11 @@ sections:
 - type: directory
   path: content/insights
   label: Blog Post
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - blog-post
 - type: directory
   path: content/who-we-work-with
   label: Case Studies
