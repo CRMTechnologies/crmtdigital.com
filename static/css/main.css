@@ -618,11 +618,13 @@ section.block-light, .bg-light { background: #f8f8f8; }
 section.block-mid, .bg-mid { background: #eee; }
 section.block-dark-mid, .bg-dark-mid { background: #ccc; }
 section.block-blue, .bg-blue { background: #009FE3; color: #fff; }
+section.block-dark-blue, .bg-dark-blue { background: #284b81; color: #fff; }
 section.block-purple, .bg-purple { background: #744091; color: #fff; }
 section.block-indigo, .bg-indigo { background: #371abe; color: #fff; }
 section.block-green, .bg-green { background: #a1bd17; }
 
 .bg-blue p, .bg-blue h1, .bg-blue h2, .bg-blue h3, .bg-blue h4, .bg-blue h5, .bg-blue li { color: #fff; }
+.bg-dark-blue p, .bg-dark-blue h1, .bg-dark-blue h2, .bg-dark-blue h3, .bg-dark-blue h4, .bg-dark-blue h5, .bg-dark-blue li { color: #fff; }
 .bg-purple p, .bg-purple h1, .bg-purple h2, .bg-purple h3, .bg-purple h4, .bg-purple h5, .bg-purple li { color: #fff; }
 .bg-indigo p, .bg-indigo h1, .bg-indigo h2, .bg-indigo h3, .bg-indigo h4, .bg-indigo h5, .bg-indigo li { color: #fff; }
 
@@ -630,6 +632,7 @@ section + section.block-caret::before { border-top-color: #fff; }
 section.block-light + section.block-caret::before { border-top-color: #f8f8f8; }
 section.block-mid + section.block-caret::before  { border-top-color: #ccc; }
 section.block-blue + section.block-caret::before  { border-top-color: #009FE3; }
+section.block-dark-blue + section.block-caret::before  { border-top-color: #284b81; }
 section.block-purple + section.block-caret::before  { border-top-color: #744091; }
 section.block-indigo + section.block-caret::before  { border-top-color: #371abe; }
 section.block-green + section.block-caret::before  { border-top-color: #a1bd17; }

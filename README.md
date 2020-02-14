@@ -16,3 +16,4 @@ MISSING CONTENT:
 
 NICE TO HAVE:
 * Merge Excellence Hub & Insights
+* Custom Highlight Colours
