@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/logos.json
+  label: Customer Logos
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
@@ -17,8 +21,7 @@ sections:
 - type: directory
   path: content/who-we-work-with
   label: Case Studies
-  create: all
-  match: "**/*"
+  create: none
   new_doc_ext: ".html"
 - type: document
   path: data/team.json
