@@ -49,6 +49,7 @@ p.h1, p.h2, p.h3, p.h4, p.h5, p.h6 { line-height: 1.7em; color: #333; }
 .address-block  ul li{  font-size: 1em; font-weight: 300;list-style: none;}
 .address-block  ul li a {  font-size: 1em; color: #fff;text-decoration: none;}
 .address-block   .h6 { padding: 0px; }
+#contact-map, #contact-map-us { height: 400px; }
 p.intro-text{
     font-size: 1.12em;
     font-weight: 400;
