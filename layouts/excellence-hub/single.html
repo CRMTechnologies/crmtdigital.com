@@ -22,7 +22,7 @@
 			</div>
 			{{ if eq .Params.content_type "Video" }}
 			<a id="videoframe" name="videoframe"></a>  
-			<div class="my-5 col-12">				
+			<div class="mt-5 col-12">				
 				<div class="videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
 			</div>	
 			<style>
@@ -41,7 +41,7 @@
 				}
 			</style>
 			{{ end }}	
-			<div class="offset-lg-3 col-lg-6 text-center">			
+			<div class="offset-lg-3 col-lg-6 mt-5 text-center">			
 				<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
 				  <div class="social">
 					<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
