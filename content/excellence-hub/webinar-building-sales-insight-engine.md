@@ -16,7 +16,7 @@ card_subtitle: ""
 content_type: "Video"
 asset_link: "https://www.youtube.com/embed/TELzNt6x1X8"
 
-banner_type: "highlight"
+banner_type: "none"
 heading: "Webinar On Demand: Building a Sales Insight Engine"
 subheading: ""
 

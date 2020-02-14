@@ -1,6 +1,11 @@
 {{ define "main" }}			  
 	<section id="asset-block" class="pt-5 pb-50">		
-	  <div class="container">		  
+	  <div class="container">
+		{{ if eq .Params.banner_type "none" }}
+			<div class="row">	
+				<div class="mb-5 mx-auto"><h1>{{ .Params.heading }}</h1></div>
+			</div>
+		{{ end }}
 		<div class="row">
 			<article class="col-lg-6">	
 				<p class="intro-text text-left text-dark">{{ .Description }}</p>
