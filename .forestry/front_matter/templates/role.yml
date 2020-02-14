@@ -1,0 +1,17 @@
+---
+label: Role
+hide_body: true
+fields:
+- type: field_group_list
+  name: job
+  label: job
+  fields:
+  - type: text
+    name: role
+    label: role
+  - type: textarea
+    name: teaser
+    label: teaser
+  - type: file
+    name: spec
+    label: spec
