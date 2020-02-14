@@ -2,24 +2,28 @@
 label: Page
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: description
-  label: description
 - type: file
   name: image
-  label: image
-- type: text
-  name: banner_type
-  label: banner_type
+  label: Image
+- name: banner_type
+  type: select
+  default: none
+  config:
+    required: false
+    options:
+    - highlight
+    - plain
+    - carousel
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Banner Type
 - type: text
   name: heading
-  label: heading
+  label: Banner Heading
 - type: text
   name: subheading
-  label: subheading
-- type: text
-  name: show_contact
-  label: show_contact
+  label: Banner Subhead
