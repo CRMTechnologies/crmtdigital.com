@@ -46,7 +46,7 @@ p, .p, li {
 }
 p.h1, p.h2, p.h3, p.h4, p.h5, p.h6 { line-height: 1.7em; color: #333; }
 ul.text-reset li{  font-size: 1em; font-weight: 300;list-style: none;}
-ul.text-reset li a {  font-size: 1em; font-weight: 300;text-decoration: none;}
+ul.text-reset li a {  font-size: 1em; color: #333;text-decoration: none;}
 p.intro-text{
     font-size: 1.12em;
     font-weight: 400;
