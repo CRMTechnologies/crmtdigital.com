@@ -4,21 +4,22 @@
 		<div class="row">
 			<div class="col-lg-6">	
 				<p class="intro-text text-left text-dark">{{ .Description }}</p>
-				{{ .Content }}
-				
+				{{ .Content }}			
 			</div>		
-			<div class="offset-lg-1 col-lg-5 text-center bg-blue mt-4 pt-4 pb-5 mt-lg-1">
-		<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>
-		<a href="{{ .Params.asset_link }}"><img src="{{ .Params.cta_image }}" alt="{{ .Title }}"></a>
-		<a class="btn btn-split green-btn" href="{{ .Params.asset_link }}" style="width: 75%;">Download now</a>
+			<div class="offset-lg-1 col-lg-5 text-center">
+				<div class="bg-blue mt-4 pt-4 pb-5 mt-lg-1">
+					<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>
+					<a href="{{ .Params.asset_link }}"><img src="{{ .Params.cta_image }}" alt="{{ .Title }}"></a>
+					<a class="btn btn-split green-btn" href="{{ .Params.asset_link }}" style="width: 75%;">Download now</a>
+				</div>
 			</div>
 			<div class="col-lg-6">				
-	<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
-	  <div class="social">
-		<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
-		<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
-		<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
-	  </div>			
+				<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
+				  <div class="social">
+					<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
+					<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
+					<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
+				  </div>				
 			</div>				
 		</div>	
 	  </div>
