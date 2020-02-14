@@ -8,7 +8,7 @@
 		{{ end }}
 		<div class="row">
 			<article class="col-lg-6">	
-				<p class="intro-text text-left text-dark">{{ .Description }}</p>
+				{{ if ne .Params.banner_type "none" }}<p class="intro-text text-left text-dark">{{ .Description }}</p>{{ end }}
 				{{ .Content }}			
 			</article>		
 			<div class="offset-lg-1 col-lg-5 text-center">
@@ -21,8 +21,9 @@
 				</div>
 			</div>
 			{{ if eq .Params.content_type "Video" }}
-			<div class="offset-lg-2 my-5 col-lg-8">				
-				<div id="videoframe" name="videoframe" class="videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
+			<a id="videoframe" name="videoframe"></a>  
+			<div class="my-5 col-12">				
+				<div class="videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
 			</div>	
 			<style>
 				.videoWrapper {
