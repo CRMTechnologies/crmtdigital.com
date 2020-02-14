@@ -9,23 +9,31 @@ sections:
   label: Pages
   create: all
   match: "*"
-- type: document
-  path: data/banners.json
-  label: Home Page Banners
-  match: "**/*"
 - type: directory
   path: content/insights
-  label: Insights
+  label: Blog Post
   create: all
   match: "**/*"
 - type: directory
   path: content/who-we-work-with
-  label: Who we work with
+  label: Case Studies
   create: all
+  match: "**/*"
+  new_doc_ext: ".html"
+- type: document
+  path: data/team.json
+  label: Executive Biographies
+  match: "**/*"
+- type: document
+  path: data/banners.json
+  label: Home Page Banners
+- type: document
+  path: data/careers.json
+  label: Job Postings
   match: "**/*"
 - type: directory
   path: content/excellence-hub
-  label: Excellence hub
+  label: Resources
   create: all
   match: "**/*"
 upload_dir: static/uploads
