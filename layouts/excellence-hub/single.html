@@ -17,7 +17,7 @@
 			</div>
 			{{ if eq .Params.content_type "Video" }}
 			<div class="offset-lg-2 col-lg-8">				
-				<div id="videoframe" name="videoframe" class="videoWrapper"><iframe frameborder="0" height="515" src="" width="760" allowfullscreen></iframe></div>
+				<div id="videoframe" name="videoframe" class="videoWrapper"><iframe frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
 			</div>	
 			<style>
 				.videoWrapper {
