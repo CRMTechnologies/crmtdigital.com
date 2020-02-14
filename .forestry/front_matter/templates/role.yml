@@ -8,10 +8,10 @@ fields:
   fields:
   - type: text
     name: role
-    label: role
+    label: Job Title
   - type: textarea
     name: teaser
-    label: teaser
+    label: Description
   - type: file
     name: spec
-    label: spec
+    label: Job Specification
