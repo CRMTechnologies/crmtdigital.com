@@ -1,0 +1,49 @@
+---
+label: Resource
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: list
+  name: keywords
+  label: keywords
+- type: file
+  name: image
+  label: image
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: file
+  name: cta_image
+  label: cta_image
+- type: text
+  name: cta
+  label: cta
+- type: text
+  name: card_title
+  label: card_title
+- type: text
+  name: card_subtitle
+  label: card_subtitle
+- type: text
+  name: content_type
+  label: content_type
+- type: text
+  name: asset_link
+  label: asset_link
+- type: text
+  name: banner_type
+  label: banner_type
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subheading
+  label: subheading
+- type: text
+  name: show_contact
+  label: show_contact
