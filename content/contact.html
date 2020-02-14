@@ -89,8 +89,10 @@ function initializeGmaps(mapLat,mapLng,mapDiv) {
 		position: new google.maps.LatLng(cords.Lat, cords.Lng),
 		icon: 'https://www.crmtechnologies.com/themes/tp_theme/images/icons/contact-map-icon-blue.png' // null = default icon
 	});
+	document.getElementById(mapDiv).className = "hasMap"; 	
 }
 function initializeMap() {
+
 	initializeGmaps(51.426497,-0.987316,'contact-map');
 	initializeGmaps(37.79206,-122.403706,'contact-map-us');
 }
