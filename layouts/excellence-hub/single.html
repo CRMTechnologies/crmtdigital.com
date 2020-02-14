@@ -67,9 +67,9 @@
 						{{ range . }}
               <div class="col-sm-6 col-lg-4 mb-5">	
                 <div class="card card-resource">
-                   <div class="card-header bg-light text-center pt-4 px-0 pb-0">		
+                   <div class="card-header bg-light text-center p-0">		
                      <div class="tag {{ .Params.content_type | urlize }}">{{ .Params.content_type }}</div>
-                     <a href="{{ .Params.asset_link }}"><img class="pt-3" src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
+                     <a href="{{ .Params.asset_link }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
                   </div>   
                   <div class="card-body bg-mid d-flex align-items-start flex-column mt-auto pt-3 pb-5 px-4">
                     <h6 class="card-text">{{ .Params.card_title }} <span>{{ .Params.card_subtitle }}</span></h6>

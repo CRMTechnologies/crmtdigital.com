@@ -552,6 +552,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 }
 .card-resource h6 {  color: #333; margin-bottom: 0; font-weight: 600;line-height: 1.3em; font-family: "Open Sans",sans-serif; }
 .card-resource h6 span {  color: #666; font-weight: 300; display: block; }
+.card-resource .tag { box-shadow:-3px 3px 3px 0px rgba(0,0,0,.35); }
 .card-resource .tag.eguide{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-eguide.png);}
 .card-resource .tag.infographic{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-infographic.png);}
 .card-resource .tag.video{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-video.png);}
