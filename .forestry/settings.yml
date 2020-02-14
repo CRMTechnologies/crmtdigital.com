@@ -9,6 +9,10 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: data/banners.json
+  label: Home Page Banners
+  match: "**/*"
 - type: directory
   path: content/insights
   label: Insights
@@ -17,11 +21,6 @@ sections:
 - type: directory
   path: content/who-we-work-with
   label: Who we work with
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/what-we-do
-  label: What we do
   create: all
   match: "**/*"
 - type: directory
