@@ -9,8 +9,6 @@ TODO:
 * Thank You Page Content
 
 MISSING CONTENT:
-* How We Work Page
-* Contact Page
 * Remaining 5 Case Studies
 * Resources
 * Blog Articles + News Articles
