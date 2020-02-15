@@ -30,16 +30,7 @@ fields:
       file: 
       path: 
   label: Banner Type
-- type: text
-  name: heading
-  label: Banner Heading
-  description: only needed for plain or highlight banners
-- type: text
-  name: subheading
-  label: Banner Sub-heading
-  showOnly:
-    field: banner_type
-  description: Only needed for plain or highlight banners
+  hidden: true
 - name: resource
   type: select
   default: []
@@ -54,7 +45,7 @@ fields:
   label: Resource CTA
 - name: show_contact
   type: select
-  default: form
+  default: button
   config:
     required: false
     options:
