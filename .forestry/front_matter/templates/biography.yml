@@ -18,3 +18,5 @@ fields:
   - type: file
     name: photo
     label: Photo
+pages:
+- data/team.json
