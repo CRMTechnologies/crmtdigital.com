@@ -30,15 +30,6 @@ fields:
       file: 
       path: 
   label: Banner Type
-  description: Not used
-- type: text
-  name: heading
-  label: Banner Heading
-  description: Not used
-- type: text
-  name: subheading
-  label: Banner Sub-heading
-  description: Not used  
 - name: resource
   type: select
   default: []
