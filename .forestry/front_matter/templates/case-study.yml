@@ -47,3 +47,14 @@ fields:
   config:
     required: false
   label: Slug
+- name: weight
+  type: number
+  description: Determines order of case studies on customer page. Ordered from highest
+    to lowest.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: List Weight
