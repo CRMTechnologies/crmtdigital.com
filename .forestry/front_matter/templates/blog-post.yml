@@ -31,11 +31,11 @@ fields:
       path: 
   label: Banner Type
 - type: text
-  name: heading
-  label: Banner Heading
-- type: text
   name: subheading
   label: Banner Sub-heading
+- type: text
+  name: heading
+  label: Banner Heading
   showOnly:
     field: banner_type
     value: highlight
