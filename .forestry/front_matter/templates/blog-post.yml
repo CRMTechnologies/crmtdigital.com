@@ -30,7 +30,15 @@ fields:
       file: 
       path: 
   label: Banner Type
-  hidden: true
+- type: text
+  name: heading
+  label: Banner Heading
+- type: text
+  name: subheading
+  label: Banner Sub-heading
+  showOnly:
+    field: banner_type
+    value: highlight
 - name: resource
   type: select
   default: []
