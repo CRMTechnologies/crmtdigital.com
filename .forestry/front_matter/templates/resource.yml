@@ -4,13 +4,16 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Meta Title
 - type: textarea
   name: description
-  label: description
+  label: Meta Description
 - type: list
   name: keywords
-  label: keywords
+  label: Meta Keywords
+- type: text
+  name: banner_type
+  label: banner_type
 - type: file
   name: image
   label: image
@@ -35,9 +38,6 @@ fields:
 - type: text
   name: asset_link
   label: asset_link
-- type: text
-  name: banner_type
-  label: banner_type
 - type: text
   name: heading
   label: heading
