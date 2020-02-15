@@ -1,5 +1,7 @@
-{{ with .Site.GetPage "excellence-hub" }}
-	{{ with (index (.Resources.Match (index (last 1 (split $.Params.resource "/")) 0)) 0) }}
+{{ $myAsset := string .Params.resource }}
+{{ $myAssetPath := (printf "/%s" $myAsset ) }}
+{{ with .Site.GetPage $myAssetPath }} 
+	{{if ne .Params.cta_image "" }}
 	<section id="asset-block" class=" block-caret block-blue pt-100">		
 	  <div class="container">	
 		<div class="row align-items-lg-end ">
@@ -14,5 +16,5 @@
 		</div>	
 	  </div>
 	</section>
-	{{ end }}	
+	{{ end }}  
 {{ end }} 
