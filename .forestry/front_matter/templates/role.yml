@@ -15,3 +15,5 @@ fields:
   - type: file
     name: spec
     label: Job Specification
+pages:
+- data/careers.json
