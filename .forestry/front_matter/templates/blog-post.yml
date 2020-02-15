@@ -38,6 +38,7 @@ fields:
 - type: text
   name: subheading
   label: Banner Sub-heading
+  description: Not used  
 - name: resource
   type: select
   default: []
