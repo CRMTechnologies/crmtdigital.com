@@ -11,12 +11,31 @@ fields:
 - type: list
   name: keywords
   label: Meta Keywords
-- type: text
-  name: banner_type
-  label: banner_type
+- name: banner_type
+  type: select
+  default: highlight
+  config:
+    required: false
+    options:
+    - highlight
+    - plain
+    - carousel
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Banner Layout
 - type: file
   name: image
-  label: image
+  label: 'Banner: Image'
+- type: text
+  name: heading
+  label: 'Banner: Heading'
+- type: text
+  name: subheading
+  label: 'Banner: Subheading'
 - type: file
   name: thumbnail
   label: thumbnail
@@ -32,18 +51,29 @@ fields:
 - type: text
   name: card_subtitle
   label: card_subtitle
-- type: text
-  name: content_type
-  label: content_type
+- name: content_type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - eGuide
+    - Video
+    - Infographic
+    - Case Study
+    - Slideshare
+    - Datasheet
+    - Report
+    - Blog
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 'Asset: Content Type'
 - type: text
   name: asset_link
-  label: asset_link
-- type: text
-  name: heading
-  label: heading
-- type: text
-  name: subheading
-  label: subheading
+  label: 'Asset: Download URL'
 - type: text
   name: show_contact
   label: show_contact
