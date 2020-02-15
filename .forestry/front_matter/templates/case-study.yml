@@ -4,37 +4,41 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Meta Title
 - type: text
   name: description
-  label: description
-- type: file
-  name: image
-  label: image
+  label: Meta Description
 - type: text
   name: banner_type
-  label: banner_type
+  label: Banner Type
+  hidden: true
+  default: none
+- type: file
+  name: image
+  label: Customer List Image
+  description: Image for this case study on /who-we-work-with
 - type: text
   name: heading
-  label: heading
+  label: Customer List Heading
+  description: Text for this case study on /who-we-work-with
 - type: file
   name: logo
-  label: logo
+  label: Customer Logo
+  description: Used on customer testimonials that link to this Case Study.
 - type: textarea
   name: quote
-  label: quote
+  label: Customer Quote
+  description: Used on customer testimonials that link to this Case Study.
 - type: text
   name: industry
-  label: industry
+  label: Customer Industry
+  description: Used on customer testimonials that link to this Case Study.
 - type: boolean
   name: statWidget
-  label: statWidget
-- type: text
-  name: testimonial
-  label: testimonial
+  label: Uses Statistics Widget
+  description: Article includes the stat counter widget just above the quote
 - type: text
   name: show_contact
   label: show_contact
-- type: text
-  name: resource
-  label: resource
+  hidden: true
+  default: banner
