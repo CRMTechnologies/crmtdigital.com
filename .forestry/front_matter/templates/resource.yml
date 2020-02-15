@@ -11,46 +11,6 @@ fields:
 - type: list
   name: keywords
   label: Meta Keywords
-- name: banner_type
-  type: select
-  default: highlight
-  config:
-    required: false
-    options:
-    - highlight
-    - plain
-    - carousel
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Banner Layout
-- type: file
-  name: image
-  label: 'Banner: Image'
-- type: text
-  name: heading
-  label: 'Banner: Heading'
-- type: text
-  name: subheading
-  label: 'Banner: Subheading'
-- type: file
-  name: thumbnail
-  label: thumbnail
-- type: file
-  name: cta_image
-  label: cta_image
-- type: text
-  name: cta
-  label: cta
-- type: text
-  name: card_title
-  label: card_title
-- type: text
-  name: card_subtitle
-  label: card_subtitle
 - name: content_type
   type: select
   default: []
@@ -73,7 +33,70 @@ fields:
   label: 'Asset: Content Type'
 - type: text
   name: asset_link
-  label: 'Asset: Download URL'
+  label: 'Asset: Direct Download URL'
+- name: gated
+  type: boolean
+  label: 'Asset: Gated'
+- type: file
+  name: thumbnail
+  label: 'Asset: Promo Banner Thumbnail'
+  description: A large thumbail for use on promo banners on other pages.
+- type: file
+  name: cta_image
+  label: 'List: Thumbnail Image'
+  description: A small thumbnail for use on resource lists such as /excellence-hub
 - type: text
-  name: show_contact
-  label: show_contact
+  name: card_title
+  label: 'List: Title'
+  description: Asset title in lists such as /excellence-hub. Two lines max.
+- type: text
+  name: card_subtitle
+  label: 'List: Subtitle'
+  description: Asset Subtitle in resource lists such as /excellence-hub. Two lines
+    mac.
+- type: text
+  name: cta
+  label: 'List: CTA Label'
+  description: The label for CTA buttons linking to the asset
+  default: Read more
+- name: banner_type
+  type: select
+  default: highlight
+  config:
+    required: false
+    options:
+    - highlight
+    - plain
+    - carousel
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 'Page: Banner Type'
+- type: file
+  name: image
+  label: 'Page: Banner Image'
+- type: text
+  name: heading
+  label: 'Page: Banner Heading'
+- type: text
+  name: subheading
+  label: 'Page: Banner Subheading'
+- name: contact_type
+  type: select
+  default: button
+  config:
+    required: false
+    options:
+    - form
+    - button
+    - banner
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 'Page: Contact Module Type'
