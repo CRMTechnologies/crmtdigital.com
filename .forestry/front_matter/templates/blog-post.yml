@@ -34,9 +34,11 @@ fields:
 - type: text
   name: subheading
   label: Banner Sub-heading
+  hidden: true
 - type: text
   name: heading
   label: Banner Heading
+  hidden: true
 - name: resource
   type: select
   default: []
