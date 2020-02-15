@@ -8,7 +8,6 @@ TODO:
 * Migrate Images
 
 MISSING CONTENT:
-* Remaining 5 Case Studies
 * Resources
 * Blog Articles + News Articles
 

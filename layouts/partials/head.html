@@ -6,7 +6,7 @@
 	
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-	<meta property="og:image" content="{{ if .Params.image }}{{.Params.image}}{{ else }}{{.Site.BaseURL}}/img/og-image.jpg{{ end }}">
+	<meta property="og:image" content="{{ if .Params.image }}{{.Params.image}}{{ else }}{{.Site.BaseURL}}/img/og-image.png{{ end }}">
 	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">	
 	
@@ -18,7 +18,10 @@
 	<link href="/css/statWidget.css" rel="stylesheet">
 	
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="https://www.crmtechnologies.com/themes/tp_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">	
 	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#0e1d45">
+	<meta name="theme-color" content="#284b82">
 </head>
