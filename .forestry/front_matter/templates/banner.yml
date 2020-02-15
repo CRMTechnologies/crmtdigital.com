@@ -23,3 +23,5 @@ fields:
   - type: text
     name: link
     label: CTA URL
+pages:
+- data/banners.json
