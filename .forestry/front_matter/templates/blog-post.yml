@@ -30,6 +30,12 @@ fields:
       file: 
       path: 
   label: Banner Type
+- type: text
+  name: subheading
+  label: Banner Sub-heading
+- type: text
+  name: heading
+  label: Banner Heading
 - name: resource
   type: select
   default: []
