@@ -13,7 +13,7 @@ fields:
   label: Meta Keywords
 - type: file
   name: image
-  label: Image
+  label: Featured Image
 - name: banner_type
   type: select
   default: none
