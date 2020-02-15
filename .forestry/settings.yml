@@ -15,7 +15,7 @@ sections:
 - type: directory
   path: content/who-we-work-with
   label: Case Studies
-  create: all
+  create: documents
   match: "**/*"
   exclude: _index.html
   new_doc_ext: html
@@ -36,7 +36,7 @@ sections:
 - type: directory
   path: content/excellence-hub
   label: Resources
-  create: all
+  create: documents
   match: "**/*"
   exclude: _index.md
   templates:
