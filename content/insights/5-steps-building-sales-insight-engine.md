@@ -1,20 +1,22 @@
 ---
 title: 5 steps to building a Sales Insight Engine
-description: Need to align your Marketing and Sales organisations but don't know where to start? Read on to discover the 5 steps to building a Sales Insight Engine. 
+description: Need to align your Marketing and Sales organisations but don't know where
+  to start? Read on to discover the 5 steps to building a Sales Insight Engine.
 image: https://www.crmtechnologies.com/sites/default/files/sales-insight.jpg
-keywords: ["Analytics","Marketing Operations","Data","Sales Operations"]
+keywords:
+- Analytics
+- Marketing Operations
+- Data
+- Sales Operations
+banner_type: none
+heading: ''
+subheading: ''
+show_contact: form
+resource: excellence-hub/successful-execution-of-your-marketing-ops-strategy.md
+author: Joanna Mills
+date: 2019-12-09T12:30:00+00:00
 
-banner_type: "none"
-heading: "Insights from CRMT"
-subheading: ""
-
-show_contact: "form"
-resource: successful-execution-of-your-marketing-ops-strategy
-
-author: "Joanna Mills"
-date: 2019-12-09T12:30:00.000Z
 ---
-
 Sales and Marketing alignment. Marketing and Sales alignment. Whichever way round you look at it, it’s still one of the biggest challenges facing B2B organisations and one which undoubtedly inhibits the achievement of opportunity and revenue potential. A project to move both functions towards singing from the same hymn sheet is not a small undertaking and is one which in my experience, that can be defined very differently organisation to organisation.
 
 So, I hear you ask, is it reaching a common definition of the funnel? Adopting an ABM approach? Or working together to achieve common revenue targets? The short answer is, all of the above. The right answer is, it should be whatever your organisation is ready for. You can’t build Rome in a day and you certainly can’t align two critical business functions in a day either. Start small and agree achievable milestones over a 12 or 24 month period, prioritising initiatives which will promote positive change and provide value quickly.
