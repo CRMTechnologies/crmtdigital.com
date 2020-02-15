@@ -42,3 +42,8 @@ fields:
   label: show_contact
   hidden: true
   default: banner
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
