@@ -9,7 +9,7 @@ keywords:
 banner_type: "none"
 
 show_contact: "form"
-resource: developing-a-demand-center
+resource: excellence-hub/developing-a-demand-center.md
 
 author: Len van Hoogenhuijze
 date: 2019-11-28 14:30:00 +0000

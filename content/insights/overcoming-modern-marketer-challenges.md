@@ -7,7 +7,7 @@ image: https://www.crmtechnologies.com/sites/default/files/obstacles-pushing-cha
 banner_type: "none"
 
 show_contact: "form"
-resource: developing-a-demand-center
+resource: excellence-hub/developing-a-demand-center.md
 
 date: 2019-10-17T16:30:00.000Z
 author: Joanna Mills
