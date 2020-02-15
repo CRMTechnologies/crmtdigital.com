@@ -8,29 +8,37 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: Customer Name
+    config:
+      required: true
   - type: file
     name: image
-    label: image
+    label: Logo Image
+    description: Ideally logo should be 70px high
   - type: text
     name: url
-    label: url
+    label: Customer Website URL
   - type: text
     name: class
-    label: class
+    label: Logo Display Class
+    description: Should either be 'square' or blank depending on shape of image.
 - type: field_group_list
   name: partners
   label: partners
   fields:
   - type: text
     name: name
-    label: name
+    label: Partner Name
+    config:
+      required: true
   - type: file
     name: image
-    label: image
+    label: Logo Image
+    description: Ideally logo should be 70px high
   - type: text
     name: url
-    label: url
+    label: Partner Website URL
   - type: text
     name: class
-    label: class
+    label: Logo Display Class
+    description: Should either be 'square' or blank depending on shape of image.
