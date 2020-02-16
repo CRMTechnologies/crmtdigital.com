@@ -329,6 +329,7 @@ section.block-light + section#block-quote + section.block-caret::before { border
 .flex-lg-row .card-customer .card-body:first-of-type {  max-height: 166px;min-height: 166px;}	
 #asset-block img { max-width: 100%; }
 #asset-block article + div img { max-height: 180px;  }
+#asset-block article > nav { display: none !important;}
 #asset-block article h2 { font-size: 1.32em; font-weight: 400; line-height: 1.7em;	}
 #asset-block article h3 { font-size: 1.111em; font-weight: 400; line-height: 1.7em; }
 #asset-block article h6 { padding-bottom: .5rem; }
