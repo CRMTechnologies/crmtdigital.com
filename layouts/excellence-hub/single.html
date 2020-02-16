@@ -8,7 +8,6 @@
 		{{ end }}
 		<div class="row">
 			<article class="col-lg-6">	
-				{{ if ne .Params.banner_type "none" }}<p class="intro-text text-left text-dark">{{ .Description }}</p>{{ end }}
 				{{ .Content }}			
 			</article>	
 			{{ if ne .Params.content_type "Video" }}<div class="offset-lg-1 col-lg-5 text-center ">{{ end }}			

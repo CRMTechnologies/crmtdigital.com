@@ -1,7 +1,6 @@
 ---
 title: Marketing Operations, It's Your Time to Shine
-description: Marketing Operations is playing a critical role in the future of global
-  marketing success. Find out how.
+description: Marketing Operations is playing a critical role in the future of global  marketing success. Find out how.
 keywords:
 - Marketing Operations
 - Marketing
@@ -16,9 +15,11 @@ banner_type: highlight
 heading: Marketing Operations, It's Your Time to Shine
 subheading: ''
 show_contact: button
-
+date: 2018-04-16T17:11:00+00:00
 ---
-If you're a Marketing Operations leader - this is your time to step up and influence big change. Our Whitepaper explores how Marketing Operations is quickly becoming the agent of change and enabling:
+Marketing Operations is playing a critical role in the future of global  marketing success. If you're a Marketing Operations leader - this is your time to step up and influence big change. 
+
+Our Whitepaper explores how Marketing Operations is quickly becoming the agent of change and enabling:
 
 * Efficient global marketing execution at scale.
 * Industrialization of shared marketing services.

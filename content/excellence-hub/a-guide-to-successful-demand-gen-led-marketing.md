@@ -19,7 +19,10 @@ heading: "Successfully execute demand gen led marketing strategies"
 subheading: ""
 
 show_contact: "button"
+date: "2015-12-18T13:54:22+00:00"
 ---
+Demand generation strategies can drive great marketing results, but you must get the creation and implementation of these strategies right.
+
 Our eGuide offers six how-to tips, including:
 
 * Integrating all technologies so data touchpoints provide consistent information about customers.

@@ -21,6 +21,7 @@ heading: "Webinar On Demand: Building a Sales Insight Engine"
 subheading: ""
 
 show_contact: "button"
+date: 2020-02-13T16:13:57+00:00
 ---
 The shift to data-driven marketing in the B2B world has brought about advances in targeting, account insights and analytics. But many marketers still struggle to reach a single source of truth and have confidence in their data to provide actionable insights to sales and turbo-charge demand gen.
 
