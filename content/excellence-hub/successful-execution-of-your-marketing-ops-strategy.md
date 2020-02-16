@@ -19,7 +19,7 @@ heading: "Embed a collaborative culture shift throughout your business"
 subheading: ""
 
 show_contact: "button"
- date: "2015-12-18T13:35:53+00:00"
+date: "2015-12-18T13:35:53+00:00"
 ---
 Marketing Operations is becoming increasingly important, but it won’t work without cross enterprise collaboration.
 
