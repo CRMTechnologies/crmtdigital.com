@@ -330,8 +330,8 @@ section.block-light + section#block-quote + section.block-caret::before { border
 #asset-block img { max-width: 100%; }
 #asset-block article + div img { max-height: 180px;  }
 #asset-block article > nav { display: none !important;}
-#asset-block article h2 { font-size: 1.32em; font-weight: 400; line-height: 1.7em;	}
-#asset-block article h3 { font-size: 1.111em; font-weight: 400; line-height: 1.7em; }
+#asset-block article h2 { font-size: 1.32em; font-weight: 400; line-height: 1.7em;}
+#asset-block article h3 { font-size: 1.111em; font-weight: 600; line-height: 1.5em;padding-bottom: .5rem;  }
 #asset-block article h6 { padding-bottom: .5rem; }
 #asset-block article ul { margin-bottom: 0rem; }
 #asset-block article ul li { margin-bottom: 1rem; }
@@ -564,7 +564,8 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-resource .tag.slideshare{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-slideshare.png);}
 .card-resource .tag.report{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-report.png);}
 .card-resource .tag.datasheet{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-datasheet.png);}
-
+.card-resource .tag.case-study{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/case-study.png);
+	
 #form-contact-block input[type="text"], #form-contact-block input[type="tel"], #form-contact-block input[type="email"], #form-contact-block textarea {
     border: none;
     padding: 14px 3%;
