@@ -6,15 +6,14 @@ card_title = "Optimising the user experience"
 contact_type = "button"
 content_type = "eGuide"
 cta = "Read more"
-cta_image = ""
+cta_image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bfca5c770-fe11-4882-949b-c31577daddcb%7D_Optimising-the-user-experience-for-operational-excellence.png"
 description = "Download our eGuide to optimising the user experience for operational excellence."
-draft = true
 gated = true
 heading = " Enhance the user experience with collaboration, communication & culture change "
-image = ""
+image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B9935e521-9e49-4898-9b61-d177d19f36c5%7D_LP-M-EM3.jpg"
 keywords = ["User Experience", "Demand Generation"]
 subheading = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Optimising-the-user-experience-for-operational-excellence_0.png"
 title = "Optimising the User Experience for Operational Excellence"
 
 +++
