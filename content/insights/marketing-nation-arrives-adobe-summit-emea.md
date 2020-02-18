@@ -1,11 +1,10 @@
 +++
 author = "Alan Chatfield"
 banner_type = "none"
-date = ""
+date = "2019-05-17 11:56:31"
 description = "Adobe's annual customer event proves that Marketo has a bright future at the centre of Adobe's B2B Marketing Technology Portfolio."
-draft = true
 heading = ""
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/summit-2019.png"
 keywords = ["Marketing", "Marketing Automation", "Adobe", "Marketo"]
 resource = []
 show_contact = "button"
