@@ -1,0 +1,44 @@
++++
+author = "Alan Chatfield"
+banner_type = "none"
+date = ""
+description = "Granular personalisation has become a basic expectation, just as the big data explosion opens up new possibilities for targeting that didn't exist previously. "
+draft = true
+heading = ""
+image = ""
+keywords = ["Personalisation", "Intent", "Data"]
+resource = []
+show_contact = "button"
+subheading = ""
+title = "The Personal Touch: Maximising Intent"
+
++++
+Millions of potential customers browse the web every day searching for information on their current needs and interests. Every click is tracked by website owners and numerous third parties. Your website is likely host to multiple internal marketing tools for reporting and retargeting - most B2B websites tend to have at least 10 web analytics, marketing automation and conversion tracking tools all collecting user visit data. Some of these website tags such as Eloqua, Marketo Munchkin or LinkedIn Insight will be used for building audience segments for future campaigns. This was the initial promise of marketing automation. Not only would you be able to target campaigns and score leads based off CRM contact profiles, but also use their website activity and engagement history as well.
+
+Website activity data is now routinely used to build lists and score leads by the majority of marketers. Website visit data is a common feature of lead scoring and occasionally in campaign segmentation. However, single page visits simply aren't a strong enough indicator of interest, as your LDR team will tell you. Instead, the goal is to report on trends using the contact's full engagement history to build a picture of where they are in the funnel and what products or solutions they are interested in. Using this method can be effective, but it only gives part of that story rather than the whole picture. A contact profile tells you whether someone should be interested not whether they actually are. There can be many reasons for lack of interest that simply aren't captured on a standard lead record such as the timing of the buying cycle, availability of budget or competitor install base. As a result, engagement data is being used to fill the gap.
+
+Of course, all this fantastic activity data you're using to make decisions only comes from sites that you control. You might get registration details from content syndication providers or conversion metrics from social networks, but the data these sources give is often limited to the minimum required to provide the service. Some services allow you to add your own tracking scripts to supplement this, but not many. The end result is you only get part of the picture. It becomes difficult to discover what ads or social posts each prospect has been exposed to. In the past, this may not have been much of an issue, but in today's increasingly interconnected world over half of the buyer's journey has been completed before a prospect has even reached your website. This has implications for attribution, but there are specialist tools such as Bizible that handle this challenge by collating all online activity into a comprehensive set of dashboards.
+
+### Plugging the Gap
+
+From a personalisation perspective, what Marketer's really want to know is the competitor or analyst content people are searching for, so that when a prospect hits your website you can serve them content related to what they've been searching for elsewhere. An entire Industry has grown up around precisely this need, with the data needed to power this technology being sourced from a small band of intent data vendors, the most famous of which is [Bombora](https://www.bombora.com/). These companies work by aggregating the traffic reading content on publisher websites into a complex data model that can then be used to determine what individuals are searching for over time. The end result is a list of topics and keywords that each individual is searching for and a score to indicate the level of interest. For B2B, this is tracked at the account rather than contact level in order to give a more accurate picture.
+
+This technique is something that many businesses do for their own audiences on their own websites using a DMP and website personalisation tools. Bombora does this on a much larger scale across thousands of media publishers. They then sell the results back to those same publishers for use in targeted advertising and audience trend analysis. Intent data is the backbone of the adtech boom, and is used heavily in personalised advertising. Media agencies were quick to spot the potential of intent and use it heavily in their programmatic offerings. As a result, many leading DMPs and ABM platforms have their own version of it using either their own data or data supplied by Bombora.
+
+### The Decision Maker
+
+For the regular B2B marketer, this information is extremely useful, particularly if you're running an ABM strategy. Bombora data is the starting point for many ABM campaigns, with it being increasingly used to determine which members of your target account list should be targeted for particular themes or solution messages. Accounts showing no activity either through Bombora or through regular marketing activity are deemed to be inactive and are excluded from campaigns, and in some cases removed from the target account list entirely.
+
+It is important to remember that this intent data is only one segmentation criteria among many – it can be used to determine whether an account is searching for a particular keyword, but that still doesn't mean they're interested in your products. For instance, they could be happily buying from a competitor. Predictive vendors do use intent data in their scoring models, but it is typically only a secondary measure with the primary components of the score coming from your own data. Think of intent data as a measure of awareness, rather than readiness to buy. If an account is searching heavily for a particular topic, then they could be in the market for a solution that addresses this topic. You have no way of knowing this for sure, but it definitely makes them a prime target for a highly targeted marketing message, with the objective of getting your name on their shortlist.
+
+### Audience Discovery
+
+Intent is not just an interesting addition to the ABM toolkit, it is also an essential part of any mid-market campaign strategy. The leading digital agencies use intent data heavily when building audiences for your top of funnel advertising campaigns, but it also has a place further down the funnel when discussing lead recycling. If a dormant lead is appearing in intent data, then it might be worth adding them to a nurture on the same topic as it could be that they are ready to buy again. Use it to supplement LDR or sales rep coverage for inactive or infrequent accounts, so that contacts are only added to nurture when they're likely to show interest, rather than spamming unnecessarily at times when they're focused on something else.
+
+Do consider the length of your sales cycle when doing this though, companies with short sales cycles typically do not benefit as much from intent data because there is a time lag in the data models that power Bombora and their competitors. Intent often acts as a trailing indicator of interest for products with a short sales cycle, because the account will already have purchased by the time they are flagged as surging in Bombora's data model. Switching intent data vendors might help, particularly if you're looking for companies based outside of North America where local vendors will have better account coverage and a wider range of local data sources. In EMEA, the rapidly growing [Cyance](https://www.cyance.com/) claim to have far better account coverage, particularly for non-english sources. When using intent to build audiences for lead generation campaigns this matters. As with all personalisation strategies, more targeted keywords and a more focused firmographic selection will lead to better results.
+
+B2C marketers will tell you it is easier to execute personalised campaigns by tweaking the audience to match the content, rather than tweaking the content to match the audience. This was learned the hard way over the past two decades of marketing automation adoption but has been forgotten in the rush to implement ABM to win new major accounts. Those existing lead generation tactics still apply for the rest of your business, maximising the use of intent data just makes them work even better.
+
+[Get in touch](https://www.crmtechnologies.com/contact) to make a date to build a business case for intent or scope out a proof of concept.
+
+_Written by Alan Chatfield – Senior Digital Marketing Strategist, CRMT_

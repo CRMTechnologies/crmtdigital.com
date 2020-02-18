@@ -76,3 +76,5 @@ fields:
 - type: datetime
   name: date
   label: Publication Date
+pages:
+- content/insights/the-personal-touch-maximising-intent.md
