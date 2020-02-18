@@ -20,6 +20,7 @@ banner_type: "none"
 heading: "Webinar On Demand: Building a Sales Insight Engine"
 subheading: ""
 
+slug: "/insights/webinar-building-sales-insight-engine"
 show_contact: "button"
 date: 2020-02-13T16:13:57+00:00
 ---
