@@ -564,7 +564,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-resource .tag.slideshare{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-slideshare.png);}
 .card-resource .tag.report{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-report.png);}
 .card-resource .tag.datasheet{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-datasheet.png);}
-.card-resource .tag.case-study{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/case-study.png);
+.card-resource .tag.case-study{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/case-study.png);}
 	
 #form-contact-block input[type="text"], #form-contact-block input[type="tel"], #form-contact-block input[type="email"], #form-contact-block textarea {
     border: none;
