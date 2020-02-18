@@ -18,6 +18,6 @@ thumbnail = ""
 title = "Data Sheet: CRM SmartAssist for Marketing Automation with Marketo"
 
 +++
-### Operational Support Services for marketing automation users -
+### Operational Support Services for marketing automation users
 
 CRMT SmartAssist service provides your business with a virtual team of certified consultants, power users and administrators to complement or fill gaps in your own internal resource. Whether this is for an interim period while your internal team becomes proficient, or as part of an ongoing service, you will benefit from immediate, on demand access to a skilled team who can help you maximise your marketing automation strategy and tactics - and ultimately drive campaign and business success.
