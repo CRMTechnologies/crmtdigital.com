@@ -1,11 +1,10 @@
 +++
 author = "Joanna Mills"
 banner_type = "none"
-date = ""
+date = "2019-08-23 11:52:16"
 description = "Data is one of our most valuable marketing assets, so why is it that so many organisations neglect to maintain it? "
-draft = true
 heading = ""
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/blindfold-blog.jpg"
 keywords = ["Marketing Ops", "Data"]
 resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "button"
