@@ -6,7 +6,7 @@ card_title = "Case Study:"
 contact_type = "button"
 content_type = "Case Study"
 cta = "Read more"
-cta_image = "https://img.en25.com/Web/CRMTechnologies/{51b468be-5194-4bfd-89f3-1d05f10a781d}_CRM_Case_Study_F5_V2.pdf"
+cta_image = "https://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_F5.png"
 date = "2015-10-08 16:29:53"
 description = ""
 gated = false
@@ -14,7 +14,7 @@ heading = ""
 image = ""
 keywords = ""
 subheading = ""
-thumbnail = "https://img.en25.com/Web/CRMTechnologies/{51b468be-5194-4bfd-89f3-1d05f10a781d}_CRM_Case_Study_F5_V2.pdf"
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_F5.png"
 title = "Case Study:  F5 Takes Marketing Automation to The Fast Lane with CRM Technologies"
 
 +++
