@@ -50,7 +50,7 @@ fields:
     options: []
     source:
       type: pages
-      section: excellence-hub
+      section: resources
       file: 
       path: 
   label: Resource CTA
