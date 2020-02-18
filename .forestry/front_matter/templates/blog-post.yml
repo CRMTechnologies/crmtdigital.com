@@ -76,5 +76,3 @@ fields:
 - type: datetime
   name: date
   label: Publication Date
-pages:
-- content/insights/the-game-has-changed-a-new-paradigm-for-lead-nurturing.md
