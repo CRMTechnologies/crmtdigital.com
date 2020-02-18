@@ -3,7 +3,6 @@ author = "Alan Chatfield"
 banner_type = "none"
 date = 2018-08-30T11:56:00Z
 description = "There has been a revolution in email marketing. Personalisation is king. Volume no longer matters. Adopting a customer-centric approach is the key to success."
-draft = true
 heading = ""
 image = ""
 keywords = ["Email Marketing", "Marketing Automation", "Marketing"]
