@@ -1,11 +1,10 @@
 +++
 author = "Joanna Mills"
 banner_type = "none"
-date = ""
+date = "2019-06-19 07:20:11"
 description = "Marketing should not be a blind date - some considerations on how to leverage intent data to maximise marketing returns."
-draft = true
 heading = ""
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/adult-blur-bouquet-236287-md.jpg"
 keywords = ["Demand Generation", "Intent", "Data"]
 resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "button"
