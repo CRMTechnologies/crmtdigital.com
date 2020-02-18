@@ -1,7 +1,7 @@
 +++
 author = "Alan Chatfield"
 banner_type = "none"
-date = ""
+date = "2019-06-19 11:20:01"
 description = "Are technology gaps limiting cross-channel campaigns? Are data silos preventing effective reporting? It's time to tear down the walls in your martech stack."
 image = "https://www.crmtechnologies.com/sites/default/files/architect-architecture-black-and-white-1537008.jpg"
 keywords = ["Customer Data Platforms", "Marketing Technology Strategy", "Marketing Automation", "Adobe"]
