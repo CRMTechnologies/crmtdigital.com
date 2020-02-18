@@ -6,6 +6,7 @@ keywords:
 - Marketing Operations
 - Demand Center
 
+tag: "Demand Center"
 banner_type: "none"
 
 show_contact: "form"
