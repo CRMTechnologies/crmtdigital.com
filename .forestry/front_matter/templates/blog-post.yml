@@ -77,4 +77,5 @@ fields:
   name: date
   label: Publication Date
 pages:
+- content/insights/it-s-time-to-remove-the-database-blindfold.md
 - content/insights/the-personal-touch-maximising-intent.md
