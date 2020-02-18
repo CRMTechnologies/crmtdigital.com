@@ -1,0 +1,58 @@
++++
+author = "Alan Chatfield"
+banner_type = "none"
+date = ""
+description = "Are technology gaps limiting cross-channel campaigns? Are data silos preventing effective reporting? It's time to tear down the walls in your martech stack."
+draft = true
+heading = ""
+image = ""
+keywords = ["Customer Data Platforms", "Marketing Technology Strategy", "Marketing Automation", "Adobe"]
+resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
+show_contact = "button"
+subheading = ""
+title = "Get Ready for Smart Marketing"
+
++++
+Customer Experience has been a hot topic of conversation among B2C marketers for a long time. There has been plenty of discussion about CX in B2B circles too. It's just that in practice, many enterprise marketers have adopted a piecemeal approach. Existing digital experiences have been updated to meet consumer levels of design and usability, but the creation of new online customer journeys has often been held back by the limitations of available technology and the lack of integration between different platforms.
+
+### Fragmented Stack
+
+It's not just new technologies that suffer from this capability gap. Even long-standing corporate mainstays such as marketing automation and the corporate website frequently don't talk to each other as well as they should. Marketers can't personalise website content based on the visitor's contact profile in marketing automation or CRM. In an ideal world, contacts who visit the website immediately after receiving a marketing email should see the email call to action prominently on the home page. Yet this doesn't happen because website personalisation is controlled by the web team and is managed separately from campaigns. Marketo tried to work around this with their real-time personalisation product, but the end result simply wasn't sophisticated enough for web developers to invest in with confidence.
+
+Even worse is the vast gulf in every tech stack that separate anonymous website visitors from known prospects being tracked by marketing automation. This extends all the way down the funnel causing numerous reporting gaps. Even the most basic requirement, such as identifying the exact source of registrations for a webinar appears to be an enormous challenge for many marketing departments. Without that information, it is impossible to get even a basic understanding of how different social or advertising networks are contributing to the funnel let alone use those same channels to promote the next campaign to webinar attendees.
+
+### Fragmented Data
+
+The underlying cause of this disconnect is well understood. It is impossible to build a full picture of every engagement prospects have with a business because every single application in the marketing technology stack has its own contact database and its own visitor activity history log, leading to fragmentation and duplication in both reporting and segmentation. Some tools in the stack integrate with marketing automation or CRM for contact data and web analytics for visitor journey visualisation, but these integrations are limited to the information that marketing automation and web analytics can actually capture.
+
+Marketing automation does have native web tracking capabilities, but these can only track website page views and not the thousands of other online interactions such as video plays and social shares that even a basic Google Analytics implementation will be recording through event tracking. This allows GA and Adobe Analytics to build a full picture of the digital interactions every single visitor has with a website. The trouble is that all this incredible engagement history is totally anonymous, and not linked in any way to an actual CRM lead or Marketing Automation contact record.
+
+This wouldn't be so bad if it was at least possible to use all this web analytics data to build audiences for advertising campaigns and paid social content. Typically, this can't be done either. Most DMPs don't allow their customers to build advertising audiences using their own data. Advertisers are expected to use the DMP's segmentation options to select what are basically a pool of anonymous tracking cookies under the control of the relevant platform. Paid social works much the same way. At best, some DMPs and Social Networks allow marketers to place conversation pixels on corporate websites so that page views can be used as an audience selection criteria. The end result is still an additional tool in the tech stack with its own contact database and activity tracking data.
+
+### Customer Data Platforms
+
+Thankfully, the major technology vendors finally have an answer to this problem. They're all releasing new Customer Data Platforms (CDP) that sit underneath their marketing clouds to act as a unified data and integration layer for every application in their technology portfolio. Oracle launched [Oracle CX Unity](https://www.oracle.com/applications/customer-experience/platform/cx-unity.html) at the end of March. Salesforce have just announced a pilot for the revamped version of their [Salesforce Customer 360](https://www.salesforce.com/solutions/customer-360/) product, which has evolved from an integration hub into a full CDP since being announced at Dreamforce last year. At the same time, existing CDPs such as [Tealium AudienceStream](https://tealium.com/products/audiencestream/) are expanding their feature set to cope with B2B audiences.
+
+Adobe launched [Adobe Experience Platform](https://www.adobe.com/experience-platform.html) (AEP) at their summit last month, pitching their brand new product as the first real-time Customer Data Platform designed for B2B. The Adobe Experience Cloud portfolio is already better integrated than competing stacks, which is one of the key drivers for its success. However, there are still gaps between the various solutions that Adobe's new CDP is designed to bridge. Rather than have separate contact profiles for each user in the Adobe Experience Manager CMS, Adobe Analytics and Marketo, Adobe Experience Platform will combine them all into one holistic cross-platform customer view feeding in activity history and profile data from across the Adobe, Microsoft and SAP clouds as well as from a network of supporting partners such as ServiceNow. Furthermore, AEP is an open platform with a well-developed API and a flexible database structure that can collect any information you want to include in a customer profile from whatever system or database it is stored in.
+
+### Single Customer View
+
+This can cover far more than anonymous website visitors. All too often a discussion of marketing data ignores the thousands of other customer databases sitting elsewhere in other departments listing what customers have actually purchased and when they've interacted with those products or services. Much of that information can't be used for marketing purposes due to data protection laws, but some of it can be. Too many organisations are passing up the opportunity to do so. Master Data Management (MDM) databases are already being deployed to solve this problem, but still miss the critical history of marketing engagements and anonymous digital interactions truly needed to personalise the customer experience. In many enterprise organisations, the master data management system isn't properly integrated with the marketing automation system either, leaving Marketo or Eloqua to see only a small percentage of contacts and related profile information available to marketing elsewhere in the enterprise.
+
+CDPs such as Adobe Experience Platform are intended to capture the entire contact database from the MDM as well as the linked customer purchase history, to build a full 360-degree view of every customer, account and prospect that has ever engaged with the business. All this data is then organised, de-duplicated and normalised using Adobe Sensei AI so it can be used to build segments and target campaigns across any of the applications in the Adobe stack and beyond. This works for applications targeting both known and unknown audience through any channel, including eventually Marketo.
+
+### Unified Experiences
+
+The classic example of this in practice is an abandoned shopping cart email. Adobe Analytics tracks the contents of a visitor's cart in a brand's e-commerce store recording all of the user's page views and saved items to their profile in AEP. Also linked to the user's profile would be their Marketo user profile with all of the fields, custom objects and related activity included on it. If the visitor adds items to their online shopping cart but subsequently doesn't reach the end of the check-out process, they would be added to an 'Abandoned Cart' segment within AEP. The members of this segment would then be pushed into either Marketo or Adobe Campaign where they would be sent an email listing the cart contents. They could also be fed into Adobe Advertising Cloud to be targeted with ads promoting the products in the cart in a technique made famous by Amazon.
+
+Additionally, the same cart data can be fed into Tableau, Domo or Power BI for reporting and analytics, as AEP integrates directly with the market-leading BI tools. If the visitor subsequently returns to the site and actually finishes their purchase then that engagement would also be recorded by Adobe Analytics and can be fed into Marketo by AEP to close the loop on the successful conversion as well as into Microsoft Dynamics to update the contact's purchase history information in the all-important CRM and ERP systems.
+
+This is an example most relevant to B2C, but the same tactics could equally be applied to B2B user journeys. Software companies tracking product usage through Adobe Analytics could push users struggling with their products into a product training nurture that illustrates the capability of the purchased product and key features that the user has missed. Adobe already do this for Creative Cloud customers. The shopping cart scenario can be reworked for a B2B content experience. If a visitor visits your site but refuses to fill in a form or sign-up for an event, then retarget them with a lower value piece of ungated content through LinkedIn, Google Ads or Adobe Ad Cloud.
+
+### Personalised Experiences
+
+Adapting the highly streamlined and heavily optimised B2C buying experience to Account Based Marketing and demand generation is the core of Adobe's pitch to B2B marketers. Adobe Experience Platform is the technology designed to make it happen. In both cases, the audience is looking for one to one personalisation that provides the information needed to make a purchasing decision, while ensuring that barriers to closing the deal are kept as low as possible. From the marketers perspective, an adaptive customer journey that eliminates dead-ends and irrelevant distractions will keep the audience engaged for as long as possible.
+
+As any salesperson will testify, the attention span of a key decision maker is short due to the competing demands placed upon them by their roles. A single view of the customer comprising everything known about them and their previous interactions keeps the sales conversation relevant and the marketing engagements highly personalised, maximising the limited time a business has in front of their prospects. By bringing CDPs into B2B, both Oracle and Adobe are placing the power to personalise the entire sales funnel at scale from top to bottom in the hands of marketing teams. As with all technology, the challenge is then to make the most effective use of it.
+
+_Written by Alan Chatfield – Senior Digital Marketing Strategist, CRMT_
