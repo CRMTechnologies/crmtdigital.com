@@ -1,11 +1,10 @@
 +++
 author = "Alan Chatfield"
 banner_type = "none"
-date = ""
+date = "2019-10-02 11:24:43"
 description = "Granular personalisation has become a basic expectation, just as the big data explosion opens up new possibilities for targeting that didn't exist previously. "
-draft = true
 heading = ""
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/blond-hair-casual-colors-3009324.jpg"
 keywords = ["Personalisation", "Intent", "Data"]
 resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "button"
