@@ -7,6 +7,7 @@ contact_type = "button"
 content_type = "Datasheet"
 cta = "Read more"
 cta_image = "https://www.crmtechnologies.com/sites/default/files/CRMT_Smartassist_Marketo.png"
+date = "2015-10-08T16:12:29+00:00"
 description = "Discover how CRMT's SmartAssist services supports your marketing automation strategy in Adobe Marketo. Find out more."
 gated = false
 heading = "Maximise your Marketo investment with SmartAssist"
