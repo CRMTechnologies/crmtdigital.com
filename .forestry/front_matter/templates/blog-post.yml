@@ -76,3 +76,5 @@ fields:
 - type: datetime
   name: date
   label: Publication Date
+pages:
+- content/insights/gdpr-is-here-what-next-for-marketers.md
