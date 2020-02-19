@@ -3,7 +3,6 @@ languageCode = "en-gb"
 title = "CRM Technologies"
 description = "The marketing operations experts."
 preserveTaxonomyNames = true
-disableKinds = ["taxonomyTerm"]
 [permalinks]
   post = "/:title/"
   who-we-work-with = "/customers/:slug"
