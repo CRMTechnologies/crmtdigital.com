@@ -7,7 +7,8 @@ keywords:
 - Demand Center
 
 tags:
-- Demand Center"
+- Demand Center
+
 banner_type: "none"
 
 show_contact: "form"
