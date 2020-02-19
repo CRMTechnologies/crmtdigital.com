@@ -100,5 +100,19 @@ fields:
       file: 
       path: 
   label: 'Page: Contact Module Type'
+- name: date
+  type: datetime
+  label: Publication Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Optional: Adds content to the topic pages'
 pages:
 - content/excellence-hub/case-study-f5-takes-marketing-automation-to-the-fast-lane-with-crm-technologies.md
