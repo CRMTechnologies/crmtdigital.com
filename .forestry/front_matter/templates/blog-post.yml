@@ -76,3 +76,8 @@ fields:
 - type: datetime
   name: date
   label: Publication Date
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Optional: Add Content to Topic Pages'
