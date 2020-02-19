@@ -12,6 +12,7 @@ gated = true
 heading = "The definitive guide to developing today's modern demand center"
 image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B0144274a-c096-4a10-9e19-6265aa739e46%7D_LP-MOP-EM5.jpg"
 keywords = ["Demand Centers"]
+tags = ["Demand Center"]
 subheading = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Developing-a-Demand-Center_1.png"
 title = "Developing a Demand Center: Essential Considerations and Key Benefits"
