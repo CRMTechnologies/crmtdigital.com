@@ -1,6 +1,6 @@
 +++
 asset_link = "https://www.slideshare.net/slideshow/embed_code/key/MRGFUiLQRSMmYQ"
-banner_type = "none"
+banner_type = "highlight"
 card_subtitle = "The Best of Friends"
 card_title = "Marketing and IT:"
 content_type = "Slideshare"
@@ -15,7 +15,7 @@ image = "https://www.crmtechnologies.com/sites/default/files/shutterstock_154020
 keywords = []
 resource = "what-the-future-holds-for-marketing-operations.md"
 show_contact = "form"
-subheading = ""
+subheading = "Discover how Marketing and IT can be brought together with a single purpose."
 tags = ["Marketing"]
 testimonial = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---Marketing-and-IT-The-best-of-friends.png"
