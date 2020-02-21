@@ -8,18 +8,6 @@ fields:
 - type: textarea
   name: description
   label: description
-- type: text
-  name: banner_type
-  label: banner_type
-- type: text
-  name: heading
-  label: heading
-- type: text
-  name: subheading
-  label: subheading
-- type: file
-  name: image
-  label: image
 - type: boolean
   name: statWidget
   label: statWidget
@@ -35,3 +23,8 @@ fields:
 - type: text
   name: resource
   label: resource
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
