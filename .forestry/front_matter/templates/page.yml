@@ -13,18 +13,14 @@ fields:
   config: {}
   template: module-banner
   label: Banner
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
 - type: boolean
   name: statWidget
   label: statWidget
 - type: text
   name: slug
   label: slug
-- type: text
-  name: testimonial
-  label: testimonial
-- type: text
-  name: show_contact
-  label: show_contact
-- type: text
-  name: resource
-  label: resource
