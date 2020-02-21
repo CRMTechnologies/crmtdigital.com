@@ -101,3 +101,5 @@ fields:
     schema:
       format: markdown
   label: Embed Code
+pages:
+- content/excellence-hub/be-an-it-superhero-craft-the-data-strategy-your-business-needs.md
