@@ -3,7 +3,7 @@
 	  <div class="container">
 		{{ if eq .Params.banner_type "none" }}
 			<div class="row">
-				<div class="mb-4 mx-auto px-3"><h1 class="">{{ .Params.heading }}</h1></div>
+				<div class="mb-4 mx-auto px-3"><h1 class="">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1></div>
 			</div>
 		{{ end }}
 		<div class="row">

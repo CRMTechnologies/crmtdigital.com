@@ -3,15 +3,16 @@
 	  <div class="container">
 		{{ if eq .Params.banner_type "none" }}
 			<div class="row">
-				<div class="mb-4 mx-auto px-3"><h1 class="">{{ .Params.heading }}</h1></div>
+				<div class="mb-4 mx-auto px-3"><h1 class="">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1></div>
 			</div>
 		{{ end }}
 		<div class="row">
 			<div id="asset-block" class="col-lg-8">	
 				<article>
 					<p class="intro-text text-left">{{ .Description }}</p>
+					{{ .Content }}
 					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>
-					{{ .Content }}	
+	
 
 					<div class="mt-5 text-center">			
 						<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
