@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-01-21T10:04:35Z
 description = "Discover how Marketing and IT can be brought together with a single purpose."
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/shutterstock_154020680_0.jpg"
 keywords = []
-resource = "excellence-hub/what-the-future-holds-for-marketing-operations.md"
+resource = "what-the-future-holds-for-marketing-operations.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---Marketing-and-IT-The-best-of-friends.png"
 title = "Marketing and IT: The Best of Friends"
 type = "slideshare"
-
+url = "insights/marketing-and-it-best-friends"
 +++
 “Who’s responsible for the web, you or the IT department?”
 
