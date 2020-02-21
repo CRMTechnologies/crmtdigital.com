@@ -18,9 +18,12 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
-- type: boolean
-  name: statWidget
-  label: statWidget
 - type: text
   name: slug
   label: slug
+- type: boolean
+  name: statWidget
+  label: statWidget
+- name: carousel
+  type: boolean
+  label: carousel
