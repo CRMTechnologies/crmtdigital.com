@@ -61,22 +61,6 @@ fields:
   label: 'List: CTA Label'
   description: The label for CTA buttons linking to the asset
   default: Read more
-- name: contact_type
-  type: select
-  default: button
-  config:
-    required: false
-    options:
-    - form
-    - button
-    - banner
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: 'Page: Contact Module Type'
 - name: date
   type: datetime
   label: Publication Date
