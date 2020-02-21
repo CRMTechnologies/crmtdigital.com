@@ -13,7 +13,7 @@ fields:
   label: Meta Keywords
 - name: content_type
   type: select
-  default: []
+  default: Video
   config:
     required: false
     options:
@@ -31,6 +31,7 @@ fields:
       file: 
       path: 
   label: 'Asset: Content Type'
+  hidden: true
 - type: text
   name: asset_link
   label: 'Asset: Direct Download URL'
@@ -114,3 +115,10 @@ fields:
   default: []
   label: Tags
   description: 'Optional: Adds content to the topic pages'
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  hidden: true
+  default: video
