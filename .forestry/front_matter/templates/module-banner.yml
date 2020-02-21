@@ -1,4 +1,37 @@
 ---
 label: 'Module: Banner'
 hide_body: true
-fields: []
+fields:
+- name: banner_type
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - highlight
+    - plain
+    - carousel
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: 'Page: Banner Type'
+  description: In most cases, 'highlight' for pages and resources or 'none' for blog
+    posts and case studies
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Banner Image
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Banner Heading
+- name: subheading
+  type: text
+  config:
+    required: false
+  label: Banner Subheading
