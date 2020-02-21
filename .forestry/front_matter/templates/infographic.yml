@@ -103,3 +103,8 @@ fields:
   label: Type
   hidden: true
   default: infographic
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
