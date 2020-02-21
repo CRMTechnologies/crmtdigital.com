@@ -44,4 +44,3 @@ fields:
     description: Should either be 'square' or blank depending on shape of image.
 pages:
 - data/logos.json
-- data/logos.json

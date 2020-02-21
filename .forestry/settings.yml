@@ -8,8 +8,8 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "**/*"
-  new_doc_ext: ".html"
+  match: "*"
+  new_doc_ext: html
 - type: directory
   path: content/insights
   label: Blog Post
