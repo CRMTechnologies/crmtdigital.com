@@ -61,31 +61,6 @@ fields:
   label: 'List: CTA Label'
   description: The label for CTA buttons linking to the asset
   default: Read more
-- name: banner_type
-  type: select
-  default: highlight
-  config:
-    required: false
-    options:
-    - highlight
-    - plain
-    - carousel
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: 'Page: Banner Type'
-- type: file
-  name: image
-  label: 'Page: Banner Image'
-- type: text
-  name: heading
-  label: 'Page: Banner Heading'
-- type: text
-  name: subheading
-  label: 'Page: Banner Subheading'
 - name: contact_type
   type: select
   default: button
@@ -123,3 +98,8 @@ fields:
   label: Type
   hidden: true
   default: slideshare
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
