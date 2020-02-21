@@ -1,4 +1,4 @@
-	 {{ if eq .Section "what-we-do" }} 	  	  
+	 {{ if in .Permalink "what-we-do" }} 	  	  
 	    <ol class="breadcrumb justify-content-center">
 		<li class="breadcrumb-item {{ if eq .Title "What we do" }}active{{ end }}"><a href="/what-we-do">Overview</a></li>
 		<li class="breadcrumb-item {{ if eq .Title "Marketing Operations Consultancy" }}active{{ end }}"><a href="/what-we-do/marketing-operations">Marketing Operations</a></li>

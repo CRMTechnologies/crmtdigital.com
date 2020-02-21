@@ -2,7 +2,6 @@
 CRMT Website using Hugo
 
 TODO:
-* Sort Favicons
 * Gated Assets in Excellence Hub Template
 * Thank You Page Content for Gated Assets
 * Migrate Images
@@ -12,6 +11,7 @@ MISSING CONTENT:
 * Blog Articles + News Articles
 
 NICE TO HAVE:
+* Tag Pages [Currently Enabled]
 * Other Eloqua Landing Pages
 * Merge Excellence Hub & Insights
 * Custom Highlight Colours
