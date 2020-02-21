@@ -9,14 +9,13 @@ cta = "Read more"
 cta_image = ""
 date = 2016-01-21T09:54:09Z
 description = ""
-draft = true
 gated = false
 heading = "Integration Innovation at McAfee"
 image = ""
 keywords = []
 subheading = ""
 tags = []
-thumbnail = "ttps://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_McAfee_Integration.png"
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_McAfee_Integration.png"
 title = "Integration Innovation at McAfee"
 type = "resource"
 

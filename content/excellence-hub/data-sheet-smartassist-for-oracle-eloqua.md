@@ -9,14 +9,13 @@ cta = "Read more"
 cta_image = ""
 date = 2016-01-21T09:55:50Z
 description = "Discover how CRMT's SmartAssist services supports your marketing automation strategy in Oracle Eloqua. Find out more.\""
-draft = true
 gated = false
 heading = "Maximise your Oracle Eloqua investment with SmartAssist"
-image = ""
+image = "https://www.crmtechnologies.com/themes/tp_theme/images/banners/banner-excellence-hub.jpg"
 keywords = ["Marketing Automation", "Eloqua"]
 subheading = ""
 tags = []
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_SmartAssist_Eloqua.png"
 title = "Data Sheet: CRMT Smartassist for Marketing Automation with Oracle Eloqua"
 type = "resource"
 
