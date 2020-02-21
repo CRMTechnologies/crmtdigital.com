@@ -11,37 +11,11 @@ fields:
 - type: list
   name: keywords
   label: Meta Keywords
-- type: file
-  name: image
-  label: Featured Image
-- name: banner_type
-  type: select
-  default: none
-  config:
-    required: false
-    options:
-    - highlight
-    - plain
-    - carousel
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Banner Type
-- type: text
-  name: heading
-  label: Banner Heading
-  showOnly:
-    field: banner_type
-    value: highlight
-- type: text
-  name: subheading
-  label: Banner Sub-heading
-  showOnly:
-    field: banner_type
-    value: highlight
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
 - name: resource
   type: select
   default: []
