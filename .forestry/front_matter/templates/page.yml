@@ -4,10 +4,15 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: textarea
   name: description
-  label: description
+  label: Description
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
 - type: boolean
   name: statWidget
   label: statWidget
@@ -23,8 +28,3 @@ fields:
 - type: text
   name: resource
   label: resource
-- name: banner
-  type: include
-  config: {}
-  template: module-banner
-  label: Banner
