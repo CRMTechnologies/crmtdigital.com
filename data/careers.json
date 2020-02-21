@@ -1,9 +1,9 @@
 {
   "job": [
     {
-      "role": "Account Executive",
-      "teaser": "We are a looking to recruit an Account Executive to join an established team so we can handle more client managed service campaigns and projects.",
-      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT Client Services Account Executive Job Spec 190514_0.pdf"
+      "role": "Customer Success Manager",
+      "teaser": "You will be responsible for developing existing clients, spotting new business opportunities and maintaining our reputation for outstanding client relationships and first class service delivery.",
+      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT%20Senior%20Customer%20Success%20Manager%20Job%20Spec%20-%20February%202020.pdf"
     },
     {
       "role": "Digital Marketing Specialist",
@@ -11,9 +11,9 @@
       "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT Digital Marketing Specialist Job Spec 180111.pdf"
     },
     {
-      "role": "Customer Success Manager",
-      "teaser": "You will be responsible for developing existing clients, spotting new business opportunities and maintaining our reputation for outstanding client relationships and first class service delivery.",
-      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT%20Senior%20Customer%20Success%20Manager%20Job%20Spec%20-%20February%202020.pdf"
+      "role": "Account Executive",
+      "teaser": "We are a looking to recruit an Account Executive to join an established team so we can handle more client managed service campaigns and projects.",
+      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT Client Services Account Executive Job Spec 190514_0.pdf"
     },
     {
       "role": "Database Analyst",
