@@ -11,47 +11,24 @@ fields:
 - type: list
   name: keywords
   label: Meta Keywords
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Optional: Add Content to Topic Pages'
 - name: banner
   type: include
   config: {}
   template: module-banner
   label: Banner
-- name: resource
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: resources
-      file: 
-      path: 
-  label: Resource CTA
-- name: show_contact
-  type: select
-  default: button
-  config:
-    required: false
-    options:
-    - button
-    - banner
-    - form
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Contact us CTA
 - type: text
   name: author
   label: Article Author
 - type: datetime
   name: date
   label: Publication Date
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: 'Optional: Add Content to Topic Pages'
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
