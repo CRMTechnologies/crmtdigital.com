@@ -9,7 +9,7 @@ image: "https://www.crmtechnologies.com/sites/default/files/CRMT%20Sales%20Insig
 date: 2020-02-13  12:34:49 +0000
 
 thumbnail: "https://www.crmtechnologies.com/sites/default/files/CRMT%20Sales%20Insight%20Engine%20Webinar%20Final%20Deck%282%29.png"
-cta_image: "https://www.crmtechnologies.com/sites/default/files/CRMT%20Sales%20Insight%20Engine%20Webinar%20Final%20Deck%282%29.png"
+cta_image: ""
 cta: "Watch video"
 card_title: "Webinar On Demand: Building a Sales Insight Engine"
 card_subtitle: ""	

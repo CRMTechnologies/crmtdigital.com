@@ -1,22 +1,21 @@
 +++
-asset_link = "http://img.en25.com/Web/CRMTechnologies/%7B8941f90e-53c1-4ee3-9ca6-f8061faaed61%7D_What_the_future_holds_for_Marketing_Operations_V1.pdf"
+asset_link = "https://img.en25.com/Web/CRMTechnologies/%7B8941f90e-53c1-4ee3-9ca6-f8061faaed61%7D_What_the_future_holds_for_Marketing_Operations_V1.pdf"
 banner_type = "highlight"
 card_subtitle = "and what this means for Sales & IT"
 card_title = "What the future holds for Marketing Operations"
 contact_type = "button"
 content_type = "eGuide"
 cta = "Read more"
-cta_image = ""
+cta_image = "https://www.crmtechnologies.com/sites/default/files/What-the-future-holds-for-Marketing-Operations_V1_0.png"
 date = 2015-09-18T09:33:42Z
 description = "What the future holds for Marketing Operations"
-draft = true
 gated = true
 heading = "Prepare your Sales and IT Departments for the Impacts of Marketing Operations "
-image = ""
+image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B39d2587e-e8cd-4199-83e2-9de6aca1f41b%7D_LP-MOP-EM3.jpg"
 keywords = []
 subheading = ""
 tags = ["Sales", "IT"]
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/What-the-future-holds-for-Marketing-Operations_V1.png"
 title = "What the Future Holds for Marketing Operations and What This Means for Sales & IT"
 type = "resource"
 
