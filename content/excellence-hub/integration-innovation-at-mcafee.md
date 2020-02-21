@@ -16,7 +16,7 @@ image = ""
 keywords = []
 subheading = ""
 tags = []
-thumbnail = ""
+thumbnail = "ttps://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_McAfee_Integration.png"
 title = "Integration Innovation at McAfee"
 type = "resource"
 
