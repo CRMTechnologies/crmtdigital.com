@@ -35,3 +35,10 @@ fields:
   config:
     required: false
   label: Banner Subheading
+- name: highlight_colour
+  type: color
+  label: Banner Colour
+  config:
+    required: false
+    color_format: RGB
+  default: rgb(55, 26, 190)
