@@ -1,10 +1,12 @@
-<div class="col-sm-6 col-lg-4 mb-5">
-	<div class="card card-insight">
-		<a href="{{ .RelPermalink }}" rel="prefetch"><img src="{{ with .Params.image }}{{ . }}{{ end }}" class="card-img-top"></img></a>
-		<div class="card-body px-0">	
-			<h6><strong>{{ .Title }}</strong></h6>
-			<p class="meta">{{ .Date.Format "January 02, 2006" }} |  By <span class="text-green">{{ .Params.author | default "CRM Technologies" }}</a></p>
-			<a href="{{ .RelPermalink }}" class="btn btn-split green-btn" >Read more</a>
-		</div>
-	</div>
-</div>
+             <div class="col-sm-6 col-lg-4 mb-5">	
+                <div class="card card-resource">
+                   <div class="card-header bg-light text-center p-0">		
+                     <div class="tag {{ .Params.content_type | urlize }}">{{ .Params.content_type }}</div>
+                     <a href="{{ .RelPermalink }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
+                  </div>   
+                  <div class="card-body bg-mid d-flex align-items-start flex-column mt-auto pt-3 pb-5 px-4">
+                    <h6 class="card-text">{{ .Params.card_title }} <span>{{ .Params.card_subtitle }}</span></h6>
+                   <a href='{{if eq .Params.gated true }}{{ .RelPermalink }}{{ else if eq .Params.content_type "Video" }}{{ .RelPermalink }}{{ else }}{{ .Params.asset_link }}{{ end }}' class="btn btn-split mt-auto green-btn py-2 px-4">{{ .Params.cta }}</a>
+                  </div>     
+                </div>
+              </div>
