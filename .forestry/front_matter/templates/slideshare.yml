@@ -103,5 +103,10 @@ fields:
   config: {}
   template: module-banner
   label: Banner
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
 pages:
 - content/excellence-hub/rethinking-sales-and-marketing-alignment-how-marketing-will-help-close-deals.md
