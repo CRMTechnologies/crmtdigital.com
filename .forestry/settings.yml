@@ -49,6 +49,7 @@ sections:
   exclude: _index.md
   templates:
   - resource
+  - video
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
