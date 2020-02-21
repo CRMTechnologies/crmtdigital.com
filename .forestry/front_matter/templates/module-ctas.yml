@@ -1,4 +1,39 @@
 ---
 label: 'Module: CTAs'
 hide_body: true
-fields: []
+fields:
+- name: testimonial
+  type: text
+  config:
+    required: false
+  label: Testimonial
+  description: Enter name of customer case study that you wish to display on this
+    page.
+- name: resource
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: resources
+      file: 
+      path: 
+  label: Resource CTA
+- name: show_contact
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - button
+    - banner
+    - form
+    - none
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Contact Module CTA
