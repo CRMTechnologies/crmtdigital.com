@@ -1,0 +1,37 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: banner_type
+  label: banner_type
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subheading
+  label: subheading
+- type: file
+  name: image
+  label: image
+- type: boolean
+  name: statWidget
+  label: statWidget
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: testimonial
+  label: testimonial
+- type: text
+  name: show_contact
+  label: show_contact
+- type: text
+  name: resource
+  label: resource
