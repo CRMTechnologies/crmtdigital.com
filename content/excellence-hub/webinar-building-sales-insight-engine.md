@@ -14,6 +14,7 @@ cta: "Watch video"
 card_title: "Webinar On Demand: Building a Sales Insight Engine"
 card_subtitle: ""	
 content_type: "Video"
+type: "video"
 asset_link: "https://www.youtube.com/embed/TELzNt6x1X8"
 
 banner_type: "none"

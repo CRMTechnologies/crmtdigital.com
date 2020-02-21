@@ -1,0 +1,77 @@
+{{ define "main" }}			  
+	<section class="pt-5 pb-50">		
+	  <div class="container">
+		{{ if eq .Params.banner_type "none" }}
+			<div class="row">
+				<div class="mb-4 mx-auto px-3"><h1 class="">{{ .Params.heading }}</h1></div>
+			</div>
+		{{ end }}
+		<div class="row">
+			<div id="asset-block" class="col-lg-6">	
+				<article>
+					<p class="intro-text text-left">{{ .Description }}</p>
+					<div class="my-4 videoWrapper"><iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
+					{{ .Content }}	
+
+					<div class="mt-5 text-center">			
+						<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
+						  <div class="social">
+							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
+							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
+							<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
+						  </div>				
+					</div>					
+				</article>	
+			</div>
+			<div class="col-lg-1 d-none d-lg-block"></div>
+			<div class="col-lg-3 px-0 d-none d-lg-block">
+				<div class="card card-follow">
+				  <div class="card-header">Follow CRMT</div>
+				  <div class="card-body social">
+						<a class="icon-li" href='https://www.linkedin.com/company/crm-technologies' target="_blank">li</a>								
+						<a class="icon-tw" href='https://twitter.com/crmtechnologies' target="_blank">tw</a>	
+						<a class="icon-fb" href="https://www.facebook.com/crmtechnologies" target="_blank">fb</a>
+						<a class="icon-yt" href="https://www.youtube.com/user/CRMTechChannel" target="_blank">yt</a>							
+				  </div>
+				</div>	
+				
+				{{ $related := (where (.Site.RegularPages.Related .) "Section" "excellence-hub") | first 3 }}
+				{{ with $related }}
+				<div class="card card-related">
+				  <div class="card-header">Related Content</div>
+					{{ range . }}
+						<div class="card-body row mx-0">
+							<div class="col-sm-6 pl-0">
+								<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+							</div>
+							<div class="col-sm-6 px-0">
+								<p>{{ .Title }}</p>
+								<a class="btn btn-split green-btn" href="{{ .RelPermalink }}">{{ .Params.cta }}</a>
+							</div>
+						</div>
+					{{ end }}
+				</div>	
+				{{ end }}
+			</div>
+			<style>
+				.videoWrapper {
+					position: relative;
+					padding-bottom: 75%; /* 16:9 */
+					padding-top: 25px;
+					height: 0;
+				}
+				.videoWrapper iframe {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
+			</style>	
+		</div>	
+	  </div>
+	</section>	  
+
+{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
+{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	 
+{{ end }}
