@@ -49,6 +49,8 @@ sections:
   exclude: _index.md
   templates:
   - resource
+  - infographic
+  - slideshare
   - video
 upload_dir: static/img
 public_path: "/img"
