@@ -20,6 +20,10 @@ sections:
   exclude: _index.md
   templates:
   - blog-post
+  - infographic
+  - resource
+  - slideshare
+  - video
 - type: directory
   path: content/who-we-work-with
   label: Case Studies
