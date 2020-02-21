@@ -92,3 +92,12 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
+- name: embed_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Embed Code
