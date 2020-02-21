@@ -114,5 +114,12 @@ fields:
   default: []
   label: Tags
   description: 'Optional: Adds content to the topic pages'
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  hidden: true
+  default: resource
 pages:
 - content/excellence-hub/case-study-f5-takes-marketing-automation-to-the-fast-lane-with-crm-technologies.md
