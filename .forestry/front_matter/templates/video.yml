@@ -38,6 +38,7 @@ fields:
 - name: gated
   type: boolean
   label: 'Asset: Gated'
+  hidden: true
 - type: file
   name: thumbnail
   label: 'Asset: Promo Banner Thumbnail'
