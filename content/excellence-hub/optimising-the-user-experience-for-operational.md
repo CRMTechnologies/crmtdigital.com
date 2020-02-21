@@ -16,6 +16,7 @@ subheading = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Optimising-the-user-experience-for-operational-excellence_0.png"
 title = "Optimising the User Experience for Operational Excellence"
 date = "2016-03-03T16:18:40+00:00"
+type = "resource"
 +++
 Achieving operational excellence begins with optimising the user experience.
 

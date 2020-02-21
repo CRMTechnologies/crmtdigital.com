@@ -17,7 +17,7 @@ heading: Marketing Operations, It's Your Time to Shine
 subheading: ''
 show_contact: button
 date: '2018-04-16T17:11:00.000+00:00'
-
+type: resource
 ---
 Marketing Operations is playing a critical role in the future of global  marketing success. If you're a Marketing Operations leader - this is your time to step up and influence big change.
 

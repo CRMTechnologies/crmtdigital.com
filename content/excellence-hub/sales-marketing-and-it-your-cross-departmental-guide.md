@@ -20,7 +20,7 @@ heading: Align business goals between Sales, Marketing and IT with Marketing Ops
 subheading: ''
 show_contact: button
 date: '2015-09-18 08:30:37'
-
+type: resource
 ---
 Marketing Operations is an important strategic driver, aligning the goals of Marketing, Sales and IT and improving customer insight.
 

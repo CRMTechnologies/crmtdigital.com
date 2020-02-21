@@ -16,7 +16,7 @@ keywords = ["Marketo", "Marketing Automation", "Marketing Ops"]
 subheading = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_Smartassist_Marketo.png"
 title = "Data Sheet: CRM SmartAssist for Marketing Automation with Marketo"
-
+type = "resource"
 +++
 ### Discover how CRMT's SmartAssist services supports your marketing automation strategy
 

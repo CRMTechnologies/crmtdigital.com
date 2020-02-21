@@ -16,7 +16,7 @@ keywords = ""
 subheading = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_F5.png"
 title = "Case Study:  F5 Takes Marketing Automation to The Fast Lane with CRM Technologies"
-
+type = "resource"
 +++
 
 ### "CRMT’s technical skill-set has been an important resource for F5. We are marketers, not technical specialists in CSS, Javascript or coding, so when we see that there is something that needs a more technical approach to improve it, we know we can rely on CRMT."

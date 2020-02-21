@@ -10,7 +10,7 @@
 			<div id="asset-block" class="col-lg-8">	
 				<article>
 					<p class="intro-text text-left">{{ .Description }}</p>
-
+					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>
 					{{ .Content }}	
 
 					<div class="mt-5 text-center">			

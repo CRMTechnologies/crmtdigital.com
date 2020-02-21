@@ -9,7 +9,6 @@ cta = "Read more"
 cta_image = "https://www.crmtechnologies.com/sites/default/files/Slideshare---Rethinking-Sales-and-Marketing-alignment.png"
 date = 2015-11-05T15:52:26Z
 description = "Marketing and Sales alignment is vital if your business is to maximise profits and improve customer service."
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"

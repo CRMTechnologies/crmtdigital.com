@@ -17,6 +17,7 @@ subheading = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Developing-a-Demand-Center_1.png"
 title = "Developing a Demand Center: Essential Considerations and Key Benefits"
 date = "2016-04-07T10:32:40+00:00"
+type = "resource"
 +++
 Successful development of a Demand Center, enables you to react to rapidly changing buyer behaviour and bring agility to your Marketing & Sales organisations.
 
