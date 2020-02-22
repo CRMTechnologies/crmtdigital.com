@@ -6,7 +6,7 @@
                   </div>   
                   <div class="card-body bg-mid d-flex align-items-start flex-column mt-auto pt-3 pb-5 px-4">
                     <h6 class="card-text">{{if .Params.card_title }}{{ .Params.card_title }}{{ else }}{{ .Title }}{{ end }}<span>{{ .Params.card_subtitle }}</span></h6>
-                    <a href='{{if eq .Params.gated true }}{{ .RelPermalink }}{{ else if eq .type "resource" }}{{ .Params.asset_link }}{{ else }}{{ .RelPermalink }}{{ end }}' class="btn btn-split mt-auto green-btn py-2 px-4">{{ .Params.cta | default "Read more" }}</a>
+                    <a href='{{if eq .Params.gated true }}{{ .RelPermalink }}{{ else if eq .Type "resource" }}{{ .Params.asset_link }}{{ else }}{{ .RelPermalink }}{{ end }}' class="btn btn-split mt-auto green-btn py-2 px-4">{{ .Params.cta | default "Read more" }}</a>
                   </div>     
                 </div>
               </div>
