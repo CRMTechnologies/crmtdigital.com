@@ -20,7 +20,7 @@ subheading = ""
 tags = ["Sales"]
 testimonial = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/excellence-hub.png"
-title = " The New Responsibilities of the Sales Director [Driving Business Strategy] "
+title = "The New Responsibilities of the Sales Director [Driving Business Strategy] "
 type = "infographic"
 url = "insights/new-responsibilities-sales-director-driving-business-strategy"
 +++

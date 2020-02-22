@@ -8,21 +8,21 @@ cta = "Read more"
 cta_image = ""
 date = 2016-02-05T15:03:54Z
 description = "The changes in Marketing culture are turning an arcane art into more of a science."
-draft = true
 embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;\" src=\"//www.slideshare.net/slideshow/embed_code/key/23zkitx0CDMkqr\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" width=\"750\" height=\"10530\"> </iframe>"
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/Blog_3.gif"
 keywords = ["Marketing Culture"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic%20-%20Shifting%20your%20Marketing%20culture%20for%20efficient%20global%20strategy%20execution.png"
 title = "Shifting Your Marketing Culture for Efficient Global Strategy Execution"
 type = "infographic"
+url = "insights/shifting-your-marketing-culture-efficient-global-strategy-execution"
 
 +++
 To many non-marketers, Marketing culture is akin to the dark arts. It’s an impression the ideas-driven atmosphere of many marketing agencies hasn’t corrected [until now](http://www.marketingprofs.com/articles/2015/27316/four-steps-to-creating-an-agile-marketing-culture).
