@@ -6,7 +6,8 @@
 	{{ if eq .Params.banner_type "highlight" }}{{ partial "bannerHighlight.html" . }}
 	{{ else if eq .Params.banner_type "plain" }}{{ partial "bannerPlain.html" . }}	
 	{{ else if eq .Params.banner_type "home" }}{{ partial "bannerHomeCarousel" . }}		
-	{{ else if eq .Params.banner_type "none" }}{{ end }}
+	{{ else if eq .Params.banner_type "none" }}
+	{{ else }}{{ partial "bannerHighlight.html" . }}{{ end }}
 	<main> 	
     {{ block "main" . }}{{ end }}
 	</main>

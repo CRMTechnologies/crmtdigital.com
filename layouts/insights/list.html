@@ -1,16 +1,16 @@
-{{ define "main" }}
-	<section class=" pt-5 pb-50">
+{{ define "main" }}	
+	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-                       {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
-                              {{ .Render "li"}}
+                        {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
+                              {{ .Render "summary"}}
                         {{ end }}
 			</div>                        
 			<div class="row justify-content-center">                        
                         {{ template "_internal/pagination.html" . }}
 			</div>
 		</div>		
-	</section>		
+	</section>	
 	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
-	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	
-{{ end }} 
+	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}		
+{{ end }}

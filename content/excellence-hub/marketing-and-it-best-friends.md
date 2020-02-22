@@ -1,6 +1,6 @@
 +++
 asset_link = "https://www.slideshare.net/slideshow/embed_code/key/MRGFUiLQRSMmYQ"
-banner_type = "highlight"
+banner_type = "none"
 card_subtitle = "The Best of Friends"
 card_title = "Marketing and IT:"
 content_type = "Slideshare"
@@ -9,7 +9,7 @@ cta_image = ""
 date = 2016-01-21T10:04:35Z
 description = "Discover how Marketing and IT can be brought together with a single purpose."
 gated = false
-heading = ""
+heading = "Marketing and IT: The Best of Friends"
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://www.crmtechnologies.com/sites/default/files/shutterstock_154020680_0.jpg"
 keywords = []
