@@ -1,0 +1,9 @@
+<div class="card-body row mx-0">
+	<div class="col-sm-6 pl-0">
+		<img src="{{ if eq .Type "resource" }}{{ .Params.thumbnail }}{{ else }}{{ .Params.image }}{{ end }}" alt="{{ .Title }}">
+	</div>
+	<div class="col-sm-6 px-0">
+		<p>{{ .Title }}</p>
+		<a class="btn btn-split green-btn" href="{{ .RelPermalink }}">{{ .Params.cta | default "Read more" }}</a>
+	</div>
+</div>

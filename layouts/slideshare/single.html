@@ -40,15 +40,7 @@
 				<div class="card card-related">
 				  <div class="card-header">Related Content</div>
 					{{ range . }}
-						<div class="card-body row mx-0">
-							<div class="col-sm-6 pl-0">
-								<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-							</div>
-							<div class="col-sm-6 px-0">
-								<p>{{ .Title }}</p>
-								<a class="btn btn-split green-btn" href="{{ .RelPermalink }}">{{ .Params.cta }}</a>
-							</div>
-						</div>
+						{{ partial "cardPost.html" . }}
 					{{ end }}
 				</div>	
 				{{ end }}
