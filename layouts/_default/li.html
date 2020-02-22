@@ -2,7 +2,7 @@
                 <div class="card card-resource">
                    <div class="card-header bg-light text-center p-0">		
                      <div class="tag {{ .Params.content_type | urlize }}">{{ .Params.content_type  | default "Article" }}</div>
-                     <a href="{{ .RelPermalink }}"><img src='{ if (isset .Params "thumbnail" ) }}{{ .Params.thumbnail }}{{ else }}{{ .Params.image }}{{ end }}' alt="{{ .Title }}"></a>
+                     <a href="{{ .RelPermalink }}"><img src='{{ if (isset .Params "thumbnail" ) }}{{ .Params.thumbnail }}{{ else }}{{ .Params.image }}{{ end }}' alt="{{ .Title }}"></a>
                   </div>   
                   <div class="card-body bg-mid d-flex align-items-start flex-column mt-auto pt-3 pb-5 px-4">
                     <h6 class="card-text">{{if .Params.card_title }}{{ .Params.card_title }}{{ else }}{{ .Title }}{{ end }}<span>{{ .Params.card_subtitle }}</span></h6>
