@@ -3,7 +3,7 @@
 	{{ $myColour := string .Params.highlight_colour }}{
 	{{ $myStartColour := (replace $myStartColour ")" "") }}
 	{{ $myEndColour := (replace $myEndColour "rgb(" "") }}	
-{ else }}
+{{ else }}
 	{{ $myEndColour := "16,46,47" }}
 {{ end }}
   <header>
