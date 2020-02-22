@@ -35,7 +35,7 @@
 				  </div>
 				</div>	
 				
-				{{ $related := (where (.Site.RegularPages.Related .) "Section" "excellence-hub") | first 3 }}
+				{{ $related := .Site.RegularPages.Related . | first 3 }}
 				{{ with $related }}
 				<div class="card card-related">
 				  <div class="card-header">Related Content</div>
