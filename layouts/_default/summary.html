@@ -3,7 +3,7 @@
 		<a href="{{ .RelPermalink }}" rel="prefetch"><img src="{{ with .Params.image }}{{ . }}{{ end }}" class="card-img-top"></img></a>
 		<div class="card-body d-flex align-items-start flex-column px-0">	
 			<h6>{{ .Title }}</h2>
-			<p class="meta">{{ .Date.Format "January 02, 2006" }} |  {{ if eq .Type "Posts" }}By <span class="text-green">{{ .Params.author | default "CRM Technologies" }}</span>{{ else }} <span class="text-green">{{ .Params.content_type | default .Type }}</span>{{ end }}</p>
+			<p class="meta">{{ .Date.Format "January 02, 2006" }} |  {{ if eq .Type "insights" }}By <span class="text-green">{{ .Params.author | default "CRM Technologies" }}</span>{{ else }} <span>{{ .Params.content_type | default "Article" }}</span>{{ end }}</p>
 			<a href="{{ .RelPermalink }}" class="btn btn-split green-btn mt-auto" >Read more</a>
 		</div>
 	</div>
