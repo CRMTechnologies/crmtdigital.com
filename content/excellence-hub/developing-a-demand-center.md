@@ -10,6 +10,7 @@ cta_image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7b427bcf
 description = "Download our eGuide to Developing a Demand Center."
 gated = true
 heading = "The definitive guide to developing today's modern demand center"
+highlight_colour = "rgb(239, 126, 25)"
 image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B0144274a-c096-4a10-9e19-6265aa739e46%7D_LP-MOP-EM5.jpg"
 keywords = ["Demand Centers"]
 tags = ["Demand Center"]

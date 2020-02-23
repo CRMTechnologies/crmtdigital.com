@@ -1,8 +1,14 @@
+{{ $myEndColour := "55,26,190" }}
+{{ if .Params.highlight_colour }}
+	{{ $myColour := string .Params.highlight_colour }}{
+	{{ $myStartColour := (replace $myColour ")" "") }}
+	{{ $myEndColour := (replace $myStartColour "rgb(" "") }}	
+{{ end }}
   <header>
-	<div class="jumbotron" style="background-image: linear-gradient(rgba(55,26,190,0.5775),rgba(55,26,190,0.5775)),url('{{ with .Params.image }}{{ . }}{{ end }}')">
+	<div class="jumbotron" style="background-image: linear-gradient(rgba({{ $myEndColour }},0.5775),rgba({{ $myEndColour }},0.4225)),url('{{ with .Params.image }}{{ . }}{{else}}/img/banner-excellence-hub.jpg{{ end }}')">
 	  <div class="banner-content">
-		<h3>{{.Params.heading}}</h3>
-		<p>{{.Params.subheading}}</p>
+		<h3>{{ .Params.heading | default .Title }}</h3>
+		{{ if .Params.subheading }}<p>{{.Params.subheading}}</p>{{ end }}
 	  </div>  	
 	</div>  
   </header> 
