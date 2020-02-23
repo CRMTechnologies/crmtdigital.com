@@ -10,9 +10,9 @@
 	{{ else }}{{ partial "bannerHighlight.html" . }}{{ end }}
 	<main> 	
     {{ block "main" . }}{{ end }}
-	{{ if (isset .Params "testimonial") }}{{ partial "blockQuote.html" . }}{{ end }}
+	{{ if .Params.testimonial }}{{ partial "blockQuote.html" . }}{{ end }}
 	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
-	{{ if (isset .Params "resource") }}{{ partial "blockAsset.html" . }}{{ end }}
+	{{ if .Params.resource }}{{ partial "blockAsset.html" . }}{{ end }}
 	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}		
 	</main>
 	{{ if ne .Params.show_contact "none" }}{{ partial "floatingContactButton.html" . }}{{ end }} 
