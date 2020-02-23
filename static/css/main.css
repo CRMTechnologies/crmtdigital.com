@@ -825,6 +825,9 @@ footer .footer-copyright ul li span {
     padding: 4px 16px 4px 0px;
 }
 
+@media screen and (min-width:1200px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1200px; }
+}
 @media screen and (max-width:1200px){
 		.breadcrumb .breadcrumb-item.active { display: none; }	
 }	
