@@ -17,6 +17,7 @@ content_type: eGuide
 asset_link: http://interact.crmtechnologies.com/sales-marketing-and-it-your-cross-departmental-guide
 banner_type: highlight
 heading: Align business goals between Sales, Marketing and IT with Marketing Ops.
+highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
 date: '2015-09-18 08:30:37'

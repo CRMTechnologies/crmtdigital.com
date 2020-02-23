@@ -16,6 +16,7 @@ content_type: eGuide
 asset_link: http://interact.crmtechnologies.com/successful-execution-of-your-marketing-ops-strategy
 banner_type: highlight
 heading: Embed a collaborative culture shift throughout your business
+highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
 date: '2015-12-18T13:35:53+00:00'

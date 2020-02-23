@@ -15,6 +15,7 @@ content_type: eGuide
 asset_link: http://interact.crmtechnologies.com/a-guide-to-successful-demand-gen-led-marketing
 banner_type: highlight
 heading: Successfully execute demand gen led marketing strategies
+highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
 date: '2015-12-18T13:54:22+00:00'
