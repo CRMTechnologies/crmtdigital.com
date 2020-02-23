@@ -2,8 +2,4 @@
 	{{ partial "navWhatWeDo.html" . }} 	  
 	{{ .Content }}
 	{{ partial "blockPartnerLogos.html" . }}	  
-	{{ partial "blockQuote.html" . }}
-	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
-	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	
-	{{ partial "blockAsset.html" . }}
 {{ end }}

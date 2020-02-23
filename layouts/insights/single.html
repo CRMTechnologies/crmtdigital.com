@@ -51,9 +51,5 @@
 				</div>				
 			</div>
 		</div>		
-	</section>	
-	{{ partial "blockAsset.html" . }}
-
-	{{ if eq .Params.show_contact "banner" }}{{ partial "blockContact.html" . }}{{ end }}
-	{{ if eq .Params.show_contact "form" }}{{ partial "formContact.html" . }}{{ end }}	 
+	</section>	 
 {{ end }}

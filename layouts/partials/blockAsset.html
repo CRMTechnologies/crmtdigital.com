@@ -1,7 +1,6 @@
 {{ $myAsset := string .Params.resource }}
 {{ $myAssetPath := $myAsset }}
 {{if ne .Section "excellence-hub" }}{{ $myAssetPath := (printf "/%s" $myAsset ) }}{{ end }}
-{{ .Section  }}
 {{if ne $myAssetPath "/" }}
   {{ with .Site.GetPage $myAssetPath }} 
     {{if ne .Params.cta_image "" }}
