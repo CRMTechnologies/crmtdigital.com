@@ -1,26 +1,22 @@
 {{ define "main" }}			  
 	<section class="pt-5 pb-50">		
 	  <div class="container">
-		{{ if eq .Params.banner_type "none" }}
-			<div class="row">
-				<div class="mb-4 mx-auto px-3"><h1 class="">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1></div>
-			</div>
-		{{ end }}
 		<div class="row">
 			<div id="asset-block" class="col-lg-8">	
 				<article>
-					<p class="intro-text text-left text-dark">{{ .Description }}</p>
-					{{ .Content }}
-					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>
-	
-
-					<div class="mt-5 text-center">			
-						<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
-						  <div class="social">
+					<header class="clearfix">
+						<h1 class="h2 mb-4">{{.Title}}</h1>		
+						<div class="meta col-7 col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}</div>	
+						<div class="social col-5 col-sm-4 pull-right">
 							<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
 							<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
-							<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
-						  </div>				
+							<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>			
+						</div>											
+					</header>
+					<div class=" mt-4">
+						{{ if (isset .Params "description") }}<p><strong>{{ .Description }}</strong></p>{{ end }}
+					{{ .Content }}
+					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>			
 					</div>					
 				</article>	
 			</div>
