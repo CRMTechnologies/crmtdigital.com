@@ -1,8 +1,9 @@
 {{ define "main" }}
-	<section class=" pt-5 pb-50">
-		<div class="container">
-			<div class="row">	
-				<div id="asset-block" class="col-lg-8">	
+<section class=" pt-5 pb-50">
+	<div class="container">
+		<div class="row">	
+			<div id="asset-block" class="col-lg-8">
+				<article>	
 					<header class="clearfix">
 						<h1 class="h2 mb-3">{{.Title}}</h1>		
 						<div class="meta col-7 col-sm-4 pull-left">{{ .Date.Format "January 02, 2006" }}</div>	
@@ -13,43 +14,44 @@
 						</div>							
 						<div class="meta col-7 col-sm-4 text-sm-center pull-left">By {{ .Params.author | default "CRM Technologies" }}</div>						
 					</header>
-					<article class=" mt-4">
+					<div class=" mt-4">
 						{{ if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}
 						{{ if (isset .Params "image") }}<p class="my-4"><img alt="{{ .Title }}" src="{{ .Params.image }}" style="width: 100%"></p>{{ end }}						
 						{{ .Content }}	
-					</article>	
-				</article> 
-				<div class="col-lg-1 d-none d-lg-block"></div>
-				<div class="col-lg-3 px-0 d-none d-lg-block">
-					<div class="card card-follow">
-					  <div class="card-header">Follow CRMT</div>
-					  <div class="card-body social">
-							<a class="icon-li" href='https://www.linkedin.com/company/crm-technologies' target="_blank">li</a>								
-							<a class="icon-tw" href='https://twitter.com/crmtechnologies' target="_blank">tw</a>	
-							<a class="icon-fb" href="https://www.facebook.com/crmtechnologies" target="_blank">fb</a>
-							<a class="icon-yt" href="https://www.youtube.com/user/CRMTechChannel" target="_blank">yt</a>							
-					  </div>
-					</div>	
-					
-					{{ $related := (where (.Site.RegularPages.Related .) "Section" "insights") | first 3 }}
-					{{ with $related }}
-					<div class="card card-related">
-					  <div class="card-header">Related Posts</div>
-						{{ range . }}
-							<div class="card-body row mx-0">
-								<div class="col-sm-6 pl-0">
-									<img src="{{ .Params.image }}" alt="{{ .Title }}">
-								</div>
-								<div class="col-sm-6 px-0">
-									<p>{{ .Title }}</p>
-									<a class="btn btn-split green-btn" href="{{ .URL }}">Read More</a>
-								</div>
+					</div>
+				</article>
+			</div> 
+			<div class="col-lg-1 d-none d-lg-block"></div>
+			<div class="col-lg-3 px-0 d-none d-lg-block">
+				<div class="card card-follow">
+				  <div class="card-header">Follow CRMT</div>
+				  <div class="card-body social">
+						<a class="icon-li" href='https://www.linkedin.com/company/crm-technologies' target="_blank">li</a>								
+						<a class="icon-tw" href='https://twitter.com/crmtechnologies' target="_blank">tw</a>	
+						<a class="icon-fb" href="https://www.facebook.com/crmtechnologies" target="_blank">fb</a>
+						<a class="icon-yt" href="https://www.youtube.com/user/CRMTechChannel" target="_blank">yt</a>							
+				  </div>
+				</div>	
+
+				{{ $related := (where (.Site.RegularPages.Related .) "Section" "insights") | first 3 }}
+				{{ with $related }}
+				<div class="card card-related">
+				  <div class="card-header">Related Posts</div>
+					{{ range . }}
+						<div class="card-body row mx-0">
+							<div class="col-sm-6 pl-0">
+								<img src="{{ .Params.image }}" alt="{{ .Title }}">
 							</div>
-						{{ end }}
-					</div>	
+							<div class="col-sm-6 px-0">
+								<p>{{ .Title }}</p>
+								<a class="btn btn-split green-btn" href="{{ .URL }}">Read More</a>
+							</div>
+						</div>
 					{{ end }}
-				</div>				
-			</div>
-		</div>		
-	</section>	 
+				</div>	
+				{{ end }}
+			</div>				
+		</div>
+	</div>		
+</section>	 
 {{ end }}
