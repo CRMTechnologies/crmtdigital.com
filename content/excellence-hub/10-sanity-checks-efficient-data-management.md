@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-06-16T15:30:04Z
 description = "Discover ten ways to make data management more efficient, and keep your head while doing so."
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
-keywords = ["Marketing Data", "Data Management"]
-resource = []
+image = "https://www.crmtechnologies.com/sites/default/files/Blogs_0.jpg"
+keywords = ["Marketing Data", "Data Management", "Data Cleanliness"]
+resource = "excellence-hub/my-awesome-guide-to-marketing-automation-success.md"
 show_contact = "form"
 subheading = ""
 tags = ["Data"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---10-sanity-checks-for-efficient-Data-Management.png"
 title = "10 sanity-checks for efficient Data Management"
 type = "slideshare"
-
+url = "insights/10-sanity-checks-efficient-data-management"
 +++
 Marketers know that data is important yet it isn’t always the most appealing aspect of marketing for creative individuals. Everyone knows how important it is, but nobody wants to deal with it. Like it or not, data is crucial, the lifeblood of campaign success or failure. Without it, marketing automation will not deliver awesomeness. Here are ten things you need to remember in order to manage your data efficiently and keep your sanity while doing so.
 

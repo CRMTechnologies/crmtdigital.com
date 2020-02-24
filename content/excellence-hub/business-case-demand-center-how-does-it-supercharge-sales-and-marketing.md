@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-04-07T10:40:38Z
 description = "Demand Centers bring structure, discipline and efficiency to both field and teleservices, to supercharge marketing and sales alignment locally, regionally and globally."
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/blog.jpg"
 keywords = ["Demand Centers"]
 resource = "excellence-hub/developing-a-demand-center.md"
 show_contact = "form"
 subheading = ""
 tags = ["Demand Center"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---The-Business-Case-for-a-Demand-Centre.png"
 title = "The Business Case for a Demand Center -  How Does it Supercharge Sales and Marketing?"
 type = "slideshare"
-
+url = "insights/business-case-demand-center-how-does-it-supercharge-sales-and-marketing"
 +++
 A Demand Center is defined by SiriusDecisions as a “a central or regional hub of shared marketing services, infrastructure and processes that enables organisations to efficiently bring programmes to market by leveraging key corporate assets and best practices”.
 

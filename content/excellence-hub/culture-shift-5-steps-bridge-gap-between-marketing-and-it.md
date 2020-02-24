@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-05-25T15:43:50Z
 description = "Marketing Operations must drive a culture shift and bridge the Marketing/IT divide in order to drive growth across your business."
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/Blog_1.jpg"
 keywords = []
 resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---Culture-shift.png"
 title = "Culture Shift: 5 Steps to Bridge the Gap Between Marketing and IT"
 type = "slideshare"
-
+utl = "insights/culture-shift-5-steps-bridge-gap-between-marketing-and-it"
 +++
 Marketing Operations bridge the left/right brain divide and bring an enhanced level of effectiveness into your business by combining IT and marketing functions in one dedicated team. Bringing these two previously separate disciplines together requires a cultural shift - silos must be broken down and all aspects of the business, including Sales, must be brought into play. The reward for driving such a culture change across your organisation is an enhanced understanding of the customer, increased clarity of metrics and, ultimately, business growth. Find out how Marketing Operations can be enabled through driving cultural change across your business in the SlideShare below.
 
