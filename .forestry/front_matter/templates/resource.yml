@@ -11,6 +11,11 @@ fields:
 - type: list
   name: keywords
   label: Meta Keywords
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
 - name: content_type
   type: select
   default: []
@@ -41,6 +46,11 @@ fields:
   name: thumbnail
   label: 'Asset: Promo Banner Thumbnail'
   description: A large thumbail for use on promo banners on other pages.
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Optional: Adds content to the topic pages'
 - type: file
   name: cta_image
   label: 'List: Thumbnail Image'
@@ -59,47 +69,11 @@ fields:
   label: 'List: CTA Label'
   description: The label for CTA buttons linking to the asset
   default: Read more
-- name: banner_type
-  type: select
-  default: highlight
-  config:
-    required: false
-    options:
-    - highlight
-    - plain
-    - carousel
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: 'Page: Banner Type'
-- type: file
-  name: image
-  label: 'Page: Banner Image'
-- type: text
-  name: heading
-  label: 'Page: Banner Heading'
-- type: text
-  name: subheading
-  label: 'Page: Banner Subheading'
-- name: contact_type
-  type: select
-  default: button
-  config:
-    required: false
-    options:
-    - form
-    - button
-    - banner
-    - none
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: 'Page: Contact Module Type'
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
 - name: date
   type: datetime
   label: Publication Date
@@ -109,11 +83,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: 'Optional: Adds content to the topic pages'
 - name: type
   type: text
   config:
