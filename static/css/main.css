@@ -221,7 +221,7 @@ header .carousel-caption {
     bottom: initial;
     top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 	padding-top: 0px;
 	width: 70%;
 }
@@ -231,7 +231,7 @@ header .jumbotron .banner-content {
     bottom: initial;
     left: 50%;
     top: 76px;	
-    transform: translate(-50%, 50%);
+    transform: translate(-50%);
     padding-top: 0px;
     width: 70%;
     position: absolute;
