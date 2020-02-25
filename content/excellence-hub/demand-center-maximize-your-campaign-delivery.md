@@ -20,7 +20,7 @@ subheading = "Maximize your Campaign Delivery"
 tags = []
 testimonial = ""
 thumbnail = ""
-title = "Demand.Center Maximize your Campaign Delivery"
+title = "Demand.Center Datasheet"
 type = "resource"
 
 +++
