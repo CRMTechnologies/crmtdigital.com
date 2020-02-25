@@ -18,8 +18,8 @@ type: "video"
 asset_link: "https://www.youtube.com/embed/TELzNt6x1X8"
 
 banner_type: "none"
-heading: "Webinar On Demand: Building a Sales Insight Engine"
-subheading: ""
+heading: "Webinar On Demand:"
+subheading: "Building a Sales Insight Engine"
 
 url: "insights/webinar-building-sales-insight-engine"
 show_contact: "button"
