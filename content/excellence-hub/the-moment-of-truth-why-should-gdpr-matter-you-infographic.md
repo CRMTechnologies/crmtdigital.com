@@ -8,22 +8,21 @@ cta = "Read more"
 cta_image = ""
 date = 2017-05-31T11:07:23Z
 description = "Are you marketing to European citizens? If so, GDPR applies to you. GDPR will create a shift in how marketers obtain consent to legally market to prospects and customers, mostly via email, and how they store, document and update consent. Our infographic highlights key facts on GDPR and gives you some quick tips on how to prepare in Marketing."
-draft = true
 embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;\" src=\"//www.slideshare.net/slideshow/embed_code/key/iC4ZdHMuIuQSS\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" width=\"668\" height=\"3488\" frameborder=\"0\"> </iframe>"
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/GDPR-INFG.png"
 keywords = []
 resource = "excellence-hub/10-practical-steps-towards-gdpr-compliance-for-marketers.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/GDPR-INFG-THMB.png"
 title = "The Moment of Truth: Why Should GDPR Matter to You?"
 type = "infographic"
-
+url = "insights/the-moment-of-truth-why-should-gdpr-matter-you-infographic"
 +++
 ## Takeaways:
 
