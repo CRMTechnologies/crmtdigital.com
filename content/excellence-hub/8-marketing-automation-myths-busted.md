@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-12-09T15:36:27Z
 description = "This slideshow debunks 8 common marketing automation myths to move you forward in your marketing operations journey. "
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/8-myths-blog.png"
 keywords = ["Marketing Operations", "Marketing Automation"]
 resource = "excellence-hub/my-awesome-guide-to-marketing-automation-success.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing Automation"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/8-myths-preview.png"
 title = "8 Marketing Automation Myths Busted"
 type = "slideshare"
-
+url = "insights/8-marketing-automation-myths-busted"
 +++
 Marketing Automation is becoming one of the fastest growing, most valuable tools in the Marketing industry. With any technology, new on the scene, comes doubts and misconceptions. We shed the light on 8 common myths to help you unravel the world of marketing automation.
 

@@ -2,28 +2,27 @@
 asset_link = ""
 banner_type = "none"
 card_subtitle = ""
-card_title = " The Hybrid Skills of a Marketing Operations Leader "
+card_title = "The Hybrid Skills of a Marketing Operations Leader "
 content_type = "Infographic"
 cta = "Read more"
 cta_image = ""
 date = 2017-01-17T11:26:56Z
 description = "The rise of the marketing operations professional has come from the increased use of marketing technology and a need for automation expertise, opening a role for someone to master strategy, setup, organization, process and governance. We’ve put together a list of skills we think need to be mastered to become a successful marketing operations leader."
-draft = true
 embed_code = "<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/krvXbfiST9luzM\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen=\"\" width=\"668\" height=\"3987\" frameborder=\"0\"> </iframe>"
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/mops-skills-preview.png"
 keywords = []
 resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing Ops"]
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/MOPS%20SKILLS.png"
 title = "The Hybrid Skills of a Marketing Operations Leader"
 type = "infographic"
-
+url = "insights/hybrid-skills-marketing-operations-leader"
 +++
 ## Takeaways:
 

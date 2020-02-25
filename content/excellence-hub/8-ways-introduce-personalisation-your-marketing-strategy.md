@@ -8,21 +8,20 @@ cta = "Read more"
 cta_image = ""
 date = 2016-07-14T09:00:00Z
 description = "This slideshow offers 8 easy ways to introduce personalisation into your marketing approach. "
-draft = true
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/Blogs.jpg"
 keywords = ["Personalisation", "CMO", "Marketing Strategy"]
 resource = "excellence-hub/my-awesome-guide-to-the-future-of-marketing-automation.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---8-ways-to-introduce-personalisation-into-your-marketing-strategy_V2.png"
 title = "8 ways to introduce personalisation into your marketing strategy"
 type = "slideshare"
-
+url = "insights/8-ways-introduce-personalisation-your-marketing-strategy"
 +++
 Personalising enables modern marketers to create highly engaging customer experiences that have continuously proven to generate higher conversion rates and improved lead generation. Yet many of today’s marketers are still only using basic forms of personalisation in their campaigns, a stock email with a category field, whilst a survey on marketing messages conducted by Lyris revealed that 63% of consumers report this no longer has an impact due to the volume of emails they receive.
 
