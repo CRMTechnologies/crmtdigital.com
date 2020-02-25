@@ -92,3 +92,5 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
+pages:
+- content/excellence-hub/customer-testimonial-alexandre-papillaud.md
