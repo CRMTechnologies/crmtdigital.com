@@ -15,8 +15,8 @@
 					</header>
 					<div class=" mt-4">
 						{{ if (isset .Params "description") }}<p><strong>{{ .Description }}</strong></p>{{ end }}
-					{{ .Content }}
-					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>			
+					<div class="my-4">{{ .Params.embed_code | safeHTML }}</div>	
+					{{ .Content }}					
 					</div>					
 				</article>	
 			</div>

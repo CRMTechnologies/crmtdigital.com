@@ -7,7 +7,7 @@ content_type = "Infographic"
 cta = "Read more"
 cta_image = ""
 date = 2017-01-17T11:26:56Z
-description = "The rise of the marketing operations professional has come from the increased use of marketing technology and a need for automation expertise, opening a role for someone to master strategy, setup, organization, process and governance. We’ve put together a list of skills we think need to be mastered to become a successful marketing operations leader."
+description = "The rise of the marketing operations professional has come from the increased use of marketing technology and a need for automation expertise, opening a role for someone to master strategy, setup, organization, process and governance."
 embed_code = "<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/krvXbfiST9luzM\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen=\"\" width=\"668\" height=\"3987\" frameborder=\"0\"> </iframe>"
 gated = false
 heading = ""
@@ -24,6 +24,8 @@ title = "The Hybrid Skills of a Marketing Operations Leader"
 type = "infographic"
 url = "insights/hybrid-skills-marketing-operations-leader"
 +++
+We’ve put together a list of skills we think need to be mastered to become a successful marketing operations leader.
+
 ## Takeaways:
 
 * Execute like a scientist. Be a leader in gathering, analysing and governing data to help marketing teams reach marketing goals aligned with sales to drive growth.
