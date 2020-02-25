@@ -221,7 +221,7 @@ header .carousel-caption {
     bottom: initial;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 	padding-top: 0px;
 	width: 70%;
 }
@@ -237,7 +237,7 @@ header .jumbotron .banner-content {
     position: absolute;
     text-align: center;
 }
-header .jumbotron.banner-asset .banner-content { top: 38px; }
+header .jumbotron.banner-asset .banner-content { top: calc( 50% + 38px); }
 header .carousel-inner a.btn, header .jumbotron a.btn { color: #fff; }
 header .carousel-inner a.btn::after, header .carousel-inner a.btn::before { background: #371abe; }
 header .jumbotron a.btn::after, header .jumbotron a.btn::before { background: #371abe; }
