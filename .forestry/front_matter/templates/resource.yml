@@ -91,6 +91,7 @@ fields:
   hidden: true
   default: resource
 pages:
+- content/excellence-hub/10-practical-steps-towards-gdpr-compliance-for-marketers.md
 - content/excellence-hub/case-study-f5-takes-marketing-automation-to-the-fast-lane-with-crm-technologies.md
 - content/excellence-hub/crmt-integration-services-guide-marketing-automation-crm.md
 - content/excellence-hub/crmt-services-guide.md
