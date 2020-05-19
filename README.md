@@ -12,7 +12,7 @@ MISSING CONTENT:
 * Blog Articles + News Articles
 
 NICE TO HAVE:
-* Native Menus
+* Native Menus using Hugo
 * Filters on Insights
 * Tag Pages [Currently Enabled]
 * Other Eloqua Landing Pages
