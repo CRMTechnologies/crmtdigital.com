@@ -1,14 +1,14 @@
 # crmtdigital.com
 CRMT Website using Hugo
 
-TODO:
-* Thank You Page Content for Gated Assets [Currently uses Eloqua TYPs]
-* Contact Form repost to Eloqua
-* Migrate Images
-
 MISSING CONTENT:
 * Correct F5 Logo
 * Blog Articles + News Articles
+
+TODO:
+* Thank You Page Content for Gated Assets [Currently uses Eloqua TYPs]
+* Contact Form repost to Eloqua [Sends Email]
+* Migrate Images
 
 NICE TO HAVE:
 * Native Menus using Hugo
