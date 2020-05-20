@@ -1,5 +1,5 @@
 +++
-asset_link = "http://interact.crmtechnologies.com/my-awesome-guide-to-marketing-automation-success"
+asset_link = "https://img.en25.com/Web/CRMTechnologies/%7B4d0a2eac-4422-4f3c-8bea-c1fd7a8c58a5%7D_MA_-_marketing_automation_success.pdf"
 banner_type = "highlight"
 card_subtitle = "Marketing Automation Success"
 card_title = "My Awesome Guide to:"
@@ -9,7 +9,7 @@ cta = "Download now!"
 cta_image = "https://www.crmtechnologies.com/sites/default/files/MA---marketing-automation-success.png"
 date = 2016-06-16T15:37:36Z
 description = "Move from setting out on your marketing automation journey to transforming into marketing awesomeness with this free eGuide."
-gated = false
+gated = true
 heading = "Your Step-by-step Guide From Marketing Automation to Marketing Awesome"
 highlight_colour = "rgb(249, 0, 94)"
 image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B1fdf9864-2cc9-43e9-96bb-39e02571eab3%7D_LP-MA-EM1.jpg"
