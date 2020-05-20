@@ -4,7 +4,7 @@
 			<div class="row">
 			{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "posts")) }}
 			{{ $paginator := .Paginate $pages 12 }}	
-                        {{ range sort $paginator.Pages "publishDate" "desc" }}
+                        {{ range sort $paginator.Pages "date" "desc" }}
                               {{ .Render "summary"}}
                         {{ end }}
 			</div>                        
