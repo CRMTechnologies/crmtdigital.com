@@ -1,5 +1,5 @@
 +++
-asset_link = "http://interact.crmtechnologies.com/developing-a-demand-center"
+asset_link = "http://img.en25.com/Web/CRMTechnologies/%7B05055617-d443-40a1-b7df-8417d9f063ea%7D_Developing_a_Demand_Center.pdf"
 banner_type = "highlight"
 card_subtitle = "Essential Considerations and Key Benefits"
 card_title = "Developing a Demand Center:"
