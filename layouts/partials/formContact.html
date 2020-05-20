@@ -5,7 +5,7 @@
 		<h2>Get in Touch</h2>
 	  </div>
 	</div>
-	<form id="formContact" action="https://s1010.t.eloqua.com/e/f2" method="post"> 
+	<form id="formContact" action="/thank-you" method="post" data-netlify="true"> 
       <input type="hidden" name="elqFormName" value="19contactus">
       <input type="hidden" name="elqSiteID" value="1010">
       <input type="hidden" name="elqCustomerGUID" value="">
@@ -45,7 +45,7 @@
 	</form>  
   </div>
 </section>
-<!--script type='text/javascript'>
+<script type='text/javascript'>
 var elqTimerId = null, timeout = 5;
 
 function WaitUntilCustomerGUIDIsRetrieved() {
@@ -54,7 +54,7 @@ function WaitUntilCustomerGUIDIsRetrieved() {
 			return;
 		}
 		if (typeof this.GetElqCustomerGUID === 'function') {
-			document.forms["19contactus"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
+			document.forms["formContact"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
 			return;
 		}
 		timeout -= 1;
@@ -64,4 +64,4 @@ function WaitUntilCustomerGUIDIsRetrieved() {
 }
 window.onload = WaitUntilCustomerGUIDIsRetrieved;
 _elqQ.push(['elqGetCustomerGUID']);
-</script-->
+</script>
