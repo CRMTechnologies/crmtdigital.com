@@ -146,7 +146,9 @@ body .body-container .main-group .form {
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script>
 var emailAddress =  "";
-var asset = window.location.pathname;  
+var asset = window.location.pathname; 
+asset = asset.replace("/excellence-hub/","");
+asset = asset.replace("/","");
   
 var iFrameDetection = (window === window.parent) ? false : true;
 
