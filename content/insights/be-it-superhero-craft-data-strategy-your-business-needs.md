@@ -12,7 +12,7 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/Infographic---Be-an-IT-superhero_0.png"
+image = "https://www.crmtechnologies.com/sites/default/files/Blog_0.gif"
 keywords = ["Data", "Marketing Operations"]
 resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.md"
 show_contact = "form"
