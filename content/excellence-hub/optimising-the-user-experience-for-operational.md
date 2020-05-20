@@ -1,5 +1,5 @@
 +++
-asset_link = "http://interact.crmtechnologies.com/optimising-the-user-experience-for-operational"
+asset_link = "https://img.en25.com/Web/CRMTechnologies/%7Bba048b92-55f8-4f5a-84aa-fa6620c7bdc3%7D_Optimising_the_user_experience_for_operational_excellence.pdf"
 banner_type = "highlight"
 card_subtitle = "for operational excellence"
 card_title = "Optimising the user experience"
