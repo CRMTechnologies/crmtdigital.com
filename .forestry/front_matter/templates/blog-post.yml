@@ -32,3 +32,9 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Permalink
+  description: Do not include website domain. Start URL with path (i.e. insights/)
