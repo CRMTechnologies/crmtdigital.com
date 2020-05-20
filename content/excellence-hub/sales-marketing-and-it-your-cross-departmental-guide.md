@@ -14,6 +14,7 @@ cta: Read More
 card_title: 'Sales, Marketing and IT: '
 card_subtitle: Your cross departmental guide to designing a Marketing Operations strategy
 content_type: eGuide
+gated: true
 asset_link: http://interact.crmtechnologies.com/sales-marketing-and-it-your-cross-departmental-guide
 banner_type: highlight
 heading: Align business goals between Sales, Marketing and IT with Marketing Ops.
