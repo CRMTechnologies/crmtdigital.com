@@ -1,5 +1,5 @@
 +++
-asset_link = "http://interact.crmtechnologies.com/my-awesome-guide-to-the-future-of-marketing-automation"
+asset_link = "https://img.en25.com/Web/CRMTechnologies/%7Bcc4fa6a3-1174-42bb-88cc-4053e7b52eda%7D_My_Awesome_Guide_to_the_Future_of_Marketing_Automation.pdf"
 banner_type = "highlight"
 card_subtitle = "The Future of Marketing Automation"
 card_title = "My Awesome Guide to:"
@@ -9,7 +9,7 @@ cta = "Download now!"
 cta_image = "https://www.crmtechnologies.com/sites/default/files/My-Awesome-Guide-to-the-Future-of-Marketing-Automation_1.png"
 date = 2016-06-27T13:47:31Z
 description = "Our step-by-step guide takes you right the way from your very first steps in adopting marketing automation through to transforming your department and delivering the goods to sales."
-gated = false
+gated = true
 heading = "Discover the future of marketing automation with your awesome guide"
 highlight_colour = "rgb(249, 0, 94)"
 image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bdfc28698-cede-4cfa-bd33-e984f0d1c3da%7D_LP-MA-EM5.jpg"
