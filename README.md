@@ -2,8 +2,7 @@
 CRMT Website using Hugo
 
 TODO:
-* Gated Assets in Excellence Hub Template
-* Thank You Page Content for Gated Assets
+* Thank You Page Content for Gated Assets [Currently uses Eloqua TYPs]
 * Contact Form repost to Eloqua
 * Migrate Images
 
