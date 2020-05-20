@@ -2,7 +2,8 @@
 	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-                        {{ range (.Paginator 12).Pages.ByPublishDate.Reverse }}
+			{{ $pages := (where .Pages "Type" "in" ["video","slideshare","posts"]) }}	
+                        {{ range (.Paginator 12) $pages.Pages.ByPublishDate.Reverse }}
                               {{ .Render "summary"}}
                         {{ end }}
 			</div>                        
