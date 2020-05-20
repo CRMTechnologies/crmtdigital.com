@@ -1,5 +1,5 @@
 +++
-asset_link = "http://interact.crmtechnologies.com/10-practical-steps-towards-GDPR-compliance-for-marketers"
+asset_link = "https://img.en25.com/Web/CRMTechnologies/%7B8e2aaba6-f914-482e-a2d3-dd130b440c28%7D_GDPR-EGUIDE-V2.pdf"
 banner_type = "highlight"
 card_subtitle = ""
 card_title = "10 Practical Steps Towards GDPR Compliance"
