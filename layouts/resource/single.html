@@ -21,7 +21,7 @@
 			<div class="offset-lg-1 col-lg-5 text-center ">			
 				<div class="bg-blue mt-4 pt-4 pb-5 mt-lg-1">
 					<p class="h5 pb-3 pt-1">Download our free {{.Params.content_type}}!</p>
-		{{ if eq .Params.banner_type "none" }}
+		{{if eq .Params.gated true }}
 			{{ partial "formAsset.html" . }}		
 		{{ else }}					
 					<a href="{{ .Params.asset_link }}"><img src="{{ if .Params.cta_image }}{{ .Params.cta_image }}{{ else }}{{ .Params.thumbnail }}{{ end }}" alt="{{ .Title }}"></a>
