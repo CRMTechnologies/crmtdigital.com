@@ -8,7 +8,12 @@
 		{{ end }}
 		<div class="row">
 			<article class="col-lg-6">	
-				{{ .Content }}	
+				{{ .Content }}
+		{{if eq .Params.gated true }}				
+			<div class="mt-5 col-lg-6">
+				<img src="{{ if .Params.cta_image }}{{ .Params.cta_image }}{{ else }}{{ .Params.thumbnail }}{{ end }}" alt="{{ .Title }}">
+			</div>				
+		{{ end }}
 			<div class="mt-4">			
 				<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
 				  <div class="social">
