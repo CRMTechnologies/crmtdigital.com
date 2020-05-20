@@ -2,7 +2,7 @@
 	<section class=" pt-5 pb-50 mb-5">
 		<div class="container">
 			<div class="row">
-			{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "posts") }}
+			{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "posts")) }}
 			{{ $paginator := .Paginate $pages 12 }}	
                         {{ range sort $paginator.Pages "publishDate" "desc" }}
                               {{ .Render "summary"}}
