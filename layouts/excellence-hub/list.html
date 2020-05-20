@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "infographic" "resource")) }}
-				{{ $paginator := .Paginate $pages 12 }}	
+				{{ $paginator := .Paginate $pages 6 }}	
 				{{ range $paginator.Pages.ByPublishDate.Reverse }}
 					  {{ .Render "li"}}
 				{{ end }}
