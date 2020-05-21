@@ -1,0 +1,88 @@
+{{ define "main" }}		
+<section class=" pt-75 pb-50">	
+  <div class="container">
+	 <div class="row">  
+    <div id="asset-block" class="col text-center">
+{{ $myAsset := string .Params.resource }}
+{{ $myAssetPath := $myAsset }}
+{{if ne .Section "excellence-hub" }}{{ $myAssetPath := (printf "/%s" $myAsset ) }}{{ end }}
+{{if ne $myAssetPath "/" }}
+  {{ with .Site.GetPage $myAssetPath }} 
+		
+		<h2 class="h5 pb-4">Here’s your free download!</h2>
+			  <div class="d-sm-flex row justify-content-center">
+			  <div class="col-sm-5 text-center text-sm-right mb-4">
+				<a class="btn btn-split btn-wide green-btn" href="{{ .Params.asset_link }}" title="Download {{ .Params.content_type | default "Article" }}">Download {{ .Params.content_type | default "Article" }}</a>
+			  </div>
+			  			  
+			  <div class="col-sm-5 text-center text-sm-left mb-4">			  
+				<a class="btn btn-split btn-wide purple-btn" title="Email to a friend" href="mailto:?subject=CRMT {{ .Params.content_type | default "Article" }}&amp;body=Download this useful {{ .Params.content_type | default "Article" }} from CRMT {{ .Permalink }}">Email to a friend</a>
+			  </div>
+			</div>
+      <div class="mt-3">			
+				<p class="pt-2 pb-1 mb-0">Don't forget to share!</p>
+				  <div class="social">
+					<a class="icon-li" href='https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{.Title }}' target="_blank">li</a>								
+					<a class="icon-tw" href='http://twitter.com/share?text={{.Title }}&url={{ .Permalink }}' target="_blank">tw</a>	
+					<a class="icon-fb" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" target="_blank">fb</a>						
+				  </div>				
+			</div>
+ {{ end }} 
+{{ end }}        
+     </div>
+	 </div>
+  </div>
+</section>
+<section class="block-light block-caret pt-75 pb-50">	
+  <div class="container">
+	<div class="row">
+		<div class="col text-center mx-4 mb-4">
+			<h3 class="h5 mb-4">Welcome to a world of Marketing Operations</h3>
+			<p>At CRMT, we believe that Marketing Operations can help you drive collaboration and shared success between Marketing, Sales and IT. An aligned strategy between departments will improve customer insights and transform more leads into sales. Discover how a Marketing Operations strategy will enable you to achieve operations excellence.</p>
+		</div>
+	</div>		
+	 <div class="row justify-content-center">
+	 
+		  <div class="col-sm-6 col-lg-4 mb-5">	
+			<div class="card card-resource">
+			   <div class="card-header no-border text-center pt-0 px-0 pb-0">		
+				 <a href="/how-we-work"><img src="https://img.en25.com/EloquaImages/clients/CRMTechnologies/{79575d60-f132-45df-9bf9-b7e3689f1c59}_{b97b3c20-c70f-44ff-bebb-964e0e4ab7c3}_cta-1.png" style="width:100%"></a>
+			  </div>   
+			  <div class="card-body bg-dark-blue d-flex align-items-center text-center flex-column mt-auto pt-3 pb-5 px-4">
+				<h5 class="card-text text-white">Achieve excellence</h5>
+				<p>Strategise, execute, transform your marketing.</p>
+				<a href="/how-we-work" class="btn btn-split mt-auto green-btn py-2 px-4">Take the tour</a>
+			  </div>     
+			</div>
+		  </div>
+		  
+		  <div class="col-sm-6 col-lg-4 mb-5">	
+			<div class="card card-resource">
+			   <div class="card-header no-border text-center pt-0 px-0 pb-0">		
+				 <a href="/who-we-work-with"><img src="https://img.en25.com/EloquaImages/clients/CRMTechnologies/{962deea2-03f5-4eb5-ab8f-6b0556f0bc54}_{2128388a-862f-4d1f-ba1a-b4cd21af42ca}_cta-2.png" style="width:100%"></a>
+			  </div>   
+			  <div class="card-body bg-dark-blue d-flex align-items-center text-center flex-column mt-auto pt-3 pb-5 px-4">
+				<h5 class="card-text text-white">Customer success</h5>
+				<p>See what we’ve done for others.</p>
+				<a href="/who-we-work-with" class="btn btn-split mt-auto green-btn py-2 px-4">Learn more</a>
+			  </div>     
+			</div>
+		  </div>		  
+		  
+		  <div class="col-sm-6 col-lg-4 mb-5">	
+			<div class="card card-resource">
+			   <div class="card-header no-border  text-center pt-0 px-0 pb-0">		
+				 <a href="/insights"><img src="https://img.en25.com/EloquaImages/clients/CRMTechnologies/{bb4b654a-7aae-424d-9b53-942afe9335e5}_{aaaf7219-5dea-4a45-a225-a1ec5559c419}_cta-3.png" style="width:100%"></a>
+			  </div>   
+			  <div class="card-body bg-dark-blue d-flex align-items-center text-center flex-column mt-auto pt-3 pb-5 px-4">
+				<h5 class="card-text text-white">Insights</h5>
+				<p>Get the latest insights and research.</p>
+				<a href="/insights" class="btn btn-split mt-auto green-btn py-2 px-4">Read now</a>
+			  </div>     
+			</div>
+		  </div>		  
+
+	</div>	
+  </div>
+</section>
+{{ end }}
