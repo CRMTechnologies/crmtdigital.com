@@ -9,7 +9,7 @@
 {{if ne $myAssetPath "/" }}
   {{ with .Site.GetPage $myAssetPath }} 
 		
-		<h2 class="h3 pb-4">Thank you for Downloading our {{ .Params.content_type | default "Article" }}</h2>
+		<h2 class="h3 pb-4">Thank you for downloading our {{ .Params.content_type | default "Article" }}</h2>
 		<p class="intro-text">Here’s your free download!</p>
 			  <div class="d-sm-flex row justify-content-center">
 			  <div class="col-sm-5 text-center text-sm-right mb-4">
