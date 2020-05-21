@@ -2,7 +2,6 @@
 CRMT Website using Hugo
 
 MISSING CONTENT:
-* Correct F5 Logo
 * Blog Articles + News Articles
 * Google Tag Manager
 
@@ -12,10 +11,9 @@ TODO:
 * Migrate Images
 
 NICE TO HAVE:
-* Native Menus using Hugo
 * Preference Centre
-* Filters on Insights
 * Tag Pages [Currently Enabled]
 * Other Eloqua Landing Pages
 * Merge Excellence Hub & Insights
-* Custom Highlight Colours
+* Native Menus using Hugo
+* Filters on Insights
