@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body {{ if eq .Params.banner_type "none" }}class="no-banner"{{ end }}>
+  <body class="eupopup eupopup-bottom{{ if eq .Params.banner_type "none" }} no-banner{{ end }}">
     {{ partial "nav" . }}
 	{{ if eq .Params.banner_type "highlight" }}{{ partial "bannerHighlight.html" . }}
 	{{ else if eq .Params.banner_type "plain" }}{{ partial "bannerPlain.html" . }}	
