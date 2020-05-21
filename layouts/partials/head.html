@@ -15,7 +15,7 @@
 	{{ if .Params.carousel }}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />{{ end }}
 	<!-- Custom styles -->
 	<link href="/css/main.css" rel="stylesheet">
-	<link href="/css/statWidget.css" rel="stylesheet">
+	{{ if .Params.statWidget }}<link href="/css/statWidget.css" rel="stylesheet">{{ end }}	
 	<link href="/css/cookies.css" rel="stylesheet">
 	
 	<!-- Favicons -->
