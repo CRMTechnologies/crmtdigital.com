@@ -4,6 +4,7 @@ CRMT Website using Hugo
 MISSING CONTENT:
 * Correct F5 Logo
 * Blog Articles + News Articles
+* Google Tag Manager
 
 TODO:
 * Thank You Page Content for Gated Assets [Currently uses Eloqua TYPs]
