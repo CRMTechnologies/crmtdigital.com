@@ -6,5 +6,5 @@ heading: Successfully execute demand gen led marketing strategies
 highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
-resource: "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
+asset: "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 ---
