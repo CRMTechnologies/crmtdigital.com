@@ -11,7 +11,7 @@
   <header>
 	<div class="jumbotron banner-asset" style="background-image: linear-gradient(rgba(16,46,47,0.5775),rgba(16,46,47,0.4225)),url('{{ with .Params.image }}{{ . }}{{else}}/img/banner-excellence-hub.jpg{{ end }}')">
 	  <div class="banner-content">
-		<h1><span>{{ if .Data.Singular }}Marketing Excellence Hub{{ else }}{{.Params.heading | default .Title }}{{ end }}</span></h1>
+		<h1><span>{{ if .Data.Singular }}{{.Params.heading | default .Title }} Excellence Hub{{ else }}{{.Params.heading | default .Title }}{{ end }}</span></h1>
 		{{ if .Data.Singular }}<p><span>Move towards marketing excellence with the actionable insights contained in our free resources.</span></p>{{ else if .Params.subheading }}<p><span>{{.Params.subheading}}</span></p>{{ end }}
 	  </div>  	
 	</div>  
