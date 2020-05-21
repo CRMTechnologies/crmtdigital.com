@@ -9,7 +9,8 @@
 {{if ne $myAssetPath "/" }}
   {{ with .Site.GetPage $myAssetPath }} 
 		
-		<h2 class="h5 pb-4">Here’s your free download!</h2>
+		<h2 class="h3 pb-4">Thank you for Downloading our {{ .Params.content_type | default "Article" }}</h2>
+		<p class="intro-text">Here’s your free download!</p>
 			  <div class="d-sm-flex row justify-content-center">
 			  <div class="col-sm-5 text-center text-sm-right mb-4">
 				<a class="btn btn-split btn-wide green-btn" href="{{ .Params.asset_link }}" title="Download {{ .Params.content_type | default "Article" }}">Download {{ .Params.content_type | default "Article" }}</a>
