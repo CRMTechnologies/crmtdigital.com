@@ -12,7 +12,7 @@ TODO:
 
 NICE TO HAVE:
 * Preference Centre
-* Tag Pages [Currently Enabled]
+* Tag List on Excellence Hub
 * Other Eloqua Landing Pages
 * Merge Excellence Hub & Insights
 * Native Menus using Hugo
