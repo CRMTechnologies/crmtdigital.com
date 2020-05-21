@@ -1,11 +1,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>{{ if .Data.Singular }}{{ .Title }} Excellence Hub{{ else  if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+	<title>{{ if .Data.Singular }}{{ .Title }} Excellence Hub{{ else if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 	<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">	
 	
 	<meta property="og:locale" content="en_GB">
-	<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+	<meta property="og:title" content="{{ if .Data.Singular }}{{ .Title }} Excellence Hub{{ else if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 	<meta property="og:image" content="{{ if .Params.image }}{{.Params.image}}{{ else }}{{.Site.BaseURL}}/img/og-image.png{{ end }}">
 	<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">	
