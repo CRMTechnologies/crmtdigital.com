@@ -7,7 +7,7 @@ MISSING CONTENT:
 * Update Robots.txt
 
 TODO:
-* Thank You Page Content for Gated Assets [Currently uses Eloqua TYPs]
+* Enable TYP Pages for Assets [Eloqua Config]
 * Contact Form repost to Eloqua [Sends Email]
 * Migrate Images
 
