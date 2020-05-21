@@ -3,7 +3,7 @@
   <div class="container">
 	 <div class="row">  
     <div id="asset-block" class="col text-center">
-{{ $myAsset := string .Params.resource }}
+{{ $myAsset := string .Params.asset }}
 {{ $myAssetPath := $myAsset }}
 {{if ne .Section "excellence-hub" }}{{ $myAssetPath := (printf "/%s" $myAsset ) }}{{ end }}
 {{if ne $myAssetPath "/" }}
