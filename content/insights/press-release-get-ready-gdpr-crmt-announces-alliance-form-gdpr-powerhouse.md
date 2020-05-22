@@ -13,5 +13,27 @@ title = "[Press Release] Get Ready for GDPR: CRMT announces alliance to form GDP
 
 +++
 
-<p>CRMT, a leading <a href="https://www.crmtechnologies.com/what-we-do/marketing-operations" target="blank">marketing operations</a> agency and consultancy based in the UK, has partnered with a GDPR expert to help organisations drive compliance initiatives.</p><p>GDPR, which takes effect on 25th May 2018, is the EU General Data Protection Regulation being put in place to protect the data of European citizens for companies marketing to Europe. Non-compliance could mean fines of €20 million or 4% of your total worldwide annual revenue, whichever is higher.</p><p>Many organisations are quickly waking up to the challenges GDPR compliance presents and the need to implement a strategy and make essential tactical changes.</p><p> “More than ever data compliance and how we communicate with our customers and prospects across multiple channels, is becoming crucial, and for Sales and Marketing, GDPR will be a big game changer.” said Andrew Freeman, CEO at CRMT.</p><p>To help companies realise where they are in their compliance journey, Assuredata’s Jim Sneddon has developed a GDPR readiness assessment tool that audits their current state of compliance and risk profile to makes practical recommendations.</p><p>“I am thrilled to work with CRMT to shed the light on the impact of GDPR on businesses and their customers,” said founder of Assuredata and certified EU GDPR practitioner, Jim Sneddon, “The need to plan for GDPR compliance is very much at the forefront for most organisations, and if it’s not, it should be.”</p><p>Learn more about CRMT’s <a href="https://www.crmtechnologies.com/what-we-do/data-privacy" target="blank">GDPR marketing</a> consulting and assessment services.</p><h2>About Jim Sneddon</h2><p>Jim is a security industry veteran of 17 years with a wealth of experience working with organisations helping them to become compliant and secure. He is a Certified Information Systems Security Professional (CISSP) and a Certified EU GDPR Practitioner. Connect with Jim via <a href="https://www.linkedin.com/in/jim-sneddon-8979101/" target="blank">LinkedIn</a> and visit <a href="www.gdpr.direct" target="blank">his website.</a></p><h2>About CRMT</h2><p>CRMT is a hybrid agency combining best-practice consulting, system integration and digital campaign services that’s metric-driven, process-minded and very tech-savvy. We sit plumb between marketing, sales and IT and work with businesses to maximise people and technology to drive marketing effectiveness and efficiency.</p><p><a href="http://finance.yahoo.com/news/ready-gdpr-crmt-announces-alliance-140000214.html" target="blank">Click here</a> to view the live press release.</p>
+CRMT, a leading [marketing operations](https://www.crmtechnologies.com/what-we-do/marketing-operations) agency and consultancy based in the UK, has partnered with a GDPR expert to help organisations drive compliance initiatives.
+
+GDPR, which takes effect on 25th May 2018, is the EU General Data Protection Regulation being put in place to protect the data of European citizens for companies marketing to Europe. Non-compliance could mean fines of €20 million or 4% of your total worldwide annual revenue, whichever is higher.
+
+Many organisations are quickly waking up to the challenges GDPR compliance presents and the need to implement a strategy and make essential tactical changes.
+
+“More than ever data compliance and how we communicate with our customers and prospects across multiple channels, is becoming crucial, and for Sales and Marketing, GDPR will be a big game changer.” said Andrew Freeman, CEO at CRMT.
+
+To help companies realise where they are in their compliance journey, Assuredata’s Jim Sneddon has developed a GDPR readiness assessment tool that audits their current state of compliance and risk profile to makes practical recommendations.
+
+“I am thrilled to work with CRMT to shed the light on the impact of GDPR on businesses and their customers,” said founder of Assuredata and certified EU GDPR practitioner, Jim Sneddon, “The need to plan for GDPR compliance is very much at the forefront for most organisations, and if it’s not, it should be.”
+
+Learn more about CRMT’s [GDPR marketing](https://www.crmtechnologies.com/what-we-do/data-privacy) consulting and assessment services.
+
+## About Jim Sneddon
+
+Jim is a security industry veteran of 17 years with a wealth of experience working with organisations helping them to become compliant and secure. He is a Certified Information Systems Security Professional (CISSP) and a Certified EU GDPR Practitioner. Connect with Jim via [LinkedIn](https://www.linkedin.com/in/jim-sneddon-8979101/) and visit [his website.](www.gdpr.direct)
+
+## About CRMT
+
+CRMT is a hybrid agency combining best-practice consulting, system integration and digital campaign services that’s metric-driven, process-minded and very tech-savvy. We sit plumb between marketing, sales and IT and work with businesses to maximise people and technology to drive marketing effectiveness and efficiency.
+
+[Click here](http://finance.yahoo.com/news/ready-gdpr-crmt-announces-alliance-140000214.html) to view the live press release.
 
