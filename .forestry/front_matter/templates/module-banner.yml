@@ -25,6 +25,7 @@ fields:
   config:
     maxSize: 64
   label: Banner Image
+  description: Also used as list image for blog articles.
 - name: heading
   type: text
   config:
