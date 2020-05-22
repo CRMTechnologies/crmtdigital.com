@@ -43,3 +43,5 @@ The best and most resourceful marketers have taken GDPR as an opportunity to del
 Remember, although sometimes it may feel like it, GDPR hasn't been designed to stop businesses from communicating with their prospects and customers. Quite the opposite, in fact. In our experience, it’s led to an improvement in data quality, a shift in perspective and overall approach to marketing with many of our customers now adopting a truly omni-channel approach.
 
 To sum up, the rules for GDPR compliance are actually quite straightforward – don’t contact someone unless they specifically give you permission or ask to be contacted. Don’t cold contact them, and don’t send them irrelevant information that they didn’t request. Don’t assume they want to hear from you. Simples.
+
+_Written by Joanna Mills – Business Development Director, CRMT_
