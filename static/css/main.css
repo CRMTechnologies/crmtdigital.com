@@ -334,6 +334,8 @@ section.block-light + section#block-quote + section.block-caret::before { border
 #asset-block article h6 { padding-bottom: .5rem; line-height: 1.5em; }
 #asset-block article ul { margin-bottom: 0rem; }
 #asset-block article ul li { margin-bottom: 1rem; }
+#asset-block article p strong, #asset-block article li strong { color: #333; }
+#asset-block article li p { font-size: 1em; }
 #block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
 
 #who-quote p { font-size: 1.5em; line-height: 1.5em; margin: auto; max-width: 475px;}
