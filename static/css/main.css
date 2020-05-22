@@ -334,6 +334,8 @@ section.block-light + section#block-quote + section.block-caret::before { border
 #asset-block article h6 { padding-bottom: .5rem; line-height: 1.5em; }
 #asset-block article ul { margin-bottom: 0rem; }
 #asset-block article ul li { margin-bottom: 1rem; }
+#asset-block article p strong, #asset-block article li strong { color: #333; }
+#asset-block article li p { font-size: 1em; }
 #block-hp-casestudies + section.block-caret::before  { border-top-color: #009FE3; }
 
 #who-quote p { font-size: 1.5em; line-height: 1.5em; margin: auto; max-width: 475px;}
@@ -844,7 +846,7 @@ footer .footer-copyright ul li span {
 		.navbar-collapse.show {	position: absolute; right:0px;width:100%;top:75px;margin: 0px; }
 		.navbar-toggler {outline: none !important;}		
 		.navbar-toggler-icon { height: 1.1em; }
-		body.no-banner .navbar-nav .nav-link {	color: #fff; }	
+		body.no-banner .navbar-nav .nav-link {	color: #fff; }
 		.breadcrumb { display: none; }
 		.card-customer {  border: none; border-radius: 0px; margin-bottom: 1em; margin-left: 2%; margin-right: 2%; height: auto; max-width: 26em;}
 		#block-quote .h3 { font-size: 1.32em; margin: -1em auto;padding: 0px;max-width: 20em; }

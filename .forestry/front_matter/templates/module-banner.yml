@@ -23,18 +23,21 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Banner Image
+  description: Also used as list image for blog articles.
 - name: heading
   type: text
   config:
     required: false
   label: Banner Heading
+  description: Leave blank if banner = none
 - name: subheading
   type: text
   config:
     required: false
   label: Banner Subheading
+  description: Leave blank if banner = none
 - name: highlight_colour
   type: color
   label: Banner Colour
@@ -42,3 +45,4 @@ fields:
     required: false
     color_format: RGB
   default: rgb(55, 26, 190)
+  description: Leave default value if banner = none

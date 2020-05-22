@@ -4,9 +4,9 @@
 {{if ne $myAssetPath "/" }}
   {{ with .Site.GetPage $myAssetPath }} 
     {{if ne .Params.cta_image "" }}
-	<section id="asset-block" class=" block-caret block-blue pt-100">		
+	<section id="asset-block" class=" block-caret block-blue pt-75">		
 	  <div class="container">	
-		<div class="row align-items-lg-end ">
+		<div class="row align-items-lg-center">
 			<div class="col-lg-6 text-center order-lg-last">				
 				<img src="{{ .Params.cta_image }}" alt="{{ .Title }}">
 			</div>		

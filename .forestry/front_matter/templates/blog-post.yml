@@ -36,7 +36,5 @@ fields:
   type: text
   config:
     required: false
-  label: Permalink
-  description: Do not include website domain. Start URL with path (i.e. insights/)
-pages:
-- content/insights/how-our-customers-are-dealing-with-the-gdpr-two-years-on..md
+  label: Slug
+  description: Do not include website domain or path.

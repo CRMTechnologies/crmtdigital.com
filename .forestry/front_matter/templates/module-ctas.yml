@@ -8,7 +8,7 @@ fields:
     required: false
   label: Testimonial
   description: Enter name of customer case study that you wish to display on this
-    page.
+    page. Generally only used on core pages.
 - name: resource
   type: select
   default: []
@@ -21,6 +21,7 @@ fields:
       file: 
       path: 
   label: Resource CTA
+  description: Leave blank for blog posts or resources.
 - name: show_contact
   type: select
   default: []
@@ -37,3 +38,5 @@ fields:
       file: 
       path: 
   label: Contact Module CTA
+  description: Should be 'button' for blog articles or resources. 'Banner' or 'Form'
+    for other pages.
