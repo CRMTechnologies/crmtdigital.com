@@ -2,7 +2,7 @@
 author = "Joanna Mills"
 banner_type = "none"
 date = 2020-05-22T12:00:00Z
-description = "GDPR created the most extensive data protection regulation in the world with big impacts for marketers. What are we seeing now, two years on? "
+description = "GDPR created the most extensive data protection regulation in the world with big impacts on marketing. What are we seeing now, two years on? "
 draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
