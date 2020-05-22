@@ -1,12 +1,11 @@
 +++
 author = "Joanna Mills"
 banner_type = "none"
-date = 2020-05-22T12:00:00Z
+date = 2020-05-22T13:00:00Z
 description = "GDPR created the most extensive data protection regulation in the world with big impacts on marketing. What are we seeing now, two years on? "
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://www.crmtechnologies.com/sites/default/files/GDPR-web-image_0.png"
 keywords = ["GDPR"]
 resource = "excellence-hub/10-practical-steps-towards-gdpr-compliance-for-marketers.md"
 show_contact = "button"
