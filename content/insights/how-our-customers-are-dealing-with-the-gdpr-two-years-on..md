@@ -14,7 +14,7 @@ slug = ""
 subheading = ""
 tags = ["GDPR"]
 testimonial = ""
-title = "How our customers are dealing with the GDPR two years on. "
+title = "How our customers are dealing with the GDPR two years on"
 
 +++
 Almost two years ago, the General Data Protection Regulation (GDPR) came into force in the European Union, creating what many consider to be the most extensive data protection regulation in the world.
