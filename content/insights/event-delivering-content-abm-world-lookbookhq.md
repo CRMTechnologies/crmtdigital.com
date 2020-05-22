@@ -1,15 +1,15 @@
 +++
 author = "Bex Hale"
 banner_type = "none"
-date = 2017-11-20T11:10:00Z
+date = 2017-11-16T13:41:00Z
 description = ""
 heading = ""
-image = "https://www.crmtechnologies.com/sites/default/files/lb-pr-bl.jpg"
-keywords = ["Pathfactory", "Demand Generation"]
+image = "https://www.crmtechnologies.com/sites/default/files/Dec-lbhq-blog.jpg"
+keywords = ["Pathfactory", "ABM"]
 resource = "excellence-hub/my-awesome-guide-to-marketing-automation-success.md"
-show_contact = "form"
+show_contact = "button"
 subheading = ""
-title = "[Press Release] CRMT Announces Strategic Partnership with LookBookHQ"
+title = "[Webinar] Technology Showcase: Delivering Content in an ABM World with LookBookHQ "
 
 +++
 
