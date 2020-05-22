@@ -20,19 +20,19 @@ Almost two years ago, the General Data Protection Regulation (GDPR) came into fo
 
 If we rewind to 2018, most of our clients were frantically trying to become compliant and safeguard as much data as possible, with varying degrees of success, but what are we seeing now, two years on?
 
-### Re-engagement campaigns
+**Re-engagement campaigns**
 
 Some organisations we work with lost 50% + of their pre-GDPR database, and that makes it very clear that every record counts. The objective of a re-engagement campaign is to reach out to leads who were at some point interested in and engaged with your company but have now gone cold and are no longer engaging. The goal of re-engaging leads is to ignite that spark in the relationship once more and encourage your inactive leads to listen what you have to say. This requires great copy, tactful timing of email sends, and continuous research and analysis of both the recipients and their engagement with the emails.
 
-### Consent renewal campaigns
+**Consent renewal campaigns**
 
 GDPR requires businesses to regularly review their consent processes to ensure continued compliance with the legislation. Consent collected under GDPR does not last forever and should be renewed regularly. Similarly, the legitimate interest provisions of GDPR are also time limited. Your legal team will be able to advise the time limits for both consent and legitimate interest (typically 2 years) after which inactive contacts must be deleted from your marketing automation platform. As we approach the two-year mark, many of our clients are looking to build out campaigns to renew consent status and a process to identify and delete affected contacts that need to be deleted if consent is not renewed.
 
-### Archiving and purging data
+**Archiving and purging data**
 
 While it was previously acceptable to hoard old and non-opted in data, GDPR is responsible for eradicating that particular bad practice. Many of our clients have processes setup to constantly monitor data and archive data ready for a quarterly purge process. For those that don’t, with the two-year consent renewal period coming up, a data purge project is looming on the horizon.
 
-### Use of legitimate interest
+**Use of legitimate interest**
 
 This is a tricky one as it’s down to your Legal department to determine if you can make use of legitimate interest. At first, we saw most of our customers adopt a ‘letter of the law’ approach meaning use of legitimate interest was not allowed. However, as time passed, we saw some Legal departments relax this and the use of legitimate interest increase.
 
