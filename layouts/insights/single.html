@@ -15,7 +15,7 @@
 						<div class="meta col-7 col-sm-4 text-sm-center pull-left">By {{ .Params.author | default "CRM Technologies" }}</div>						
 					</header>
 					<div class=" mt-4">
-						{{ if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}
+						{{ if (isset .Params "intro") }}<p><em>{{ .Params.intro }}</em></p>{{ else if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}
 						{{ if (isset .Params "image") }}<p class="my-4"><img alt="{{ .Title }}" src="{{ .Params.image }}" style="width: 100%"></p>{{ end }}						
 						{{ .Content }}	
 					</div>
