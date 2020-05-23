@@ -71,9 +71,9 @@ In his prescient post for Forbes, [5 Ways The Internet Of Things Will Make Marke
 
 **2.**   It will enable smarter CRM: data will be collected at the touchpoint and analysed in real time so that you always know where the customer is on the journey
 
-**3\.   **IoT devices will self-diagnose problems and upgrade software automatically – great for maintaining marketing apps as CRM channels
+**3.**   IoT devices will self-diagnose problems and upgrade software automatically – great for maintaining marketing apps as CRM channels
 
-**4\.   **IoT devices will play an increasingly central role in predictive social media campaigns, automatically generating and sharing posts.
+**4.**   IoT devices will play an increasingly central role in predictive social media campaigns, automatically generating and sharing posts.
 
 But these were just the build-up to the pay-off:
 
