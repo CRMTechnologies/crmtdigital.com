@@ -18,7 +18,7 @@ title = "Technical Training and Your Marketing Budget [What You Need to Know]"
 
 Marketing has changed, and continues to change, at a rapid pace. Marketing technology such as [CRM systems, social media listening tools, analytics tools, data management systems](https://www.crmtechnologies.com/insights/what-marketing-operations-and-what-does-their-data-strategy-mean-your-business) and marketing automation platforms have now become [central to marketecture.](http://www.forbes.com/sites/theopriestley/2015/10/03/the-one-person-the-cmo-cant-live-without/) In fact, [91% of the most successful users say marketing automation is “very important” to the overall success of their marketing programmes](https://www.marketo.com/_assets/uploads/Marketing-Automation-Strategies-for-Sustaining-Success-Ascend2-Marketo.pdf?20150429100716).
 
-The improbable skills gap.
+## The improbable skills gap.
 
 Despite the vital importance of this technology in the marketing landscape, many marketers feel under equipped and underskilled; with only around [48% feeling highly proficient at digital marketing](http://qz.com/132776/marketing-has-changed-more-in-the-past-two-years-than-in-the-past-50/) and [two thirds struggling to keep pace with the changes that affect their industry](http://www.forbes.com/sites/theopriestley/2015/10/03/the-one-person-the-cmo-cant-live-without/). The key to proficiency in this environment lies in acknowledging the fact that marketing now requires a range of [skills that are far too diverse for one single person to encompass](http://www.cmo.com/articles/2013/6/18/the_rise_of_the_mark.html).
 

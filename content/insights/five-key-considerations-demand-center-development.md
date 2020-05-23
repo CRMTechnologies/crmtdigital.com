@@ -4,7 +4,7 @@ banner_type = "none"
 date = 2016-04-21T10:00:00Z
 description = "Building a Demand Center has some challenges. Avoid the pitfalls with this infographic."
 heading = ""
-image = "https://image.slidesharecdn.com/fivekeyconsiderationsindemandcentredevelopmentv2-160406171018/95/five-key-considerations-in-demand-centre-development-1-638.jpg?cb=1459962728"
+image = "https://www.crmtechnologies.com/sites/default/files/Blog_5.gif"
 intro = "Be clear from the start of your journey – the essential dos of implementing a Demand Center."
 keywords = ["Demand Centers"]
 resource = "excellence-hub/developing-a-demand-center.md"

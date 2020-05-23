@@ -2,7 +2,8 @@
 author = "Paul Lee"
 banner_type = "none"
 date = 2016-08-04T09:16:00Z
-description = "Cherry-pick from today’s ground-breaking marketing automation practices and forge ahead with this forward-thinking look at what current trends good do for your engagement and fulfilment strategies"
+description = "It’s time for marketing automation to leave its roots in ‘push’ communications and seize the benefits of predictive data in a personalised world focused on the customer journey"
+intro = "Cherry-pick from today’s ground-breaking marketing automation practices and forge ahead with this forward-thinking look at what current trends good do for your engagement and fulfilment strategies"
 heading = ""
 image = "https://www.crmtechnologies.com/sites/default/files/The-Forward-Thinker%27s-Guide-to-Marketing-Automation.jpg"
 keywords = ["Marketing Automation"]
@@ -70,9 +71,9 @@ In his prescient post for Forbes, [5 Ways The Internet Of Things Will Make Marke
 
 **2.**   It will enable smarter CRM: data will be collected at the touchpoint and analysed in real time so that you always know where the customer is on the journey
 
-**3\.   **IoT devices will self-diagnose problems and upgrade software automatically – great for maintaining marketing apps as CRM channels
+**3.**   IoT devices will self-diagnose problems and upgrade software automatically – great for maintaining marketing apps as CRM channels
 
-**4\.   **IoT devices will play an increasingly central role in predictive social media campaigns, automatically generating and sharing posts.
+**4.**   IoT devices will play an increasingly central role in predictive social media campaigns, automatically generating and sharing posts.
 
 But these were just the build-up to the pay-off:
 

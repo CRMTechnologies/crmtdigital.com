@@ -2,7 +2,8 @@
 author = "Paul Lee"
 banner_type = "none"
 date = 2016-07-26T09:16:00Z
-description = "Take the lead from 10 award winning marketing automation practices and prepare your personalisation, data analysis and mobile engagement strategies for an inspirational future"
+description = "Award winning businesses look to the future with marketing automation practices that deliver results today. Find out how you can follow their lead with intelligent, personalised campaigns."
+intro = "Take the lead from 10 award winning marketing automation practices and prepare your personalisation, data analysis and mobile engagement strategies for an inspirational future"
 heading = ""
 image = "https://www.crmtechnologies.com/sites/default/files/10-Inspirational-Marketing-Automation-Practices.jpg"
 keywords = ["Marketing Automation"]

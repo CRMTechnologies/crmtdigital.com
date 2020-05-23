@@ -2,7 +2,8 @@
 author = "Andrew Freeman"
 banner_type = "none"
 date = 2016-06-30T10:00:00Z
-description = "How healthy is your marketing automation? Find out in our Marketing Automation health check."
+description = "A regular marketing automation health check provides a clear sign as to whether it’s fit and healthy for purpose or an MOT is required!"
+intro="How healthy is your marketing automation? Find out in our Marketing Automation health check."
 heading = ""
 image = "https://www.crmtechnologies.com/sites/default/files/pictures/A-Marketing-Automation-Health-Check-A-Day-Keeps-The-Performance-Doctor-Away.jpg"
 keywords = ["Marketing Automation"]
