@@ -2,7 +2,8 @@
 author = "Andrew Freeman"
 banner_type = "none"
 date = 2016-07-07T09:16:00Z
-description = "Align your sales and marketing through marketing automation"
+description = "Break down silos and ensure Sales and Marketing alignment through marketing automation
+intro = "Align your sales and marketing through marketing automation"
 heading = ""
 image = "https://www.crmtechnologies.com/sites/default/files/pictures/Automate-Your-Way-To-Awesome-Marketing-%26-Sales-Alignment.jpg"
 keywords = ["Marketing Automation","Sales and Marketing Alignment"]

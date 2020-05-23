@@ -2,7 +2,8 @@
 author = "Paul Lee"
 banner_type = "none"
 date = 2016-08-04T09:16:00Z
-description = "Cherry-pick from today’s ground-breaking marketing automation practices and forge ahead with this forward-thinking look at what current trends good do for your engagement and fulfilment strategies"
+description = "It’s time for marketing automation to leave its roots in ‘push’ communications and seize the benefits of predictive data in a personalised world focused on the customer journey"
+intro = "Cherry-pick from today’s ground-breaking marketing automation practices and forge ahead with this forward-thinking look at what current trends good do for your engagement and fulfilment strategies"
 heading = ""
 image = "https://www.crmtechnologies.com/sites/default/files/The-Forward-Thinker%27s-Guide-to-Marketing-Automation.jpg"
 keywords = ["Marketing Automation"]
