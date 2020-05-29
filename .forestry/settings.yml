@@ -56,10 +56,10 @@ sections:
   - infographic
   - slideshare
   - video
-upload_dir: static/img
-public_path: "/img"
-front_matter_path: ''
-use_front_matter_path: false
+upload_dir: ''
+public_path: ''
+front_matter_path: https://img.crmtechnologies.com
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
