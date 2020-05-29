@@ -2,6 +2,10 @@
 <html lang="en">
   {{ partial "head" . }}
   <body class="eupopup eupopup-bottom{{ if eq .Params.banner_type "none" }} no-banner{{ end }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTX37M2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->	  
     {{ partial "nav" . }}
 	{{ if eq .Params.banner_type "highlight" }}{{ partial "bannerHighlight.html" . }}
 	{{ else if eq .Params.banner_type "plain" }}{{ partial "bannerPlain.html" . }}	
