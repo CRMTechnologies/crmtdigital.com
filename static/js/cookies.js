@@ -28,7 +28,7 @@ $.fn.euCookieLawPopup = (function() {
 	///////////////////////////////////////////////////////////////////////////////////////////////
 	// PARAMETERS (MODIFY THIS PART) //////////////////////////////////////////////////////////////
 	_self.params = {
-		cookiePolicyUrl : 'https://www.crmtechnologies.com/content/privacy-policy',
+		cookiePolicyUrl : '/content/privacy-policy',
 		popupPosition : 'top',
 		colorStyle : 'default',
 		compactStyle : false,
