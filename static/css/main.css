@@ -423,9 +423,9 @@ section.block-light + section#block-quote + section.block-caret::before { border
 }
 
 article .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-article .social a.icon-li { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
-article .social a.icon-tw { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
-article .social a.icon-fb { background: #009FE3 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
+article .social a.icon-li { background: #009FE3 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+article .social a.icon-tw { background: #009FE3 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+article .social a.icon-fb { background: #009FE3 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 article .social a:hover {  background-color: #371abe; }
 article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padding: 0px; border-radius: 0px; }
 .card-insight { border: none; border-bottom: 2px solid #0e1d45; border-radius: 0px; height: 100%; }
@@ -469,10 +469,10 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-insight > a:hover .card-img-top { transform: scale(1); }
 .card-insight h6 { color:#333;font-family: "Open Sans",sans-serif; line-height: 1.3em; font-weight: 600;flex-grow: 1;}
 .card-follow .social a { border-radius: 50%; width: 36px; height: 36px; display: inline-block; margin-right: 2%; margin-bottom: 1em; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-.card-follow .social a.icon-li { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
-.card-follow .social a.icon-tw { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
-.card-follow .social a.icon-fb { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
-.card-follow .social a.icon-yt { background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
+.card-follow .social a.icon-li { background: #a1bd17 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -36px top }
+.card-follow .social a.icon-tw { background: #a1bd17 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center; background-position: -0px top; }
+.card-follow .social a.icon-fb { background: #a1bd17 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -72px top; }	
+.card-follow .social a.icon-yt { background: #a1bd17 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/sidebar-social-sprite.png) no-repeat center center;  background-position: -108px top; }	
 .card-follow .social a:hover {  opacity: 0.6; }
 .card-follow, .card-related { border: none; background: #f8f8f8; margin-bottom: 32px; }
 .card-follow .card-header, .card-related .card-header {
@@ -499,7 +499,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-cs-challenges, .card-cs-results  { border: none; border-radius: 0px;  }
 .card-cs-challenges .card-body, .card-cs-results  .card-body { padding: 34px;  }
 .card-cs-challenges h5 {
-    background-image: url(https://www.crmtechnologies.com/themes/tp_theme/images/icons/icon-challenge.png);
+    background-image: url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icons/icon-challenge.png);
     background-position: left center;
     background-repeat: no-repeat;
     padding-left: 38px;
@@ -514,7 +514,7 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     line-height: 1.5em;
 }
 .card-cs-results h5 {
-    background-image: url(https://www.crmtechnologies.com/themes/tp_theme/images/icons/icon-solution.png);
+    background-image: url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icons/icon-solution.png);
     background-position: left center;
     background-repeat: no-repeat;
     padding-left: 38px;
@@ -529,13 +529,13 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
     font-size: 1em;
     line-height: 1.5em;
 }
-.block-cs-quote { background: linear-gradient(rgba(55,26,190,0.67),rgba(55,26,190,0.67)),url('https://www.crmtechnologies.com/sites/default/files/styles/home_banner/public/2019-05/Banner-alt.jpg'); }
+.block-cs-quote { background: linear-gradient(rgba(55,26,190,0.67),rgba(55,26,190,0.67)),url('https://d2texn0fmv1cgc.cloudfront.net/sites/default/files/styles/home_banner/public/2019-05/Banner-alt.jpg'); }
 .block-cs-quote p { line-height: 1.5em; }
 
 #asset-block .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-#asset-block .social a.icon-li { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
-#asset-block .social a.icon-tw { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
-#asset-block .social a.icon-fb { background: #371abe url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
+#asset-block .social a.icon-li { background: #371abe url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+#asset-block .social a.icon-tw { background: #371abe url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+#asset-block .social a.icon-fb { background: #371abe url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 
 .card-resource {  border: none; border-radius: 0px;height: 100%; }
 .card-resource .tag {
@@ -559,13 +559,13 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .card-resource h6 {  color: #333; margin-bottom: 0; font-weight: 600;line-height: 1.3em; font-family: "Open Sans",sans-serif; }
 .card-resource h6 span {  color: #666; font-weight: 300; display: block; }
 .card-resource .tag { box-shadow:-3px 3px 3px 0px rgba(0,0,0,.35); }
-.card-resource .tag.eguide{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-eguide.png);}
-.card-resource .tag.infographic{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-infographic.png);}
-.card-resource .tag.video{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-video.png);}
-.card-resource .tag.slideshare{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-slideshare.png);}
-.card-resource .tag.report{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-report.png);}
-.card-resource .tag.datasheet{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/icon-white-datasheet.png);}
-.card-resource .tag.case-study{background-image:url(https://www.crmtechnologies.com/themes/tp_theme/images/case-study.png);}
+.card-resource .tag.eguide{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-eguide.png);}
+.card-resource .tag.infographic{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-infographic.png);}
+.card-resource .tag.video{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-video.png);}
+.card-resource .tag.slideshare{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-slideshare.png);}
+.card-resource .tag.report{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-report.png);}
+.card-resource .tag.datasheet{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icon-white-datasheet.png);}
+.card-resource .tag.case-study{background-image:url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/case-study.png);}
 	
 #form-contact-block input[type="text"], #form-contact-block input[type="tel"], #form-contact-block input[type="email"], #form-contact-block textarea {
     border: none;
@@ -614,7 +614,7 @@ main > section.block-caret::before {
 }
 main > section.block-caret::after {
     content: '';
-    background: url('https://www.crmtechnologies.com/themes/tp_theme/images/chevron.png') no-repeat center center;
+    background: url('https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/chevron.png') no-repeat center center;
     top: 0;
     right: 0;
     bottom: auto;
@@ -758,7 +758,7 @@ footer .footer-container .newsletter-signup input[type="submit"] {
     font-size: 0;
     border: 0;
     outline: none;
-    background: #a1bd17 url(https://www.crmtechnologies.com/themes/tp_theme/images/icons/newsletter-arrow.png) no-repeat;
+    background: #a1bd17 url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/icons/newsletter-arrow.png) no-repeat;
     background-position: 20px 15px;
     -moz-transition: background-color 0.35s;
     -o-transition: background-color 0.35s;
@@ -781,15 +781,15 @@ footer .social-link:hover {
     opacity: 0.6;
 }
 .social-link.twitter {
-    background: url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
+    background: url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
     background-position: -28px top;
 }
 .social-link.facebook {
-    background: url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
+    background: url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
     background-position: -84px top;
 }
 .social-link.linkedin {
-    background: url(https://www.crmtechnologies.com/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
+    background: url(https://d2texn0fmv1cgc.cloudfront.net/themes/tp_theme/images/sprites/footer-social-sprite.png) no-repeat center center;
     background-position: 0px top;
 }
 
