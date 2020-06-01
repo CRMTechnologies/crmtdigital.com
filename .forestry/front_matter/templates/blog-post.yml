@@ -16,6 +16,12 @@ fields:
   default: []
   label: Tags
   description: 'Optional: Add Content to Topic Pages'
+- name: intro
+  type: text
+  config:
+    required: false
+  label: Intro
+  description: Article Teaser displayed above the featured image.
 - name: banner
   type: include
   config: {}

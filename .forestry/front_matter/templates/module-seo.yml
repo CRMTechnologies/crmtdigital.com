@@ -1,0 +1,25 @@
+---
+label: 'Module: SEO'
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Meta Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Meta Description
+- name: keywords
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Meta Keywords
