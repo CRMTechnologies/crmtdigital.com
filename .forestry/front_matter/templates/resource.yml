@@ -2,15 +2,16 @@
 label: Resource
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Meta Title
-- type: textarea
-  name: description
-  label: Meta Description
-- type: list
-  name: keywords
-  label: Meta Keywords
+- name: seo
+  type: include
+  config: {}
+  template: module-seo
+  label: SEO
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Optional: Adds content to the topic pages'
 - name: banner
   type: include
   config: {}
@@ -46,11 +47,6 @@ fields:
   name: thumbnail
   label: 'Asset: Promo Banner Thumbnail'
   description: A large thumbail for use on promo banners on other pages.
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: 'Optional: Adds content to the topic pages'
 - type: file
   name: cta_image
   label: 'List: Thumbnail Image'
