@@ -21,7 +21,7 @@ fields:
       file: 
       path: 
   label: Resource CTA
-  description: Leave blank for blog posts or resources.
+  description: Featured asset. Leave blank for resources.
 - name: show_contact
   type: select
   default: []
@@ -38,5 +38,5 @@ fields:
       file: 
       path: 
   label: Contact Module CTA
-  description: Should be 'button' for blog articles or resources. 'Banner' or 'Form'
-    for other pages.
+  description: Should be 'button' for resources. 'Form' for blogs. 'Banner' for other
+    pages.
