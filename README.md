@@ -3,9 +3,8 @@ CRMT Website using Hugo
 
 MISSING CONTENT:
 * Blog Articles + News Articles
-* Google Tag Manager
+* Google Tag Manager [Push Live & Update GTM tag]
 * Update Robots.txt
-* GTM Tracking trigger change: accepted-cookies Custom Event
 
 TODO:
 * Enable TYP Pages for Assets [Eloqua Config]
