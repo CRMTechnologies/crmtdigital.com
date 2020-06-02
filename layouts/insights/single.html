@@ -16,7 +16,7 @@
 					</header>
 					<div class=" mt-4">
 						{{ if (isset .Params "intro") }}<p><em>{{ .Params.intro }}</em></p>{{ else if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}
-						{{ if (isset .Params "image") }}<p class="my-4"><img alt="{{ .Title }}" src="{{ .Params.image }}" style="width: 100%"></p>{{ end }}						
+						{{ if (isset .Params "image") }}{{ if ne .Params.image "" }}<p class="my-4"><img alt="{{ .Title }}" src="{{ .Params.image }}" style="width: 100%"></p>{{ end }}{{ end }}						
 						{{ .Content }}	
 					</div>
 				</article>

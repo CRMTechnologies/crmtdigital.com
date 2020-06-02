@@ -11,3 +11,7 @@ disableKinds = "taxonomyTerm"
   tag = "tags"
 [params]
   mainSections = ["marketing", "technology","martech","opinion"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
