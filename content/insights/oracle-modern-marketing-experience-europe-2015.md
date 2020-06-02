@@ -28,5 +28,5 @@ title = "Oracle Modern Marketing Experience Europe 2015"
 <p><strong><img style="float: right; margin: 0 10px;" src="https://d2texn0fmv1cgc.cloudfront.net/sites/default/files/MME_logo_color.png" alt="" width="200" height="202">Andrew Freeman, CEO, CRM Technologies</strong></p>
 <p>For more information please contact</p>
 <p><a href="mailto:alison.saunders@crmtechnologies.com" target="_blank">alison.saunders@crmtechnologies.com</a></p>
-<p><strong>Alternatively register <a href="https://eventreg.oracle.com/profile/form/index.cfm?PKformID=0x25603659a6e">here</a> for Oracle Modern Marketing Experience Europe 2015</strong></p_>
+<p><strong>Alternatively register <a href="https://eventreg.oracle.com/profile/form/index.cfm?PKformID=0x25603659a6e">here</a> for Oracle Modern Marketing Experience Europe 2015</strong></p>
 <p>We look forward to seeing you there!</p>
