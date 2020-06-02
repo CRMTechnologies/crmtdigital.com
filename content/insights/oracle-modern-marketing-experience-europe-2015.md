@@ -25,7 +25,7 @@ title = "Oracle Modern Marketing Experience Europe 2015"
 <li>How the legislation affects business's marketing activities</li>
 <li>How you can prepare for upcoming changes</li>
 </ul><p><em>“The clock is ticking: As new EU Data Legislation draws near, marketers need to start changing their approach to targeting and communicating with their prospects and customers. Join us to find out what you should be adopting now to minimize the impact of these changes, and avoid hefty repercussions.”</em></p>
-<p><strong><img style="float: right; margin: 0 10px;" src="/sites/default/files/MME_logo_color.png" alt="" width="200" height="202">Andrew Freeman, CEO, CRM Technologies</strong></p>
+<p><strong><img style="float: right; margin: 0 10px;" src="https://d2texn0fmv1cgc.cloudfront.net/sites/default/files/MME_logo_color.png" alt="" width="200" height="202">Andrew Freeman, CEO, CRM Technologies</strong></p>
 <p>For more information please contact</p>
 <p><a href="mailto:alison.saunders@crmtechnologies.com" target="_blank">alison.saunders@crmtechnologies.com</a></p>
 <p><strong>Alternatively register <a href="https://eventreg.oracle.com/profile/form/index.cfm?PKformID=0x25603659a6e">here</a> for Oracle Modern Marketing Experience Europe 2015</strong></p_>
