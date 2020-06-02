@@ -171,3 +171,4 @@
 /insights/overcoming-challenges-modern-marketer	/insights/overcoming-modern-marketer-challenges	301
 /normalator	https://www.normalator.com/	301
 /sites/default/files/*  https://d2texn0fmv1cgc.cloudfront.net/sites/default/files/:splat  200
+/news-analysis/*  /insights/:splat  301
