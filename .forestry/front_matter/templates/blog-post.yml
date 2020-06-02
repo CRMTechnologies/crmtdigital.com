@@ -45,4 +45,5 @@ fields:
   label: Slug
   description: Do not include website domain or path.
 pages:
+- content/insights/marketing-your-new-responsibilities-and-what-they-mean-for-your-strategy.md
 - content/insights/sales-collaboration-the-key-to-campaign-success.md
