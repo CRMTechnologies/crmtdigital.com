@@ -3,7 +3,6 @@ author = "Tony Sprague"
 banner_type = "none"
 date = 2015-12-10T00:00:00Z
 description = "The IT leader is well-placed to drive cross-platform interoperability by using a global view of marketing and sales data."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Blog---Data-ownership-in-a-marketing-environment.jpg"
