@@ -839,6 +839,7 @@ footer .footer-copyright ul li span {
 		.logo-white { display: none;  }
 		.navbar .container {max-width: 100%;}
 		header .carousel-inner h3 {	font-size: 2.62em;	}
+		body.no-banner .navbar-nav .nav-link.nav-link:hover, body.no-banner .navbar-nav .nav-link[aria-expanded="true"], .navbar-nav .nav-link:hover, .navbar-nav .nav-link[aria-expanded="true"] {	background: rgba(0,0,0,0.25); color: #fff; }
 		.navbar-collapse, .navbar .dropdown-menu  {	background: rgb(39, 75, 129);}
 		.navbar-color .navbar-nav .nav-link {  color: #fff; }
 		.navbar .dropdown-menu { border: 0px; }
