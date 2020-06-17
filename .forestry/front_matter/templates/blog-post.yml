@@ -45,6 +45,7 @@ fields:
   label: Slug
   description: Do not include website domain or path.
 pages:
+- content/insights/crm-technologies-announces-relocation-as-part-of-continued-expansion-in-line-with-growth-of-marketing-operations-crm-technologies.md
 - content/insights/data-ownership-in-a-marketing-environment-alignment-through-trust.md
 - content/insights/marketing-your-new-responsibilities-and-what-they-mean-for-your-strategy.md
 - content/insights/oracle-modern-marketing-experience-europe-2015.md
