@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2015-01-28T23:00:00Z
 description = "The free-to-join session will be presented by James Thomas, CMO at Allocadia and Mitch Patel, Director of Business Solutions at Oracle Marketing Cloud. They will be covering:"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
@@ -18,7 +17,7 @@ testimonial = ""
 title = "Allocadia webinar set to bridge marketing finances with campaign data | CRM Technologies"
 
 +++
-<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Allocadia.jpg" alt="" width="338" height="98">
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Allocadia.jpg" alt="" width="338" height="98">
 
 The free-to-join session will be presented by James Thomas, CMO at Allocadia and Mitch Patel, Director of Business Solutions at Oracle Marketing Cloud. They will be covering:
 
