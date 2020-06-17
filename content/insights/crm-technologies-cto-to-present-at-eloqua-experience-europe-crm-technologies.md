@@ -3,7 +3,6 @@ author = "Colin Marks"
 banner_type = "none"
 date = 2013-06-13T22:00:00Z
 description = "The event looks to attract members of the Eloqua community looking to ‘learn more about modern marketing and see how modern marketers at leading brands are using marketing automation expertise and technology to power revenue performance."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
@@ -18,7 +17,7 @@ testimonial = ""
 title = "CRM Technologies CTO to present at Eloqua Experience Europe | CRM Technologies"
 
 +++
-<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/EE13_Outlookbanner_red2-300x101.png" alt="" width="300" height="101">
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/EE13_Outlookbanner_red2-300x101.png" alt="" width="300" height="101">
 
 The event looks to attract members of the Eloqua community looking to ‘learn more about modern marketing and see how modern marketers at leading brands are using marketing automation expertise and technology to power revenue performance.’
 
