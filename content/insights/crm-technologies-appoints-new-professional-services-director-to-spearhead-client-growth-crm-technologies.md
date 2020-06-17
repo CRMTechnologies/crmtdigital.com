@@ -18,6 +18,8 @@ testimonial = ""
 title = "CRM Technologies appoints new Professional Services Director to spearhead client growth | CRM Technologies"
 
 +++
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Sean_Seelochan_1_sml.jpg" alt="" width="300" height="434">
+
 Sean joins the company at a time of rapid growth and will become a key member of the senior management team.
 
 Sean’s appointment is part of a wider recruitment drive at CRM Technologies, following a year that has seen 54% growth across the company. A highly experienced digital professional specialising in cloud based technologies, Sean previously held the position of Senior Consultant at CapGemini.!
