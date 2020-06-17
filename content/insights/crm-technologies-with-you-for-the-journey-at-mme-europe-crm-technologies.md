@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2014-10-06T22:00:00Z
 description = ""
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
@@ -18,7 +17,7 @@ testimonial = ""
 title = "CRM Technologies, with you for the journey at MME Europe | CRM Technologies"
 
 +++
-![](/sites/default/files/Modern%20Marketing%20Experience%20Europe%20%20%20Event%20Summary%202.png)
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/sites/default/files/Modern%20Marketing%20Experience%20Europe%20%20%20Event%20Summary%202.png" alt="" width="460" height="161">
 
 We’ll be exhibiting on stand P1 and discussing how we can optimise the marketing automation journey to help you succeed in aligning with sales, improving demand generation and growing revenues.
 
