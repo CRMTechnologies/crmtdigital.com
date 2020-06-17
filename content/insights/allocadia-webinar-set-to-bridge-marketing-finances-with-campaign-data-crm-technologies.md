@@ -6,7 +6,7 @@ description = "The free-to-join session will be presented by James Thomas, CMO a
 draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://static.crmtechnologies.com/sites/default/files/Allocadia.jpg"
+image = ""
 intro = "On Tuesday 3rd February, our partner Allocadia will be delivering a ‘Money & Metrics’ webinar for organizations using Oracle Marketing Cloud that want to look closely at the management of marketing spend, plans and budgets."
 keywords = []
 resource = []
@@ -23,6 +23,8 @@ The free-to-join session will be presented by James Thomas, CMO at Allocadia and
 * Why it's crucial to integrate investment actuals into your reporting & analytics
 * How to tie every item on your budgets and plans to OMC campaigns, ensuring that your spend is fully aligned to your marketing goals
 * Smarter ways to manage your marketing budgets & plans without spreadsheets using Allocadia
+
+![](/sites/default/files/Allocadia.jpg)
 
 The webinar will take place at 1pm EST. For more information, click here.
 
