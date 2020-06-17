@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2014-09-09T22:00:00Z
 description = ""
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/London Marketing Nation Roadshow 2014.png"
