@@ -1,5 +1,5 @@
 +++
-author = ""
+author = "Colin Marks"
 banner_type = "none"
 date = 2013-05-09T22:00:00Z
 description = "Lara Vermont joins as Account Executive and Michaela East as Database Analyst.\nLara Vermont joins from her previous role as Sales and Marketing Executive at CleverTouch Marketing.  Since graduating with a Marketing degree in 2008, Lara has gained experience across a variety of industries, including pharmaceutical and publishing as well as agency experience."
