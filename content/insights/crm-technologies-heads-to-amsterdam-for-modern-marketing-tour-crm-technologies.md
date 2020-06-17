@@ -17,7 +17,7 @@ testimonial = ""
 title = "CRM Technologies heads to Amsterdam for Modern Marketing Tour | CRM Technologies"
 
 +++
-<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/MMT_Sponsor_large.png" alt="" width="250" height="250">
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital/sites/default/files/MMT_Sponsor_large.png" alt="" width="250" height="250">
 
 We’re very proud sponsors of the event and our Solutions Consultant Adrian Mills will be presenting at 1:30pm on the ‘Marketing Execution’ track.
 
