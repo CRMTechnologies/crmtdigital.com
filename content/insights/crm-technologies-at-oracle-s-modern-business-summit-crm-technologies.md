@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2015-04-27T22:00:00Z
 description = ""
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Marketing Footer_MBS.png"
