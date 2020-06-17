@@ -18,13 +18,13 @@ testimonial = ""
 title = "Allocadia webinar set to bridge marketing finances with campaign data | CRM Technologies"
 
 +++
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Allocadia.jpg" alt="" width="338" height="98">
+
 The free-to-join session will be presented by James Thomas, CMO at Allocadia and Mitch Patel, Director of Business Solutions at Oracle Marketing Cloud. They will be covering:
 
 * Why it's crucial to integrate investment actuals into your reporting & analytics
 * How to tie every item on your budgets and plans to OMC campaigns, ensuring that your spend is fully aligned to your marketing goals
 * Smarter ways to manage your marketing budgets & plans without spreadsheets using Allocadia
-
-![](/sites/default/files/Allocadia.jpg)
 
 The webinar will take place at 1pm EST. For more information, click here.
 
