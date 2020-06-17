@@ -3,7 +3,6 @@ author = "Colin Marks"
 banner_type = "none"
 date = 2012-02-14T23:00:00Z
 description = "At the forthcoming TFM&A show in Earl's Court London on February 28th- 29th, we will be co-exhibiting with Eloqua and will be talking about how sales and marketing really can be BFFs. Come and visit us on Stand C10 or share the 'love' by describing how the relationship between your sales and marketing teams works well on our social media channels Twitter (please use #loverevenue) and Facebook."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
