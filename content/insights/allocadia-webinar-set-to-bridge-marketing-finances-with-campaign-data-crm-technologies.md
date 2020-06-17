@@ -1,5 +1,5 @@
 +++
-author = ""
+author = "Colin Marks"
 banner_type = "none"
 date = 2015-01-28T23:00:00Z
 description = "The free-to-join session will be presented by James Thomas, CMO at Allocadia and Mitch Patel, Director of Business Solutions at Oracle Marketing Cloud. They will be covering:"
