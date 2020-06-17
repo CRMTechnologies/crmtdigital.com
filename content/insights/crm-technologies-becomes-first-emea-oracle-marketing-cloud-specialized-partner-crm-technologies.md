@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2014-09-04T22:00:00Z
 description = "Our specialized partnership status has been awarded based on our extensive experience of working with enterprises to on-board their Eloqua systems, optimise use of Eloqua's sophisticated functionality and help to develop best practice. "
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
@@ -18,8 +17,7 @@ testimonial = ""
 title = "CRM Technologies becomes first EMEA Oracle Marketing Cloud Specialized Partner | CRM Technologies"
 
 +++
-  
-![](https://www.crmtechnologies.com/sites/default/files/IMG_2100.jpeg =269x214)
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/IMG_2100.jpeg" alt="" width="269" height="214">
 
 Our specialized partnership status has been awarded based on our extensive experience of working with enterprises to on-board their Eloqua systems, optimise use of Eloqua's sophisticated functionality and help to develop best practice.
 
