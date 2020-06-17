@@ -1,6 +1,6 @@
 +++
 author = "Colin Marks"
-banner_type = "highlight"
+banner_type = "none"
 date = 2013-06-11T22:00:00Z
 description = "So a huge congratulations to them! We have been working with Basware for nearly four years, handling their Eloqua on-boarding and CRM integration and retained to provide on-going support to their sales and marketing organisation."
 heading = ""
