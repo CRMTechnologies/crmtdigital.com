@@ -20,7 +20,7 @@ title = "CRM Technologies supports record expansion with Sales Director appointm
 +++
 In 2014, CRM Technologies saw a 54% growth in sales as a result of deeper penetration into its existing customer base and expansion into new markets. To continue this trend, the company has appointed Paul Lee as its new Sales Director.
 
-![float: right; margin-top: 0; margin-left: 10px;](/sites/default/files/Paul_Lee_1_s.jpg)
+![](/sites/default/files/Paul_Lee_1_s.jpg)
 
 Andrew Freeman, CEO of CRM Technologies, said: “We are seeing unprecedented demand for consultancy and support across the spectrum of marketing automation as more and more companies seek to automate, streamline and personalise their marketing operations.
 
