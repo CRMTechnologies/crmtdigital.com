@@ -17,6 +17,6 @@ testimonial = ""
 title = "CRM Technologies is first UK partner to achieve Eloqua Gold Certified Partner | CRM Technologies"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/sites/default/files/Eloqua-Badges_Partner_Gold-300x300.jpg" alt="" width="300" height="300">
+<img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/Eloqua-Badges_Partner_Gold-300x300.jpg" alt="" width="300" height="300">
 
 We have continued to work closely with Eloqua to ensure that our team at CRM Technologies maintains their high level of technical capability and understanding of all aspects of Eloqua.
