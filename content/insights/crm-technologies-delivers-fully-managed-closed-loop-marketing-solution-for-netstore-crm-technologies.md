@@ -14,7 +14,7 @@ slug = "crm-technologies-delivers-fully-managed-closed-loop-marketing-solution-n
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies Delivers Fully-Managed, Closed-Loop Marketing Solution For Netstore | CRM Technologies"
+title = "CRM Technologies Delivers Fully-Managed, Closed-Loop Marketing Solution For Netstore"
 
 +++
 This follows the development of a fully-managed, end-to-end marketing database solution by marketing data services specialists, CRM Technologies.
