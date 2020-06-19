@@ -14,7 +14,7 @@ slug = "crm-technologies-appoints-new-professional-services-director-spearhead-c
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies appoints new Professional Services Director to spearhead client growth | CRM Technologies"
+title = "CRM Technologies appoints new Professional Services Director to spearhead client growth"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Sean_Seelochan_1_sml.jpg" alt="" width="300" height="434">
