@@ -14,7 +14,7 @@ slug = "crm-technologies-announces-relocation-part-continued-expansion-line-grow
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies announces relocation as part of continued expansion in line with growth of marketing operations | CRM Technologies"
+title = "CRM Technologies announces relocation as part of continued expansion in line with growth of marketing operations"
 
 +++
 CRM Technologies, a leading marketing operations consultancy, has announced that it is relocating thanks to continued business growth. The company will be moving to Green Park, Reading, Berkshire on 3rd July.
