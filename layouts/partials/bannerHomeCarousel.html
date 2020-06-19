@@ -7,7 +7,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
 	{{ range $i, $e :=  $.Site.Data.banners.homepage }}
-	<div class="carousel-item {{ if eq $i 0 }}active{{ end }}" style="background-image: linear-gradient(rgba(55,26,190,0.4225),rgba(55,26,190,0.4225)),url('{{ .image }}')">
+	<div class="carousel-item {{ if eq $i 0 }}active{{ end }}" style="background-image: linear-gradient(rgba(16,46,47,0.5775),rgba(16,46,47,0.4225)),url('{{ .image }}')">
 	  <div class="carousel-caption">
 	    <h3>{{ .line1 }}<br>
 		{{ .line2 }}</h3>
