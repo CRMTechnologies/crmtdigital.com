@@ -3,7 +3,6 @@ author = "Colin Marks"
 banner_type = "none"
 date = 2006-02-27T23:00:00Z
 description = "This follows the development of a fully-managed, end-to-end marketing database solution by marketing data services specialists, CRM Technologies.\nProviding Netstore with a complete ‘closed-loop’ marketing management environment, CRM Technologies’ expertise has brought together all marketing data held by Netstore’s external telemarketing, event management and PR agencies, consolidating it with the company’s own Siebel ‘On Demand’ sales & marketing management system, via Siebel Web Services."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
