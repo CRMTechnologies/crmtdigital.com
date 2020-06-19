@@ -17,6 +17,6 @@ testimonial = ""
 title = "CRM at TFM&A 2010 Stand D10 - 23rd/24th February | CRM Technologies"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto;" src="/sites/default/files/tfma_logo.png" alt="" width="251" height="98">
+<img style="display: block; margin-left: auto; margin-right: auto; padding-botton: 10px;" src="https://crmtdigital.com/sites/default/files/tfma_logo.png" alt="" width="251" height="98">
 
 TFM&A is the UK's only integrated marketing event and delivers all the latest industry insight, trends and developments as well as leading suppliers of data, CRM, digital and now direct solutions giving you the perfect blend for truly integrated marketing & advertising campaigns.
