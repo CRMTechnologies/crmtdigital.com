@@ -14,7 +14,7 @@ slug = "crm-technologies-heads-san-francisco-eloqua-experience-2011"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies heads to San Francisco for Eloqua Experience 2011 | CRM Technologies"
+title = "CRM Technologies heads to San Francisco for Eloqua Experience 2011"
 
 +++
 Eloqua Experience has emerged as the leading event for the Revenue Performance Management industry and a record number of attendees is expected this year. As an EMEA-based Eloqua partner, CRM will be hosting a contingent of EMEA clients for peer-to-peer networking, including McAfee, Colt Technology Services and Harris Systems.
