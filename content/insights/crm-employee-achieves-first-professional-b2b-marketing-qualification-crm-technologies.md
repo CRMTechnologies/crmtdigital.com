@@ -14,7 +14,7 @@ slug = "crm-employee-achieves-first-professional-b2b-marketing-qualification"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM employee achieves first professional B2B marketing qualification | CRM Technologies"
+title = "CRM employee achieves first professional B2B marketing qualification"
 
 +++
 The certificate covers every aspect of B2B marketing best practice; from planning and budgeting, data to creative, and media to measurement. Practitioners with this qualification are able to deliver the most relevant, up-to-date, expert advice to UK B2B marketers.
