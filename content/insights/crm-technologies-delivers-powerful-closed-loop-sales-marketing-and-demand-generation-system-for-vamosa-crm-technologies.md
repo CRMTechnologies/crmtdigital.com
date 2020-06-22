@@ -14,7 +14,7 @@ slug = "crm-technologies-delivers-powerful-closed-loop-sales-marketing-and-deman
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies delivers powerful closed-loop sales, marketing and demand generation system for Vamosa | CRM Technologies"
+title = "CRM Technologies delivers powerful closed-loop sales, marketing and demand generation system for Vamosa"
 
 +++
 Marketing operations specialist CRM Technologies has implemented an innovative, closed loop sales, marketing and demand generation system for rapidly-growing software solutions business, Vamosa. According to CRM Technologies, this is the first time that a system with such high levels of functionality and capability has been implemented by them outside of the large, multi-national corporate sector.
