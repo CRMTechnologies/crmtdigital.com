@@ -14,7 +14,7 @@ slug = "crm-technologies-hits-road-sirius-decisions-forums"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies hits the road for Sirius Decisions Forums | CRM Technologies"
+title = "CRM Technologies hits the road for Sirius Decisions Forums"
 
 +++
 The invitation only events, startng on 5th March, will focus on Demand Generation Modelling and we’re looking forward to getting stuck in with the discussion. The sessions will look at the major flaws in how marketing organisations model their demand creation plans and how to reverse the demand creation waterfall to determine the number of inquiries needed to support pipeline and revenue objectives. We’re particularly looking forward to discussing the tools and modelling techniques that are available to assist marketers.
