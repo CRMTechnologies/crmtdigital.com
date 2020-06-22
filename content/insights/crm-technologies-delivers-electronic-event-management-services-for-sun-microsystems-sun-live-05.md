@@ -3,7 +3,6 @@ author = "Colin Marks"
 banner_type = "none"
 date = 2005-10-03T22:00:00Z
 description = "For global IT vendor Sun Microsystems’ flagship annual end-user & partner event, ‘SunLive 05’, which took place at The Brewery, London on 22 March 2005.\nCRM Technologies handled the implementation and execution of a personalised e-marketing campaign designed to complement existing direct marketing activity, including outbound email tracking, intelligent registration, post-event follow-up, campaign click-thru tracking and online reporting facilities."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
