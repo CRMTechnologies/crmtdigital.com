@@ -14,7 +14,7 @@ slug = "crm-technologies-oracle’s-modern-business-summit"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies at Oracle’s Modern Business Summit | CRM Technologies"
+title = "CRM Technologies at Oracle’s Modern Business Summit"
 
 +++
 The summit will look to explore how technologies used in personal lives are starting to change the world of business and how this is likely to impact organisations in the future. The summit will be delivered in three parts, split across finance and operations, human resources and marketing and sales.
