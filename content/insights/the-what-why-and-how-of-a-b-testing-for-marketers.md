@@ -1,9 +1,8 @@
 +++
 author = ""
-banner_type = "none"
+banner_type = "highlight"
 date = 2015-03-24T23:00:00Z
 description = "What are your favourite testing tools?"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
@@ -18,8 +17,6 @@ testimonial = ""
 title = "The What, Why and How of A/B Testing for Marketers"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/origin_3180576600_0.jpg" alt="" width="640" height="457">
-
 ## What?
 
 Broadly speaking, A/B testing is the process of trying out changes on a web page, document, asset or email against the current design to determine the best possible results. By testing two variants at a similar time and to similar readers, marketers and designers will be able to see what performs best in terms of conversion rates – be it click-throughs, downloads, enquiries or any other metrics.
