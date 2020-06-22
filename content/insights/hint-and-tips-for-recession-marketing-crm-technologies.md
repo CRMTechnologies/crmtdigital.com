@@ -14,7 +14,7 @@ slug = "hint-and-tips-recession-marketing"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Hint and Tips for Recession Marketing | CRM Technologies"
+title = "Hint and Tips for Recession Marketing"
 
 +++
 The gloomy economy now means that businesses will have to achieve more sales, with less marketing budget. But with so many options within the marketing mix, where should you start to prioritise those activities? The key objective should be to focus on marketing activities geared to retaining and maintaining existing customers. This is because marketing to repeat customers is the most cost-effective route for business survival and continued success.
