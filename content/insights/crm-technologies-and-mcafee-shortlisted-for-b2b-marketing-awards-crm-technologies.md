@@ -14,7 +14,7 @@ slug = "crm-technologies-and-mcafee-shortlisted-b2b-marketing-awards"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies and McAfee shortlisted for B2B Marketing Awards | CRM Technologies"
+title = "CRM Technologies and McAfee shortlisted for B2B Marketing Awards"
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/B2B_AWARDS_FINALIST-300x130.jpg" alt="" width="300" height="130">
