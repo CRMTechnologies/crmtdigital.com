@@ -14,7 +14,7 @@ slug = "crm-technologies-expands-new-recruits"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies expands with new recruits | CRM Technologies"
+title = "CRM Technologies expands with new recruits"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Lara-and-Michaela-crop-300x206.jpg" alt="" width="300" height="206">
