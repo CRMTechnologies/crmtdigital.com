@@ -14,7 +14,7 @@ slug = "intelligent-approach-marketing-automation-adoption-sirius-decisions-summ
 subheading = ""
 tags = []
 testimonial = ""
-title = "An intelligent approach to marketing automation adoption at Sirius Decisions Summit | CRM Technologies"
+title = "An intelligent approach to marketing automation adoption at Sirius Decisions Summit"
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 10px;" src="https://crmtdigital.com/sites/default/files/SiriusDecisions%202014%20Summit%20Europe%20%20%20Fees.png" alt="" width="923" height="140">
