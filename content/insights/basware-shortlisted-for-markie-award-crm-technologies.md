@@ -14,7 +14,7 @@ slug = "basware-shortlisted-markie-award"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Basware shortlisted for Markie award | CRM Technologies"
+title = "Basware shortlisted for Markie award"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Basware-300x85.jpg" alt="" width="300" height="85">
