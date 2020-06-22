@@ -14,7 +14,7 @@ slug = "crm-technologies-data-expertise-assists-micro-focus-acquisition"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies data expertise assists Micro Focus acquisition | CRM Technologies"
+title = "CRM Technologies data expertise assists Micro Focus acquisition "
 
 +++
 Sales and Marketing operations specialist CRM Technologies has played a significant role in enabling UK-based global software business Micro Focus plc to seamlessly integrate the business data of its latest acquisition into its own business information system.
