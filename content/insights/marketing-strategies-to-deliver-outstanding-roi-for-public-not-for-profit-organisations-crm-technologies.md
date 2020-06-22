@@ -14,7 +14,7 @@ slug = "marketing-strategies-deliver-outstanding-roi-public-not-profit-organisat
 subheading = ""
 tags = []
 testimonial = ""
-title = "Marketing strategies to deliver outstanding ROI for Public & Not for Profit Organisations | CRM Technologies"
+title = "Marketing strategies to deliver outstanding ROI for Public & Not for Profit Organisations "
 
 +++
 **Neolane**, the leading provider of cross-channel campaign management software and **CRM Technologies**, the UK's premier marketing operations agency, invites you to a free-to-attend Breakfast Seminar on **Wednesday 6th May 2009 from 8:30am to 10:10am at One Aldwych, London WC2B 4RH**.
