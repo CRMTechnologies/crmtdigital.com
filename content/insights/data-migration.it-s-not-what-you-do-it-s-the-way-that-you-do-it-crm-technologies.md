@@ -14,7 +14,7 @@ slug = "data-migration-its-not-what-you-do-its-way-you-do-it½"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Data migration. It's not what you do - it's the way that you do it½ | CRM Technologies"
+title = "Data migration. It's not what you do - it's the way that you do it½ "
 
 +++
 So, you’ve been on the acquisition trail, you’ve pinpointed a business which offers an ideal strategic fit with your own, their board has accepted your offer, the deal is done and you can now look forward to a seamless integration process which fully synchronises that business and its operational systems with your own – thereby creating a business superpower capable of conquering all in its path, right? Well no, not exactly…
