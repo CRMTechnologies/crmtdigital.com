@@ -14,7 +14,7 @@ slug = "meet-crm-team-sirius-decisions-summit-october-5th"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Meet the CRM team at the Sirius Decisions Summit - October 5th | CRM Technologies"
+title = "Meet the CRM team at the Sirius Decisions Summit - October 5th "
 
 +++
 The annual summit is a unique, full day conference where SiriusDecisions analysts and top sales and marketing leaders from global 1000 companies and major Mid Size Enterprises share how B2B organisations are solving critical issues that hinder predictable growth.
