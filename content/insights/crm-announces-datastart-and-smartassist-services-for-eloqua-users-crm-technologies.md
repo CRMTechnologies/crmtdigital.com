@@ -14,7 +14,7 @@ slug = "crm-announces-datastart-and-smartassist-services-eloqua-users"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Announces DataStart and SmartAssist Services for Eloqua Users | CRM Technologies"
+title = "CRM Announces DataStart and SmartAssist Services for Eloqua Users"
 
 +++
 The [DataStart service](http://now.eloqua.com/e/er.aspx?s=1010&lid=43&elq=%3Cspan%20class=eloquaemail%3Erecipientid%3C/span%3E) has been designed to get an organisations marketing data in good shape so that they may take maximum advantage of the targetting and personalisation capabilities of Eloqua.
