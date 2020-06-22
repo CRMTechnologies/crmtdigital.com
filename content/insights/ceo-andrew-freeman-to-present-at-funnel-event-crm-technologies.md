@@ -14,7 +14,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "CEO Andrew Freeman to present at FUNNEL event | CRM Technologies"
+title = "CEO Andrew Freeman to present at FUNNEL event "
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/funnel.png" alt="" width="139" height="138">
