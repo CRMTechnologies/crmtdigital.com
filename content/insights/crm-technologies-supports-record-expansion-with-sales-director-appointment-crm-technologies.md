@@ -14,7 +14,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies supports record expansion with Sales Director appointment | CRM Technologies"
+title = "CRM Technologies supports record expansion with Sales Director appointment"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Paul_Lee_1_s.jpg" alt="" width="250" height="223">
