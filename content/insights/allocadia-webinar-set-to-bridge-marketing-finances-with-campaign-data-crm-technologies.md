@@ -14,7 +14,7 @@ slug = "allocadia-webinar-set-bridge-marketing-finances-campaign-data"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Allocadia webinar set to bridge marketing finances with campaign data | CRM Technologies"
+title = "Allocadia webinar set to bridge marketing finances with campaign data"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Allocadia.jpg" alt="" width="338" height="98">
