@@ -14,7 +14,7 @@ slug = "crm-and-eloqua-tfma-stand-g10-london-1st2nd-march-2011"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM and Eloqua at TFM&A Stand G10 - London, 1st/2nd March 2011 | CRM Technologies"
+title = "CRM and Eloqua at TFM&A Stand G10 - London, 1st/2nd March 2011"
 
 +++
 TFM&A is the UK's only truly integrated marketing, and advertising, event, with an attendance of over 10,000 (ABC Audited).
