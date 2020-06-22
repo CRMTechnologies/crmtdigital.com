@@ -14,7 +14,7 @@ slug = "selfies-nashville-style-crm-technologies-siriusdecisions-2015-summit"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Selfies Nashville-style! CRM Technologies at SiriusDecisions 2015 Summit | CRM Technologies"
+title = "Selfies Nashville-style! CRM Technologies at SiriusDecisions 2015 Summit"
 
 +++
 It’s now less than a week until the CRM Technologies team head out to Nashville for the SiriusDecisions 2015 Summit. This year’s event theme is Outperform: Strategies for Intelligent Growth™ , an ideal fit for our own focus on driving global marketing excellence and one which we’re sure will generate great debate, discussion and networking opportunities.
