@@ -14,7 +14,7 @@ slug = "/crm-technologies-becomes-first-emea-oracle-marketing-cloud-specialized-
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies becomes first EMEA Oracle Marketing Cloud Specialized Partner | CRM Technologies"
+title = "CRM Technologies becomes first EMEA Oracle Marketing Cloud Specialized Partner"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/IMG_2100.jpeg" alt="" width="269" height="214">
