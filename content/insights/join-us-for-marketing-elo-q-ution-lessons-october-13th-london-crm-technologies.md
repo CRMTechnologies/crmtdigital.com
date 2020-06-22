@@ -14,7 +14,7 @@ slug = "join-us-marketing-eloqution-lessons-october-13th-london"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Join us for Marketing Elo[q]ution lessons - October 13th, London | CRM Technologies"
+title = "Join us for Marketing Elo[q]ution lessons - October 13th, London "
 
 +++
 The seminar, part of Eloqua's Marketing Elo\[q\]ution Lessons series, will focus on 'Lead Nurturing and Scoring'. Join us for this breakfast briefing and learn how our client **McAfee** worked with CRM Technologies and used marketing automation to stay in front of their prospects with an effective nurture programme while also setting up a lead scoring system to dramatically improve their 'lead to close' conversation rates. More information about the event is available [here](http://eloqution.eloqua.com/?elqPURLPage=3769).
