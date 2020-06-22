@@ -14,7 +14,7 @@ slug = "crm-technologies-first-uk-headquartered-firm-achieve-new-eloqua-level-1-
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies is first UK headquartered firm to achieve new 'Eloqua Level 1 Certified Partner' status | CRM Technologies"
+title = "CRM Technologies is first UK headquartered firm to achieve new 'Eloqua Level 1 Certified Partner' status"
 
 +++
 The new certification, launched in October by Eloqua, the leading provider of on-demand revenue performance management solutions, has had numerous applications and conducted more than 250 individual examinations to date. CRM Technologies is the fourth partner to achieve accreditation globally.
