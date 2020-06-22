@@ -14,7 +14,7 @@ slug = "crm-technologies-heads-amsterdam-modern-marketing-tour"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies heads to Amsterdam for Modern Marketing Tour | CRM Technologies"
+title = "CRM Technologies heads to Amsterdam for Modern Marketing Tour "
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital/sites/default/files/MMT_Sponsor_large.png" alt="" width="250" height="250">
