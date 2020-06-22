@@ -14,7 +14,7 @@ slug = "crm-technologies-heads-north-america-modern-marketing-experience-and-sir
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies heads to North America for Modern Marketing Experience and Sirius Decisions Summit | CRM Technologies"
+title = "CRM Technologies heads to North America for Modern Marketing Experience and Sirius Decisions Summit"
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto; padding-bottom:10px;" src="https://crmtdigital.com/sites/default/files/MME-LV_Sponsor-BRON-BANNER.png" alt="" width="724" height="89">
