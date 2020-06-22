@@ -14,7 +14,7 @@ slug = "modern-marketing-experience-and-sirius-decisions-summit-europe-–-what�
 subheading = ""
 tags = []
 testimonial = ""
-title = "Modern Marketing Experience and Sirius Decisions Summit Europe – what’s on the cards? | CRM Technologies"
+title = "Modern Marketing Experience and Sirius Decisions Summit Europe – what’s on the cards?"
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 10px;" src="https://www.crmtdigital.com/sites/default/files/MME_LondonBanner.png" alt="" width="724" height="89">
