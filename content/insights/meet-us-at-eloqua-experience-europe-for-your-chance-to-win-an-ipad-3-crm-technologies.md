@@ -14,7 +14,7 @@ slug = "meet-us-eloqua-experience-europe-your-chance-win-ipad-3"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Meet us at Eloqua Experience Europe for your chance to win an iPad 3! | CRM Technologies"
+title = "Meet us at Eloqua Experience Europe for your chance to win an iPad 3! "
 
 +++
 We are looking forward to an excellent line up this year, especially the keynote from David Meerman Scott, Author of The New Rules of Marketing and PR, not to mention the first ever European Markies! (register [here](https://www.oracle.com/marketingcloud/about/events.html) if you haven’t already..).
