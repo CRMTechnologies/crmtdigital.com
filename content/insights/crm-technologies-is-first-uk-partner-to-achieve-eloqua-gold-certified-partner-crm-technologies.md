@@ -14,7 +14,7 @@ slug = "crm-technologies-first-uk-partner-achieve-eloqua-gold-certified-partner"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies is first UK partner to achieve Eloqua Gold Certified Partner | CRM Technologies"
+title = "CRM Technologies is first UK partner to achieve Eloqua Gold Certified Partner"
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/Eloqua-Badges_Partner_Gold-300x300.jpg" alt="" width="300" height="300">
