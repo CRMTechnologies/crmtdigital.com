@@ -14,7 +14,7 @@ slug = "crm-technologies-appointed-first-emea-partner-personalisation-and-target
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies appointed first EMEA partner for personalisation and targeting platform Demandbase | CRM Technologies"
+title = "CRM Technologies appointed first EMEA partner for personalisation and targeting platform Demandbase"
 
 +++
 With an established client base in technology, engineering and a range of other B2B sectors, CRM Technologies will spearhead Demandbase’s launch to the EMEA market and beyond.
