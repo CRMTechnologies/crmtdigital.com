@@ -14,7 +14,7 @@ slug = "crm-technologies-brings-marketing-operations-expertise-salesforcecom"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies brings marketing operations expertise to Salesforce.com | CRM Technologies"
+title = "CRM Technologies brings marketing operations expertise to Salesforce.com"
 
 +++
 CRM Technologies approval as a consultancy and application exchange partner for salesforce.com means that the company can now offer bespoke application development services for existing customers of salesforce.com, while offering new salesforce.com users the opportunity to deploy completely customised applications which perfectly match their business needs.
