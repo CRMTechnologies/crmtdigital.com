@@ -14,7 +14,7 @@ slug = "vamosa-achieves-400-increase-sales-leads-eloqua"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Vamosa Achieves 400% Increase in Sales Leads with Eloqua | CRM Technologies"
+title = "Vamosa Achieves 400% Increase in Sales Leads with Eloqua"
 
 +++
 Vamosa today announces that it is working with global marketing automation leader Eloqua and CRM Technologies to drive a demand generation campaign to support customer growth globally.
