@@ -14,7 +14,7 @@ slug = "crm-technologies-cto-present-eloqua-experience-europe"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies CTO to present at Eloqua Experience Europe | CRM Technologies"
+title = "CRM Technologies CTO to present at Eloqua Experience Europe"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/EE13_Outlookbanner_red2-300x101.png" alt="" width="300" height="101">
