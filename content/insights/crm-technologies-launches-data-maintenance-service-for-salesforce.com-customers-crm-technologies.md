@@ -14,7 +14,7 @@ slug = "crm-technologies-launches-data-maintenance-service-salesforcecom-custome
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies launches data maintenance service for salesforce.com customers | CRM Technologies"
+title = "CRM Technologies launches data maintenance service for salesforce.com customers "
 
 +++
 Specifically targeted at organisations that build and operate marketing databases using multiple, segmented and regularly-updated data sources, CRM’s service is designed to provide users with a 100% valid, up to date data set combining maximum record quality with optimum data integrity.
