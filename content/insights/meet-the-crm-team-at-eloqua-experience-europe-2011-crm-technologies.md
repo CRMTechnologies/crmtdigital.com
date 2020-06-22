@@ -14,7 +14,7 @@ slug = "meet-crm-team-eloqua-experience-europe-2011"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Meet the CRM Team at Eloqua Experience - Europe 2011 | CRM Technologies"
+title = "Meet the CRM Team at Eloqua Experience - Europe 2011 "
 
 +++
 Whether you’re looking for insight on how to get started with Eloqua or you’re a marketing rockstar seeking the next level of technology to boost your revenue engine, Eloqua Experience will deliver the strategic content you’re looking for.
