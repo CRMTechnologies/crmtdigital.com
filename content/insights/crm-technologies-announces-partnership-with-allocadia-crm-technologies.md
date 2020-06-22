@@ -14,7 +14,7 @@ slug = "crm-technologies-announces-partnership-allocadia"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies announces partnership with Allocadia | CRM Technologies"
+title = "CRM Technologies announces partnership with Allocadia "
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Allocadia.jpg" alt="" width="338" height="98">
