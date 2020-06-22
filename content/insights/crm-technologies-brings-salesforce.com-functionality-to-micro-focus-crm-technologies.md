@@ -14,7 +14,7 @@ slug = "crm-technologies-brings-salesforcecom-functionality-micro-focus"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies brings salesforce.com functionality to Micro Focus | CRM Technologies"
+title = "CRM Technologies brings salesforce.com functionality to Micro Focus "
 
 +++
 Sales and Marketing operations specialist CRM Technologies has implemented salesforce.com for UK-based global software business Micro Focus plc, in a way which enables the company to significantly increase the capability of its sales activities, while retaining and integrating all of its ‘legacy’ sales, marketing and lead data.
