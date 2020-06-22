@@ -14,7 +14,7 @@ slug = "crm-sponsors-first-european-eloqua-experience-event"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Sponsors first European Eloqua Experience Event | CRM Technologies"
+title = "CRM Sponsors first European Eloqua Experience Event"
 
 +++
 The event will offer marketing counsel and technical training, as well as a preview of Eloqua's exciting product roadmap, including the much anticipated Eloqua10. Attendees will gain insight into the future of the marketing automation industry, and improve their ability to implement revenue-generating campaigns. Eloqua Experience Europe features 15 information-packed sessions designed to improve attendees' planning (customer lifetime value, email deliverability, measurement and analysis) and execution (lead scoring, lead nurturing, data cleansing, social media) skills. Eloqua CEO Joe Payne will keynote the event, presenting on "Unleashing Your Revenue Engine."
