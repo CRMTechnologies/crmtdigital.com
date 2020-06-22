@@ -14,7 +14,7 @@ slug = "crm-technologies-you-journey-mme-europe"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies, with you for the journey at MME Europe | CRM Technologies"
+title = "CRM Technologies, with you for the journey at MME Europe "
 
 +++
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/sites/default/files/Modern%20Marketing%20Experience%20Europe%20%20%20Event%20Summary%202.png" alt="" width="460" height="161">
