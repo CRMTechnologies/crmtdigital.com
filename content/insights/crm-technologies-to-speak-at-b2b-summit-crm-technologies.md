@@ -14,7 +14,7 @@ slug = "crm-technologies-speak-b2b-summit"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies to speak at B2B Summit | CRM Technologies"
+title = "CRM Technologies to speak at B2B Summit"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/b2b_summit_logo.png" alt="" width="246" height="90">
