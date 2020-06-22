@@ -14,7 +14,7 @@ slug = "crm-partners-eloqua-demand-generation-technology"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Partners with Eloqua Demand Generation Technology | CRM Technologies"
+title = "CRM Partners with Eloqua Demand Generation Technology"
 
 +++
 Marketing operations specialist CRM Technologies today announced that it has partnered with Eloqua, the category-defining marketing automation leader, to provide leading edge demand generation technology to its fast-expanding marketing applications and professional services portfolio. Founded in 1999, Eloqua is the global market leader for demand generation applications and best practice expertise for business marketers.
