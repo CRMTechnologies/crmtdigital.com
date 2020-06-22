@@ -14,7 +14,7 @@ slug = "stand-and-deliver-are-your-emails-being-seen"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Stand and Deliver - Are your emails being seen? | CRM Technologies"
+title = "Stand and Deliver - Are your emails being seen?"
 
 +++
 That could be 20% of your customer base gradually losing touch with your organisation – or it could be 20% of your prospect database that has absolutely no idea what you are offering.
