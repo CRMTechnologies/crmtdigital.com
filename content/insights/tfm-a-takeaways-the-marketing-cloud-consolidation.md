@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "highlight"
-date = ""
+date = 2014-03-10T23:00:00Z
 description = "We recently attended TFM&A in London"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -9,8 +9,8 @@ image = ""
 intro = ""
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "tfma-takeaways-–-marketing-cloud-consolidation"
 subheading = ""
 tags = []
 testimonial = ""
