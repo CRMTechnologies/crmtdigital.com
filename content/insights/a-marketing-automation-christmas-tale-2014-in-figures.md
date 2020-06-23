@@ -1,6 +1,6 @@
 +++
 author = ""
-banner_type = "highlight"
+banner_type = "none"
 date = 2014-12-18T23:00:00Z
 description = "Season's greetings from CRM!"
 heading = ""
