@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-02-13T23:00:00Z
+date = 2014-02-14T11:00:00Z
 description = "Here we’re going to take a more detailed look at a few more expressions that marketers undoubtedly run into regularly."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
