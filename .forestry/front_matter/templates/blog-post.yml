@@ -45,6 +45,7 @@ fields:
   label: Slug
   description: Do not include website domain or path.
 pages:
+- content/insights/a-marketing-automation-christmas-tale-2014-in-figures.md
 - content/insights/allocadia-webinar-set-to-bridge-marketing-finances-with-campaign-data-crm-technologies.md
 - content/insights/an-intelligent-approach-to-marketing-automation-adoption-at-sirius-decisions-summit-crm-technologies.md
 - content/insights/are-your-sales-and-marketing-teams-bffs-tell-us-to-win-crm-technologies.md
