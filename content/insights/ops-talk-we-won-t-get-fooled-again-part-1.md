@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2014-11-16T23:00:00Z
 description = "In my post in the summer, we discussed capturing anonymous lead information in a responsible manner."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Pic2_0.png"
