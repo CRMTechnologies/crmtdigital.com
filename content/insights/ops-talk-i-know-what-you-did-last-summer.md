@@ -1,6 +1,6 @@
 +++
 author = ""
-banner_type = "highlight"
+banner_type = "none"
 date = ""
 description = "In my last post I talked about the lead lifecycle and the internal pressures and external expectations of the marketing role."
 heading = ""
