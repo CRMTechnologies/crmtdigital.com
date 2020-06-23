@@ -5,7 +5,7 @@ date = 2015-01-26T23:00:00Z
 description = "January is traditionally the ‘health-kick’ month for many: a chance to detox after the over-indulgence of the holidays and start the year on a positive bearing."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://static.crmtechnologies.com/sites/default/files/large_3227055369.jpg"
 intro = "January is traditionally the ‘health-kick’ month for many: a chance to detox after the over-indulgence of the holidays and start the year on a positive bearing. This same thinking can be applied to business and the good news is, this doesn’t involve gyms or diets."
 keywords = []
 resource = []
@@ -17,8 +17,6 @@ testimonial = ""
 title = "Tips for revitalising your Marketing Automation in 2015 "
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/large_3227055369.jpg" alt="" width="1024" height="768">
-
 As a marketer you will no doubt be running reports and analysing data on a weekly or maybe even daily basis. This New Year, why not go one step further and put some time aside for a full marketing automation audit? Here we’ve outlined a few areas to focus on:
 
 ## Lead scoring
