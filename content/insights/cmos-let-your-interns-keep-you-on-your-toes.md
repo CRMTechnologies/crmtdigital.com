@@ -5,7 +5,7 @@ date = 2014-12-14T23:00:00Z
 description = "Just keeping up with the tech curve takes time, let alone staying ahead of it. Why not turn to your interns?"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://static.crmtechnologies.com/sites/default/files/large_49915119_0.jpg"
 intro = "Just keeping up with the tech curve takes time, let alone staying ahead of it. Why not turn to your interns?"
 keywords = []
 resource = []
@@ -17,8 +17,6 @@ testimonial = ""
 title = "CMOs - let your interns keep you on your toes"
 
 +++
-<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/large_49915119_0.jpg" alt="" width="1024" height="768"></strong></p>
-
 97 percent of CMOs think marketing must do things that it’s never done before to be successful. 85 percent of CMOs think marketing takes responsibility for actions that nobody thought it would three to four years ago([1](https://solutions.forrester.com/bma-survey-findings-ramos)). Clearly evolution is essential to marketing’s survival and the pressures on CMOs to constantly reinvent the wheel are ever increasing.
 
 A big part of creating fresh marketing campaigns involves keeping a finger on the pulse of the latest marketing trends and being aware of the changing perceptions amongst your target market. This is an important part of the CMO’s role, but it’s equally important to let other members of the team share the burden.
