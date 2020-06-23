@@ -9,8 +9,8 @@ image = "https://static.crmtechnologies.com/sites/default/files/Capture.PNG"
 intro = ""
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "normalator-brief-introduction"
 subheading = ""
 tags = []
 testimonial = ""
@@ -19,6 +19,4 @@ title = "Normalator - A brief introduction"
 +++
 A brief introduction to Normalator, the Eloqua cloud connector developed by CRM Technologies. It focuses on one of the most common data maintenance tasks - converting free form text into a standardised list of values.
 
-<div data-index="1" class="slide show" slidenumber="1">
-                    <img id="img_slide_image" class="slide_image" src="https://image.slidesharecdn.com/eloquartr2012-normalatorforslidesharefinal-130827084605-phpapp01/95/converting-free-text-into-standardised-values-a-brief-introduction-to-normalator-1-638.jpg?cb=1377593473" data-normal="https://image.slidesharecdn.com/eloquartr2012-normalatorforslidesharefinal-130827084605-phpapp01/95/converting-free-text-into-standardised-values-a-brief-introduction-to-normalator-1-638.jpg?cb=1377593473" data-full="https://image.slidesharecdn.com/eloquartr2012-normalatorforslidesharefinal-130827084605-phpapp01/95/converting-free-text-into-standardised-values-a-brief-introduction-to-normalator-1-1024.jpg?cb=1377593473" data-small="https://image.slidesharecdn.com/eloquartr2012-normalatorforslidesharefinal-130827084605-phpapp01/85/converting-free-text-into-standardised-values-a-brief-introduction-to-normalator-1-320.jpg?cb=1377593473">
-                  </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/p0hDPhcF6RLG9H" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
