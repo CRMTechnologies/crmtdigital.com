@@ -1,6 +1,6 @@
 +++
 author = ""
-banner_type = "highlight"
+banner_type = "none"
 date = 2014-03-10T23:00:00Z
 description = "We recently attended TFM&A in London"
 heading = ""
