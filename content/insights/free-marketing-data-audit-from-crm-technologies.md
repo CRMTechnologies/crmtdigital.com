@@ -3,7 +3,6 @@ author = "Colin Marks"
 banner_type = "none"
 date = 2004-08-08T22:00:00Z
 description = "Which is specifically designed to help marketing professionals identify where and how valuable customer data is located, and how well it is maintained and used.\nThe audit measures the quality and relevance of both B2B and B2C data that directly impacts the success of direct marketing campaigns. The results will deliver meaningful data that enables better execution of future campaigns. When each data audit is complete, the respondent will receive a report outlining key facts such as:"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
