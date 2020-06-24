@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2012-10-31T23:00:00Z
 description = "Salesforce.com made a highly anticipated announcement recently at the Dreamforce '12 event"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
