@@ -1,0 +1,20 @@
++++
+author = ""
+banner_type = "none"
+date = 2012-04-30T22:00:00Z
+description = "May 26th 2012 draws nearer, the new the EU Directive on privacy"
+heading = ""
+highlight_colour = "rgb(55, 26, 190)"
+image = ""
+intro = ""
+keywords = []
+resource = []
+show_contact = "form"
+slug = "can-you-live-without-cookies"
+subheading = ""
+tags = []
+testimonial = ""
+title = "Can you live without cookies?"
+
++++
+As May 26th 2012 draws nearer, businesses in the UK are starting to take note that the EU Directive on privacy which includes the changes to permission marketing, specifically in relation to cookies, will soon be upon us. If you are not familiar with the Cookie Law, in summary it means that internet users will have to give express permission for any website to drop a cookie onto their PC or any other web connected device (check out our short video here). Cookies have been around for a long time and provide valuable information about visitor behaviour when visiting a website. Sites like Amazon were pioneers in adapting cookies to tailor information presented to site visitors (in the form of suggestions based on browsing behaviour) and countless marketers across the globe have tapped into the power of the cookie to better understand and predict customer behaviour. The option to turn off cookies has always been there for the PC-savvy user, but it requires the user to pro-actively seek out the correct setting on their browser and then turn cookies off. The new law, which comes into force in the UK in May this year, states that any website may not drop cookies onto a visitor's machine without their express consent. The website must also be clear about what they use the information for so as to comply with data protection. The only exceptions to this will be where dropping a cookie is an essential part of the website functionality, for example an e-commerce site with a shopping cart. In February we attended the Technology for Marketing and Advertising exhibition in Earl's Court London and asked visitors about their knowledge of the cookie law. This happened to be on the day that Google was told that their new privacy law did not comply with the legislation as it was not specific enough. The vast majority of people we asked (around 80%) had either not heard of the cookie law, or thought it did not apply to the UK. Given the Google case and the raft of news and blogs (like this one) about the law, hopefully that statistic will change dramatically over the next few weeks. We made a short clip of our Voxpop at TFM&A which you can view here. In terms of how this affects your business and what action you can take, the first thing is to undertake a cookie audit to have a clear picture of what cookies you are using. You can then look into options to add a variety of opt-in opportunities to website visitors through pop-ups, forms and banners that highlight to the visitor that they need to opt-in for cookies. There are also some interesting examples about possible techniques for complying with the law in this recent article on E-consultancy. There are also industry discussions with the main internet browser companies to see if there is a way of getting users to opt in to cookies via the browser, which would significantly reduce the burden on website owners to comply. However, nothing has yet been concluded. The ICO (Information Commissioner's Office) is the body in the UK which is overseeing the implementation of the Cookie Law in the UK and will police it once in place. Yet even the ICO's attempt at complying with the legislation on its own website is somewhat unclear, especially as it assumes ever visitor understands what a cookie actually is. The case with Google will be interesting to monitor and many will be waiting to see the outcome of how Google and browser providers decide to implement the law. For now, our advice is to read up on the facts, think about starting an audit and review some of the options for complying. The deadline is only a few weeks away so get cooki(e)ng soon!
