@@ -3,7 +3,6 @@ author = ""
 banner_type = "none"
 date = 2012-07-08T22:00:00Z
 description = "Implemented by CRM Technologies"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
