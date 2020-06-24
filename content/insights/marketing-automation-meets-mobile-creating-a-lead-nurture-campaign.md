@@ -17,7 +17,7 @@ testimonial = ""
 title = "Marketing automation meets mobile - creating a lead nurture campaign "
 
 +++
-<p><img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Panvista-152x300.jpg" alt="" width="152" height="300"></p>
+<p><img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Panvista-152x300.jpg" alt="" width="152" height="300"></p>
 
 Successful marketing automation programmes rely on the basic principle of understanding who you are dealing with when you send content and interact with customers and prospects. Data capture and progressive profiling coupled with IP information give us a clear indication of who will be on the receiving end of any content we send out, enabling us to tailor that content according to preference and where the contact is in the buying cycle.
 
