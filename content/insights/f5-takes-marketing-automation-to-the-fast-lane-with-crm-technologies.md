@@ -19,7 +19,7 @@ title = "F5 takes marketing automation to the fast lane with CRM Technologies"
 +++
 **About F5**
 
-![](https://www.crmtechnologies.com/sites/default/files/f5-logo.png =74x68)
+<p><img style="margin: 0;" src="https://crmtdigital.com/sites/default/files/f5-logo.png" alt="" width="74" height="68"></p>
 
 F5 provides solutions for an application world. F5 helps organizations seamlessly scale cloud, data center and software defined networking (SDN) deployments to successfully deliver applications to anyone, anywhere, at any time. F5 solutions broaden the reach of IT through an open, extensible framework and a rich partner ecosystem of leading technology and data center orchestration vendors. This approach lets customers pursue the infrastructure model that best fits their needs over time. The world’s largest businesses, service providers, government entities, and consumer brands rely on F5 to stay ahead of cloud, security, and mobility trends. For more information, go to [f5.com](https://f5.com/).
 
