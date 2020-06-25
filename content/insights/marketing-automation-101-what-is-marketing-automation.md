@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-02-06T23:00:00Z
+date = 2014-02-07T11:00:00Z
 description = "Marketing Automation is a term which has increasingly become part of the marketer’s everyday vocabulary."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
