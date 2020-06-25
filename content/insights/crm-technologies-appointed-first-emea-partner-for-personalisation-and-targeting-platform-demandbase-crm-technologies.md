@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2012-11-12T23:00:00Z
+date = 2012-11-13T11:00:00Z
 description = "With an established client base in technology, engineering and a range of other B2B sectors, CRM Technologies will spearhead Demandbase’s launch to the EMEA market and beyond.\nDemandbase’s Real-Time Identification platform plugs into technologies used by marketers, including CRM systems, marketing automation platforms, content management software, chat, forms and analytics. Demandbase allows customers to personalise website content targeted to specific companies without using cookies, which results in better website engagements and conversions."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
