@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2014-09-04T22:00:00Z
+date = 2014-09-05T10:00:00Z
 description = "Our specialized partnership status has been awarded based on our extensive experience of working with enterprises to on-board their Eloqua systems, optimise use of Eloqua's sophisticated functionality and help to develop best practice. "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
