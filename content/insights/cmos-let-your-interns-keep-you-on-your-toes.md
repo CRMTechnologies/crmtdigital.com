@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-12-14T23:00:00Z
+date = 2014-12-15T11:00:00Z
 description = "Just keeping up with the tech curve takes time, let alone staying ahead of it. Why not turn to your interns?"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
