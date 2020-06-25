@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-11-03T23:00:00Z
+date = 2014-11-04T11:00:00Z
 description = "Marketing automation is much more than just a technology issue: it is a long-term change of mind set that must be adopted across a business"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
