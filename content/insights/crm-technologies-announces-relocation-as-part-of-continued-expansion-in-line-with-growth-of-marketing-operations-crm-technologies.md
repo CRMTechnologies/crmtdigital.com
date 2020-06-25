@@ -1,7 +1,7 @@
 +++
 author = ""
-banner_type = "highlight"
-date = 2015-07-02T22:00:00Z
+banner_type = "none"
+date = 2015-07-03T10:00:00Z
 description = "CRM Technologies, a leading marketing operations consultancy, has announced that it is relocating thanks to continued business growth. The company will be moving to Green Park, Reading, Berkshire on 3rd July.\nCRM Technologies serves a global client base that spans Europe and North America and has experienced 54% growth over the past year. Its relocation is part of its continued five-year expansion plan, which has also seen a number of new senior management appointments including Paul Lee as Sales Director and Sean Seelochan as Professional Services Director."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
