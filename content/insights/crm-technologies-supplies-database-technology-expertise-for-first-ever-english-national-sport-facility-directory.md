@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2004-07-18T22:00:00Z
+date = 2004-07-19T10:00:00Z
 description = "CRM Technologies Ltd has played a major role in the development of the most complete national directory of sport and leisure facilities ever seen in England. National sports funding and investment body Sport England has just compiled the first-ever complete database of over 10,000 sports and leisure facilities within the country – now online at activeplaces.com – as a means of encouraging wider participation in sporting activities throughout the population."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
