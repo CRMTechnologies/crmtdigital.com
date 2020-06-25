@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2015-01-26T23:00:00Z
+date = 2015-01-27T11:00:00Z
 description = "January is traditionally the ‘health-kick’ month for many: a chance to detox after the over-indulgence of the holidays and start the year on a positive bearing."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -9,8 +9,8 @@ image = "https://static.crmtechnologies.com/sites/default/files/large_3227055369
 intro = "January is traditionally the ‘health-kick’ month for many: a chance to detox after the over-indulgence of the holidays and start the year on a positive bearing. This same thinking can be applied to business and the good news is, this doesn’t involve gyms or diets."
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "tips-revitalising-your-marketing-automation-2015"
 subheading = ""
 tags = []
 testimonial = ""
