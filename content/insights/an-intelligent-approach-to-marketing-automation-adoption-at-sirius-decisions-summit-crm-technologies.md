@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2014-10-12T22:00:00Z
+date = 2014-10-13T10:00:00Z
 description = ""
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -17,7 +17,7 @@ testimonial = ""
 title = "An intelligent approach to marketing automation adoption at Sirius Decisions Summit"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 10px;" src="https://crmtdigital.com/sites/default/files/SiriusDecisions%202014%20Summit%20Europe%20%20%20Fees.png" alt="" width="923" height="140">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/SiriusDecisions%202014%20Summit%20Europe%20%20%20Fees.png" alt="" width="923" height="140"></p>
 
 We’re Platinum Sponsors of the event this year, taking place on 21st and 22nd October, and will be on Stand 1 to discuss marketing automation and the journey to successful sales alignment, demand generation and revenue growth.
 
