@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2008-10-21T22:00:00Z
+date = 2008-10-22T10:00:00Z
 description = "Marketing operations specialist CRM Technologies today announced that it has partnered with Eloqua, the category-defining marketing automation leader, to provide leading edge demand generation technology to its fast-expanding marketing applications and professional services portfolio. Founded in 1999, Eloqua is the global market leader for demand generation applications and best practice expertise for business marketers."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
