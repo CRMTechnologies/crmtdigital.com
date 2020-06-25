@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-07-17T22:00:00Z
+date = 2014-07-18T10:00:00Z
 description = "By Andrew Freeman, CEO of CRM Technologies"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
