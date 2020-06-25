@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-01-11T23:00:00Z
+date = 2009-01-12T11:00:00Z
 description = "The gloomy economy now means that businesses will have to achieve more sales, with less marketing budget. But with so many options within the marketing mix, where should you start to prioritise those activities? The key objective should be to focus on marketing activities geared to retaining and maintaining existing customers. This is because marketing to repeat customers is the most cost-effective route for business survival and continued success."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
