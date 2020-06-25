@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-01-29T23:00:00Z
+date = 2009-01-30T11:00:00Z
 description = "Sales and Marketing operations specialist CRM Technologies has implemented salesforce.com for UK-based global software business Micro Focus plc, in a way which enables the company to significantly increase the capability of its sales activities, while retaining and integrating all of its ‘legacy’ sales, marketing and lead data."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
