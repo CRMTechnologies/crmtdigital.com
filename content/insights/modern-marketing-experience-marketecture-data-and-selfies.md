@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = ""
+date = 2015-04-14T10:00:00Z
 description = "We recently returned from Las Vegas, where we sponsored Oracle’s excellent Modern Marketing Experience."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -9,8 +9,8 @@ image = ""
 intro = "We recently returned from Las Vegas, where we sponsored Oracle’s excellent Modern Marketing Experience. In an age of digital marketing, it was great to see that the power of live events and face to face interaction remains strong."
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "modern-marketing-experience-marketecture-data-and-selfies"
 subheading = ""
 tags = []
 testimonial = ""
