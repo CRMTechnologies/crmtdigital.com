@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-03-02T23:00:00Z
+date = 2014-03-03T11:00:00Z
 description = "Selecting a Marketing Automation platform is no small undertaking."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
