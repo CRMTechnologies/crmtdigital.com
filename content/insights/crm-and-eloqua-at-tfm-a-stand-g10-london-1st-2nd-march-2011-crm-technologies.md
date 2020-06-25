@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2011-02-21T23:00:00Z
+date = 2011-03-09T11:00:00Z
 description = "TFM&A is the UK's only truly integrated marketing, and advertising, event, with an attendance of over 10,000 (ABC Audited).\nTFM&A delivers the latest industry insight, trends and developments as well as leading suppliers of digital, direct, data and CRM solutions. Add to this, unrivalled networking opportunities for marketing, advertising & media professionals."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
