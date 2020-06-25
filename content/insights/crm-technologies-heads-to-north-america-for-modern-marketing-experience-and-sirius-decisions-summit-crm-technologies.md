@@ -17,7 +17,7 @@ testimonial = ""
 title = "CRM Technologies heads to North America for Modern Marketing Experience and Sirius Decisions Summit"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto; padding-bottom:10px;" src="https://crmtdigital.com/sites/default/files/MME-LV_Sponsor-BRON-BANNER.png" alt="" width="724" height="89">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/MME-LV_Sponsor-BRON-BANNER.png" alt="" width="724" height="89"></p>
 
 This year we’re proud to be Bronze Sponsors of Oracle’s[ Modern Marketing Experience] (MME), kicking off on the 31st March in Las Vegas. We’ve sponsored or attended this event since 2010 and have consistently supported Eloqua and now Oracle. The Oracle Marketing Cloud community is really important to us at CRM and to demonstrate our commitment, this year we’ll have our biggest presence at the show, with a team of five making the trip to attend. One of the strongest areas of focus for us is customer success stories, and MME is the ideal environment for this with the Markie Awards and breakout sessions that focus on customers’ first hand experiences.
 
