@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2013-06-13T22:00:00Z
+date = 2013-06-14T10:00:00Z
 description = "The event looks to attract members of the Eloqua community looking to ‘learn more about modern marketing and see how modern marketers at leading brands are using marketing automation expertise and technology to power revenue performance."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
