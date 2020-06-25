@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-07-23T22:00:00Z
+date = 2014-07-24T10:00:00Z
 description = "Re-use, Re-purpose, Re-write"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
