@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2010-02-18T23:00:00Z
+date = 2010-02-19T11:00:00Z
 description = "TFM&A is the UK's only integrated marketing event and delivers all the latest industry insight, trends and developments as well as leading suppliers of data, CRM, digital and now direct solutions giving you the perfect blend for truly integrated marketing & advertising campaigns."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -17,6 +17,6 @@ testimonial = ""
 title = "CRM at TFM&A 2010 Stand D10 - 23rd/24th February "
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 10px;" src="https://crmtdigital.com/sites/default/files/tfma_logo.png" alt="" width="251" height="98">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/tfma_logo.png" alt="" width="251" height="98"></p>
 
 TFM&A is the UK's only integrated marketing event and delivers all the latest industry insight, trends and developments as well as leading suppliers of data, CRM, digital and now direct solutions giving you the perfect blend for truly integrated marketing & advertising campaigns.
