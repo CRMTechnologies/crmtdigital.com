@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2010-02-18T23:00:00Z
+date = 2010-02-19T11:00:00Z
 description = "The DataStart service has been designed to get an organisations marketing data in good shape so that they may take maximum advantage of the targetting and personalisation capabilities of Eloqua."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
