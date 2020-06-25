@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2012-04-24T22:00:00Z
+date = 2012-04-25T10:00:00Z
 description = "We are looking forward to an excellent line up this year, especially the keynote from David Meerman Scott, Author of The New Rules of Marketing and PR, not to mention the first ever European Markies! (register here if you haven’t already..)."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
