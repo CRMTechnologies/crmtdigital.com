@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2008-10-19T22:00:00Z
+date = 2008-10-20T10:00:00Z
 description = "So, you’ve been on the acquisition trail, you’ve pinpointed a business which offers an ideal strategic fit with your own, their board has accepted your offer, the deal is done and you can now look forward to a seamless integration process which fully synchronises that business and its operational systems with your own – thereby creating a business superpower capable of conquering all in its path, right? Well no, not exactly…"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
