@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-11-09T23:00:00Z
+date = 2014-11-10T11:00:00Z
 description = "Speaking at the Marketo Roadshow in London, CEO Andrew Freeman on innovation."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
