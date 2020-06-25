@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2015-02-12T23:00:00Z
+date = 2015-02-13T11:00:00Z
 description = "In 2014, CRM Technologies saw a 54% growth in sales as a result of deeper penetration into its existing customer base and expansion into new markets. To continue this trend, the company has appointed Paul Lee as its new Sales Director."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -9,8 +9,8 @@ image = ""
 intro = "CRM Technologies has announced record annual growth and the expansion of its senior management team."
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "crm-technologies-supports-record-expansion-sales-director-appointment"
 subheading = ""
 tags = []
 testimonial = ""
