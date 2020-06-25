@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-06-25T22:00:00Z
+date = 2009-06-26T10:00:00Z
 description = "That could be 20% of your customer base gradually losing touch with your organisation – or it could be 20% of your prospect database that has absolutely no idea what you are offering.\nYes, you could blame over-zealous ISPs inadvertently causing a bit of ‘collateral damage’ in their ongoing (and entirely reasonable) fight against spam.  But, the bad news is that the true cause may well lie right on your own doorstep – because the way you send email now plays a major part in whether or not it reaches its intended target."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
