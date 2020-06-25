@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-11-16T23:00:00Z
+date = 2014-11-17T11:00:00Z
 description = "In my post in the summer, we discussed capturing anonymous lead information in a responsible manner."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
