@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2004-10-31T23:00:00Z
+date = 2004-11-01T11:00:00Z
 description = "Specialist in outsourced marketing services, CRM Technologies has extended its offering by combining its marketing services with data services as well as technology to provide a complete, one-stop shop for marketing professionals. This includes a new collection of e-marketing management tools that manages complete web and email campaigns. Whether running an event or distributing an e-newsletter, the module automates the entire workflow process to create electronic forms and registration pages, track customers and capture their data, as well as build customer profiles."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
