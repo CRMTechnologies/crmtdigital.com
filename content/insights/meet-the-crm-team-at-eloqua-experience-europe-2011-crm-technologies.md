@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2011-03-22T23:00:00Z
+date = 2011-03-23T11:00:00Z
 description = "Whether you’re looking for insight on how to get started with Eloqua or you’re a marketing rockstar seeking the next level of technology to boost your revenue engine, Eloqua Experience will deliver the strategic content you’re looking for."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
