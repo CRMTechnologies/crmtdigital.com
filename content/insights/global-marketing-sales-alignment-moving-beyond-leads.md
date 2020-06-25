@@ -3,6 +3,7 @@ author = "Andrew Freeman"
 banner_type = "none"
 date = 2015-11-18T23:00:00Z
 description = "Discover how Marketing and Sales can move beyond leads and use IT alignment in a global manner."
+draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Blog---Global-Marketing-&-Sales-alignment.jpg"
