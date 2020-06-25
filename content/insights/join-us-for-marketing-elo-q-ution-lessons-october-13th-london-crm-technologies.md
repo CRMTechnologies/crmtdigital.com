@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2011-10-03T22:00:00Z
+date = 2011-10-04T10:00:00Z
 description = "The seminar, part of Eloqua's Marketing Elo[q]ution Lessons series, will focus on 'Lead Nurturing and Scoring'. Join us for this breakfast briefing and learn how our client McAfee worked with CRM Technologies and used marketing automation to stay in front of their prospects with an effective nurture programme while also setting up a lead scoring system to dramatically improve their 'lead to close' conversation rates. More information about the event is available here."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
