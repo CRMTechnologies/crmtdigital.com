@@ -1,9 +1,8 @@
 +++
 author = ""
-banner_type = "highlight"
+banner_type = "none"
 date = 2014-02-04T11:00:00Z
 description = "The world of marketing automation is full of abbreviations, buzzwords and jargon"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Pic1_1.jpg"
