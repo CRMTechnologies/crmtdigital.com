@@ -1,8 +1,8 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2007-10-15T22:00:00Z
-description = "The certificate covers every aspect of B2B marketing best practice; from planning and budgeting, data to creative, and media to measurement. Practitioners with this qualification are able to deliver the most relevant, up-to-date, expert advice to UK B2B marketers.\nCook says: “This is another first for CRM, with its investment in leading-edge training, to ensure that it can offer world-class B2B marketing capability that caters for any operational marketing challenge.”"
+date = 2007-10-16T10:00:00Z
+description = "The certificate covers every aspect of B2B marketing best practice; from planning and budgeting, data to creative, and media to measurement. Practitioners with this qualification are able to deliver the most relevant, up-to-date, expert advice to UK B2B marketers. Cook says: “This is another first for CRM, with its investment in leading-edge training, to ensure that it can offer world-class B2B marketing capability that caters for any operational marketing challenge.”"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
