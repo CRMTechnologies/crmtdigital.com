@@ -1,7 +1,7 @@
 +++
 author = "Andrew Freeman"
 banner_type = "none"
-date = 2013-07-21T22:00:00Z
+date = 2013-07-22T10:00:00Z
 description = "Inbound Marketing and Content by Andrew Freeman"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
