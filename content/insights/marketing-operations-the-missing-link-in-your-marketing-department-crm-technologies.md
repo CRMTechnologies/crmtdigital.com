@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-03-14T23:00:00Z
+date = 2009-03-15T11:00:00Z
 description = "Today, you need to be able to juggle campaign activity with gathering customer data and delivering high quality, qualified leads to your sales team, while reporting to an increasingly-savvy board of directors, who all want to be convinced that their money is being well spent."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
