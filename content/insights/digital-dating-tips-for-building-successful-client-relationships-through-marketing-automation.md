@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-09-19T22:00:00Z
+date = 2014-09-20T10:00:00Z
 description = "Despite the increased focus on ROI and metrics for CMOs, successful marketing has always been about nurturing great relationships with customers"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
