@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-06-24T22:00:00Z
+date = 2014-06-25T10:00:00Z
 description = "Last week saw the launch of the inaugural London Technology Week"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
