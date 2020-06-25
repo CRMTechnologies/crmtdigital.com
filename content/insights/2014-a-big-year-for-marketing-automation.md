@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-12-07T23:00:00Z
+date = 2014-12-08T11:00:00Z
 description = "Here we take a look back on the key events and trends that emerged through 2014…"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
