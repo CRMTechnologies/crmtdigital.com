@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2010-09-12T22:00:00Z
+date = 2010-09-13T10:00:00Z
 description = "The inaugural European event theme is growth through sales and marketing alignment and is focused on driving top line growth through optimisation of sales and marketing.  Delegates will leave knowing how to create systematic demand, increase sales productivity and drive revenue in a more predictable, integrated fashion. Thought leaders from Sirius Decisions will be in attendance as well as guest speakers from Symantec, SAP and AutoDesk.  A wide range of topics will be covered including:"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
