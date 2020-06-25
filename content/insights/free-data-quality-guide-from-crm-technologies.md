@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2005-04-14T22:00:00Z
+date = 2005-04-15T10:00:00Z
 description = "The guide examines the cost of inaccurate data and details the steps to take towards good database management for those working in a business-to-business or business-to-consumer environment."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
