@@ -1,7 +1,7 @@
 +++
-author = "Andrew Freeman, CEO of CRM Technologies."
+author = "Andrew Freeman"
 banner_type = "none"
-date = 2013-08-05T22:00:00Z
+date = 2013-08-06T10:00:00Z
 description = "By Andrew Freeman, CEO of CRM Technologies."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
