@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2015-10-13T22:00:00Z
+date = 2015-10-14T10:00:00Z
 description = "Come and visit CRM Technologies at SiriusDecisions 2015 European Summit on Monday 19th - Tuesday 20th October.\nCRMT are Platinum Sponsors of the event and are happy to be presenting Nick Hill, CRM Manager at TalkTalk Business at the Case Study Session on Monday morning at 10:30."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
