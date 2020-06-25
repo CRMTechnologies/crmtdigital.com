@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2004-03-16T23:00:00Z
+date = 2004-03-17T11:00:00Z
 description = "content=\"CRM Technologies Ltd has further broadened its expertise within the CRM arena with its appointment as a Microsoft CRM Certified Software Advisor. The company has also announced its intention to bring CRM solutions and services to a wider range of businesses than ever before.\""
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
