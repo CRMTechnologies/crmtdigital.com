@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2003-10-27T23:00:00Z
+date = 2003-10-28T11:00:00Z
 description = "Entitled “Achieving ROI on Marketing Spend”, the report surveyed over 100 heads of marketing in £50m-plus-turnover businesses and shows that 72% do not train their marketing staff on the issue of DPA compliance and 77% have no ISO-accredited internal procedures in place to ensure compliance.\nAlmost one fifth (19%) say they encounter difficulties keeping their database(s) legal – especially in the business financial services sector (40%). A shocking 14% are not sure how their company ensures compliance, and a further 2% confess to not really making any effort at all to comply."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
