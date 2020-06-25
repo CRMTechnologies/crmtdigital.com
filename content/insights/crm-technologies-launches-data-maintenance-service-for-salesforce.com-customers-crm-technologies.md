@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-08-25T22:00:00Z
+date = 2009-08-26T10:00:00Z
 description = "Specifically targeted at organisations that build and operate marketing databases using multiple, segmented and regularly-updated data sources, CRM’s service is designed to provide users with a 100% valid, up to date data set combining maximum record quality with optimum data integrity."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
