@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-02-09T23:00:00Z
+date = 2009-02-10T11:00:00Z
 description = "Marketing operations specialist CRM Technologies has implemented an innovative, closed loop sales, marketing and demand generation system for rapidly-growing software solutions business, Vamosa. According to CRM Technologies, this is the first time that a system with such high levels of functionality and capability has been implemented by them outside of the large, multi-national corporate sector."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
