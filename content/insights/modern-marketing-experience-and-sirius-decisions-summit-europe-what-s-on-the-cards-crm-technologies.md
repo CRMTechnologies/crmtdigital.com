@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2014-08-07T22:00:00Z
+date = 2014-08-08T10:00:00Z
 description = ""
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -17,7 +17,7 @@ testimonial = ""
 title = "Modern Marketing Experience and Sirius Decisions Summit Europe – what’s on the cards?"
 
 +++
-<img style="display: block; margin-left: auto; margin-right: auto; padding-bottom: 10px;" src="https://www.crmtdigital.com/sites/default/files/MME_LondonBanner.png" alt="" width="724" height="89">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.crmtdigital.com/sites/default/files/MME_LondonBanner.png" alt="" width="724" height="89"></p>
 
 We’re proud to announce that we’ll be gold sponsors of [Oracle’s European Modern Marketing Experience](http://www.cvent.com/events/modern-marketing-experience-europe/event-summary-cd2f7509fa4d446aaa38beb82e08c564.aspx?r=d0b1a259-453a-4c69-b5d4-7b2d81f6f3fd) (14th-16th October) and platinum sponsors of [Sirius Decisions Summit Europe](https://www.siriusdecisions.com/Events/Summit/2014-Summit-Europe.aspx) (21st-22nd October). We’ll be exhibiting and speaking at both events, presenting some of our customer case studies that will help demonstrate the way in which businesses are using marketing automation to transform their lead generation programmes. Watch this space for more details.
 
