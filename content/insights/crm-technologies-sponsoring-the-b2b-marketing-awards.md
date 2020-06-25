@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2014-11-09T23:00:00Z
+date = 2014-11-10T11:00:00Z
 description = "Now in its ninth year, the B2B Marketing Awards celebrates the brightest stars in B2B marketing. The event always offers a great combination of entertainment and real marketing success stories, and we’re expecting this year to be no different."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
