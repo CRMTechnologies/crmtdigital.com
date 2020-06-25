@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-07-31T22:00:00Z
+date = 2014-08-01T10:00:00Z
 description = "Our new ‘Ops Talk’ blog series takes a look at the practical steps involved in addressing two key aspects of marketing operations methodology"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
