@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-09-25T22:00:00Z
+date = 2014-09-26T10:00:00Z
 description = "The need to align sales and marketing functions is something that has long kept CMOs awake at night."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
