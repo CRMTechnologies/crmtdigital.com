@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2012-07-19T22:00:00Z
+date = 2012-07-20T10:00:00Z
 description = "The ‘Right people, right content, right time’ initiative has been nominated for the ‘Best Lead Nurturing Campaign’, a project that saw CRM Technologies help McAfee, the world’s largest dedicated security technology company, to develop and implement a successful lead nurturing programme using the Eloqua marketing automation platform."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
