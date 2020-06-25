@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2004-09-07T22:00:00Z
+date = 2004-09-08T10:00:00Z
 description = "This free email-marketing guide is aimed at marketing professionals working in both B2B and B2C environments. The guide provides hints and tips to help the effective and compliant execution of email-marketing campaigns within the most recent legal guidelines."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
