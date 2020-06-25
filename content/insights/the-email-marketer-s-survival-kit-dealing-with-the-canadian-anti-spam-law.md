@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-07-07T22:00:00Z
+date = 2014-07-08T10:00:00Z
 description = "As of 1st July 2014, businesses and organisations are banned from sending commercial electronic messages to recipients in Canada without their approval."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
