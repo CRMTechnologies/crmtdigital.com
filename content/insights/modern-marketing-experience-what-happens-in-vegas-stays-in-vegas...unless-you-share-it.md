@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2015-03-22T23:00:00Z
+date = 2015-03-23T11:00:00Z
 description = "With just a little over a week until the CRM Technologies team jets out to Las Vegas for Modern Marketing Experience (MME), we want to hear from you!"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
