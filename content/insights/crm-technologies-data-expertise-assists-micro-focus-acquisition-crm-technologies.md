@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2009-02-22T23:00:00Z
+date = 2009-02-23T11:00:00Z
 description = "Sales and Marketing operations specialist CRM Technologies has played a significant role in enabling UK-based global software business Micro Focus plc to seamlessly integrate the business data of its latest acquisition into its own business information system."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
