@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2003-11-22T23:00:00Z
+date = 2003-11-23T11:00:00Z
 description = "Entitled “Achieving ROI on Marketing Spend”, the report surveyed over 100 heads of marketing in £50m-plus-turnover businesses, with 99% claiming that their company faces at least some difficulties managing the databases they use for B2B marketing campaigns. The top five complaints include that it’s time-consuming (67%), labour-intensive (51%), becomes out of date quickly (34%), not a popular activity among marketing staff (28%), integration with external data (28%) and fragmentation (27%)."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
