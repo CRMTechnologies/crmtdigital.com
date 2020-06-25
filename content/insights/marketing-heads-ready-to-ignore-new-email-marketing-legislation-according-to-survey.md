@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2003-09-08T22:00:00Z
+date = 2003-09-09T10:00:00Z
 description = "New rules require all email recipients to opt in to receive email-marketing, unless they are existing customers. Yet, around 1 in 8 marketing professionals say they have never heard of this new legislation relating to email communications, and another third (37%) say they are not sure about the detail of it, according to the survey."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
