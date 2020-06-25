@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2008-03-05T23:00:00Z
+date = 2008-03-06T11:00:00Z
 description = "CRM Technologies approval as a consultancy and application exchange partner for salesforce.com means that the company can now offer bespoke application development services for existing customers of salesforce.com, while offering new salesforce.com users the opportunity to deploy completely customised applications which perfectly match their business needs."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
