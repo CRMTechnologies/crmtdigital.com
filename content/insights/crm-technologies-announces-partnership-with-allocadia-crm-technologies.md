@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2013-11-04T23:00:00Z
+date = 2013-11-05T11:00:00Z
 description = "As part of the new partnership we will be offering Allocadia’s enterprise marketing software to clients as part of our complete sales and marketing operations offering.\nAllocadia is the leading MRM budgeting solution for enterprise in terms of adoption and ease of use and we are excited to help our clients' CMOs and marketing teams adopt this solution and drive marketing accountability across their business."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
