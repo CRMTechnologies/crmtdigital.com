@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2003-08-18T22:00:00Z
+date = 2003-08-19T10:00:00Z
 description = "Which is due to a fundamental inability to agree with management on precisely what the parameters for ROI should be, according to a survey published today by marketing campaign lifecycle management specialists, CRM Technologies Ltd."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
