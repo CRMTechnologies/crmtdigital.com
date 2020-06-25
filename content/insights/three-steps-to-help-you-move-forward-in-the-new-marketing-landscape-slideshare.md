@@ -3,6 +3,7 @@ author = "Andrew Freeman"
 banner_type = "none"
 date = 2016-05-12T10:00:00Z
 description = "Discover why you need a new marketing technology strategy to move forward in the new landscape."
+draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
