@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-03-15T23:00:00Z
+date = 2012-03-16T11:00:00Z
 description = "Our MD Andrew Freeman was interviewed by B2B Marketing Magazine"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
