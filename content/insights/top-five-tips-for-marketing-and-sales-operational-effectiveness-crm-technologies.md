@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-09-10T22:00:00Z
+date = 2012-09-11T10:00:00Z
 description = "Sales and marketing alignment is critical to ensuring long term success"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
