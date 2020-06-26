@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-09-14T21:54:00Z
+date = 2012-09-14T10:00:00Z
 description = "In November, the CRM Technologies team will be heading in to London"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
