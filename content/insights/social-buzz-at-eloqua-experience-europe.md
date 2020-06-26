@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-05-24T22:00:00Z
+date = 2012-05-25T10:00:00Z
 description = "Last week we were social media sponsors at Eloqua Experience Europe"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
