@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2013-06-27T22:00:00Z
+date = 2013-06-28T10:00:00Z
 description = "Adobe's Marketing Cloud expands with Neolane acquisition"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
