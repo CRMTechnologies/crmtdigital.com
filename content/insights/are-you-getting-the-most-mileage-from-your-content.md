@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2013-01-21T23:00:00Z
+date = 2013-01-22T11:00:00Z
 description = "Producing relevant and engaging content has to be one of the biggest challenges facing B2B marketers"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
