@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-10-31T23:00:00Z
+date = 2012-11-01T11:00:00Z
 description = "Salesforce.com made a highly anticipated announcement recently at the Dreamforce '12 event"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -9,8 +9,8 @@ image = ""
 intro = ""
 keywords = []
 resource = []
-show_contact = ""
-slug = ""
+show_contact = "form"
+slug = "your-head-marketing-cloud"
 subheading = ""
 tags = []
 testimonial = ""
