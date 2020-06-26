@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-09-12T22:00:00Z
+date = 2012-09-13T10:00:00Z
 description = "Marketing automation' sounds like a wonderful utopia for marketers"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
