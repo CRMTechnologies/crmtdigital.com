@@ -1,7 +1,7 @@
 +++
 author = "Andrew Freeman"
 banner_type = "none"
-date = 2015-11-18T23:00:00Z
+date = 2015-11-19T11:00:00Z
 description = "Discover how Marketing and Sales can move beyond leads and use IT alignment in a global manner."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
