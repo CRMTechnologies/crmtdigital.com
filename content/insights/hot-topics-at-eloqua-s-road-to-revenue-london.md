@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-11-26T23:00:00Z
+date = 2012-11-27T11:00:00Z
 description = "This Wednesday 28th November sees Eloqua's Road to Revenue Tour hit London"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
