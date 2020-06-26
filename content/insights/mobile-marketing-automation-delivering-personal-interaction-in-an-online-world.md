@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2015-06-03T22:00:00Z
+date = 2015-06-04T10:00:00Z
 description = "Mobile Marketing Automation (MMA) looks to be the next big thing to deliver a valuable competitive edge for businesses."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
