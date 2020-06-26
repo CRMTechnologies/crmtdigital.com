@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2013-01-30T23:00:00Z
+date = 2013-01-31T11:00:00Z
 description = "We are all on the receiving end of usually what amounts to an overload of email information."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -17,7 +17,7 @@ testimonial = ""
 title = "Keeping it personal - refreshing your preference centre"
 
 +++
-<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Choices-image-from-MS-Office-150x150.jpg" alt="" width="150" height="150">
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Choices-image-from-MS-Office-150x150.jpg" alt="" width="150" height="150">
 
 We are all on the receiving end of usually what amounts to an overload of email information. In a world where thousands of messages are pushed daily to our target customers, getting the right message in front of people at the right time has never been more important. In marketing automation terms, delivering successful email campaigns linked to nurture programmes relies on a number of factors, not least of which is an effective preference centre.
 
