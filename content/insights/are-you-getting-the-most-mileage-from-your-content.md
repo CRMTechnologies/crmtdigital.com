@@ -17,6 +17,8 @@ testimonial = ""
 title = "Are you getting the most mileage from your content?"
 
 +++
+<img style="float: right; margin-left: 10px; margin-top: 0;" src="https://crmtdigital.com/sites/default/files/Petrol-150x150.jpg" alt="" width="150" height="150">
+
 Producing relevant and engaging content has to be one of the biggest challenges facing B2B marketers in 2013. Having invested blood sweat and tears (not to mention budget whether for external agencies or internal time costs) in creating your content, you want to make sure you get the most bang for your buck; how can you squeeze every bit of value out of that juicy content?
 
 Of course successful content to support your marketing automation programmes starts with the premise of a good story, an engaging read with useful information. Huge effort naturally goes into the creative process at the front end, but rather than heave a sigh of relief once the creative phase is complete, take a moment to think about your process for maximising this valuable asset.
