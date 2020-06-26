@@ -1,13 +1,13 @@
 +++
 author = ""
 banner_type = "none"
-date = 2013-03-22T23:00:00Z
+date = 2013-03-21T11:00:00Z
 description = "It won't be ground-breaking news to you as a B2B Marketer to hear that a large amount of marketing databases lie dormant."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
 intro = ""
-keywords = []
+keywords = ["lead scoring", "lead nurture"]
 resource = []
 show_contact = "form"
 slug = "waking-dead-reviving-emotional-unsubscribes"
