@@ -1,7 +1,7 @@
 +++
-author = ""
+author = "Alan Chatfield"
 banner_type = "none"
-date = ""
+date = 2018-07-23T10:00:00Z
 description = "Are you stuck in the past with traditional email nurturing? Marketing has shifted, so it’s time to step up your game. With an abundance of channels now at your fingertips, lead nurturing must go beyond email to deliver prospects an integrated brand experience across multiple touch points. Get the lowdown on nurturing in a multi-channel world, from CRMT’s Senior Digital Marketing Strategist, Alan Chatfield."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
