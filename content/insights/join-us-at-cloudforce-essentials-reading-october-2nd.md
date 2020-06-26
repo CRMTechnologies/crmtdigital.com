@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-09-27T22:00:00Z
+date = 2012-09-28T10:00:00Z
 description = "salesforce.com's Cloudforce Essentials event at the Reading Madjeski Stadium on October 2nd"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
