@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-10-31T23:00:00Z
+date = 2012-11-01T11:00:00Z
 description = "McAfee has been shortlisted for a Markie award in the Event Nirvana category"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
