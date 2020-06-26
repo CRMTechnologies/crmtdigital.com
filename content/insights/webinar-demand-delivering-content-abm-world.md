@@ -22,6 +22,7 @@ thumbnail = "https://www.crmtechnologies.com/sites/default/files/webinar-video.p
 title = "Webinar On Demand: Delivering Content in an ABM World"
 type = "video"
 url = "insights/webinar-demand-delivering-content-abm-world"
+
 +++
 The shift to ABM as the dominant B2B marketing strategy has brought about advances in targeting, personalization and analytics. But many ABM programs still look like traditional demand gen. Many marketers haven’t adapted the way they deliver content and educate buyers in this new world.
 
@@ -32,3 +33,5 @@ Watch this on-demand webinar with LookBookHQ to gain insights on how to best del
 * Address the unique pains of buyers at the account level
 * Nurture anonymous contacts at target accounts
 * Better understand account level interest and intent
+
+<p><iframe src="https://www.youtube.com/embed/3GiRewjRrYE" frameborder="0" width="760" height="515"></iframe></p>
