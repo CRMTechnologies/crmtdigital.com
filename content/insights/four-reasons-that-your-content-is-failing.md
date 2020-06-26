@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2015-06-16T22:00:00Z
+date = 2015-06-17T10:00:00Z
 description = "A whole host of elements are required to create a marketing automation system that fires on all cylinders. Perhaps one of the most important is content: the fuel for the fire."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
