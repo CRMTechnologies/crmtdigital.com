@@ -1,13 +1,13 @@
 +++
 author = ""
 banner_type = "none"
-date = 2012-04-30T22:00:00Z
+date = 2012-05-01T10:00:00Z
 description = "May 26th 2012 draws nearer, the new the EU Directive on privacy"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
 intro = ""
-keywords = []
+keywords = ["cookie law", "cookies"]
 resource = []
 show_contact = "form"
 slug = "can-you-live-without-cookies"
