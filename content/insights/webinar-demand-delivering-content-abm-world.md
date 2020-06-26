@@ -15,6 +15,7 @@ image = "https://www.crmtechnologies.com/sites/default/files/Dec-lbhq-blogthmb.p
 keywords = ["Account Based Marketing"]
 resource = "excellence-hub/my-awesome-guide-to-the-future-of-marketing-automation.md"
 show_contact = "form"
+slug = "webinar-demand-delivering-content-abm-world"
 subheading = ""
 tags = []
 testimonial = ""
