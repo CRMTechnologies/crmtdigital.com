@@ -17,6 +17,8 @@ testimonial = ""
 title = "Keeping it personal - refreshing your preference centre"
 
 +++
+<img style="float: right; margin-top: 0; margin-left: 10px;" src="/sites/default/files/Choices-image-from-MS-Office-150x150.jpg" alt="" width="150" height="150">
+
 We are all on the receiving end of usually what amounts to an overload of email information. In a world where thousands of messages are pushed daily to our target customers, getting the right message in front of people at the right time has never been more important. In marketing automation terms, delivering successful email campaigns linked to nurture programmes relies on a number of factors, not least of which is an effective preference centre.
 
 Delivering irrelevant information, perhaps in a foreign language with alarming frequency could easily drive your prospects and customers to hit the dreaded 'unsubscribe' link. One way to limit or avoid this is by demonstrating you want to understand their requirements for information, giving them the option to tailor what content they receive to suit their preferences better with a 'pre-emptive' preference centre update campaign.
