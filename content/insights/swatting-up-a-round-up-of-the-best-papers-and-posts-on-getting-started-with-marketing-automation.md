@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "none"
-date = 2014-11-23T23:00:00Z
+date = 2014-11-24T11:00:00Z
 description = "The internet is awash with information on Marketing Automation, with some guides offering useful insights for those just starting out and others not quite hitting the mark."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
