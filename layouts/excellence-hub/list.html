@@ -5,7 +5,7 @@
 				{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "infographic" "resource")) }}
 				{{ $paginator := .Paginate $pages 6 }}	
 				{{ range $paginator.Pages.ByPublishDate.Reverse }}
-					{{ if (isset .Params "thumbnail" ) }}
+					{{if ne .Params.cta_image "" }}
 					  {{ .Render "li"}}
 					{{ end }}
 				{{ end }}
