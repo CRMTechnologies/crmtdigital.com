@@ -14,7 +14,7 @@
 						</div>											
 					</header>
 					<div class=" mt-4">
-						{{ if (isset .Params "intro") }}<p><em>{{ .Params.intro }}</em></p>{{ else if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}}
+						{{ if (isset .Params "intro") }}<p><em>{{ .Params.intro }}</em></p>{{ else if (isset .Params "description") }}<p><em>{{ .Description }}</em></p>{{ end }}
 						<div class="my-4 videoWrapper"><iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" frameborder="0" height="515" src="{{ .Params.asset_link }}" width="760" allowfullscreen></iframe></div>
 						{{ .Content }}					
 					</div>					
