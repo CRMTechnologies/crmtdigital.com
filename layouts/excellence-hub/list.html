@@ -5,7 +5,9 @@
 				{{ $pages := (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "infographic" "resource")) }}
 				{{ $paginator := .Paginate $pages 6 }}	
 				{{ range $paginator.Pages.ByPublishDate.Reverse }}
+					{{ if (isset .Params "thumbnail" ) }}
 					  {{ .Render "li"}}
+					{{ end }}
 				{{ end }}
 			</div>                        
 			<div class="row justify-content-center">                        
