@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/CMO-Inf-Insights.jpg"
+image = "https://static.crmtechnologies.com/sites/default/files/CMO-Inf-Insights.jpg"
 keywords = []
 resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/cmo-inf-exc-hub.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/cmo-inf-exc-hub.png"
 title = "The Changing Face of Today's Modern CMO"
 type = "infographic"
 url = "insights/changing-face-todays-cmo"
