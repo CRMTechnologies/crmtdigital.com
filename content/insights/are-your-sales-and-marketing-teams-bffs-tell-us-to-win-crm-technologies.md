@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2012-02-14T23:00:00Z
+date = 2012-02-15T11:00:00Z
 description = "At the forthcoming TFM&A show in Earl's Court London on February 28th- 29th, we will be co-exhibiting with Eloqua and will be talking about how sales and marketing really can be BFFs. Come and visit us on Stand C10 or share the 'love' by describing how the relationship between your sales and marketing teams works well on our social media channels Twitter (please use #loverevenue) and Facebook."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "are-your-sales-and-marketing-teams-bffs-tell-us-win"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Are your sales and marketing teams BFFs? Tell us to win! | CRM Technologies"
+title = "Are your sales and marketing teams BFFs? Tell us to win! "
 
 +++
 At the forthcoming TFM&A show in Earl's Court London on February 28th- 29th, we will be co-exhibiting with Eloqua and will be talking about how sales and marketing really can be BFFs. Come and visit us on Stand C10 or share the 'love' by describing how the relationship between your sales and marketing teams works well on our social media channels [Twitter](https://twitter.com/crmtechnologies) (please use #loverevenue) and [Facebook](https://www.facebook.com/crmtechnologies). We are offering a prize of dinner for two worth £170 at [OXO London Brasserie](http://www.harveynichols.com/restaurant/the-oxo-tower/) for the best answer so get sharing!

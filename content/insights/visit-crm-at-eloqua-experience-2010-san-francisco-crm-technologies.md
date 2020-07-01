@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2010-09-12T22:00:00Z
+date = 2010-09-13T10:00:00Z
 description = "The annual conference provides an excellent forum for Eloqua customers wishing to extract the very best from their Eloqua investment and drive revenue growth.\nThe three day event is set to offer a wide range of educational sessions covering marketing automation best practices, training, new innovations, and networking with a community of marketers from various industries."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "visit-crm-eloqua-experience-2010-san-francisco"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Visit CRM at Eloqua Experience 2010, San Francisco | CRM Technologies"
+title = "Visit CRM at Eloqua Experience 2010, San Francisco"
 
 +++
 The annual conference provides an excellent forum for Eloqua customers wishing to extract the very best from their Eloqua investment and drive revenue growth.

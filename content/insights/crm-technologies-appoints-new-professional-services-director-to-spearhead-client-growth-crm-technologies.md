@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2015-06-09T22:00:00Z
+date = 2015-06-10T10:00:00Z
 description = "Sean joins the company at a time of rapid growth and will become a key member of the senior management team.\nSean’s appointment is part of a wider recruitment drive at CRM Technologies, following a year that has seen 54% growth across the company. A highly experienced digital professional specialising in cloud based technologies, Sean previously held the position of Senior Consultant at CapGemini."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "crm-technologies-appoints-new-professional-services-director-spearhead-c
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies appoints new Professional Services Director to spearhead client growth | CRM Technologies"
+title = "CRM Technologies appoints new Professional Services Director to spearhead client growth"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Sean_Seelochan_1_sml.jpg" alt="" width="300" height="434">

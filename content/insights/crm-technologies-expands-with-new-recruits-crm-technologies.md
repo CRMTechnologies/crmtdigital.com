@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2013-05-09T22:00:00Z
+date = 2013-05-10T10:00:00Z
 description = "Lara Vermont joins as Account Executive and Michaela East as Database Analyst.\nLara Vermont joins from her previous role as Sales and Marketing Executive at CleverTouch Marketing.  Since graduating with a Marketing degree in 2008, Lara has gained experience across a variety of industries, including pharmaceutical and publishing as well as agency experience."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "crm-technologies-expands-new-recruits"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies expands with new recruits | CRM Technologies"
+title = "CRM Technologies expands with new recruits"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Lara-and-Michaela-crop-300x206.jpg" alt="" width="300" height="206">

@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "highlight"
-date = 2012-11-04T23:00:00Z
+date = 2012-11-05T11:00:00Z
 description = "This year, we are delighted to be attending as premier sponsors and are looking forward to hearing our CEO Andrew Freeman present as part of the Engage stream."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "CEO Andrew Freeman to present at FUNNEL event | CRM Technologies"
+title = "CEO Andrew Freeman to present at FUNNEL event "
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/funnel.png" alt="" width="139" height="138">

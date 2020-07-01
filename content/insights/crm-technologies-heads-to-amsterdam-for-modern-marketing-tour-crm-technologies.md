@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2014-03-20T23:00:00Z
+date = 2014-03-21T11:00:00Z
 description = "We’re very proud sponsors of the event and our Solutions Consultant Adrian Mills will be presenting at 1:30pm on the ‘Marketing Execution’ track."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "crm-technologies-heads-amsterdam-modern-marketing-tour"
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies heads to Amsterdam for Modern Marketing Tour | CRM Technologies"
+title = "CRM Technologies heads to Amsterdam for Modern Marketing Tour "
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital/sites/default/files/MMT_Sponsor_large.png" alt="" width="250" height="250">

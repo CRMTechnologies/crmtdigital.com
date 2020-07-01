@@ -1,12 +1,12 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2012-01-12T23:00:00Z
+date = 2012-01-13T11:00:00Z
 description = "The new certification, launched in October by Eloqua, the leading provider of on-demand revenue performance management solutions, has had numerous applications and conducted more than 250 individual examinations to date.  CRM Technologies is the fourth partner to achieve accreditation globally. "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
-intro = "CRM Technologies is first UK headquartered firm to achieve new 'Eloqua Level 1 Certified Partner' status"
+intro = "Specialist UK-based marketing operations agency CRM Technologies has become the first UK headquartered firm to achieve Eloqua’s newly launched ‘Eloqua Level 1 Certified Partner’ status."
 keywords = []
 resource = []
 show_contact = "form"
@@ -14,7 +14,7 @@ slug = "crm-technologies-first-uk-headquartered-firm-achieve-new-eloqua-level-1-
 subheading = ""
 tags = []
 testimonial = ""
-title = "CRM Technologies is first UK headquartered firm to achieve new 'Eloqua Level 1 Certified Partner' status | CRM Technologies"
+title = "CRM Technologies is first UK headquartered firm to achieve new 'Eloqua Level 1 Certified Partner' status"
 
 +++
 The new certification, launched in October by Eloqua, the leading provider of on-demand revenue performance management solutions, has had numerous applications and conducted more than 250 individual examinations to date. CRM Technologies is the fourth partner to achieve accreditation globally.

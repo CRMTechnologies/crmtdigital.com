@@ -1,7 +1,7 @@
 +++
 author = "Colin Marks"
 banner_type = "none"
-date = 2013-06-11T22:00:00Z
+date = 2013-06-12T10:00:00Z
 description = "So a huge congratulations to them! We have been working with Basware for nearly four years, handling their Eloqua on-boarding and CRM integration and retained to provide on-going support to their sales and marketing organisation."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -14,7 +14,7 @@ slug = "basware-shortlisted-markie-award"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Basware shortlisted for Markie award | CRM Technologies"
+title = "Basware shortlisted for Markie award"
 
 +++
 <img style="float: right; margin-top: 0; margin-left: 10px;" src="https://crmtdigital.com/sites/default/files/Basware-300x85.jpg" alt="" width="300" height="85">
