@@ -1,5 +1,5 @@
 +++
-asset_link = ""
+asset_link = "https://www.slideshare.net/slideshow/embed_code/25640024"
 banner_type = "none"
 card_subtitle = ""
 card_title = ""
