@@ -10,6 +10,7 @@ resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.m
 show_contact = "form"
 subheading = ""
 title = "[Press Release] Get Ready for GDPR: CRMT announces alliance to form GDPR powerhouse"
+type = "press-release"
 
 +++
 
