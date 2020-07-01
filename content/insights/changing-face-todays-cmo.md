@@ -2,7 +2,7 @@
 asset_link = ""
 banner_type = "none"
 card_subtitle = ""
-card_title = "The Changing Face of Today's Modern CMO"
+card_title = "The Changing Face of Today's CMO"
 content_type = "Infographic"
 cta = "Read more"
 cta_image = ""
