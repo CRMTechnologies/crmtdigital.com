@@ -14,6 +14,7 @@ slug = "ops-talk-we-won’t-get-fooled-again-part-1"
 subheading = ""
 tags = []
 testimonial = ""
+type = "press-release"
 title = "Ops Talk: We Won’t Get Fooled Again (Part 1) "
 
 +++
