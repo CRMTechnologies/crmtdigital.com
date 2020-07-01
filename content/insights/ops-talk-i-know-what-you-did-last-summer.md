@@ -5,7 +5,7 @@ date = 2014-09-14T10:00:00Z
 description = "In my last post I talked about the lead lifecycle and the internal pressures and external expectations of the marketing role."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://static.crmtechnologies.com/sites/default/files/3_0.png"
 intro = "In my last post I talked about the lead lifecycle and the internal pressures and external expectations of the marketing role. In this post we start from the beginning of the cycle."
 keywords = []
 resource = []
@@ -14,7 +14,8 @@ slug = "ops-talk-i-know-what-you-did-last-summer"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Ops Talk: I know what you did last Summer "
+title = "Ops Talk: I know what you did last Summer"
+type = "press-release"
 
 +++
 <p><strong><img style="width: 50%; display: block; margin-left: auto; margin-right: auto;" src="https://crmtdigital.com/sites/default/files/1_0.png" alt=""></strong></p>
