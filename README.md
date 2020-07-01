@@ -8,7 +8,6 @@ MISSING CONTENT:
 
 TODO:
 * Enable TYP Pages for Assets [Eloqua Config]
-* Contact Form repost to Eloqua [Sends Email]
 
 NICE TO HAVE:
 * Preference Centre
