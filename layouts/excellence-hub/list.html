@@ -2,7 +2,7 @@
 	<section class=" pt-5 pb-50">
 		<div class="container">
 			<div class="row">
-				{{ $pages := (where (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "infographic" "resource")) ne .Params.cta_image "" ) }}
+				{{ $pages := (where (where .Site.RegularPages "Type" "in" (slice "video" "slideshare" "infographic" "resource")) .Params.cta_image "!=" "" ) }}
 				{{ $paginator := .Paginate $pages 6 }}	
 				{{ range $paginator.Pages.ByPublishDate.Reverse }}
 					  {{ .Render "li"}}
