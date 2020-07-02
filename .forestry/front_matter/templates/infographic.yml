@@ -101,3 +101,6 @@ fields:
     schema:
       format: markdown
   label: Embed Code
+pages:
+- content/insights/be-it-superhero-craft-data-strategy-your-business-needs.md
+- content/insights/the-new-responsibilities-of-the-sales-director-driving-business-strategy.md

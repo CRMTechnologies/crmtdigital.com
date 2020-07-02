@@ -16,13 +16,13 @@ image = "https://www.crmtechnologies.com/sites/default/files/Blog.gif"
 keywords = ["Sales & Marketing Alignment"]
 resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.md"
 show_contact = "form"
-url = "insights/rethinking-sales-and-marketing-alignment-how-marketing-will-help-close-deals"
 subheading = ""
 tags = ["Sales"]
 testimonial = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Slideshare---Rethinking-Sales-and-Marketing-alignment.png"
 title = "Rethinking Sales and Marketing Alignment  [How Marketing Will Help Close Deals]"
 type = "slideshare"
+url = "insights/rethinking-sales-and-marketing-alignment-how-marketing-will-help-close-deals"
 
 +++
 Most organisations have already realised that traditional business unit divisions hinder more than they help and are now seeking to improve internal relationships between departments. For successful alignment between Marketing and Sales, employees need to be empowered by technology. By using systems and technology that make data available across the organisation, businesses can:
