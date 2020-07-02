@@ -88,3 +88,5 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
+pages:
+- content/insights/normalator-a-brief-introduction.md

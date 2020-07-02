@@ -1,5 +1,6 @@
 +++
 asset_link = "https://www.slideshare.net/slideshow/embed_code/25640024"
+author = ""
 banner_type = "none"
 card_subtitle = ""
 card_title = ""
@@ -13,9 +14,11 @@ gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Capture2.PNG"
+intro = ""
 keywords = []
 resource = []
 show_contact = "form"
+slug = ""
 subheading = ""
 tags = []
 testimonial = ""
@@ -23,4 +26,5 @@ thumbnail = ""
 title = "Normalator - A brief introduction"
 type = "slideshare"
 url = "insights/normalator-brief-introduction"
+
 +++
