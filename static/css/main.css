@@ -762,7 +762,7 @@ footer .footer-copyright { text-align: center; background-color: #001c35; paddin
 footer .footer-copyright p { color: #6d88b3; display: inline-block; font-size: 0.8em; padding-left: 1em; }
 footer .footer-copyright ul { margin: 0; display: inline-block; width: 100%; }
 footer .footer-copyright ul li { display: inline; }
-footer .footer-copyright ul li a { color: #6d88b3; text-decoration: none; border-left: 1px solid #6d88b3; font-size: 0.8em; padding: 4px 16px; 
+footer .footer-copyright ul li a { color: #6d88b3; text-decoration: none; border-left: 1px solid #6d88b3; font-size: 0.8em; padding: 4px 16px; }
 footer .footer-copyright ul li span { color: #6d88b3; text-decoration: none; font-size: 0.8em; padding: 4px 16px 4px 0px; }
 
 @media screen and (min-width:1200px){
