@@ -88,3 +88,7 @@ fields:
   config: {}
   template: module-ctas
   label: CTAs
+pages:
+- content/insights/normalator-a-brief-introduction.md
+- content/insights/rethinking-sales-and-marketing-alignment-how-marketing-will-help-close-deals.md
+- content/insights/turning-clicks-into-customers.md

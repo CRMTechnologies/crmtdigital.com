@@ -16,13 +16,13 @@ image = "https://www.crmtechnologies.com/sites/default/files/Blog_0.gif"
 keywords = ["Data", "Marketing Operations"]
 resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.md"
 show_contact = "form"
-url = "insights/be-it-superhero-craft-data-strategy-your-business-needs"
 subheading = ""
 tags = []
 testimonial = ""
 thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic---Be-an-IT-superhero_0.png"
 title = "Be an IT Superhero: Craft the data strategy your business needs"
 type = "infographic"
+url = "insights/be-it-superhero-craft-data-strategy-your-business-needs"
 
 +++
 In the age of data driven marketing a new superhero is emerging - the super CIO or IT manager. This new superhero is stepping up and rising to the challenge posed by big data - pushing into the realms of strategic planning and driving excellence throughout their company. It is this new superhero’s mission to prioritise data management, create cohesive and flowing data channels and transform the customer experience through a data strategy that also aligns to the business’ needs.
