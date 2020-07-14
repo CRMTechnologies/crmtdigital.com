@@ -62,9 +62,8 @@ p.or {
     font-size: 1.12em;
 }
 p.h6-blue {font-size: 1em;color: #284b82;line-height: 1.5em;}
-a {
-    color: #371abe;
-}
+a { color: #009FE3; }
+a:hover, a:focus, a:active { color: #371abe; }
 img { max-width: 100%; height: auto; }
 .pull-left { float: left; text-align: left; }
 .pull-right { float: right; text-align: right; }
@@ -533,9 +532,9 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .block-cs-quote p { line-height: 1.5em; }
 
 #asset-block .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-#asset-block .social a.icon-li { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
-#asset-block .social a.icon-tw { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
-#asset-block .social a.icon-fb { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
+#asset-block .social a.icon-li { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+#asset-block .social a.icon-tw { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+#asset-block .social a.icon-fb { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 
 .card-resource {  border: none; border-radius: 0px;height: 100%; }
 .card-resource .tag {
