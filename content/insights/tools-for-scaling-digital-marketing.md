@@ -1,7 +1,7 @@
 +++
 author = ""
 banner_type = "highlight"
-date = ""
+date = 2020-07-21T10:00:00Z
 description = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech stack to help you scale? "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
