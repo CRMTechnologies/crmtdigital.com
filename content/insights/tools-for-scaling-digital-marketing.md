@@ -2,7 +2,7 @@
 author = ""
 banner_type = "highlight"
 date = ""
-description = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech to help you scale? "
+description = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech stack to help you scale? "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/digital-marketing-750x433.jpg"
