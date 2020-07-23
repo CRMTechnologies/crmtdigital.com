@@ -62,9 +62,8 @@ p.or {
     font-size: 1.12em;
 }
 p.h6-blue {font-size: 1em;color: #284b82;line-height: 1.5em;}
-a {
-    color: #371abe;
-}
+a { color: #009FE3; }
+a:hover, a:focus, a:active { color: #371abe; }
 img { max-width: 100%; height: auto; }
 .pull-left { float: left; text-align: left; }
 .pull-right { float: right; text-align: right; }
@@ -533,9 +532,9 @@ article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padd
 .block-cs-quote p { line-height: 1.5em; }
 
 #asset-block .social a { border-radius: 4px; width: 26px; height: 26px; display: inline-block; margin-right: 1%; text-indent: -9999px; transition: background-color 0.35s; text-align: left; }
-#asset-block .social a.icon-li { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
-#asset-block .social a.icon-tw { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
-#asset-block .social a.icon-fb { background: #371abe url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
+#asset-block .social a.icon-li { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
+#asset-block .social a.icon-tw { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
+#asset-block .social a.icon-fb { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
 
 .card-resource {  border: none; border-radius: 0px;height: 100%; }
 .card-resource .tag {
@@ -767,8 +766,8 @@ footer .footer-copyright ul li span { color: #6d88b3; text-decoration: none; fon
 
 @media screen and (min-width:1200px){
 	.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1200px; }
-	#asset-block .order-lg-last { position: relative; }    
-	#asset-block .order-lg-last img {  bottom: 0px; position: absolute; margin: auto; display: block; }	
+	#asset-block .order-lg-last { position: relative; align-content: center; display: flex; }    
+	#asset-block .order-lg-last img {  margin: auto; max-height:225px; }	
 }
 @media screen and (max-width:1200px){
 	.breadcrumb .breadcrumb-item.active { display: none; }	
@@ -793,7 +792,7 @@ footer .footer-copyright ul li span { color: #6d88b3; text-decoration: none; fon
 	.card-customer {  border: none; border-radius: 0px; margin-bottom: 1em; margin-left: 2%; margin-right: 2%; height: auto; max-width: 26em;}
 	#block-quote .h3 { font-size: 1.32em; margin: -1em auto;padding: 0px;max-width: 20em; }
 	#block-quote .h3 strong { font-weight: 500; }	
-	#asset-block img { max-width: none; width: 100% }
+	#asset-block img { max-width: 100%; width: auto; }
 	.block-cs-quote p {font-size: 1.32em; }	
 	header .jumbotron.banner-asset h1 { font-size: 2.28em; }
 	.flex-lg-row .card-customer:last-of-type {  margin-bottom: 0; argin-left: 2%; margin-right: 2%; }		
