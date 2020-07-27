@@ -11,7 +11,7 @@ description = "Need to scale your digital marketing efforts? Read out expert tip
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://static.crmtechnologies.com/sites/default/files/digital-at-scale-thumb.png"
+image = "https://static.crmtechnologies.com/sites/default/files/digital-at-scale-thumb-jpg.jpg"
 keywords = ["digital marketing at scale", "marketing at scale", "digital marketing"]
 resource = []
 show_contact = "form"
@@ -23,4 +23,3 @@ title = "Top Tips for Digital Marketing at Scale "
 type = "resource"
 
 +++
-![](sites/default/files/Top-tips-digital-marketing-at-scale .png)
