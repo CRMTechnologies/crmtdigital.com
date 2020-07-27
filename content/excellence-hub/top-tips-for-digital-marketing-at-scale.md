@@ -23,3 +23,6 @@ title = "Top Tips for Digital Marketing at Scale "
 type = "resource"
 
 +++
+With COVID-19 putting pause on face-to-face events, many organisations are relying on digital channels for lead generation and face a big challenge in meeting this changing demand.
+
+###### Need to scale your digital marketing efforts? Read out expert tips!
