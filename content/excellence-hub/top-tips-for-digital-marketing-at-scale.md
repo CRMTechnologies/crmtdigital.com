@@ -1,5 +1,5 @@
 +++
-asset_link = ""
+asset_link = "https://crmtechnologies.lookbookhq.com/c/top-tips-for-digital?x=n_A1fr"
 banner_type = "highlight"
 card_subtitle = ""
 card_title = ""
@@ -23,4 +23,3 @@ title = "Top Tips for Digital Marketing at Scale "
 type = "resource"
 
 +++
-![](sites/default/files/Top-tips-digital-marketing-at-scale .png)
