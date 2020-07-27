@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = ""
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/top-tips-Excellence-Hub-thumb.png"
 title = "Top Tips for Digital Marketing at Scale "
 type = "resource"
 
