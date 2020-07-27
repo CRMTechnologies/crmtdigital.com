@@ -7,7 +7,7 @@ content_type = "Infographic"
 cta = "Read more"
 cta_image = "https://static.crmtechnologies.com/sites/default/files/top-tips-Excellence-Hub-thumb.png"
 date = 2020-07-27T10:00:00Z
-description = "Need to scale your digital marketing efforts? Read out expert tips!"
+description = "Need to scale your digital marketing efforts? Read our expert tips!"
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -23,6 +23,6 @@ title = "Top Tips for Digital Marketing at Scale "
 type = "resource"
 
 +++
-With COVID-19 putting pause on face-to-face events, many organisations are relying on digital channels for lead generation and face a big challenge in meeting this changing demand.
+###### Need to scale your digital marketing efforts? Read our expert tips
 
-###### Need to scale your digital marketing efforts? Read out expert tips!
+With COVID-19 putting pause on face-to-face events, many organisations are relying on digital channels for lead generation and face a big challenge in meeting this changing demand.
