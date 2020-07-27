@@ -12,7 +12,7 @@ resource = []
 show_contact = "form"
 slug = "tools-scaling-digital-marketing"
 subheading = ""
-tags = []
+tags = ["digital marketing"]
 testimonial = ""
 title = "Tools for scaling digital marketing "
 
