@@ -1,6 +1,6 @@
 baseurl = "https://www.crmtdigital.com/"
 languageCode = "en-gb"
-title = "CRM Technologies"
+title = "CRMT Digital"
 description = "The marketing operations experts."
 preserveTaxonomyNames = true
 disableKinds = "taxonomyTerm"
