@@ -30,6 +30,7 @@ fields:
 - type: text
   name: author
   label: Article Author
+  default: CRMT Digital
 - type: datetime
   name: date
   label: Publication Date
@@ -105,6 +106,7 @@ pages:
 - content/insights/crm-technologies-supports-record-expansion-with-sales-director-appointment-crm-technologies.md
 - content/insights/crm-technologies-to-speak-at-b2b-summit-crm-technologies.md
 - content/insights/crm-technologies-with-you-for-the-journey-at-mme-europe-crm-technologies.md
+- content/insights/crmt-becomes-crmt-digital.md
 - content/insights/data-migration.it-s-not-what-you-do-it-s-the-way-that-you-do-it-crm-technologies.md
 - content/insights/data-ownership-in-a-marketing-environment-alignment-through-trust.md
 - content/insights/digital-dating-tips-for-building-successful-client-relationships-through-marketing-automation.md

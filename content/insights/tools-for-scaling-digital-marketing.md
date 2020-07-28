@@ -1,19 +1,19 @@
 +++
-author = ""
-banner_type = "highlight"
+author = "Joanna Mills"
+banner_type = "none"
 date = 2020-07-21T10:00:00Z
 description = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech stack to help you scale? "
 draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/digital-marketing-750x433.jpg"
-intro = ""
+intro = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech stack to help you scale? "
 keywords = ["analytics", "social media marketing", "local marketing", "global marketing", "martech", "marketing automation"]
-resource = []
+resource = "excellence-hub/10-steps-to-global-marketing-efficiency.md"
 show_contact = "form"
 slug = "tools-scaling-digital-marketing"
 subheading = ""
-tags = []
+tags = ["digital marketing"]
 testimonial = ""
 title = "Tools for scaling digital marketing "
 
