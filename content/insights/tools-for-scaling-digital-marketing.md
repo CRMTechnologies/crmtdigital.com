@@ -3,7 +3,6 @@ author = "Joanna Mills"
 banner_type = "none"
 date = 2020-07-21T10:00:00Z
 description = "Taking your marketing global requires having the right martech toolset in place. But how do you choose the right tech stack to help you scale? "
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/digital-marketing-750x433.jpg"
