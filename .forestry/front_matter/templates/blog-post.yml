@@ -30,6 +30,7 @@ fields:
 - type: text
   name: author
   label: Article Author
+  default: CRMT Digital
 - type: datetime
   name: date
   label: Publication Date
