@@ -6,7 +6,7 @@ card_title = "My Awesome Guide to:"
 contact_type = "button"
 content_type = "eGuide"
 cta = "Download now!"
-cta_image = "https://www.crmtechnologies.com/sites/default/files/MA---marketing-automation-success.png"
+cta_image = "https://static.crmtechnologies.com/sites/default//MA---marketing-automation-success.png"
 date = 2016-06-16T15:37:36Z
 description = "Move from setting out on your marketing automation journey to transforming into marketing awesomeness with this free eGuide."
 gated = true
@@ -16,7 +16,7 @@ image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B1fdf9864-2
 keywords = []
 subheading = ""
 tags = ["Marketing Automation"]
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/MA---marketing-automation-success_1.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//MA---marketing-automation-success_1.png"
 title = "My Awesome Guide to: Marketing Automation Success"
 type = "resource"
 

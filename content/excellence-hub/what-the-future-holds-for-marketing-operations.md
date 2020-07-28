@@ -6,7 +6,7 @@ card_title = "What the future holds for Marketing Operations"
 contact_type = "button"
 content_type = "eGuide"
 cta = "Read more"
-cta_image = "https://www.crmtechnologies.com/sites/default/files/What-the-future-holds-for-Marketing-Operations_V1_0.png"
+cta_image = "https://static.crmtechnologies.com/sites/default//What-the-future-holds-for-Marketing-Operations_V1_0.png"
 date = 2015-09-18T09:33:42Z
 description = "What the future holds for Marketing Operations"
 gated = true
@@ -16,7 +16,7 @@ image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B39d2587e-e
 keywords = []
 subheading = ""
 tags = ["Sales", "IT"]
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/What-the-future-holds-for-Marketing-Operations_V1.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//What-the-future-holds-for-Marketing-Operations_V1.png"
 title = "What the Future Holds for Marketing Operations and What This Means for Sales & IT"
 type = "resource"
 

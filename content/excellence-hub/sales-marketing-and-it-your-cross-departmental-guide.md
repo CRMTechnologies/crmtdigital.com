@@ -8,7 +8,7 @@ keywords:
 - IT
 - Marketing Operations
 image: https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bf9be3707-990e-431f-9d35-09e931f26b75%7D_LP-Sales-IT-Marketing.jpg
-thumbnail: https://www.crmtechnologies.com/sites/default/files/Sales%2C-Marketing-and-IT.png
+thumbnail: https://static.crmtechnologies.com/sites/default//Sales%2C-Marketing-and-IT.png
 cta_image: https://img.en25.com/EloquaImages/clients/CRMTechnologies/{824e3dd7-2c73-48cb-95b8-56b016812287}_Sales_-Marketing-and-IT-Your-cross-departmental-guide_V3.png
 cta: Read More
 card_title: 'Sales, Marketing and IT: '

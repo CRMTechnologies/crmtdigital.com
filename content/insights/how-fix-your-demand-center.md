@@ -1,7 +1,7 @@
 ---
 title: How to fix your Demand Center
 description: Has your Demand Center become your bottleneck? Read how you can fix it.
-image: https://www.crmtechnologies.com/sites/default/files/dc.jpg
+image: https://static.crmtechnologies.com/sites/default//dc.jpg
 keywords:
 - Marketing Operations
 - Demand Center

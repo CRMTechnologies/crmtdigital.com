@@ -1,5 +1,5 @@
 +++
-asset_link = "https://www.crmtechnologies.com/sites/default/files/CRMT%20MA%20CRM%20Integration%20Datasheet.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT%20MA%20CRM%20Integration%20Datasheet.pdf"
 banner_type = "highlight"
 card_subtitle = "Marketing Automation & CRM"
 card_title = "CRMT Integration Services Guide"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = "Marketing Automation & CRM"
 tags = []
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/MACRM-Thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/MACRM-Thumb.png"
 title = "CRMT Integration Services Guide: Marketing Automation & CRM"
 type = "resource"
 

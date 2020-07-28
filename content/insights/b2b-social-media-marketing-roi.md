@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/Socialroi-preview.png"
+image = "https://static.crmtechnologies.com/sites/default//Socialroi-preview.png"
 keywords = ["Marketing Analytics", "Return on Investment", "Social Campaigns", "B2B Social Media"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = "button"
 subheading = ""
 tags = ["Marketing"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Social-roi-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//Social-roi-thumb.png"
 title = "B2B Social Media & How to Measure Marketing ROI"
 type = "infographic"
 url = "insights/b2b-social-media-marketing-roi"

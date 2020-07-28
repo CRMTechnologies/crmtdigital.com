@@ -5,7 +5,7 @@ date = 2020-02-24T12:14:00Z
 description = "Omni-channel is a marketing buzz word which has been around for some time now. But what does it actually mean and is it still relevant in 2020?"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/omnichannel-blog-2020.png"
+image = "https://static.crmtechnologies.com/sites/default//omnichannel-blog-2020.png"
 keywords = ["Marketing", "Omni-channel"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = "form"
@@ -19,11 +19,11 @@ title = " The Secrets to B2B Omni-channel Marketing Success in 2020 "
 
 As their names suggest, both involve multiple channels. In multi-channel marketing, the goal is to extend your reach as far and wide as possible, across as many different platforms and marketing touch points.
 
-![Multichannel](https://www.crmtechnologies.com/sites/default/files/inline-images/multichannel.png)
+![Multichannel](https://static.crmtechnologies.com/sites/default//inline-images/multichannel.png)
 
 In omni-channel marketing, the goal is to combine all these different channels and connect them together to nurture your customer or prospect through the buying cycle towards a purchase. An optimised customer journey is a crucial part of any omni-channel strategy as is personalisation and deciding the next best action based on behaviour.
 
-![omnichannel](https://www.crmtechnologies.com/sites/default/files/inline-images/omnichannel.png)
+![omnichannel](https://static.crmtechnologies.com/sites/default//inline-images/omnichannel.png)
 
 ### So, why consider adopting an omni-channel strategy?
 

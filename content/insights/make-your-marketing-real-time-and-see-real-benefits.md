@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/Blogs_1.jpg"
+image = "https://static.crmtechnologies.com/sites/default//Blogs_1.jpg"
 keywords = ["Real Time Marketing", "Lead Nurturing", "Omni-channel"]
 resource = "excellence-hub/my-awesome-guide-to-the-future-of-marketing-automation.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic---Make-Your-Marketing-Real-Time-and-See-Real-Benefits_v2.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//Infographic---Make-Your-Marketing-Real-Time-and-See-Real-Benefits_v2.png"
 title = "Make Your Marketing Real-Time And See Real Benefits"
 type = "infographic"
 url = "insights/make-your-marketing-real-time-and-see-real-benefits"

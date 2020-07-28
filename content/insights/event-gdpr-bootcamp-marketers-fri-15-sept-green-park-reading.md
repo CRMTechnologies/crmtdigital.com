@@ -4,7 +4,7 @@ banner_type = "none"
 date = 2017-08-11T18:16:00Z
 description = ""
 heading = ""
-image = "https://www.crmtechnologies.com/sites/default/files/Dec-lbhq-blog.jpg"
+image = "https://static.crmtechnologies.com/sites/default//Dec-lbhq-blog.jpg"
 keywords = ["GDPR"]
 resource = "excellence-hub/10-practical-steps-towards-GDPR-compliance-for-marketers.md"
 show_contact = "button"
@@ -27,13 +27,13 @@ title = "[Event] GDPR Bootcamp for Marketers - Fri 15 Sept // Green Park, Readin
 <h3><strong>EVENT SPEAKERS</strong></h3>
 <h4><strong>JIM SNEDDON, GDPR PRACTITIONER - ASSUREDATA</strong></h4>
 <p>Jim Sneddon is a security industry veteran of 17 years with a wealth of experience working with organisations helping them to become compliant and secure. Jim is also a Certified Information Systems Security Professional (CISSP) and a&nbsp;Certified EU GDPR Practitioner.</p>
-<p><img src="https://www.crmtechnologies.com/sites/default/files/jim-2.jpg" alt="Jim GDPR Expert" width="160" height="200"><a title="Assuredata" href="https://assuredata.eu" target="blank"><img style="height: 40px; width: 80px; padding-left: 5px;" src="/sites/default/files/AssureData-logo.png" alt="Assuredata"></a></p>
+<p><img src="https://static.crmtechnologies.com/sites/default//jim-2.jpg" alt="Jim GDPR Expert" width="160" height="200"><a title="Assuredata" href="https://assuredata.eu" target="blank"><img style="height: 40px; width: 80px; padding-left: 5px;" src="/sites/default/files/AssureData-logo.png" alt="Assuredata"></a></p>
 <h4><strong>SARAH WILLIAMSON, COMMERCIAL LAWYER – BOYES TURNER</strong></h4>
 <p>Sarah is a partner in the Commercial &amp; Technology team with a strong portfolio of tech businesses in the technology, digital publishing, advertising and communications sectors. She has more than 13 years’ experience advising on complex technology related projects.</p>
-<p><img src="https://www.crmtechnologies.com/sites/default/files/SARAH-2.jpg" alt="Sarah GDPR Lawyer" width="160" height="200"><a title="Boyes Turner" href="https://www.boyesturner.com/" target="blank"><img style="height: 60px; width: 40px; padding-left: 5px;" src="/sites/default/files/Boyes-logo copy.png" alt="Boyes Turner"></a></p>
+<p><img src="https://static.crmtechnologies.com/sites/default//SARAH-2.jpg" alt="Sarah GDPR Lawyer" width="160" height="200"><a title="Boyes Turner" href="https://www.boyesturner.com/" target="blank"><img style="height: 60px; width: 40px; padding-left: 5px;" src="/sites/default/files/Boyes-logo copy.png" alt="Boyes Turner"></a></p>
 <h4>SEAN SEELOCHAN, PROFESSIONAL SERVICES DIRECTOR - CRMT</h4>
 <p>Sean leads our digital delivery teams. A highly experienced digital expert specialising in cloud based technologies, he is responsible for ensuring that our range of professional services is delivered seamlessly to clients. Sean holds an IDM award in General Data Protection (GDPR).</p>
-<p><img src="https://www.crmtechnologies.com/sites/default/files/SEAN-2.jpg" alt="Sean GDPR Marketing Expert" width="160" height="200"><a title="CRMT" href="https://www.crmtechnologies.com/" target="blank"><img style="height: 40px; width: 80px; padding-left: 5px;" src="/sites/default/files/CRMT-logo.png" alt="CRMT"></a></p>
+<p><img src="https://static.crmtechnologies.com/sites/default//SEAN-2.jpg" alt="Sean GDPR Marketing Expert" width="160" height="200"><a title="CRMT" href="https://www.crmtechnologies.com/" target="blank"><img style="height: 40px; width: 80px; padding-left: 5px;" src="/sites/default/files/CRMT-logo.png" alt="CRMT"></a></p>
 <p>Don't miss out on our GDPR Bootcamp for Marketers - reserve your place.</p>
 <p><a class="btn btn-split green-btn" title="Register now!" href="http://interact.crmtechnologies.com/crmt-gdpr-event-sep17?utm_source=insights&amp;utm_campaign=gdpr-event" target="blank">Register now</a></p>
 <p>&nbsp;</p>

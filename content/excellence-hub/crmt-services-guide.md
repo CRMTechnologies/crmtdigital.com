@@ -1,5 +1,5 @@
 +++
-asset_link = "https://www.crmtechnologies.com/sites/default/files/CRMT_Services_Guide.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT_Services_Guide.pdf"
 banner_type = "highlight"
 card_subtitle = ""
 card_title = "CRMT Services Guide"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Services-guide-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Services-guide-thumb.png"
 title = "CRMT Services Guide"
 type = "resource"
 
