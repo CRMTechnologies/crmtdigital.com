@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default//Lenovo-Roadmap-Case-Study.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/Lenovo-Roadmap-Case-Study.pdf"
 banner_type = "none"
 card_subtitle = ""
 card_title = "Lenovo Set on Roadmap to Mastering Marketo"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Lenovo-Roadmap.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Lenovo-Roadmap.png"
 title = "Lenovo Set on Roadmap to Mastering Marketo"
 type = "resource"
 

@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://static.crmtechnologies.com/sites/default//Blog_4.gif"
+image = "https://static.crmtechnologies.com/sites/default/files/Blog_4.gif"
 keywords = ["Technology Strategy", "Budget", "IT"]
 resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.md"
 show_contact = "form"
 subheading = ""
 tags = ["IT"]
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Infographic%20-%20The%20ideal%20IT%20budget.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Infographic%20-%20The%20ideal%20IT%20budget.png"
 title = "The Ideal IT budget: Best Practice vs Reality "
 type = "infographic"
 url = "insights/ideal-it-budget-best-practice-vs-reality"

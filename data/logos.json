@@ -2,109 +2,109 @@
   "customers": [
     {
       "name": "Symantec",
-      "image": "https://static.crmtechnologies.com/sites/default//12-symantec.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/12-symantec.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Aruba",
-      "image": "https://static.crmtechnologies.com/sites/default//hpe_aruba_s_pos_rgb.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/hpe_aruba_s_pos_rgb.png",
       "url": "",
       "class": "square"
     },
     {
       "name": "McAfee",
-      "image": "https://static.crmtechnologies.com/sites/default//Mcafee-logo.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Mcafee-logo.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Arkadin",
-      "image": "https://static.crmtechnologies.com/sites/default//arkadin_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/arkadin_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Lenovo",
-      "image": "https://static.crmtechnologies.com/sites/default//14-Lenovo.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/14-Lenovo.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Canon",
-      "image": "https://static.crmtechnologies.com/sites/default//10-canon.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/10-canon.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Equinix",
-      "image": "https://static.crmtechnologies.com/sites/default//13-equinix.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/13-equinix.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Basware",
-      "image": "https://static.crmtechnologies.com/sites/default//logo-basware.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/logo-basware.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Micro Focus",
-      "image": "https://static.crmtechnologies.com/sites/default//6-Microfocus.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/6-Microfocus.png",
       "url": "",
       "class": ""
     },
     {
       "name": "TalkTalk Business",
-      "image": "https://static.crmtechnologies.com/sites/default//11-talktalk.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/11-talktalk.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Sage",
-      "image": "https://static.crmtechnologies.com/sites/default//rsz_sage-logo.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/rsz_sage-logo.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Rally Software",
-      "image": "https://static.crmtechnologies.com/sites/default//9-ca.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/9-ca.png",
       "url": "",
       "class": ""
     },
     {
       "name": "RSPCA",
-      "image": "https://static.crmtechnologies.com/sites/default//4-rspca.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/4-rspca.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Tektronix",
-      "image": "https://static.crmtechnologies.com/sites/default//2-Tetronix.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/2-Tetronix.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Thomson Reuters",
-      "image": "https://static.crmtechnologies.com/sites/default//1-Thomson.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/1-Thomson.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Alfresco",
-      "image": "https://static.crmtechnologies.com/sites/default//3-Alfresco_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/3-Alfresco_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Colt Technology Services",
-      "image": "https://static.crmtechnologies.com/sites/default//5-colt.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/5-colt.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Bizagi",
-      "image": "https://static.crmtechnologies.com/sites/default//13-Bizagi_1_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/13-Bizagi_1_0.png",
       "url": "",
       "class": ""
     }
@@ -112,43 +112,43 @@
   "partners": [
     {
       "name": "Bombora",
-      "image": "https://static.crmtechnologies.com/sites/default//Bombora-Tech.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Bombora-Tech.png",
       "url": "https://bombora.com",
       "class": ""
     },
     {
       "name": "Bizible",
-      "image": "https://static.crmtechnologies.com/sites/default//Bizible-Tech.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Bizible-Tech.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Vidyard",
-      "image": "https://static.crmtechnologies.com/sites/default//Vidyard-skill_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Vidyard-skill_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Tableau",
-      "image": "https://static.crmtechnologies.com/sites/default//Tableau-skill_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Tableau-skill_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Allocadia",
-      "image": "https://static.crmtechnologies.com/sites/default//allocadialogo_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/allocadialogo_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "Demandbase",
-      "image": "https://static.crmtechnologies.com/sites/default//Dbase-skill_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/Dbase-skill_0.png",
       "url": "",
       "class": ""
     },
     {
       "name": "PathFactory",
-      "image": "https://static.crmtechnologies.com/sites/default//PF-Tech_0.png",
+      "image": "https://static.crmtechnologies.com/sites/default/files/PF-Tech_0.png",
       "url": "",
       "class": ""
     }

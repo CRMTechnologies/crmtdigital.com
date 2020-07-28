@@ -1,8 +1,8 @@
 { "assets": [
 	{
 		"name": "SuccessfulDemandGen",
-		"image": "https://static.crmtechnologies.com/sites/default//AGuideToSuccessful.png",		
-		"cta_image": "https://static.crmtechnologies.com/sites/default//AGuideToSuccessful_0.png",
+		"image": "https://static.crmtechnologies.com/sites/default/files/AGuideToSuccessful.png",		
+		"cta_image": "https://static.crmtechnologies.com/sites/default/files/AGuideToSuccessful_0.png",
 		"cta": "Read More",
 		"title": "A Guide To",
 		"subtitle": "Successful Demand Gen Led Marketing Execution",		
@@ -12,8 +12,8 @@
 	},
 	{
 		"name": "mops-whitepaper",
-		"image": "https://static.crmtechnologies.com/sites/default//whitepaper-exc-hub_0.png",		
-		"cta_image": "https://static.crmtechnologies.com/sites/default//mops-whitepaper-thumb_0.png",	
+		"image": "https://static.crmtechnologies.com/sites/default/files/whitepaper-exc-hub_0.png",		
+		"cta_image": "https://static.crmtechnologies.com/sites/default/files/mops-whitepaper-thumb_0.png",	
 		"cta": "Read More",		
 		"title": "Marketing Operations, It's Your Time to Shine",
 		"description": "Marketing Operations is playing a critical role in the future of global marketing success. Find out how.",	
@@ -22,8 +22,8 @@
 	},
 	{
 		"name": "CrossEnterpriseCollab",
-		"image": "https://static.crmtechnologies.com/sites/default//SuccessfulExecution_1.png",		
-		"cta_image": "https://static.crmtechnologies.com/sites/default//SuccessfulExecution.png",
+		"image": "https://static.crmtechnologies.com/sites/default/files/SuccessfulExecution_1.png",		
+		"cta_image": "https://static.crmtechnologies.com/sites/default/files/SuccessfulExecution.png",
 		"cta": "Read More",		
 		"title": "Successful Execution of Your Marketing Ops Strategy",
 		"subtitle": "Through Cross Enterprise Collaboration",		

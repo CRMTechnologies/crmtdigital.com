@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://static.crmtechnologies.com/sites/default//Demand-gen-preview.jpg"
+image = "https://static.crmtechnologies.com/sites/default/files/Demand-gen-preview.jpg"
 keywords = ["Omni-channel", "Demand Generation"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//demand-gen-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/demand-gen-thumb.png"
 title = "6 Ways to Supercharge Your Demand Gen Strategy"
 type = "infographic"
 url = "insights/6-ways-supercharge-your-demand-gen-strategy"
