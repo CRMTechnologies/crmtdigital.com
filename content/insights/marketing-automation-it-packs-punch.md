@@ -12,14 +12,14 @@ embed_code = "<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/maXYHb
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/blog_0.jpg"
+image = "https://static.crmtechnologies.com/sites/default//blog_0.jpg"
 keywords = ["Personalisation", "Marketing Automation"]
 resource = "excellence-hub/my-awesome-guide-to-marketing-automation-success.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing Automation"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic---Marketing-Automation---it-packs-a-punch.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//Infographic---Marketing-Automation---it-packs-a-punch.png"
 title = "Marketing Automation -  it packs a punch!"
 type = "infographic"
 url = "insights/marketing-automation-it-packs-punch"

@@ -11,10 +11,10 @@ date = "2015-10-08 16:29:53"
 description = ""
 gated = false
 heading = "F5 Takes Marketing Automation to The Fast Lane with CRM Technologies"
-image = "https://www.crmtechnologies.com/themes/tp_theme/images/banners/banner-excellence-hub.jpg"
+image = "https://static.crmtechnologies.com/themes/tp_theme/images/banners/banner-excellence-hub.jpg"
 keywords = ""
 subheading = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/CRMT_Case_Study_F5.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/CRMT_Case_Study_F5.png"
 title = "Case Study:  F5 Takes Marketing Automation to The Fast Lane with CRM Technologies"
 type = "resource"
 +++

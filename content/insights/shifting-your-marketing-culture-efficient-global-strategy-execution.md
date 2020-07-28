@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/Blog_3.gif"
+image = "https://static.crmtechnologies.com/sites/default//Blog_3.gif"
 keywords = ["Marketing Culture"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic%20-%20Shifting%20your%20Marketing%20culture%20for%20efficient%20global%20strategy%20execution.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//Infographic%20-%20Shifting%20your%20Marketing%20culture%20for%20efficient%20global%20strategy%20execution.png"
 title = "Shifting Your Marketing Culture for Efficient Global Strategy Execution"
 type = "infographic"
 url = "insights/shifting-your-marketing-culture-efficient-global-strategy-execution"

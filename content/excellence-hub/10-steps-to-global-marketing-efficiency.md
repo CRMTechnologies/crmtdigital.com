@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/10-steps-exc-hub.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/10-steps-exc-hub.png"
 title = "10 Steps to Global Marketing Efficiency at Scale"
 type = "resource"
 

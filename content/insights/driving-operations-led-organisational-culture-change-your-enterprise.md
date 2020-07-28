@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/Blog_1.gif"
+image = "https://static.crmtechnologies.com/sites/default//Blog_1.gif"
 keywords = ["Organisational Change", "Marketing Operations"]
 resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing Ops"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/Infographic%20-%20Driving%20an%20Operations%20Led.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//Infographic%20-%20Driving%20an%20Operations%20Led.png"
 title = "Driving an Operations Led Organisational Culture Change in Your Enterprise"
 type = "infographic"
 url = "insights/driving-operations-led-organisational-culture-change-your-enterprise"

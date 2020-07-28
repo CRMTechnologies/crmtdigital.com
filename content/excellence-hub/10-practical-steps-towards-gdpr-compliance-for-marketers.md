@@ -5,7 +5,7 @@ card_subtitle = ""
 card_title = "10 Practical Steps Towards GDPR Compliance"
 content_type = "eGuide"
 cta = "Download Now!"
-cta_image = "https://www.crmtechnologies.com/sites/default/files/gdpr-eguide-lp-thumb.png"
+cta_image = "https://static.crmtechnologies.com/sites/default/files/gdpr-eguide-lp-thumb.png"
 date = 2017-05-25T11:20:25Z
 description = "Download our eGuide to GDPR compliance for Marketers."
 gated = true
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = ["Data"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/GDPR-Asset2.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/GDPR-Asset2.png"
 title = "10 Practical Steps Towards GDPR Compliance For Marketers"
 type = "resource"
 

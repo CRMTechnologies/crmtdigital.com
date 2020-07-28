@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/The-new-responsibilities-of-the-Sales-Director---Copy-2.png"
+image = "https://static.crmtechnologies.com/sites/default//The-new-responsibilities-of-the-Sales-Director---Copy-2.png"
 keywords = ["Sales"]
 resource = "excellence-hub/what-the-future-holds-for-marketing-operations.md"
 show_contact = "form"
 subheading = ""
 tags = ["Sales"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/excellence-hub.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//excellence-hub.png"
 title = "The New Responsibilities of the Sales Director [Driving Business Strategy] "
 type = "infographic"
 url = "insights/new-responsibilities-sales-director-driving-business-strategy"

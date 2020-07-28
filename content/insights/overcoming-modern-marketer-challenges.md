@@ -2,7 +2,7 @@
 title: Overcoming The Every Day Challenges A Modern Marketer Faces 
 description: Are you expected to deliver the BAU while continuing to innovate and improve the maturity of marketing efforts, all with limited resources and skill gaps? You are not alone.
 keywords: ["Marketing Operations","Marketing Automation","Skills","Releases"]
-image: https://www.crmtechnologies.com/sites/default/files/obstacles-pushing-challenges.jpg
+image: https://static.crmtechnologies.com/sites/default//obstacles-pushing-challenges.jpg
 
 banner_type: "none"
 

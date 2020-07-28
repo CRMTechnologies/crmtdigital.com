@@ -12,14 +12,14 @@ embed_code = "<iframe src=\"//www.slideshare.net/slideshow/embed_code/key/krvXbf
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://www.crmtechnologies.com/sites/default/files/mops-skills-preview.png"
+image = "https://static.crmtechnologies.com/sites/default//mops-skills-preview.png"
 keywords = []
 resource = "excellence-hub/successful-execution-of-your-marketing-ops-strategy.md"
 show_contact = "form"
 subheading = ""
 tags = ["Marketing Ops"]
 testimonial = ""
-thumbnail = "https://www.crmtechnologies.com/sites/default/files/MOPS%20SKILLS.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default//MOPS%20SKILLS.png"
 title = "The Hybrid Skills of a Marketing Operations Leader"
 type = "infographic"
 url = "insights/hybrid-skills-marketing-operations-leader"

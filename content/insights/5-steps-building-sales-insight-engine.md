@@ -2,7 +2,7 @@
 title: 5 steps to building a Sales Insight Engine
 description: Need to align your Marketing and Sales organisations but don't know where
   to start? Read on to discover the 5 steps to building a Sales Insight Engine.
-image: https://www.crmtechnologies.com/sites/default/files/sales-insight.jpg
+image: https://static.crmtechnologies.com/sites/default//sales-insight.jpg
 keywords:
 - Analytics
 - Marketing Operations
