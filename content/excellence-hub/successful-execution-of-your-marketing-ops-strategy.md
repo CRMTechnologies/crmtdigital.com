@@ -7,8 +7,8 @@ keywords:
 - Marketing Automation
 - Marketing
 image: https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B2a64d15e-3da8-4f2e-8f6d-b40e9544d11c%7D_LP-M-EM4.jpg
-thumbnail: https://static.crmtechnologies.com/sites/default//SuccessfulExecution_1.png
-cta_image: https://static.crmtechnologies.com/sites/default//SuccessfulExecution.png
+thumbnail: https://static.crmtechnologies.com/sites/default/files/SuccessfulExecution_1.png
+cta_image: https://static.crmtechnologies.com/sites/default/files/SuccessfulExecution.png
 cta: Read More
 card_title: Successful Execution of Your Marketing Ops Strategy
 card_subtitle: Through Cross Enterprise Collaboration

@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default//Demand.Center%20Brochure.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/Demand.Center%20Brochure.pdf"
 banner_type = "highlight"
 card_subtitle = "Maximize your Campaign Delivery"
 card_title = "Demand.Center"
@@ -18,7 +18,7 @@ show_contact = ""
 subheading = "Maximize your Campaign Delivery"
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Demandcenter-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Demandcenter-thumb.png"
 title = "Demand.Center Datasheet"
 type = "resource"
 

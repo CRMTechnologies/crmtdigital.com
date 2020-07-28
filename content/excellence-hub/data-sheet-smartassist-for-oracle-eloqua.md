@@ -15,7 +15,7 @@ image = "https://static.crmtechnologies.com/themes/tp_theme/images/banners/banne
 keywords = ["Marketing Automation", "Eloqua"]
 subheading = ""
 tags = []
-thumbnail = "https://static.crmtechnologies.com/sites/default//CRMT_SmartAssist_Eloqua.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/CRMT_SmartAssist_Eloqua.png"
 title = "Data Sheet: CRMT Smartassist for Marketing Automation with Oracle Eloqua"
 type = "resource"
 

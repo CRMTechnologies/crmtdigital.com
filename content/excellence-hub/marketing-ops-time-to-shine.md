@@ -6,8 +6,8 @@ keywords:
 - Marketing Operations
 - Marketing
 image: https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bc052d1f0-df11-4641-87df-a5f101e8a9d8%7D_MOPs-Whitepaper-LP.jpg
-thumbnail: https://static.crmtechnologies.com/sites/default//whitepaper-exc-hub_0.png
-cta_image: https://static.crmtechnologies.com/sites/default//mops-whitepaper-thumb_0.png
+thumbnail: https://static.crmtechnologies.com/sites/default/files/whitepaper-exc-hub_0.png
+cta_image: https://static.crmtechnologies.com/sites/default/files/mops-whitepaper-thumb_0.png
 cta: Read More
 card_title: Marketing Operations, It's Your Time to Shine
 content_type: eGuide

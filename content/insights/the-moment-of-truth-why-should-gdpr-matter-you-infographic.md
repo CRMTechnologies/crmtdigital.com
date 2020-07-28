@@ -12,14 +12,14 @@ embed_code = "<iframe style=\"border: 1px solid #CCC; border-width: 1px; margin-
 gated = false
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = "https://static.crmtechnologies.com/sites/default//GDPR-INFG.png"
+image = "https://static.crmtechnologies.com/sites/default/files/GDPR-INFG.png"
 keywords = []
 resource = "excellence-hub/10-practical-steps-towards-gdpr-compliance-for-marketers.md"
 show_contact = "form"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//GDPR-INFG-THMB.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/GDPR-INFG-THMB.png"
 title = "The Moment of Truth: Why Should GDPR Matter to You?"
 type = "infographic"
 url = "insights/the-moment-of-truth-why-should-gdpr-matter-you-infographic"

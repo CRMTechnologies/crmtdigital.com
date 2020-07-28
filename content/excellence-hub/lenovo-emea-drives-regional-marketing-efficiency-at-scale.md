@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default//MAS-Lenovo-Case-Study-Final.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/MAS-Lenovo-Case-Study-Final.pdf"
 banner_type = "none"
 card_subtitle = ""
 card_title = "Lenovo EMEA Drives Regional Marketing Efficiency at Scale"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Lenovo-mas.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Lenovo-mas.png"
 title = "Lenovo EMEA Drives Regional Marketing Efficiency at Scale"
 type = "resource"
 

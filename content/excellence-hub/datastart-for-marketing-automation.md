@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default//CRMT%20DataStart%20Marketing%20Automation%20%281%29.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT%20DataStart%20Marketing%20Automation%20%281%29.pdf"
 banner_type = "highlight"
 card_subtitle = "for Marketing Automation"
 card_title = "DataStart"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Datastart-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Datastart-thumb.png"
 title = "DataStart for Marketing Automation"
 type = "resource"
 

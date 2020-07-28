@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default//CRMT%20Normalator%20Datasheet.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT%20Normalator%20Datasheet.pdf"
 banner_type = "highlight"
 card_subtitle = "Bringing Order From Chaos"
 card_title = "Normalator"
@@ -18,7 +18,7 @@ show_contact = "button"
 subheading = "Bringing Order From Chaos"
 tags = []
 testimonial = ""
-thumbnail = "https://static.crmtechnologies.com/sites/default//Norm-thumb.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/Norm-thumb.png"
 title = "Normalator Datasheet"
 type = "resource"
 

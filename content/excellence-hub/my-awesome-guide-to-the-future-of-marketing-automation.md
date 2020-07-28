@@ -6,7 +6,7 @@ card_title = "My Awesome Guide to:"
 contact_type = "button"
 content_type = "eGuide"
 cta = "Download now!"
-cta_image = "https://static.crmtechnologies.com/sites/default//My-Awesome-Guide-to-the-Future-of-Marketing-Automation_1.png"
+cta_image = "https://static.crmtechnologies.com/sites/default/files/My-Awesome-Guide-to-the-Future-of-Marketing-Automation_1.png"
 date = 2016-06-27T13:47:31Z
 description = "Our step-by-step guide takes you right the way from your very first steps in adopting marketing automation through to transforming your department and delivering the goods to sales."
 gated = true
@@ -16,7 +16,7 @@ image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bdfc28698-c
 keywords = []
 subheading = ""
 tags = ["Marketing Automation"]
-thumbnail = "https://static.crmtechnologies.com/sites/default//My-Awesome-Guide-to-the-Future-of-Marketing-Automation_0.png"
+thumbnail = "https://static.crmtechnologies.com/sites/default/files/My-Awesome-Guide-to-the-Future-of-Marketing-Automation_0.png"
 title = "My Awesome Guide to: The Future of Marketing Automation"
 type = "resource"
 
