@@ -767,7 +767,7 @@ footer .footer-copyright ul li span { color: #6d88b3; text-decoration: none; fon
 @media screen and (min-width:1200px){
 	.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1200px; }
 	#asset-block .order-lg-last { position: relative; align-content: center; display: flex; }    
-	#asset-block .order-lg-last img {  margin: auto; max-height:225px; }	
+	#asset-block .order-lg-last img {  margin: auto; max-height:225px; margin-bottom: 0px; }	
 }
 @media screen and (max-width:1200px){
 	.breadcrumb .breadcrumb-item.active { display: none; }	
