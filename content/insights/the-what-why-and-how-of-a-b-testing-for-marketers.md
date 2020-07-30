@@ -52,4 +52,4 @@ Of the wealth of A/B testing tools available, here are a few that we’ve heard 
 * [KISSmetrics](https://www.kissmetrics.com/)
 * [Visual Website Optimizer](http://visualwebsiteoptimizer.com/)
 
-What are your favourite testing tools? Tweet us [@CRMTechnologies](https://twitter.com/CRMTechnologies) to share.
+What are your favourite testing tools? Tweet us [@CRMTechnologies](https://twitter.com/CRMTDigital) to share.

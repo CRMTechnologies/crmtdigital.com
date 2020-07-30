@@ -34,7 +34,7 @@ CRM Technologies is a leading specialist marketing operations agency. Establishe
 
 [www.twitter.com/crmtechnologies](http://www.twitter.com/crmtechnologies)
 
-[www.facebook.com/crmtechnologies](https://www.facebook.com/crmtechnologies)
+[www.facebook.com/crmtechnologies](https://www.facebook.com/crmtdigital)
 
 [www.linkedin.com/company/crm-technologies](http://www.linkedin.com/company/crm-technologies)
 
