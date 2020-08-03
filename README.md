@@ -3,7 +3,6 @@ CRMT Website using Hugo
 
 TODO:
 * Google Tag Manager [Push Live & Update GTM tag]
-* Update Robots.txt
 
 MISSING CONTENT:
 * Preference Centre
