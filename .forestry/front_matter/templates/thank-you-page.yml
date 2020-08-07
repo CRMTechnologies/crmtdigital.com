@@ -32,3 +32,8 @@ fields:
       path: 
   label: Resource
   description: What asset is this a thank you page for?
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
