@@ -1,4 +1,21 @@
 ---
 label: Home Page
 hide_body: false
-fields: []
+fields:
+- name: meta
+  type: include
+  config: {}
+  template: module-seo
+  label: Meta
+- name: banner_type
+  type: text
+  config:
+    required: false
+  label: Banner Type
+  hidden: true
+  default: home
+- name: ctas
+  type: include
+  config: {}
+  template: module-ctas
+  label: CTAs
