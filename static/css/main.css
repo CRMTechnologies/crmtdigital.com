@@ -629,7 +629,7 @@ section.block-light, .bg-light { background: #f8f8f8; }
 section.block-mid, .bg-mid { background: #eee; }
 section.block-dark-mid, .bg-dark-mid { background: #ccc; }
 section.block-blue, .bg-blue { background: #009FE3; color: #fff; }
-section.mid-blue, .bg-mid-blue { background: #0020E7; color: #fff; }
+section.block-mid-blue, .bg-mid-blue { background: #0020E7; color: #fff; }
 section.block-dark-blue, .bg-dark-blue { background: #284b81; color: #fff; }
 section.block-purple, .bg-purple { background: #744091; color: #fff; }
 section.block-indigo, .bg-indigo { background: #371abe; color: #fff; }
