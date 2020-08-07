@@ -1,4 +1,9 @@
 ---
 label: Thank You Page
 hide_body: false
-fields: []
+fields:
+- name: meta
+  type: include
+  config: {}
+  template: module-seo
+  label: Meta
