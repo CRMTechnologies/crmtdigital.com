@@ -12,6 +12,7 @@ sections:
   label: Pages
   create: all
   match: "*"
+  exclude: _index.html
   new_doc_ext: html
   templates:
   - page
@@ -59,6 +60,12 @@ sections:
   - infographic
   - slideshare
   - video
+- type: directory
+  path: content/ty
+  label: Thank You Pages
+  create: all
+  match: "**/*"
+  exclude: _index.html
 upload_dir: sites/default/files
 public_path: sites/default/files
 front_matter_path: https://static.crmtechnologies.com/sites/default/files
