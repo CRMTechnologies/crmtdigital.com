@@ -63,7 +63,7 @@ p.or {
 }
 p.h6-blue {font-size: 1em;color: #284b82;line-height: 1.5em;}
 a { color: #009FE3; }
-a:hover, a:focus, a:active { color: #371abe; }
+a:hover, a:focus, a:active { color: #3317bd; }
 img { max-width: 100%; height: auto; }
 .pull-left { float: left; text-align: left; }
 .pull-right { float: right; text-align: right; }
@@ -237,8 +237,8 @@ header .jumbotron .banner-content {
 	text-align: center;
 }
 header .carousel-inner a.btn, header .jumbotron a.btn { color: #fff; }
-header .carousel-inner a.btn::after, header .carousel-inner a.btn::before { background: #371abe; }
-header .jumbotron a.btn::after, header .jumbotron a.btn::before { background: #371abe; }
+header .carousel-inner a.btn::after, header .carousel-inner a.btn::before { background: #3317bd; }
+header .jumbotron a.btn::after, header .jumbotron a.btn::before { background: #3317bd; }
 
 header .jumbotron { margin-bottom: 0px; border-radius: 0; position: relative;  min-height: 350px; height: 40%;background-size: cover;}
 
@@ -425,7 +425,7 @@ article .social a { border-radius: 4px; width: 26px; height: 26px; display: inli
 article .social a.icon-li { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: 0px top; }
 article .social a.icon-tw { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center; background-position: -26px top; }
 article .social a.icon-fb { background: #009FE3 url(https://static.crmtechnologies.com/themes/tp_theme/images/sprites/filter-social-sprite.png) no-repeat center center;  background-position: -78px top; }	
-article .social a:hover {  background-color: #371abe; }
+article .social a:hover {  background-color: #3317bd; }
 article .meta, .card-insight .meta, p.meta { font-weight: 300; color: #666; padding: 0px; border-radius: 0px; }
 .card-insight { border: none; border-bottom: 2px solid #001c35; border-radius: 0px; height: 100%; }
 .card-insight .card-body a.btn {  padding: 12px 8%; font-size: 0.9em; }
@@ -632,7 +632,7 @@ section.block-blue, .bg-blue { background: #009FE3; color: #fff; }
 section.block-mid-blue, .bg-mid-blue { background: #002ee3; color: #fff; }
 section.block-dark-blue, .bg-dark-blue { background: #284b81; color: #fff; }
 section.block-purple, .bg-purple { background: #744091; color: #fff; }
-section.block-indigo, .bg-indigo { background: #371abe; color: #fff; }
+section.block-indigo, .bg-indigo { background: #3317bd; color: #fff; }
 section.block-green, .bg-green { background: #a1bd17; }
 
 .bg-blue p, .bg-blue h1, .bg-blue h2, .bg-blue h3, .bg-blue h4, .bg-blue h5, .bg-blue li { color: #fff; }
@@ -648,7 +648,7 @@ section.block-blue + section.block-caret::before  { border-top-color: #009FE3; }
 section.block-mid-blue + section.block-caret::before  { border-top-color: #002ee3; }
 section.block-dark-blue + section.block-caret::before  { border-top-color: #284b81; }
 section.block-purple + section.block-caret::before  { border-top-color: #744091; }
-section.block-indigo + section.block-caret::before  { border-top-color: #371abe; }
+section.block-indigo + section.block-caret::before  { border-top-color: #3317bd; }
 section.block-green + section.block-caret::before  { border-top-color: #a1bd17; }
 
 .pt-100 { padding-top: 100px; }
@@ -659,17 +659,17 @@ section.block-green + section.block-caret::before  { border-top-color: #a1bd17; 
 .pb-50 { padding-bottom: 50px; }
 
 .green-btn{ background: #a1bd17; }
-.green-btn::after, .green-btn::before { background: #371abe; }
+.green-btn::after, .green-btn::before { background: #3317bd; }
 .bg-indigo .green-btn::after, .bg-indigo .green-btn::before { background: #fff; }
-.bg-indigo .btn-split.green-btn:hover { color: #371abe; }
+.bg-indigo .btn-split.green-btn:hover { color: #3317bd; }
 .bg-dark-blue .green-btn::after, .bg-dark-blue .green-btn::before { background: #fff; }
 .bg-dark-blue .btn-split.green-btn:hover { color: #284b81; }
 
-.indigo-btn{ background: #371abe; }
+.indigo-btn{ background: #3317bd; }
 .indigo-btn::after, .indigo-btn::before { background: #002ee3; }
 
 .blue-btn{ background: #002ee3; }
-.blue-btn::after, .blue-btn::before { background:#371abe; }
+.blue-btn::after, .blue-btn::before { background:#3317bd; }
 
 #float-contact-us-button {
     transition: 0.3s;
