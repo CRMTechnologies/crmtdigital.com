@@ -15,7 +15,7 @@ image = "https://static.crmtechnologies.com/themes/tp_theme/images/banners/banne
 keywords = ["Marketo", "Marketing Automation", "Marketing Ops"]
 subheading = ""
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/CRMT_Smartassist_Marketo.png"
-title = "Data Sheet: CRM SmartAssist for Marketing Automation with Marketo"
+title = "Data Sheet: CRMT Digital SmartAssist for Marketing Automation with Marketo"
 type = "resource"
 
 +++
