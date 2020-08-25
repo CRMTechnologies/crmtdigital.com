@@ -23,4 +23,4 @@ title = "Lenovo EMEA Drives Regional Marketing Efficiency at Scale"
 type = "resource"
 
 +++
-###### CRMT’s marketing center of excellence and King Content deliver European demand creation programmes at scale and drive efficiency for Lenovo EMEA
+###### CRMT Digital’s marketing center of excellence and King Content deliver European demand creation programmes at scale and drive efficiency for Lenovo EMEA
