@@ -9,7 +9,7 @@ cta_image = ""
 date = 2017-02-03T13:48:16Z
 description = ""
 gated = false
-heading = "Transform Marketing Operations with CRMT"
+heading = "Transform Marketing Operations with CRMT Digital "
 highlight_colour = "rgb(162, 189, 24)"
 image = ""
 keywords = []
@@ -19,7 +19,7 @@ subheading = ""
 tags = []
 testimonial = ""
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/Services-guide-thumb.png"
-title = "CRMT Services Guide"
+title = "CRMT Digital Services Guide"
 type = "resource"
 
 +++
