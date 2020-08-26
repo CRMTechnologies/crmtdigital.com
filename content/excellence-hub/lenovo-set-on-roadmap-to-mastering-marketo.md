@@ -23,6 +23,6 @@ title = "Lenovo Set on Roadmap to Mastering Marketo"
 type = "resource"
 
 +++
-### CRMT helped Lenovo take the journey towards marketing operations excellence by optimising campaign delivery and mastering Marketo’s marketing automation platform.
+### CRMT Digital helped Lenovo take the journey towards marketing operations excellence by optimising campaign delivery and mastering Marketo’s marketing automation platform.
 
-Following consulting engagement and marketing best practice advice, CRMT used the Marketing Performance Roadmap framework along with an impact scoring model to evaluate what tasks and projects would have the greatest influence on efficiency and effectiveness. This was then aligned against Lenovo’s key business objectives to produce a defined roadmap and a calendar of key milestone
+Following consulting engagement and marketing best practice advice, CRMT Digital used the Marketing Performance Roadmap framework along with an impact scoring model to evaluate what tasks and projects would have the greatest influence on efficiency and effectiveness. This was then aligned against Lenovo’s key business objectives to produce a defined roadmap and a calendar of key milestone

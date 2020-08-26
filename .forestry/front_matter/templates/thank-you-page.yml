@@ -1,0 +1,39 @@
+---
+label: Thank You Page
+hide_body: false
+fields:
+- name: meta
+  type: include
+  config: {}
+  template: module-seo
+  label: Meta
+- name: banner
+  type: include
+  config: {}
+  template: module-banner
+  label: Banner
+- name: show_contact
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: Contact CTA
+  default: button
+- name: asset
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: resources
+      file: 
+      path: 
+  label: Resource
+  description: What asset is this a thank you page for?
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
