@@ -25,11 +25,11 @@ exports.handler = function (event, context) {
       res.setEncoding('utf8');
       res.on('data', function (chunk) {
 		post_status = 200;
-		post_response = "Done";
+		console.log( "Done" );
       });
       res.on('error', function (e) {
 		post_status = 400;
-		post_response = "Failed: " + e.message 	  
+		console.log( "Failed: " + e.message ); 	  
       });
 
   });
@@ -37,10 +37,4 @@ exports.handler = function (event, context) {
   // post the data
   post_req.write(post_data);
   post_req.end();
-
-	callback(null, {
-		statusCode: post_status,
-		body:  post_response 
-	});	
-
 }
