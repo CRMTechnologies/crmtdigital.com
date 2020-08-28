@@ -5,6 +5,8 @@ exports.handler = function (event, context) {
 	var post_data = querystring.stringify(
 		event.body
 	);
+	var post_status = 200;
+	var post_response = "Done";
 
   // An object of options to indicate where to post to
   var post_options = {
@@ -22,16 +24,12 @@ exports.handler = function (event, context) {
   var post_req = https.request(post_options, function(res) {
       res.setEncoding('utf8');
       res.on('data', function (chunk) {
-		callback(null, {
-			statusCode: 200,
-			body:  "Done" 
-		});	
+		post_status = 200;
+		post_response = "Done";
       });
       res.on('error', function (e) {
-		callback(null, {
-			statusCode: 400,
-			body:  "Failed " + e.message 
-		});	 	  
+		post_status = 400;
+		post_response = "Failed: " + e.message 	  
       });
 
   });
@@ -39,5 +37,10 @@ exports.handler = function (event, context) {
   // post the data
   post_req.write(post_data);
   post_req.end();
+
+	callback(null, {
+		statusCode: post_status,
+		body:  post_response 
+	});	
 
 }
