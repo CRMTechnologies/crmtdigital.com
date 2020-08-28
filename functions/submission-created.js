@@ -2,10 +2,12 @@ const querystring = require('querystring');
 var https = require('https');
 
 exports.handler = function (event, context, callback) {
+ 	console.log( event.body );	
+	const body = JSON.parse(event.body).payload;
 	var post_data = querystring.stringify(
-		event.body
+		body
 	);
-
+ 	console.log( post_data );
   // An object of options to indicate where to post to
   var post_options = {
       host: 's1010.t.eloqua.com',
@@ -36,7 +38,7 @@ exports.handler = function (event, context, callback) {
       });
 
   });
- console.log( post_data );
+	
   // post the data
   post_req.write(post_data);
   post_req.end();
