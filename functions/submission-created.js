@@ -2,8 +2,8 @@ const querystring = require('querystring');
 var https = require('https');
 
 exports.handler = function (event, context, callback) {
- 	console.log( event.body );	
-	const body = JSON.parse(event.body).payload;
+ 	console.log( event.body.payload.data );	
+	const body = JSON.parse(event.body).payload.data;
 	var post_data = querystring.stringify(
 		body
 	);
