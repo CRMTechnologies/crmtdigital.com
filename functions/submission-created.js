@@ -2,10 +2,9 @@ const querystring = require('querystring');
 var https = require('https');
 
 exports.handler = function (event, context, callback) {
- 	console.log( event.body.payload.data );	
-	const body = JSON.parse(event.body).payload.data;
+	const body = JSON.parse(event.body).payload;
 	var post_data = querystring.stringify(
-		body
+		body.data
 	);
  	console.log( post_data );
   // An object of options to indicate where to post to
