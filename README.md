@@ -1,5 +1,12 @@
 # crmtdigital.com
-CRMT Website using Hugo
+CRMT Digital Website
+
+Forstry CMS: https://app.forestry.io/sites/vznnw4uu66unoq/
+
+Netlify Hosting: https://app.netlify.com/sites/zealous-liskov-3ee2f4
+
+Staging URL: https://staging--zealous-liskov-3ee2f4.netlify.app/
+
 
 TODO:
 * Google Tag Manager [Push Live & Update GTM tag]
