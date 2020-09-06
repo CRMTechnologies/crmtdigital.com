@@ -14,6 +14,7 @@ card_title: Successful Execution of Your Marketing Ops Strategy
 card_subtitle: Through Cross Enterprise Collaboration
 content_type: eGuide
 gated: true
+thank-you: /ty/successful-execution-of-your-marketing-ops-strategy
 asset_link: https://img.en25.com/Web/CRMTechnologies/%7B62f5bb08-b1a9-4389-9231-4d1a1d3d5ddd%7D_Successful_execution_of_your_Marketing_Ops_strategy_through_cross_Enterprise_collaboration_V2.pdf
 banner_type: highlight
 heading: Embed a collaborative culture shift throughout your business

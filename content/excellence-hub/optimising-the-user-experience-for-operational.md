@@ -14,6 +14,7 @@ highlight_colour = "rgb(117, 65, 146)"
 image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B9935e521-9e49-4898-9b61-d177d19f36c5%7D_LP-M-EM3.jpg"
 keywords = ["User Experience", "Demand Generation"]
 subheading = ""
+thank-you = "/ty/optimising-the-user-experience-for-operational"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/Optimising-the-user-experience-for-operational-excellence_0.png"
 title = "Optimising the User Experience for Operational Excellence"
 date = "2016-03-03T16:18:40+00:00"
