@@ -15,6 +15,7 @@ image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B0144274a-c
 keywords = ["Demand Centers"]
 tags = ["Demand Center"]
 subheading = ""
+thank_you = "/ty/developing-a-demand-center"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/Developing-a-Demand-Center_1.png"
 title = "Developing a Demand Center: Essential Considerations and Key Benefits"
 date = "2016-04-07T10:32:40+00:00"

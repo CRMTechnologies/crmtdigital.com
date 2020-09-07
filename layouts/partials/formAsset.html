@@ -146,9 +146,6 @@ body .body-container .main-group .form {
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script>
 var emailAddress =  "";
-var asset = window.location.pathname; 
-asset = asset.replace("/excellence-hub/","");
-asset = asset.replace("/","");
   
 var iFrameDetection = (window === window.parent) ? false : true;
 
@@ -277,16 +274,15 @@ var progPro = (function () {
 	var setHiddenFields = function() {
 		var query = window.location.search.substring(1); 
 		var vars = query.split("&"); 
-      console
-      if(document.location.search.length) {
-		for (var i=0;i < vars.length;i++) { 
-			var pair = vars[i].split("="); 
-			if($("[name='" + pair[0] + "']") && (pair[1] != "")) {
-				var xVal = pair[1].replace(/\+/g, '%20');
-				$("[name='" + pair[0] + "']").val( decodeURIComponent( xVal ) );
-			}            
-		} 
-      }  
+		  if(document.location.search.length) {
+			for (var i=0;i < vars.length;i++) { 
+				var pair = vars[i].split("="); 
+				if($("[name='" + pair[0] + "']") && (pair[1] != "")) {
+					var xVal = pair[1].replace(/\+/g, '%20');
+					$("[name='" + pair[0] + "']").val( decodeURIComponent( xVal ) );
+				}            
+			} 
+		  }  
 	};
  
 	var mergeHiddenFields = function(uri) { 
@@ -580,8 +576,7 @@ $( document ).ready(function() {
     });  
   
     if ( $(".elq-form").length > 0 ) {
-		$("form").hide();	
-        $("[name='asset']").val(asset);       
+		$("form").hide();	   
 		progPro.setHiddenFields();  
     }
 
@@ -684,7 +679,7 @@ function SetElqContent() {
 </script> 
 <p id="reset">Not your details? <a href="#" id="resetForm" title="Reset Form">Click here</a></p>
 <div class="form">
-<form method="post" name="copyOf2017NMPProgressive-1495463972666" action="https://s1010.t.eloqua.com/e/f2?LP=123" onsubmit="return handleFormSubmit(this)" id="form95" class="elq-form" >
+<form method="post" name="assetDownload{{ .File.UniqueID }}" action="{{ .Params.thank_you }}" onsubmit="return handleFormSubmit(this)" id="form95" class="elq-form" netlify>
 <input value="copyOf2017NMPProgressive-1495463972666" type="hidden" name="elqFormName"  />
 <input value="1010" type="hidden" name="elqSiteId"  />
 <input name="elqCampaignId" type="hidden"  />
@@ -697,7 +692,7 @@ function SetElqContent() {
 <div id="formElement6" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field6" class="label-position top " >Business Phone</label><input id="field6" name="busPhone" type="text" value="" class="field-size-top-large"  /></p></div></div></div>
 <div id="formElement7" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field7" class="label-position top " >Industry</label><select id="field7" name="industry1" data-value="" class="field-size-top-large" ><option value="" >- Industry -</option><option value="Agency" >Agency</option><option value="Agriculture" >Agriculture</option><option value="Apparel" >Apparel</option><option value="Association" >Association</option><option value="Banking" >Banking</option><option value="Biotechnology" >Biotechnology</option><option value="Chemicals" >Chemicals</option><option value="Communications" >Communications</option><option value="Construction" >Construction</option><option value="Consulting" >Consulting</option><option value="Education" >Education</option><option value="Electronics" >Electronics</option><option value="Energy" >Energy</option><option value="Engineering" >Engineering</option><option value="Entertainment" >Entertainment</option><option value="Environmental" >Environmental</option><option value="Events" >Events</option><option value="Finance" >Finance</option><option value="Food & Beverage" >Food & Beverage</option><option value="Government" >Government</option><option value="Healthcare" >Healthcare</option><option value="Hospitality" >Hospitality</option><option value="Insurance" >Insurance</option><option value="Machinery" >Machinery</option><option value="Manufacturing" >Manufacturing</option><option value="Media" >Media</option><option value="Not For Profit/Charity" >Not For Profit/Charity</option><option value="Professional Organisation" >Professional Organisation</option><option value="Recreation" >Recreation</option><option value="Retail" >Retail</option><option value="Shipping" >Shipping</option><option value="Technology" >Technology</option><option value="Telecommunications" >Telecommunications</option><option value="Tourism" >Tourism</option><option value="Training" >Training</option><option value="Transportation" >Transportation</option><option value="Utilities" >Utilities</option><option value="Other" >Other</option></select></p></div></div></div>
 <div id="formElement8" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field8" class="label-position top " >Marketing Automation Provider</label><select id="field8" name="marketingAutomationProvider1" data-value="" class="field-size-top-large" ><option value="" >- Marketing Automation Provider -</option><option value="Eloqua" >Oracle Eloqua</option><option value="Marketo" >Marketo</option><option value="Pardot" >Salesforce Pardot</option><option value="Hubspot" >Hubspot</option><option value="Other" >Other</option><option value="Adobe Campaign" >Adobe Campaign</option></select></p></div></div></div>
-<div id="formElement9" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field9" type="hidden" name="asset" value=""  /></p></div></div></div><div id="formElement10" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><span class="checkbox-span field-size-top-large" ><span class="list-order oneColumn" ><input name="OptIn" type="checkbox" value="on"  /><label class="checkbox-label" >Subscribe to General Communications</label></span></span><label class="instructions default other" >Adhoc news and announcements via email from CRMT.</label></p></div></div></div>
+<div id="formElement9" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field9" type="hidden" name="asset" value="{{ .Title }}"  /></p></div></div></div><div id="formElement10" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><span class="checkbox-span field-size-top-large" ><span class="list-order oneColumn" ><input name="OptIn" type="checkbox" value="on"  /><label class="checkbox-label" >Subscribe to General Communications</label></span></span><label class="instructions default other" >Adhoc news and announcements via email from CRMT.</label></p></div></div></div>
 <div id="formElement11" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><span class="checkbox-span field-size-top-large" ><span class="list-order oneColumn" ><input name="subscribeToNewsletter1" type="checkbox" value="on"  /><label class="checkbox-label" >Subscribe to Insights from CRMT</label></span></span><label class="instructions default other" >Email content round-ups, hints and tips to help you improve marketing effectiveness.</label></p></div></div></div><div id="formElement12" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><span class="checkbox-span field-size-top-large" ><span class="list-order oneColumn" ><input name="subscribeToEvents1" type="checkbox" value="on"  /><label class="checkbox-label" >Subscribe to Events and Webinars</label></span></span><label class="instructions default other" >Adhoc email notifications about upcoming events and webinars.</label></p></div></div></div>
 <div id="formElement12" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size d-none" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field12" class="label-position top " >Website</label><input id="field12" name="website" type="text" value="" class="field-size-top-large"  /></p></div></div></div>
 <div id="formElement13" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field13" type="hidden" name="utm_campaign" value=""  /></p></div></div></div><div id="formElement14" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field14" type="hidden" name="utm_medium" value=""  /></p></div></div></div><div id="formElement15" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field15" type="hidden" name="utm_source" value=""  /></p></div></div></div><div id="formElement16" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input type="submit" value="Download Now" class="submit-button" style="font-size: 100%; height: 24px; width: 100px"  /></p></div></div></div>

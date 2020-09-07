@@ -16,6 +16,7 @@ image = "https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7B1fdf9864-2
 keywords = []
 subheading = ""
 tags = ["Marketing Automation"]
+thank_you = "/ty/my-awesome-guide-to-marketing-automation-success"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/MA---marketing-automation-success_1.png"
 title = "My Awesome Guide to: Marketing Automation Success"
 type = "resource"

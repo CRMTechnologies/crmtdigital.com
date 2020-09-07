@@ -9,7 +9,10 @@
       <input type="hidden" name="elqFormName" value="20contactus">
       <input type="hidden" name="elqSiteID" value="1010">
       <input type="hidden" name="elqCustomerGUID" value="">
-      <input type="hidden" name="elqCookieWrite" value="0">	  
+      <input type="hidden" name="elqCookieWrite" value="0">
+	  <input id="field13" type="hidden" name="utm_campaign" value=""  />	
+	  <input id="field14" type="hidden" name="utm_medium" value=""  />
+	  <input id="field15" type="hidden" name="utm_source" value=""  />	  
       <div class="row">	
         <div class="col-lg-6">
           <div class="row no-gutters">	
@@ -47,7 +50,7 @@
 </section>
 <script type='text/javascript'>
 var elqTimerId = null, timeout = 5;
-
+	
 function WaitUntilCustomerGUIDIsRetrieved() {
 	if (!!(elqTimerId)) {
 		if (timeout == 0) {
@@ -62,6 +65,23 @@ function WaitUntilCustomerGUIDIsRetrieved() {
 	elqTimerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
 	return;
 }
-window.onload = WaitUntilCustomerGUIDIsRetrieved;
+
+function setHiddenFormFields() {
+  var query = window.location.search.substring(1); 
+  var vars = query.split("&"); 
+  if(document.location.search.length) {
+	for (var i=0;i < vars.length;i++) { 
+		var pair = vars[i].split("="); 
+		if($("[name='" + pair[0] + "']") && (pair[1] != "")) {
+			var xVal = pair[1].replace(/\+/g, '%20');
+			$("[name='" + pair[0] + "']").val( decodeURIComponent( xVal ) );
+		}            
+	} 
+  }
+  WaitUntilCustomerGUIDIsRetrieved();
+}
+
+
+window.onload = setHiddenFormFields;
 _elqQ.push(['elqGetCustomerGUID']);
 </script>

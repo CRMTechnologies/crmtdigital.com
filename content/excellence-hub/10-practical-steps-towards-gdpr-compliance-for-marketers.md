@@ -18,6 +18,7 @@ show_contact = "button"
 subheading = ""
 tags = ["Data"]
 testimonial = ""
+thank_you = "/ty/10-practical-steps-towards-gdpr-compliance-for-marketers"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/GDPR-Asset2.png"
 title = "10 Practical Steps Towards GDPR Compliance For Marketers"
 type = "resource"
