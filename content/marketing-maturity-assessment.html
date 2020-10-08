@@ -138,7 +138,14 @@ title = "Marketing Maturity Assessment"
               </div>
               <div class="card-body">          
                 <label for="map">Marketing Automation Platform</label>
-                <input type="text" class="form-control" name="map" id="map">
+                <select class="form-control" name="map" id="map">
+					<option></option>
+                    <option class="Eloqua">Eloqua</option>  
+                    <option class="Marketo">Marketo</option>  
+                    <option class="Pardot">Pardot</option>
+                    <option class="HubSpot">HubSpot</option>  
+                    <option class="Other">Other</option>                  
+                </select>  
                 <p>What campaign types is marketing automation used for in your organisation?</p>		
 			</div>
 			<ul class="list-group">
@@ -159,22 +166,88 @@ title = "Marketing Maturity Assessment"
               </div>
               <div class="card-body">          
                 <label for="crm">CRM System</label>          
-                <input type="text" class="form-control" name="crmsystem" id="crmsystem">
-                <p>Which of the following CRM objects are used in your organisation?</p>		
+                <select class="form-control" name="crmsystem" id="crmsystem">
+					<option></option>
+                    <option class="Salesforce">Salesforce</option>  
+                    <option class="Microsoft Dynamics">Microsoft Dynamics</option>  
+                    <option class="Oracle Sales Cloud">Oracle Sales Cloud</option>  
+                    <option class="Other">Other</option>                  
+                </select>                 
+                <p>Which of the following are enabled by the tech stack within your organisation?</p>		
 			</div>
 			<ul class="list-group">
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Accounts</li>
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaigns</li>
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Contacts</li>              
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Leads</li>
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Opportunities</li>	
-				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Purchase History</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Based Marketing</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">AI & predictive</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Conversational Marketing</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Channel / Partner Management</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Social Selling</li>	
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Sales Campaigning</li>	              
 			</ul>             
           </div>   
         </div>	        
       </div>  
-      <div class="row">
-       
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="card-title">Web</h3>
+              </div>
+              <div class="card-body">          
+                <label for="map">Primary CMS</label>
+                <select type="text" class="form-control" name="cms" id="cms">
+					<option></option>
+                    <option class="Adobe Experience Manager">Adobe Experience Manager</option>  
+                    <option class="Drupal">Drupal</option>  
+                    <option class="Episerver">Episerver</option>  
+                    <option class="Joomla">Joomla</option>  
+                    <option class="OpenText">OpenText</option>  
+                    <option class="Oracle Web Center">Oracle Web Center</option>      
+                    <option class="Sitecore">Sitecore</option>  
+                    <option class="Wordpress">Wordpress</option>                    
+                    <option class="Other">Other</option>                  
+                </select>                
+                <p>Which of the following capabilities do you use on your website?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Personalisation</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Experience Platform</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Web Analytics</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Customer Data Platforms</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Form Management</li>	              
+			</ul>
+          </div>                
+        </div>
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="card-title">Other MarTech</h3>
+              </div>
+              <div class="card-body">          
+                <label for="crm">Primary BI Tool</label>          
+                <select class="form-control" name="bitool" id="bitool">
+					<option></option>
+                    <option class="Datorama">Datorama</option>  
+                    <option class="Domo">Domo</option>  
+                    <option class="PowerBI">PowerBI</option> 
+                    <option class="Qlik">Qlik</option>  
+                    <option class="Tableau">Tableau</option>                    
+                    <option class="Other">Other</option>                  
+                </select> 
+                <p>What other Martech do you have in your tech stack?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Budget & planning</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Daat Management Platform</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Analytics & BI</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Events & webinars</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Project management</li>		              
+			</ul>             
+          </div>   
+        </div>	        
+      </div>
+    
+      <div class="row">      
         <div class="col-sm-12"> 
           <div class="card card-primary">
               <div class="card-header">
