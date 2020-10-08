@@ -20,6 +20,7 @@ title = "Marketing Maturity Assessment"
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
 
   <style>
+
     label { font-weight: 400;}
 
 	.intro-text h1, .intro-text h2, .intro-text h3 {
@@ -33,23 +34,23 @@ title = "Marketing Maturity Assessment"
 		padding-bottom: 0px;
 	}
     input[type=text] + label, input[type=text] + p { margin-top:1em }
-	
-	.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background-color: #a2bd1a; border-color: #a2bd1a; color: #fff; }
+	.nav-tabs > li.nav-item > a { color: #666; }
+	.nav-tabs > li.nav-item > a.active, .nav-tabs > li.nav-item > a.active:focus, .nav-tabs > li.nav-item > a.active:hover { background-color: #a2bd1a; border-color: #a2bd1a; color: #fff; }
 	.nav-tabs {
 		border-bottom: 1px solid #a2bd1a;
 	}
-	.nav-tabs > li > a:hover {
+	.nav-tabs > li.nav-item > a:hover {
 		border-color: #a2bd1a;
 		background-color: #fff;	
     	border-bottom-color: #a2bd1a;
 	}
-	.panel, .panel-heading, .form-control { border-radius: 0; }
-    .panel-heading { height: 50px;}
-	.panel-primary > .panel-heading { background-color: #009FE3; border-color: #009FE3; }
-    .panel-body { background-color: rgba(40,75,129,0.15); color:#414042; }	
-    .panel-heading i { margin-right: 10px; vertical-align: middle;line-height: 100%; float: right;}
-    .panel-heading h3 {float: left;margin-top: 5px }    
-    .panel-body p {line-height: 1.5em;margin: 0px;padding: 0px;text-align:left;}
+	.card, .card-heading, .form-control { border-radius: 0; }
+    .card-heading { height: 50px;}
+	.card-primary > .card-heading { background-color: #009FE3; border-color: #009FE3; }
+    .card-body { background-color: rgba(40,75,129,0.15); color:#414042; }	
+    .card-heading i { margin-right: 10px; vertical-align: middle;line-height: 100%; float: right;}
+    .card-heading h3 {float: left;margin-top: 5px }    
+    .card-body p {line-height: 1.5em;margin: 0px;padding: 0px;text-align:left;}
     .list-group-item { padding-left: 4.5%; padding-right: 4.5%}
     .list-group-item i.fa-minus, 
     .list-group-item.list-group-item-success i.fa-times, 
@@ -75,16 +76,17 @@ title = "Marketing Maturity Assessment"
     .btn.pull-right { margin-left: 7.5px}
 
 @media screen and (max-width:768px){
-    .nav-tabs > li { width: 100%; border-radius: 0px;}  
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background-color: #a2bd1a; border-color:#008856; color: #fff; }
-    .nav-tabs > li > a:hover { border-bottom-color:#a2bd1a;  }
-    .nav-tabs > li > a { border-radius: 2px; }
-	.nav-tabs { border-bottom: none; }
+    .nav-tabs > li.nav-item { width: 100%; border-radius: 0px;}  
+    .nav-tabs > li.nav-item > a.active, .nav-tabs > li.nav-item > a.active:focus, .nav-tabs > li.nav-item > a.active:hover { background-color: #a2bd1a; border-color:#a2bd1a; color: #fff; }
+    .nav-tabs > li.nav-item > a:hover { border-bottom-color:#a2bd1a;  }
+    .nav-tabs > li.nav-item > a { border-radius: 2px; }
+    .nav-tabs { border-bottom: none; }
     .m-b-lg { margin-bottom: 1.5em; } 
     .button-row { margin-bottom: 6em; }  
     .icon-bar { background-color: #0e1d45; }
-    .panel-body .col-sm-6 + .col-sm-6 { margin-top: 1em; }  
+    .card-body .col-sm-6 + .col-sm-6 { margin-top: 1em; }  
     .nav-tabs { margin-top: 15px; }  
+}  
   </style>
 
 <div class="container">
@@ -119,12 +121,12 @@ title = "Marketing Maturity Assessment"
 	<div id="home" class="tab-pane fade in active">        
       <div class="row">
         <div class="col-sm-6"> 
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Marketing Tools</h3>
+                  <h3 class="card-title">Marketing Tools</h3>
               </div>
-              <div class="panel-body">          
+              <div class="card-body">          
                 <label for="map">Marketing Automation Platform</label>
                 <input type="text" class="form-control" name="map" id="map">
                 <p>What campaign types is marketing automation used for in your organisation?</p>		
@@ -140,12 +142,12 @@ title = "Marketing Maturity Assessment"
           </div>                
         </div>
         <div class="col-sm-6"> 
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Sales Tools</h3>
+                  <h3 class="card-title">Sales Tools</h3>
               </div>
-              <div class="panel-body">          
+              <div class="card-body">          
                 <label for="crm">CRM System</label>          
                 <input type="text" class="form-control" name="crmsystem" id="crmsystem">
                 <p>Which of the following CRM objects are used in your organisation?</p>		
@@ -164,12 +166,12 @@ title = "Marketing Maturity Assessment"
       <div class="row">
        
         <div class="col-sm-12"> 
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Web</h3>
+                  <h3 class="card-title">Web</h3>
               </div>
-            <div class="panel-body">
+            <div class="card-body">
               <div class="col-sm-6">
                 <label for="crm">Primary Content Repository</label>          
                 <input type="text" class="form-control" name="contenttools" id="contenttools">
@@ -197,12 +199,12 @@ title = "Marketing Maturity Assessment"
 	<div id="processes" class="tab-pane fade">   
       <div class="row">
         <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
+            <div class="card card-primary">
+                <div class="card-heading">
                   <i class="fas fa-database fa-2x"></i>
-                  <h3 class="panel-title">Taxonomy</h3>
+                  <h3 class="card-title">Taxonomy</h3>
                 </div>
-                <div class="panel-body">
+                <div class="card-body">
                     <p>For which of the following do you have documented standards?</p>	
                 </div>
                 <ul class="list-group">
@@ -216,12 +218,12 @@ title = "Marketing Maturity Assessment"
             </div>	
         </div>
       <div class="col-sm-6">	
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Processes</h3>
+                  <h3 class="card-title">Processes</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>Do you have documented processes for the following</p>			
               </div>
               <ul class="list-group">
@@ -238,12 +240,12 @@ title = "Marketing Maturity Assessment"
     </div>	
       <div class="row">
         <div class="col-sm-6">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
+            <div class="card card-primary">
+                <div class="card-heading">
                   <i class="fas fa-database fa-2x"></i>
-                  <h3 class="panel-title">Security</h3>
+                  <h3 class="card-title">Security</h3>
                 </div>
-                <div class="panel-body">
+                <div class="card-body">
                     <p>Which of these technical controls do you have in place?</p>	
                 </div>
                 <ul class="list-group">
@@ -258,12 +260,12 @@ title = "Marketing Maturity Assessment"
             </div>	
         </div>
       <div class="col-sm-6">	
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Data Protection</h3>
+                  <h3 class="card-title">Data Protection</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>What aspects of GDPR are managed by your team?</p>			
               </div>
               <ul class="list-group">
@@ -290,12 +292,12 @@ title = "Marketing Maturity Assessment"
 <div id="ops" class="tab-pane fade">
     <div class="row">  
         <div class="col-sm-6"> 
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Analytics</h3>
+                  <h3 class="card-title">Analytics</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <label for="bitool">Preferred Reporting Tool</label>             
                 <input type="text" class="form-control" name="bitool" id="bitool"> 
                 <p>What type of reporting is carried out in your organisation?</p>                 
@@ -310,12 +312,12 @@ title = "Marketing Maturity Assessment"
           </div>                
         </div>
         <div class="col-sm-6"> 
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-cogs fa-2x"></i> 
-                  <h3 class="panel-title">Data</h3>
+                  <h3 class="card-title">Data</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                 <label for="bitool">Master Contact Database</label>             
                 <input type="text" class="form-control" name="bitool" id="bitool"> 
                 <p>What type of data tools do you have integrated with this platform?</p>                 
@@ -332,12 +334,12 @@ title = "Marketing Maturity Assessment"
     </div>  
     <div class="row">	
       <div class="col-sm-6">			
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fa fa-heartbeat fa-2x"></i>               
-                  <h3 class="panel-title">Integrations</h3>
+                  <h3 class="card-title">Integrations</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>Which of the following are integrated with your marketing automation?</p>			
               </div>
               <ul class="list-group">
@@ -350,12 +352,12 @@ title = "Marketing Maturity Assessment"
           </div>
       </div>
       <div class="col-sm-6">			
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-filter fa-2x"></i>               
-                  <h3 class="panel-title">Lead Management</h3>
+                  <h3 class="card-title">Lead Management</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>The processes required to get the right leads to Sales at the right time</p>			
               </div>
               <ul class="list-group">
@@ -370,12 +372,12 @@ title = "Marketing Maturity Assessment"
     </div>	
     <div class="row">		
       <div class="col-sm-6">			
-          <div class="panel panel-primary">
-              <div class="panel-heading">
+          <div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-balance-scale fa-2x"></i> 
-                  <h3 class="panel-title">Sales Enablement</h3>
+                  <h3 class="card-title">Sales Enablement</h3>
               </div>
-              <div class="panel-body">               
+              <div class="card-body">               
                   <p>How do you support Sales?</p>		
               </div>
               <ul class="list-group">
@@ -388,12 +390,12 @@ title = "Marketing Maturity Assessment"
           </div>
       </div>
       <div class="col-sm-6">			
-          <div class="panel panel-primary">
-			<div class="panel-heading">
+          <div class="card card-primary">
+			<div class="card-heading">
 				<i class="fas fa-chart-line fa-2x"></i>               
-				<h3 class="panel-title">Segmentation</h3>
+				<h3 class="card-title">Segmentation</h3>
 			</div>
-			<div class="panel-body">			
+			<div class="card-body">			
 				<p>Do you have mechanisms to identify the following?</p>
 			</div>
 			<ul class="list-group">
@@ -409,12 +411,12 @@ title = "Marketing Maturity Assessment"
  </div>
  <div class="row">	      
 	<div class="col-sm-6">		
-		<div class="panel panel-primary">
-              <div class="panel-heading">
+		<div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-building fa-2x"></i>               
-                  <h3 class="panel-title">System Configuration</h3>
+                  <h3 class="card-title">System Configuration</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>Do you have issues or concerns with any of the following?</p>			
               </div>
               <ul class="list-group">
@@ -425,12 +427,12 @@ title = "Marketing Maturity Assessment"
           </div>          	
 	</div>      
 	<div class="col-sm-6">		
-		<div class="panel panel-primary">
-              <div class="panel-heading">
+		<div class="card card-primary">
+              <div class="card-heading">
                   <i class="fas fa-building fa-2x"></i>               
-                  <h3 class="panel-title">Digital Nurture</h3>
+                  <h3 class="card-title">Digital Nurture</h3>
               </div>
-              <div class="panel-body">
+              <div class="card-body">
                   <p>Which of the following do you use for your automated nurture programs?</p>			
               </div>
               <ul class="list-group">
@@ -452,12 +454,12 @@ title = "Marketing Maturity Assessment"
 <div id="marketing" class="tab-pane fade">       
   <div class="row">		
 	<div class="col-sm-6">			
-		<div class="panel panel-primary">
-			<div class="panel-heading">
+		<div class="card card-primary">
+			<div class="card-heading">
 				<i class="fas fa-envelope fa-2x"></i>               
-				<h3 class="panel-title">Event Management</h3>
+				<h3 class="card-title">Event Management</h3>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<p>Which phases of an event are automated?</p>		
 			</div>
 			<ul class="list-group">  
@@ -473,12 +475,12 @@ title = "Marketing Maturity Assessment"
 	</div>
     
 	<div class="col-sm-6">			
-		<div class="panel panel-primary">
-			<div class="panel-heading">
+		<div class="card card-primary">
+			<div class="card-heading">
 				<i class="fas fa-share-square fa-2x"></i>               
-				<h3 class="panel-title">Marketing Channels</h3>
+				<h3 class="card-title">Marketing Channels</h3>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<p>Which of the following channels are integrated with marketing automation?</p>			
 			</div>
 			<ul class="list-group">
@@ -496,12 +498,12 @@ title = "Marketing Maturity Assessment"
   </div>	
   <div class="row">
 	<div class="col-sm-6">			
-		<div class="panel panel-primary">
-			<div class="panel-heading">
+		<div class="card card-primary">
+			<div class="card-heading">
 				<i class="fas fa-envelope fa-2x"></i>               
-				<h3 class="panel-title">Marketing Templates</h3>
+				<h3 class="card-title">Marketing Templates</h3>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<p>Where do you use templates for your marketing?</p>		
 			</div>
 			<ul class="list-group"> 
@@ -514,12 +516,12 @@ title = "Marketing Maturity Assessment"
 		</div>
 	</div>    
 	<div class="col-sm-6">		
-		<div class="panel panel-primary">
-			<div class="panel-heading">
+		<div class="card card-primary">
+			<div class="card-heading">
 				<i class="fas fa-seedling fa-2x"></i>               
-				<h3 class="panel-title">Marketing Automation Capabilities</h3>
+				<h3 class="card-title">Marketing Automation Capabilities</h3>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<p>Which of the below marketing automation functions do you use?</p>			
 			</div>
 			<ul class="list-group">
