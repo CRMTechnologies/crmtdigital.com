@@ -1,0 +1,634 @@
++++
+banner_type = "highlight"
+carousel = false
+description = ""
+draft = true
+heading = "Marketing Maturity Assessment"
+highlight_colour = "rgb(55, 26, 190)"
+image = ""
+keywords = []
+resource = []
+show_contact = "none"
+slug = "maturity-index"
+statWidget = false
+subheading = ""
+testimonial = ""
+title = "Marketing Maturity Assessment"
+
++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
+
+  <style>
+    label { font-weight: 400;}
+
+	.intro-text h1, .intro-text h2, .intro-text h3 {
+		font-size: 2.62em;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		padding-bottom: 24px;
+		color: #333;
+	}
+	.intro-text p {
+		padding-bottom: 0px;
+	}
+    input[type=text] + label, input[type=text] + p { margin-top:1em }
+	
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background-color: #a2bd1a; border-color: #a2bd1a; color: #fff; }
+	.nav-tabs {
+		border-bottom: 1px solid #a2bd1a;
+	}
+	.nav-tabs > li > a:hover {
+		border-color: #a2bd1a;
+		background-color: #fff;	
+    	border-bottom-color: #a2bd1a;
+	}
+	.panel, .panel-heading, .form-control { border-radius: 0; }
+    .panel-heading { height: 50px;}
+	.panel-primary > .panel-heading { background-color: #009FE3; border-color: #009FE3; }
+    .panel-body { background-color: rgba(40,75,129,0.15); color:#414042; }	
+    .panel-heading i { margin-right: 10px; vertical-align: middle;line-height: 100%; float: right;}
+    .panel-heading h3 {float: left;margin-top: 5px }    
+    .panel-body p {line-height: 1.5em;margin: 0px;padding: 0px;text-align:left;}
+    .list-group-item { padding-left: 4.5%; padding-right: 4.5%}
+    .list-group-item i.fa-minus, 
+    .list-group-item.list-group-item-success i.fa-times, 
+    .list-group-item.list-group-item-danger i.fa-times, 
+    .list-group-item.list-group-item-warning i.fa-times, 
+    .list-group-item.list-group-item-success i.fa-question, 
+    .list-group-item.list-group-item-danger i.fa-question, 
+    .list-group-item.list-group-item-warning i.fa-question,     
+    .list-group-item.list-group-item-warning i.fa-check,     
+    .list-group-item.list-group-item-success i.fa-check, 
+    .list-group-item.list-group-item-danger i.fa-check {
+      	display: none;
+    }   
+    .list-group-item i, 
+    .list-group-item.list-group-item-success i.fa-minus, 
+    .list-group-item.list-group-item-danger i.fa-minus, 
+    .list-group-item.list-group-item-warning i.fa-minus {
+      	display: inline-block;cursor:pointer;float:right;padding: 3px 6px 3px 0px;
+    }
+  
+    .m-b-md { margin-bottom: 1.5em; }    
+    .m-b-lg { margin-bottom: 3em; }
+    .btn.pull-right { margin-left: 7.5px}
+
+@media screen and (max-width:768px){
+    .nav-tabs > li { width: 100%; border-radius: 0px;}  
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background-color: #a2bd1a; border-color:#008856; color: #fff; }
+    .nav-tabs > li > a:hover { border-bottom-color:#a2bd1a;  }
+    .nav-tabs > li > a { border-radius: 2px; }
+	.nav-tabs { border-bottom: none; }
+    .m-b-lg { margin-bottom: 1.5em; } 
+    .button-row { margin-bottom: 6em; }  
+    .icon-bar { background-color: #0e1d45; }
+    .panel-body .col-sm-6 + .col-sm-6 { margin-top: 1em; }  
+    .nav-tabs { margin-top: 15px; }  
+  </style>
+
+<div class="container">
+  <div class="row">
+	<div class="col-sm-12 m-b-md">      
+      <div class="intro-text text-center">
+
+        
+      </div>
+	</div>
+  </div>   
+      <div class="row">
+        <div class="col-sm-6 m-b-lg">  
+          <input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email Address*">
+        </div>	
+        <div class="col-sm-6 m-b-lg">  
+          <input type="text" class="form-control" name="company" id="company" placeholder="Company Name*">
+        </div>
+      </div>  
+  <div class="row">
+	<div class="col-sm-12 m-b-md">   
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Tech Stack</a></li>
+        <li><a data-toggle="tab" href="#processes">People &amp; Processes</a></li>         
+        <li><a data-toggle="tab" href="#ops">Marketing Operations</a></li>
+        <li><a data-toggle="tab" href="#marketing">Demand Marketing</a></li>        
+      </ul>  
+	</div>
+  </div> 
+  
+  <div class="tab-content">
+	<div id="home" class="tab-pane fade in active">        
+      <div class="row">
+        <div class="col-sm-6"> 
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Marketing Tools</h3>
+              </div>
+              <div class="panel-body">          
+                <label for="map">Marketing Automation Platform</label>
+                <input type="text" class="form-control" name="map" id="map">
+                <p>What campaign types is marketing automation used for in your organisation?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Batch Email Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Customer Communications</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Inbound Campaigns</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Nurture Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Partner Communications</li>	              
+			</ul>
+          </div>                
+        </div>
+        <div class="col-sm-6"> 
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Sales Tools</h3>
+              </div>
+              <div class="panel-body">          
+                <label for="crm">CRM System</label>          
+                <input type="text" class="form-control" name="crmsystem" id="crmsystem">
+                <p>Which of the following CRM objects are used in your organisation?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Accounts</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Contacts</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Leads</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Opportunities</li>	
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Purchase History</li>	              
+			</ul>             
+          </div>   
+        </div>	        
+      </div>  
+      <div class="row">
+       
+        <div class="col-sm-12"> 
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Web</h3>
+              </div>
+            <div class="panel-body">
+              <div class="col-sm-6">
+                <label for="crm">Primary Content Repository</label>          
+                <input type="text" class="form-control" name="contenttools" id="contenttools">
+                <label for="webpers">Primary Image Repository</label>
+                <input type="text" class="form-control" name="webpers" id="webpers">                
+              </div>	                
+              <div class="col-sm-6">
+                <label for="cms">Website CMS</label>            
+                <input type="text" class="form-control" name="cms" id="cms">                
+                <label for="webanalytics">Web Analytics</label>
+                <input type="text" class="form-control" name="webanalytics" id="webanalytics">
+             </div>                
+            </div>	
+          </div>                
+        </div>	        
+      </div> 
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  		
+        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>         
+	</div>
+    
+	<div id="processes" class="tab-pane fade">   
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <i class="fas fa-database fa-2x"></i>
+                  <h3 class="panel-title">Taxonomy</h3>
+                </div>
+                <div class="panel-body">
+                    <p>For which of the following do you have documented standards?</p>	
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Naming Conventions</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Hierarchy</li>				
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Source Tracking</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Structure</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Folder Structures</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Fields</li>					
+              </ul>			
+            </div>	
+        </div>
+      <div class="col-sm-6">	
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Processes</h3>
+              </div>
+              <div class="panel-body">
+                  <p>Do you have documented processes for the following</p>			
+              </div>
+              <ul class="list-group">
+  
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Request Processes</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Build Processes</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Uploads</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">End of Campaign Processes</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">User Training</li>   
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">System Monitoring</li>  				  
+              </ul>			
+          </div>	
+      </div>
+    </div>	
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <i class="fas fa-database fa-2x"></i>
+                  <h3 class="panel-title">Security</h3>
+                </div>
+                <div class="panel-body">
+                    <p>Which of these technical controls do you have in place?</p>	
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Email Communication Limits</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Contact Level Security</li>				
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Export Restrictions</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Asset Level Security</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Custom User Profiles</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">User Auditing</li>	
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Single Sign-on</li>						
+              </ul>			
+            </div>	
+        </div>
+      <div class="col-sm-6">	
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Data Protection</h3>
+              </div>
+              <div class="panel-body">
+                  <p>What aspects of GDPR are managed by your team?</p>			
+              </div>
+              <ul class="list-group">
+  
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Tracking Cookie Controls</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">GDPR Consent Management</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Retention Controls</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Purchased List Management</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Deletion Process</li>   
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">CASL Consent Management</li>  	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Preference Centre</li>  					  
+              </ul>			
+          </div>	
+      </div>
+    </div>	
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  		
+        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>         
+</div>
+
+<div id="ops" class="tab-pane fade">
+    <div class="row">  
+        <div class="col-sm-6"> 
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Analytics</h3>
+              </div>
+              <div class="panel-body">
+                <label for="bitool">Preferred Reporting Tool</label>             
+                <input type="text" class="form-control" name="bitool" id="bitool"> 
+                <p>What type of reporting is carried out in your organisation?</p>                 
+            </div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Performance Reports</li>               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign ROI Reporting</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Database Health Metrics</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Funnel Reporting</li>	               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Multi Touch Attribution</li>
+			</ul>            
+          </div>                
+        </div>
+        <div class="col-sm-6"> 
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="panel-title">Data</h3>
+              </div>
+              <div class="panel-body">
+                <label for="bitool">Master Contact Database</label>             
+                <input type="text" class="form-control" name="bitool" id="bitool"> 
+                <p>What type of data tools do you have integrated with this platform?</p>                 
+            </div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Deduplication</li>               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Enrichment</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Normalisation</li>  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Intent Data</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead to Account Matching</li>	               
+			</ul>            
+          </div>                
+        </div>
+    </div>  
+    <div class="row">	
+      <div class="col-sm-6">			
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fa fa-heartbeat fa-2x"></i>               
+                  <h3 class="panel-title">Integrations</h3>
+              </div>
+              <div class="panel-body">
+                  <p>Which of the following are integrated with your marketing automation?</p>			
+              </div>
+              <ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Business Intelligence</li>				  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">CRM</li>				  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Warehouse or Data Lake</li>	
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Customer Data Platform</li>				  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Master Data Management</li>				
+              </ul>			
+          </div>
+      </div>
+      <div class="col-sm-6">			
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-filter fa-2x"></i>               
+                  <h3 class="panel-title">Lead Management</h3>
+              </div>
+              <div class="panel-body">
+                  <p>The processes required to get the right leads to Sales at the right time</p>			
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Scoring</li>			
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Scoring</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Routing</li>				
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Funnel Modeling</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Funnel Modeling</li>
+              </ul>			
+          </div>
+      </div>
+    </div>	
+    <div class="row">		
+      <div class="col-sm-6">			
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-balance-scale fa-2x"></i> 
+                  <h3 class="panel-title">Sales Enablement</h3>
+              </div>
+              <div class="panel-body">               
+                  <p>How do you support Sales?</p>		
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Notification</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Automation Sales Tools</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Pipeline Acceleration Campaigns</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Sales Email Templates</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Recycling Nurture</li>					  
+              </ul>			
+          </div>
+      </div>
+      <div class="col-sm-6">			
+          <div class="panel panel-primary">
+			<div class="panel-heading">
+				<i class="fas fa-chart-line fa-2x"></i>               
+				<h3 class="panel-title">Segmentation</h3>
+			</div>
+			<div class="panel-body">			
+				<p>Do you have mechanisms to identify the following?</p>
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketable Records</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Incomplete Contact Profiles</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Incomplete Account Profiles</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Contact Activity History</li>   
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Custom Objects</li>  				
+			</ul>			
+		</div>
+      </div>      
+ 
+ </div>
+ <div class="row">	      
+	<div class="col-sm-6">		
+		<div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-building fa-2x"></i>               
+                  <h3 class="panel-title">System Configuration</h3>
+              </div>
+              <div class="panel-body">
+                  <p>Do you have issues or concerns with any of the following?</p>			
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Email Deliverability</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Secure Landing Pages</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Web Tracking</li>                          
+              </ul>			
+          </div>          	
+	</div>      
+	<div class="col-sm-6">		
+		<div class="panel panel-primary">
+              <div class="panel-heading">
+                  <i class="fas fa-building fa-2x"></i>               
+                  <h3 class="panel-title">Digital Nurture</h3>
+              </div>
+              <div class="panel-body">
+                  <p>Which of the following do you use for your automated nurture programs?</p>			
+              </div>
+              <ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Email Nurture Programs</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Hubs</li>                
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">LinkedIn</li>	                            
+              </ul>			
+          </div>          	
+	</div>
+    </div>	
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  		
+        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>   
+</div>
+
+<div id="marketing" class="tab-pane fade">       
+  <div class="row">		
+	<div class="col-sm-6">			
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<i class="fas fa-envelope fa-2x"></i>               
+				<h3 class="panel-title">Event Management</h3>
+			</div>
+			<div class="panel-body">
+				<p>Which phases of an event are automated?</p>		
+			</div>
+			<ul class="list-group">  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Follow-up Communications</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Invitation</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">In-Person Event Registation</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">In-Person Event Attendance</li>   
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Tradeshow Booth Visitor Capture</li>                 
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Virtual Event Registration</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Virtual Event Attendance</li>                 
+			</ul>			
+		</div>
+	</div>
+    
+	<div class="col-sm-6">			
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<i class="fas fa-share-square fa-2x"></i>               
+				<h3 class="panel-title">Marketing Channels</h3>
+			</div>
+			<div class="panel-body">
+				<p>Which of the following channels are integrated with marketing automation?</p>			
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">SMS</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Paid Social</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Organic Social</li>   
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Paid Media</li>                
+ 				<li class="list-group-item" data-content="A currently missing description of what this item actually is">PPC</li>
+ 				<li class="list-group-item" data-content="A currently missing description of what this item actually is">SEO</li>
+ 				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Syndication</li>              
+
+			</ul>			
+		</div>
+	</div>
+  </div>	
+  <div class="row">
+	<div class="col-sm-6">			
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<i class="fas fa-envelope fa-2x"></i>               
+				<h3 class="panel-title">Marketing Templates</h3>
+			</div>
+			<div class="panel-body">
+				<p>Where do you use templates for your marketing?</p>		
+			</div>
+			<ul class="list-group"> 
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Workflow Templates</li>	               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Email Templates</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Form Templates</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Landing Page Templates</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Segment / List Templates</li>	              
+			</ul>			
+		</div>
+	</div>    
+	<div class="col-sm-6">		
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<i class="fas fa-seedling fa-2x"></i>               
+				<h3 class="panel-title">Marketing Automation Capabilities</h3>
+			</div>
+			<div class="panel-body">
+				<p>Which of the below marketing automation functions do you use?</p>			
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">A/B Testing</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Auto-Responder Emails</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Dynamic Content</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Progressive Profiling</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Shared Content Snippets</li>	                
+           
+			</ul>			
+		</div>	
+	</div>
+		
+  </div>
+  <div class="row">		
+	<div class="col-sm-12 m-b-lg button-row">	  		
+      <button type="button" id="next" class="btn btn-primary pull-right">Submit</button>
+      <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+	</div>		
+  </div>   
+</div>
+    </div>             
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Thank You</h4>
+        </div>
+        <div class="modal-body">
+          <p>Your data has been successfully submited. You will receive a summary of your selections by email.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.2/jquery.min.js"></script>
+  <script>
+  $( document ).ready(function() {
+    
+    $(".list-group-item").each(function( index ) {
+    	$( this ).attr('name',  $( this ).text().replace(/([^A-Za-z0-9[\]{}_.:-])\s?/g, '') );      
+      $(this).html('<span data-toggle="popover" data-content="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
+	}); 
+    $('[data-toggle="popover"]').popover({ container: 'body' }); 
+
+	$( ".list-group-item .fa-check" ).click(function() {
+    	$( this ).parent().attr('data-status', 'Yes' );          
+		$( this ).parent().addClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning');
+	}); 
+	$( ".list-group-item .fa-minus" ).click(function() {
+    	$( this ).parent().attr('data-status', '' );        
+		$( this ).parent().removeClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning');
+	}); 
+	$( ".list-group-item .fa-question" ).click(function() {
+    	$( this ).parent().attr('data-status', 'Maybe' );        
+		$( this ).parent().addClass('list-group-item-warning').removeClass('list-group-item-success').removeClass('list-group-item-danger');
+	});     
+	$( ".list-group-item .fa-times" ).click(function() {
+    	$( this ).parent().attr('data-status', 'No' );      
+		$( this ).parent().removeClass('list-group-item-success').addClass('list-group-item-danger').removeClass('list-group-item-warning');
+	});
+    
+	$( ".reset" ).click(function() {
+		$(".list-group-item" ).removeClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning').removeAttr('data-status');	
+		$("input").val("");
+ 	}); 
+	$( ".next" ).click(function() {
+		$('.nav-tabs > .active').next('li').find('a').trigger('click');
+ 	});    
+	$( "#next" ).click(function() {
+      var items = new Array();
+      items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
+      items.push({name: "elqSiteID", value: "1010"});      
+
+       $("input").each(function() {
+        var item = {name: $( this ).attr('id'), value: $( this ).val()};
+         items.push(item);
+      });     
+      
+      $(".list-group-item[data-status]").each(function() {
+        var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
+         items.push(item);
+      });
+     $.ajax({
+        url: "https://s1010.t.eloqua.com/e/f2",
+        data: items,
+        type: "POST",
+        success: function (response, textStatus, jqXHR) {
+            console.log('Successful');
+            $("#myModal").modal()
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+         if (jqXHR['status'] != 200) {
+            console.log('Failed');
+             }
+            }
+        });          
+ 	});    
+    
+  });  
+  </script>      
