@@ -675,6 +675,10 @@ title = "Marketing Maturity Assessment"
  	});    
 	$( "#next" ).click(function() {
       var items = new Array();
+      var techStackScore = Math.round( $("#home .list-group-item[data-status=Yes]").length / $("#home .list-group-item").length * 10 );
+      var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
+      var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
+      var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );        
       items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
       items.push({name: "elqSiteID", value: "1010"});      
 
