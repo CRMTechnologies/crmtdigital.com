@@ -536,7 +536,7 @@ title = "Marketing Maturity Assessment"
     </div>	
     <div class="row">		
       <div class="col-sm-12 m-b-lg button-row">	          
-        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="calculate btn btn-primary pull-right">Next</button>
         <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
       </div>		
     </div>         
@@ -679,6 +679,7 @@ title = "Marketing Maturity Assessment"
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
 		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
 		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
+		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs').hide();
  	});    
     
