@@ -109,21 +109,15 @@ title = "Marketing Maturity Assessment"
       </div>
     </div>    
   </div>   
-      <div class="row">
-        <div class="col-sm-6 m-b-lg">  
-          <input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email Address*">
-        </div>	
-        <div class="col-sm-6 m-b-lg">  
-          <input type="text" class="form-control" name="company" id="company" placeholder="Company Name*">
-        </div>
-      </div>  
+ 
   <div class="row">
 	<div class="col-sm-12 m-b-md">   
       <ul class="nav nav-tabs">
         <li class="nav-item"><a data-toggle="tab" href="#home" class="nav-link active" aria-controls="home" aria-selected="true">Tech Stack</a></li>
         <li class="nav-item"><a data-toggle="tab" href="#marketing" class="nav-link" aria-controls="marketing" aria-selected="false">Demand Marketing</a></li>           
         <li class="nav-item"><a data-toggle="tab" href="#ops" class="nav-link" aria-controls="ops" aria-selected="false">Marketing Operations</a></li>
-        <li class="nav-item"><a data-toggle="tab" href="#processes" class="nav-link" aria-controls="processes" aria-selected="false">People &amp; Processes</a></li>              
+        <li class="nav-item"><a data-toggle="tab" href="#processes" class="nav-link" aria-controls="processes" aria-selected="false">People &amp; Processes</a></li>   
+        <li class="nav-item d-none"><a data-toggle="tab" href="#details" class="nav-link" aria-controls="processes" aria-selected="false">Details</a></li>          
       </ul>  
 	</div>
   </div> 
@@ -527,14 +521,29 @@ title = "Marketing Maturity Assessment"
       </div>
     </div>	
     <div class="row">		
-      <div class="col-sm-12 m-b-lg button-row">	  
-        <button type="button" id="next" class="btn btn-primary pull-right">Submit</button>        
+      <div class="col-sm-12 m-b-lg button-row">	          
         <button type="button" class="next btn btn-primary pull-right">Next</button>
         <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
       </div>		
     </div>         
 </div>
     
+	<div id="details" class="tab-pane">   
+      <div class="row">
+        <div class="col-sm-6 m-b-lg">  
+          <input type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email Address*">
+        </div>	
+        <div class="col-sm-6 m-b-lg">  
+          <input type="text" class="form-control" name="company" id="company" placeholder="Company Name*">
+        </div>
+      </div> 
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  
+        <button type="button" id="next" class="btn btn-primary pull-right">Submit</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>         
+</div>    
     
     </div>             
 </div>
