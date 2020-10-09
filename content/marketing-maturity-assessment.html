@@ -98,7 +98,8 @@ title = "Marketing Maturity Assessment"
     label.instructions.default { font-size: 13px; margin-top: 0px; padding: 3px 0pt 3px; }	
     label.checkbox-label { padding: 0px 0pt 0px 3px; margin-bottom: 0px;}  
     
-    #results span { display: none;}    
+    #results span { display: none;}  
+    #totalScore { display: inline; }
 
 @media screen and (max-width:768px){
     .nav-tabs > li.nav-item { width: 100%; border-radius: 0px;}  
@@ -546,10 +547,8 @@ title = "Marketing Maturity Assessment"
     
   <div id="details" class="tab-pane"> 
     <div class="row text-stat justify-content-center">
-        <div class="col-sm-3">
-          <h3><span id="totalScore"></span></h3>
-        </div> 
-        <div class="col-sm-9" id="results">         
+        <div class="col-sm-12" id="results">
+          <h3><span id="totalScore"></span></h3>       
           <p><span id="techStackHigh">You have a best in class marketing technology stack </span>   
           <span id="techStackMid">You have a typical marketing technology stack </span>           
           <span id="techStackLow">You have a basic marketing technology stack </span>
@@ -561,7 +560,11 @@ title = "Marketing Maturity Assessment"
           <span id="opsLow">Your team has a strong focus on marketing operations in everything it does  </span>            
           <span id="processHigh">with a wide range of skills and rigorous processes that generates real business value. </span>   
           <span id="processMid">with the skills and processes to increase efficiency and drive business value. </span>           
-          <span id="processLow">but lacks the people and processes to truly make the most from their resources. </span></p>    
+          <span id="processLow">but lacks the people and processes to truly make the most from their resources. </span></p>   
+        </div> 
+    </div>  
+    <div class="row">      
+        <div class="col-sm-12">            
           <p><span id="totalHigh">You have a mature marketing organisation, but there is always more which could be done. Register below to to see your personalised results and recommendations, outlining areas for further improvement.</span>   
           <span id="totalMid">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity.</span>           
           <span id="totalLow">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity</span></p>           
