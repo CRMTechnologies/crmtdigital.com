@@ -642,7 +642,7 @@ title = "Marketing Maturity Assessment"
     <div class="row stats-wrap mt-5 mb-5">
         <div class="statwidget col-sm-3">
           <span class="label">Your Marketing Maturity Score:</span>
-          <span class="value" id="totalScore">5</span>
+          <span class="value" id="totalScore2">5</span>
           <span class="postfix">/10</span>
         </div>  
         <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
@@ -681,7 +681,48 @@ title = "Marketing Maturity Assessment"
           <span class="value" id="processScore">5</span>
           <span class="postfix">/10</span>
         </div>         
+    </div> 
+    
+    <div id="rec1" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-database fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h3>Event Follow-up Communications</h3>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div>     
+
+    <div id="rec2" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-database fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h3>Event Follow-up Communications</h3>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div> 
+
+    <div id="rec3" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-database fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h3>Event Follow-up Communications</h3>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div>   
+
+    <div id="rec4" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-database fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h3>Event Follow-up Communications</h3>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
     </div>       
+    
  </div>
       
     </div>             
@@ -789,7 +830,7 @@ title = "Marketing Maturity Assessment"
 		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
 		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
 		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
-      	$('#totalScore').html(totalScore);
+      	$('#totalScore2').html(totalScore);
       	$('#marketingScore').html(marketingScore);
       	$('#opsScore').html(opsScore);
       	$('#techStackScore').html(techStackScore);      
