@@ -747,7 +747,11 @@ title = "Marketing Maturity Assessment"
     
 	$( ".calculate" ).click(function() {
 		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
-      	$('#totalScore').html(totalScore);     
+      	$('#totalScore').html(totalScore); 
+
+        if (totalScore > 7) { $('#totalHigh').show(); } 
+      	else if (totalScore < 4) { $('#totalLow').show(); } 
+      	else {$('#totalMid').show(); }              
       
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs, #page-intro').hide();
@@ -803,11 +807,7 @@ title = "Marketing Maturity Assessment"
 
         if (opsScore > 7) { $('#opsHigh').show(); } 
       	else if (opsScore < 4) { $('#opsLow').show(); } 
-      	else {$('#opsMid').show(); }
-
-        if (totalScore > 7) { $('#totalHigh').show(); } 
-      	else if (totalScore < 4) { $('#totalLow').show(); } 
-      	else {$('#totalMid').show(); }       
+      	else {$('#opsMid').show(); }    
       
       var items = new Array();     
       items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
