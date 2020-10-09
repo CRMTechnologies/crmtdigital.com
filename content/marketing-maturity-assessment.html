@@ -740,12 +740,13 @@ title = "Marketing Maturity Assessment"
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs, #page-intro').hide();
       
-		 var items = new Array();  
-		 $(".list-group-item").each(function() {
+          var items = {};
+          $(".list-group-item").each(function() {
               var itemVal = $( this ).data('status') || ""
               var itemName = $( this ).attr('name');
-              items.push({[itemName]: itemVal});
-		 });       
+              var item = {[itemName]: itemVal}
+              Object.assign(items, item);
+          });      
       
          $.ajax({
             url: "/.netlify/functions/maturity-index",
