@@ -97,7 +97,7 @@ title = "Marketing Maturity Assessment"
     label.instructions.default { font-size: 13px; margin-top: 0px; padding: 3px 0pt 3px; }	
     label.checkbox-label { padding: 0px 0pt 0px 3px; margin-bottom: 0px;}  
     
-    #results span { display: none;}  
+    #results span, #resultsTeaser span { display: none;}  
     #results span#totalScore { display: inline; }
 
     .modal-header { background-color: #009FE3; border-color: #009FE3; color: #fff; border-radius: 0px; }
@@ -558,19 +558,7 @@ title = "Marketing Maturity Assessment"
           <span class="value" id="totalScore">5</span>
           <span class="postfix">/10</span>
         </div>  
-        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
-          <p><span id="techStackHigh">You have a best in class marketing technology stack </span>   
-          <span id="techStackMid">You have a typical marketing technology stack </span>           
-          <span id="techStackLow">You have a basic marketing technology stack </span>
-          <span id="marketingHigh">used to execute a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
-          <span id="marketingMid">used to execute a varied campaign calendar across a portfolio of tactics and channels. </span>           
-          <span id="marketingLow">used to execute an active campaign calendar across a limited number of tactics and channels. </span>               
-          <span id="opsHigh">Your team has a strong focus on marketing operations in everything it does  </span>   
-          <span id="opsMid">Your team has a focus on some aspects of marketing operations </span>           
-          <span id="opsLow">Your team could focus more on analytics, lead management or sales enablement </span>            
-          <span id="processHigh">taking advantage of a wide range of skills and rigorous processes that generates real business value. </span>   
-          <span id="processMid">taking advantage of the skills and processes to increase efficiency and drive business value. </span>           
-          <span id="processLow">but lacks the people and processes to truly make the most from their resources. </span></p>   
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center">            
           <p><span id="totalHigh">You have a mature marketing organisation, but there is always more which could be done. Register below to to see your personalised results and recommendations, outlining areas for further improvement.</span>   
           <span id="totalMid">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity.</span>           
           <span id="totalLow">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity</span></p>   
@@ -646,7 +634,54 @@ title = "Marketing Maturity Assessment"
       </div>		
     </div>         
 </div>    
+
     
+  <div id="recommendations" class="tab-pane pb-50">      
+    <div class="row stats-wrap mt-5 mb-5">
+        <div class="statwidget col-sm-3">
+          <span class="label">Your Marketing Maturity Score:</span>
+          <span class="value" id="totalScore">5</span>
+          <span class="postfix">/10</span>
+        </div>  
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="techStackHigh">You have a best in class marketing technology stack </span>   
+          <span id="techStackMid">You have a typical marketing technology stack </span>           
+          <span id="techStackLow">You have a basic marketing technology stack </span>
+          <span id="marketingHigh">used to execute a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
+          <span id="marketingMid">used to execute a varied campaign calendar across a portfolio of tactics and channels. </span>           
+          <span id="marketingLow">used to execute an active campaign calendar across a limited number of tactics and channels. </span>               
+          <span id="opsHigh">Your team has a strong focus on marketing operations in everything it does  </span>   
+          <span id="opsMid">Your team has a focus on some aspects of marketing operations </span>           
+          <span id="opsLow">Your team could focus more on analytics, lead management or sales enablement </span>            
+          <span id="processHigh">taking advantage of a wide range of skills and rigorous processes that generates real business value. </span>   
+          <span id="processMid">taking advantage of the skills and processes to increase efficiency and drive business value. </span>           
+          <span id="processLow">but lacks the people and processes to truly make the most from their resources. </span></p>     
+        </div>
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">      
+        <div class="statwidget col-sm-3">
+          <span class="label">Tech Stack:</span>
+          <span class="value" id="techStackScore">5</span>
+          <span class="postfix">/10</span>
+        </div>      
+        <div class="statwidget col-sm-3">
+          <span class="label">Demand Marketing:</span>
+          <span class="value" id="marketingScore">5</span>
+          <span class="postfix">/10</span>
+        </div>  
+        <div class="statwidget col-sm-3">
+          <span class="label">Marketing Operations:</span>
+          <span class="value" id="opsScore">5</span>
+          <span class="postfix">/10</span>
+        </div>   
+        <div class="statwidget col-sm-3">
+          <span class="label">People & Processes:</span>
+          <span class="value" id="processScore">5</span>
+          <span class="postfix">/10</span>
+        </div>         
+    </div>       
+ </div>
+      
     </div>             
 </div>
 
@@ -710,32 +745,8 @@ title = "Marketing Maturity Assessment"
  	}); 
     
 	$( ".calculate" ).click(function() {
-		 var techStackScore = Math.round( $("#home .list-group-item[data-status=Yes]").length / $("#home .list-group-item").length * 10 );
-		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
-		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
-		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
 		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
-      	$('#totalScore').html(totalScore);
-      
-      	if (processScore > 7) { $('#processHigh').show(); } 
-      	else if (processScore < 4) { $('#processLow').show(); } 
-      	else {$('#processMid').show(); }
-
-        if (marketingScore > 7) { $('#marketingHigh').show(); } 
-      	else if (marketingScore < 4) { $('#marketingLow').show(); } 
-      	else {$('#marketingMid').show(); }
-
-        if (techStackScore > 7) { $('#techStackHigh').show(); } 
-      	else if (techStackScore < 4) { $('#techStackLow').show(); } 
-      	else {$('#techStackMid').show(); }
-
-        if (opsScore > 7) { $('#opsHigh').show(); } 
-      	else if (opsScore < 4) { $('#opsLow').show(); } 
-      	else {$('#opsMid').show(); }
-
-        if (totalScore > 7) { $('#totalHigh').show(); } 
-      	else if (totalScore < 4) { $('#totalLow').show(); } 
-      	else {$('#totalMid').show(); }      
+      	$('#totalScore').html(totalScore);     
       
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs, #page-intro').hide();
@@ -771,7 +782,31 @@ title = "Marketing Maturity Assessment"
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
 		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
 		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
-		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );      
+		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
+      	$('#totalScore').html(totalScore);
+      	$('#marketingScore').html(marketingScore);
+      	$('#opsScore').html(opsScore);
+      	$('#techStackScore').html(techStackScore);      
+       
+      	if (processScore > 7) { $('#processHigh').show(); } 
+      	else if (processScore < 4) { $('#processLow').show(); } 
+      	else {$('#processMid').show(); }
+
+        if (marketingScore > 7) { $('#marketingHigh').show(); } 
+      	else if (marketingScore < 4) { $('#marketingLow').show(); } 
+      	else {$('#marketingMid').show(); }
+
+        if (techStackScore > 7) { $('#techStackHigh').show(); } 
+      	else if (techStackScore < 4) { $('#techStackLow').show(); } 
+      	else {$('#techStackMid').show(); }
+
+        if (opsScore > 7) { $('#opsHigh').show(); } 
+      	else if (opsScore < 4) { $('#opsLow').show(); } 
+      	else {$('#opsMid').show(); }
+
+        if (totalScore > 7) { $('#totalHigh').show(); } 
+      	else if (totalScore < 4) { $('#totalLow').show(); } 
+      	else {$('#totalMid').show(); }       
       
       var items = new Array();     
       items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
