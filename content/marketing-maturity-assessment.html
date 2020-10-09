@@ -762,23 +762,7 @@ title = "Marketing Maturity Assessment"
       
  	});    
     
-	$( "#next" ).click(function() {
-
-     $.ajax({
-        url: "/.netlify/functions/hello",
-        data: items,
-        type: "POST",
-        success: function (response, textStatus, jqXHR) {
-            console.log('Successful');
-            $("#myModal").modal()
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-         if (jqXHR['status'] != 200) {
-            console.log('Failed');
-             }
-            }
-        });        
-      
+	$( "#next" ).click(function() {          
       
 		 var techStackScore = Math.round( $("#home .list-group-item[data-status=Yes]").length / $("#home .list-group-item").length * 10 );
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
