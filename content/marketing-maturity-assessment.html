@@ -763,6 +763,13 @@ title = "Marketing Maturity Assessment"
          items.push(item);
       });             
       
+       $("input[type=checkbox]").each(function() {
+        if( $(this:checked).length == 1 ) {
+        var item = {name: $( this ).attr('name'), value: $( this ).val()};
+         items.push(item);
+        }  
+      });  
+      
       $(".list-group-item[data-status]").each(function() {
         var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
          items.push(item);
