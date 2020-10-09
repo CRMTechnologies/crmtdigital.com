@@ -742,9 +742,10 @@ title = "Marketing Maturity Assessment"
       
 		 var items = new Array();  
 		 $(".list-group-item").each(function() {
-           var itemVal = $( this ).data('status') || ""
-             items.push({$( this ).attr('name'): itemVal});
-		 });           
+              var itemVal = $( this ).data('status') || ""
+              var itemName = $( this ).attr('name');
+              items.push({[itemName]: itemVal});
+		 });       
       
          $.ajax({
             url: "/.netlify/functions/maturity-index",
