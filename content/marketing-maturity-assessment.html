@@ -751,7 +751,7 @@ title = "Marketing Maturity Assessment"
             data: items,
             type: "POST",
             success: function (response, textStatus, jqXHR) {
-                response
+                var recs = response.body; 
             },
             error: function (jqXHR, textStatus, errorThrown) {
              if (jqXHR['status'] != 200) {
