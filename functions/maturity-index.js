@@ -5,7 +5,7 @@ exports.handler = function (event, context, callback) {
 	var numRecs = 0;
 
 	// Tech Stack Recommendation
-	if( body.NurtureCampaigns != "Yes" ) { recommendations.push({{ title: "Nurture Campaigns", teaser: "", icon: "fa-cogs" });	}
+	if( body.NurtureCampaigns != "Yes" ) { recommendations.push({ title: "Nurture Campaigns", teaser: "", icon: "fa-cogs" });	}
 	else if( body.EventCampaigns != "Yes" ) { recommendations.push({ title: "Event Campaigns", teaser: "", icon: "fa-cogs" });	}	
 	else if( body.InboundCampaigns != "Yes" ) { recommendations.push({ title: "Inbound Campaigns", teaser: "", icon: "fa-cogs" });	}		
 	else if( body.AccountBasedMarketing != "Yes" ) { recommendations.push({ title: "Account Based Marketing", teaser: "", icon: "fa-cogs" });	}	
