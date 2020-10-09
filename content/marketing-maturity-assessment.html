@@ -91,7 +91,7 @@ title = "Marketing Maturity Assessment"
     .btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: #0020E7; border-color: #0020E7;  }
     .btn-secondary { border-color: #371abe; background-color: #371abe; color: #fff; border-radius: 2px;}    
     .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active { border-color: #0020E7; background-color: #0020E7; color: #fff; }	
-    
+    #results { display: hide; }
     .m-b-md { margin-bottom: 1.5em; }    
     .m-b-lg { margin-bottom: 3em; }
     .btn.pull-right { margin-left: 7.5px}
@@ -544,9 +544,26 @@ title = "Marketing Maturity Assessment"
     
   <div id="details" class="tab-pane"> 
     <div class="row">
-        <div class="col-sm-12">
-          
+        <div class="col-sm-3">
+          <span id="totalScore"></span>
         </div> 
+        <div class="col-sm-9" id="results">         
+          <span id="techStackHigh">You have a best in class marketing technology stack </span>   
+          <span id="techStackMid">You have a typical marketing technology stack </span>           
+          <span id="techStackLow">You have a basic marketing technology stack </span>
+          <span id="marketingHigh">used to execute a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
+          <span id="marketingMid">used to execute a varied campaign calendar across a portfolio of tactics and channels. </span>           
+          <span id="marketingLow">used to execute an active campaign calendar across a limited number of tactics and channels. </span>               
+          <span id="opsHigh">Your team has a strong focus on marketing operations in everything it does  </span>   
+          <span id="opsMid">Your team has a focus on many areas of marketing operations </span>           
+          <span id="opsLow">Your team has a strong focus on marketing operations in everything it does  </span>            
+          <span id="processHigh">with a wide range of skills and rigorous processes that generates real business value. </span>   
+          <span id="processMid">with the skills and processes to increase efficiency and drive business value. </span>           
+          <span id="processLow">but lacks the people and processes to truly make the most from their resources. </span>    
+          <span id="totalHigh">You have a mature marketing organisation, but there is always more which could be done. Register below to to see your personalised results and recommendations, outlining areas for further improvement.</span>   
+          <span id="totalMid">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity.</span>           
+          <span id="totalLow">Register below to to see personalised results and recommendations, outlining the next steps to take on your journey to marketing maturity</span>           
+        </div>       
     </div>    
     <div class="row">
         <div class="col-sm-12">
