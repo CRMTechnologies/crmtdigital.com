@@ -893,23 +893,31 @@ title = "Marketing Maturity Assessment"
         success: function (response, textStatus, jqXHR) {
             console.log('Successful');          
             $("#recommendations").show();
-            $("#details").show();              
+            $("#details").show();
+          if( recs[0] ) {
           	$("#rec0 h5").html( recs[0].title ); 
           	$("#rec0 p").html( recs[0].teaser );
           	$("#rec0 i").addClass( recs[0].icon );
-            $("#rec0").show();          
+            $("#rec0").show(); 
+          }  
+          if( recs[1] ) {          
           	$("#rec1 h5").html( recs[1].title ); 
           	$("#rec1 p").html( recs[1].teaser );
           	$("#rec1 i").addClass( recs[1].icon );
-            $("#rec1").show();           
+            $("#rec1").show();
+          }  
+          if( recs[2] ) {             
           	$("#rec2 h5").html( recs[2].title ); 
           	$("#rec2 p").html( recs[2].teaser );
           	$("#rec2 i").addClass( recs[2].icon ); 
-            $("#rec2").show();           
+            $("#rec2").show();  
+          }  
+          if( recs[3] ) {                
           	$("#rec3 h5").html( recs[3].title ); 
           	$("#rec3 p").html( recs[3].teaser );
           	$("#rec3 i").addClass( recs[3].icon ); 
-            $("#rec3").show();           
+            $("#rec3").show();   
+          }  
         },
         error: function (jqXHR, textStatus, errorThrown) {
          if (jqXHR['status'] != 200) {
