@@ -758,10 +758,10 @@ title = "Marketing Maturity Assessment"
       items.push({name: "processScore", value: processScore});  
       items.push({name: "totalScore", value: totalScore});  
       
-       $("input").each(function() {
+       $("input, select").each(function() {
         var item = {name: $( this ).attr('id'), value: $( this ).val()};
          items.push(item);
-      });     
+      });             
       
       $(".list-group-item[data-status]").each(function() {
         var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
