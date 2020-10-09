@@ -747,11 +747,11 @@ title = "Marketing Maturity Assessment"
 		 });      
 
          $.ajax({
-            url: "/.netlify/functions/hello",
+            url: "/.netlify/functions/maturity-index",
             data: items,
             type: "POST",
             success: function (response, textStatus, jqXHR) {
-                response
+                var recs = response.body; 
             },
             error: function (jqXHR, textStatus, errorThrown) {
              if (jqXHR['status'] != 200) {
