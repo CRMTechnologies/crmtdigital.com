@@ -3,9 +3,6 @@ var https = require('https');
 
 exports.handler = function (event, context, callback) {
 	const body = JSON.parse(event.body).payload;
-	var post_data = querystring.stringify(
-		body.data
-	);
 	
 	var recommendations = new Array(); 
 	var numRecs = 0;
@@ -21,7 +18,7 @@ exports.handler = function (event, context, callback) {
 	if( body.Auto-ResponderEmails != "Yes" ) { recommendations.push( title: "Auto-Responder Emails", teaser: "", icon: "fa-cogs" );	}		
 	else if( body.ProgressiveProfiling != "Yes" ) { recommendations.push( title: "Progressive Profiling", teaser: "", icon: "fa-cogs" );	}
 	else if( body.SharedContentSnippets != "Yes" ) { recommendations.push( title: "Shared Content Snippets", teaser: "", icon: "fa-cogs" );	}		
-	else if( body.DigitalAdvertising != "Yes" ) { recommendations.push( title: "Use Digital Advertising in Nurture Campaigns", teaser: "In a world with increasingly strong data protection laws, nurture campaigns need to become multi-channel. Use re-targeting and paid advertising to drive nurture audiences to your content. ", icon: "fa-cogs" );	}	
+	else if( body.DigitalAdvertising != "Yes" ) { recommendations.push( title: "Use Digital Advertising in Nurture Campaigns", teaser: "In a world with increasingly strong data protection laws, nurture campaigns need to become multi-channel. Use re-targeting and paid advertising to drive nurture audiences to your content.", icon: "fa-cogs" );	}	
 	else if( body.VirtualEventRegistration != "Yes" ) { recommendations.push( title: "Virtual Event Registration", teaser: "", icon: "fa-cogs" );	}	
 
 	// Ops Recommendation
@@ -39,41 +36,7 @@ exports.handler = function (event, context, callback) {
 	else if( body.DataUploads != "Yes" ) { recommendations.push( title: "Data Uploads", teaser: "", icon: "fa-cogs" );	}		
 	else if( body.CampaignBuildProcesses != "Yes" ) { recommendations.push( title: "Campaign Build Processes", teaser: "", icon: "fa-cogs" );	}	
 	else if( body.CampaignHierarchy != "Yes" ) { recommendations.push( title: "Campaign Hierarchy", teaser: "", icon: "fa-cogs" );	}	
-	
-  // An object of options to indicate where to post to
-  var post_options = {
-      host: 's1010.t.eloqua.com',
-      port: '443',
-      path: '/e/f2',
-      method: 'POST',
-      headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-      }
-  };
-
-  // Set up the request
-  var post_req = https.request(post_options, function(res) {
-      res.setEncoding('utf8');
-      res.on('data', function (chunk) {
-		callback(null, {
-			statusCode: 200,
-			body:  "Done" 
-		});
-		console.log( "Done" );	      
-      });
-      res.on('error', function (e) {
-		callback(null, {
-			statusCode: 400,
-			body:  "Failed " + e.message 
-		});
-		console.log( "Failed " + e.message );
-      });
-
-  });
   
 	callback(null, recommendations);	
-  /* post the data
-  post_req.write(post_data);
-  post_req.end();*/
 
 }
