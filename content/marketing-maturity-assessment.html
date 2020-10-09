@@ -674,7 +674,7 @@ title = "Marketing Maturity Assessment"
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-  var recs = new Array(); 
+  var recs = {}; 
     
   $( document ).ready(function() {
     
@@ -754,7 +754,7 @@ title = "Marketing Maturity Assessment"
             type: "POST",
             contentType: "application/json",          
             success: function (response, textStatus, jqXHR) {
-                recs = response.body; 
+                Object.assign(recs, response); 
             },
             error: function (jqXHR, textStatus, errorThrown) {
              if (jqXHR['status'] != 200) {
