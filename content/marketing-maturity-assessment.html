@@ -893,23 +893,23 @@ title = "Marketing Maturity Assessment"
         success: function (response, textStatus, jqXHR) {
             console.log('Successful');          
             $("#recommendations").show();
-            $("#details").show();             
-            $("#rec0").show(); 
+            $("#details").show();              
           	$("#rec0 h5").html( recs[0].title ); 
           	$("#rec0 p").html( recs[0].teaser );
-          	$("#rec0 i").addClass( recs[0].icon );          
-            $("#rec1").show(); 
+          	$("#rec0 i").addClass( recs[0].icon );
+            $("#rec0").show();          
           	$("#rec1 h5").html( recs[1].title ); 
           	$("#rec1 p").html( recs[1].teaser );
-          	$("#rec1 i").addClass( recs[0].icon );           
-            $("#rec2").show(); 
+          	$("#rec1 i").addClass( recs[1].icon );
+            $("#rec1").show();           
           	$("#rec2 h5").html( recs[2].title ); 
           	$("#rec2 p").html( recs[2].teaser );
-          	$("#rec2 i").addClass( recs[0].icon );           
-            $("#rec3").show(); 
+          	$("#rec2 i").addClass( recs[2].icon ); 
+            $("#rec2").show();           
           	$("#rec3 h5").html( recs[3].title ); 
           	$("#rec3 p").html( recs[3].teaser );
-          	$("#rec3 i").addClass( recs[0].icon );           
+          	$("#rec3 i").addClass( recs[3].icon ); 
+            $("#rec3").show();           
         },
         error: function (jqXHR, textStatus, errorThrown) {
          if (jqXHR['status'] != 200) {
