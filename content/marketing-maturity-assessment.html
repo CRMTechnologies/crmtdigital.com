@@ -679,6 +679,7 @@ title = "Marketing Maturity Assessment"
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
 		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
 		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
+		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );      
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs').hide();
  	});    
