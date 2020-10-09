@@ -34,6 +34,9 @@ exports.handler = function (event, context, callback) {
 	else if( body.CampaignBuildProcesses != "Yes" ) { recommendations.push({ title: "Campaign Build Processes", teaser: "", icon: "fa-cogs" });	}	
 	else if( body.CampaignHierarchy != "Yes" ) { recommendations.push({ title: "Campaign Hierarchy", teaser: "", icon: "fa-cogs" });	}	
   
-	callback(null, recommendations);	
+	callback(null, {
+		statusCode: 200,
+		body: JSON.stringify(recommendations)
+	})
 
 }
