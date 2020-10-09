@@ -701,7 +701,29 @@ title = "Marketing Maturity Assessment"
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
 		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
 		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
-		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );      
+		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
+      	$('#totalScore').html(totalScore);
+      
+      	if (processScore > 7) { $('#processHigh').show(); } 
+      	else if (processScore < 4) { $('#processLow').show(); } 
+      	else {$('#processMid').show(); }
+
+        if (marketingScore > 7) { $('#marketingHigh').show(); } 
+      	else if (marketingScore < 4) { $('#marketingLow').show(); } 
+      	else {$('#marketingMid').show(); }
+
+        if (techStackScore > 7) { $('#techStackHigh').show(); } 
+      	else if (techStackScore < 4) { $('#techStackLow').show(); } 
+      	else {$('#techStackMid').show(); }
+
+        if (opsScore > 7) { $('#opsHigh').show(); } 
+      	else if (opsScore < 4) { $('#opsLow').show(); } 
+      	else {$('#opsMid').show(); }
+
+        if (totalScore > 7) { $('#totalHigh').show(); } 
+      	else if (totalScore < 4) { $('#totalLow').show(); } 
+      	else {$('#totalMid').show(); }      
+      
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs').hide();
  	});    
