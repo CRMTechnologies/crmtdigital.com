@@ -754,7 +754,7 @@ title = "Marketing Maturity Assessment"
             type: "POST",
             contentType: "application/json",          
             success: function (response, textStatus, jqXHR) {
-                Object.assign(recs, response); 
+                Object.assign(recs, JSON.parse(response)); 
             },
             error: function (jqXHR, textStatus, errorThrown) {
              if (jqXHR['status'] != 200) {
