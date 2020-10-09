@@ -840,7 +840,8 @@ title = "Marketing Maturity Assessment"
         type: "POST",
         success: function (response, textStatus, jqXHR) {
             console.log('Successful');
-            $("#myModal").modal()
+            $("#recommendations").show();
+            $("#details").show();          
         },
         error: function (jqXHR, textStatus, errorThrown) {
          if (jqXHR['status'] != 200) {
