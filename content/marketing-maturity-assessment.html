@@ -674,6 +674,8 @@ title = "Marketing Maturity Assessment"
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
+  var recs = new Array(); 
+    
   $( document ).ready(function() {
     
     $(".list-group-item").each(function( index ) {
@@ -737,9 +739,46 @@ title = "Marketing Maturity Assessment"
       
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
 		 $('.nav-tabs, #page-intro').hide();
+      
+		 var items = new Array();  
+		 $(".list-group-item[data-status]").each(function() {
+            var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
+             items.push(item);
+		 });      
+
+         $.ajax({
+            url: "/.netlify/functions/hello",
+            data: items,
+            type: "POST",
+            success: function (response, textStatus, jqXHR) {
+                response
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+             if (jqXHR['status'] != 200) {
+                console.log('Failed');
+                 }
+                }
+            });          
+      
  	});    
     
 	$( "#next" ).click(function() {
+
+     $.ajax({
+        url: "/.netlify/functions/hello",
+        data: items,
+        type: "POST",
+        success: function (response, textStatus, jqXHR) {
+            console.log('Successful');
+            $("#myModal").modal()
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+         if (jqXHR['status'] != 200) {
+            console.log('Failed');
+             }
+            }
+        });        
+      
       
 		 var techStackScore = Math.round( $("#home .list-group-item[data-status=Yes]").length / $("#home .list-group-item").length * 10 );
 		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
