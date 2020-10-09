@@ -743,7 +743,7 @@ title = "Marketing Maturity Assessment"
 		 var items = new Array();  
 		 $(".list-group-item").each(function() {
            var itemVal = $( this ).data('status') || ""
-            var item = {name: $( this ).attr('name'), value: itemVal};
+            var item = {$( this ).attr('name'): itemVal};
              items.push(item);
 		 });           
       
