@@ -1,5 +1,5 @@
 exports.handler = function (event, context, callback) {
-	const body = JSON.parse(event.body).payload;
+	const body = JSON.parse(event.body);
 	
 	var recommendations = new Array(); 
 	var numRecs = 0;
