@@ -116,7 +116,7 @@ title = "Marketing Maturity Assessment"
   </style>
 
 <div class="container">
-  <div class="row">
+  <div id="page-intro" class="row">
     <div class="col-sm-12 mt-5 mb-4">      
       <div class="text-center">
         <p class="intro-text ">For Internal CRMT Use Only. Please speak to Alan if you have any questions about this tool.</p>
@@ -753,7 +753,7 @@ title = "Marketing Maturity Assessment"
       	else {$('#totalMid').show(); }      
       
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
-		 $('.nav-tabs').hide();
+		 $('.nav-tabs, #page-intro').hide();
  	});    
     
 	$( "#next" ).click(function() {
