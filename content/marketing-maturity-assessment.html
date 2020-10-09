@@ -611,7 +611,7 @@ title = "Marketing Maturity Assessment"
           <p class="field-p">
             <span class="checkbox-span field-size-top-large">
               <span class="list-order oneColumn">
-                <input name="OptIn" type="checkbox" value="on">
+                <input name="OptIn" id="OptIn" type="checkbox" value="on">
                 <label class="checkbox-label">
                   Subscribe to Email Communications
                 </label>
@@ -626,7 +626,7 @@ title = "Marketing Maturity Assessment"
           <p class="field-p">
             <span class="checkbox-span field-size-top-large">
               <span class="list-order oneColumn">
-                <input name="subscribeToEvents1" type="checkbox" value="on">
+                <input name="subscribeToEvents1" id="subscribeToEvents1" type="checkbox" value="on">
                 <label class="checkbox-label">
                   Subscribe to Events and Webinars
                 </label>
@@ -762,13 +762,6 @@ title = "Marketing Maturity Assessment"
         var item = {name: $( this ).attr('id'), value: $( this ).val()};
          items.push(item);
       });             
-      
-       $("input[type=checkbox]").each(function() {
-        if( $(this).is(":checked").length == 1 ) {
-         var item = {name: $( this ).attr('name'), value: $( this ).val()};
-         items.push(item);
-        }  
-      });  
       
       $(".list-group-item[data-status]").each(function() {
         var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
