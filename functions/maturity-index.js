@@ -71,10 +71,7 @@ exports.handler = function (event, context, callback) {
 
   });
   
-	callback(null, {
-		statusCode: 200,
-		body: recommendations
-    });	
+	callback(null, recommendations);	
   /* post the data
   post_req.write(post_data);
   post_req.end();*/
