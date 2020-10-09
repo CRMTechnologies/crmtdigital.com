@@ -751,6 +751,8 @@ title = "Marketing Maturity Assessment"
             url: "/.netlify/functions/maturity-index",
             data: items,
             type: "POST",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",           
             success: function (response, textStatus, jqXHR) {
                 recs = response.body; 
             },
