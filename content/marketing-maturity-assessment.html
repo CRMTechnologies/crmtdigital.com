@@ -1,0 +1,961 @@
++++
+banner_type = "highlight"
+carousel = false
+description = "Take our assessment to discover how your organisation measures against best-in-class marketing teams."
+draft = true
+heading = "Marketing Maturity Assessment"
+highlight_colour = "rgb(55, 26, 190)"
+image = ""
+keywords = []
+resource = []
+show_contact = "none"
+slug = "maturity-index"
+statWidget = false
+subheading = "Are you making the most of your marketing budget? "
+testimonial = ""
+title = "Marketing Maturity Assessment"
+
++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
+
+  <style>
+
+    label { font-weight: 400;}
+
+	.intro-text h1, .intro-text h2, .intro-text h3 {
+		font-size: 2.62em;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		padding-bottom: 24px;
+		color: #333;
+	}
+	.intro-text p {
+		padding-bottom: 0px;
+      	text-align: left;
+	}
+    input[type=text] + label, input[type=text] + p,.card-body select + label,.card-body select + p { margin-top:1em }
+    p + select { margin-top: .5rem; }
+	.nav-tabs > li.nav-item > a { color: #666;font-size: 15px; }
+	.nav-tabs > li.nav-item > a.active, .nav-tabs > li.nav-item > a.active:focus, .nav-tabs > li.nav-item > a.active:hover { background-color: #a2bd1a; border-color: #a2bd1a; color: #fff; }
+	.nav-tabs {
+		border-bottom: 1px solid #a2bd1a;
+	}
+	.nav-tabs > li.nav-item > a:hover {
+		border-color: #a2bd1a;
+		background-color: #fff;	
+    	border-bottom-color: #a2bd1a;
+	}
+	.card, .card *, .card-header, .card-header:first-child, .form-control { border-radius: 0; }
+    .card-header { height: 50px;}
+	.card-primary > .card-header { background-color: #009FE3; border-color: #009FE3; }
+	.card-primary { border-color: #009FE3; margin-bottom: 20px; }    
+    .card-body { background-color: rgba(40,75,129,0.15); color:#333; font-size: 0.88em; }
+    .card-body.row { margin: 0px; }
+    .card-header i { margin-right: 10px; vertical-align: middle;line-height: 100%; color: #fff; float: right;font-size: 28px;}
+    .card-header h3 {float: left;margin-top: 0.15em; color: #fff;font-family: "Lato",sans-serif;font-weight: 500;font-size: 16px;}      
+    .card-body p {line-height: 1.5em;margin: 0px;padding: 0px;text-align:left;color:#333;font-size: 15px; }
+    .card > .list-group { border: 0px; }
+    .list-group-item { padding: 10px 15px }    
+    .list-group-item { padding-left: 4.5%; padding-right: 4.5%; border-left: 0px; border-right: 0px; font-size: 0.8em;color:#333;  }
+    .list-group-item:last-child { border-bottom: 0px; }
+    .list-group-item i.fa-minus, 
+    .list-group-item.list-group-item-success i.fa-times, 
+    .list-group-item.list-group-item-danger i.fa-times, 
+    .list-group-item.list-group-item-warning i.fa-times, 
+    .list-group-item.list-group-item-success i.fa-question, 
+    .list-group-item.list-group-item-danger i.fa-question, 
+    .list-group-item.list-group-item-warning i.fa-question,     
+    .list-group-item.list-group-item-warning i.fa-check,     
+    .list-group-item.list-group-item-success i.fa-check, 
+    .list-group-item.list-group-item-danger i.fa-check {
+      	display: none;color: #333;
+    }   
+    .list-group-item i, 
+    .list-group-item.list-group-item-success i.fa-minus, 
+    .list-group-item.list-group-item-danger i.fa-minus, 
+    .list-group-item.list-group-item-warning i.fa-minus {
+      	display: inline-block;cursor:pointer;float:right;padding: 6px 6px 3px 0px;color: #333;
+    }
+     .list-group-item span { 
+       cursor: pointer;
+    }
+    .list-group-item-success {
+       color:#3c763d;
+       background-color:#dff0d8
+    }
+    .list-group-item-danger {
+       color:#a94442;
+       background-color:#f2dede
+    }    
+    .btn-primary { border-color: #a2bd1a; background-color: #a2bd1a; border-radius: 2px;}
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: #0020E7; border-color: #0020E7;  }
+    .btn-secondary { border-color: #371abe; background-color: #371abe; color: #fff; border-radius: 2px;}    
+    .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active { border-color: #0020E7; background-color: #0020E7; color: #fff; }	
+    #results { display: hide; }
+    .m-b-md { margin-bottom: 1.5em; }    
+    .m-b-lg { margin-bottom: 3em; }
+    .btn.pull-right { margin-left: 7.5px}
+    label.instructions.default { font-size: 13px; margin-top: 0px; padding: 3px 0pt 3px; }	
+    label.checkbox-label { padding: 0px 0pt 0px 3px; margin-bottom: 0px;}  
+    
+    #results span, #resultsTeaser span, #rec0, #rec1, #rec2, #rec3 { display: none;}  
+    #results span#totalScore { display: inline; }
+
+    .modal-header { background-color: #009FE3; border-color: #009FE3; color: #fff; border-radius: 0px; }
+    .modal-header h4 { color: #fff; font-size: 22px; font-weight: 500; }
+    .modal-header .close { color: #fff; opacity: 1; }
+    .modal-footer .btn {  border-color: #a2bd1a; background-color: #a2bd1a; border-radius: 2px; color: #fff; }
+    .modal-footer, .modal-content { border-radius: 0px; }	    
+    
+@media screen and (max-width:768px){
+    .nav-tabs > li.nav-item { width: 100%; border-radius: 0px;}  
+    .nav-tabs > li.nav-item > a.active, .nav-tabs > li.nav-item > a.active:focus, .nav-tabs > li.nav-item > a.active:hover { background-color: #a2bd1a; border-color:#a2bd1a; color: #fff; }
+    .nav-tabs > li.nav-item > a:hover { border-bottom-color:#a2bd1a;  }
+    .nav-tabs > li.nav-item > a { border-radius: 2px; }
+    .nav-tabs { border-bottom: none; }
+    .m-b-lg { margin-bottom: 1.5em; } 
+    .button-row { margin-bottom: 6em; }  
+    .icon-bar { background-color: #0e1d45; }
+    .card-body .col-sm-6 + .col-sm-6 { margin-top: 1em; }  
+    .nav-tabs { margin-top: 15px; }  
+}  
+  </style>
+  <link href="/css/statWidget.css" rel="stylesheet">	
+
+<div class="container">
+  <div id="page-intro" class="row">
+    <div class="col-sm-12 mt-5 mb-4">      
+      <div >
+        <p class="intro-text text-left">Ever wonder what is the level of maturity when it comes to digital marketing? Are you getting your marketing budget’s worth? <br> How does your marketing pipeline stack up against the industry’s finest?</p>
+        <p class="intro-text text-left">The best-in-class marketing teams integrate people, processes, and technology to achieve their goals and stay ahead of the competition. Are you one of them?</p>
+        <p class="intro-text text-left">Take our quick assessment to find out if you are properly utilizing your marketing resources and get actionable advice to move up the curve and get to the next stage of your marketing maturity.</p>
+      </div>
+    </div>    
+  </div>   
+ 
+  <div class="row">
+	<div class="col-sm-12 m-b-md">   
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a data-toggle="tab" href="#home" class="nav-link active" aria-controls="home" aria-selected="true">Tech Stack</a></li>
+        <li class="nav-item"><a data-toggle="tab" href="#marketing" class="nav-link" aria-controls="marketing" aria-selected="false">Demand Marketing</a></li>           
+        <li class="nav-item"><a data-toggle="tab" href="#ops" class="nav-link" aria-controls="ops" aria-selected="false">Marketing Operations</a></li>
+        <li class="nav-item"><a data-toggle="tab" href="#processes" class="nav-link" aria-controls="processes" aria-selected="false">People &amp; Processes</a></li>   
+        <li class="nav-item d-none"><a data-toggle="tab" href="#details" class="nav-link" aria-controls="details" aria-selected="false">Details</a></li>    
+        <li class="nav-item d-none"><a data-toggle="tab" href="#recommendations" class="nav-link" aria-controls="recommendations" aria-selected="false">Results</a></li>           
+      </ul>  
+	</div>
+  </div> 
+  
+  <div class="tab-content">
+	<div id="home" class="tab-pane active">
+      <div id="markToolsDsc" class="row">
+        <div class="col-sm-12">
+          <p>A good web CMS is an important aspect in crafting the core narrative of your brand. In combination with a solid martech stack it will save you a lot of work hours while expanding your audience, and allow you to provide personalized customer experience. Moreover, it's essential for future-proofing your organization and adapting to the latest marketing trends.</p>
+          <p>Which marketing, sales, web content management and analytics tools are included in your tech stack?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-swatchbook fa-2x"></i> 
+                  <h3 class="card-title">Marketing Tools</h3>
+              </div>
+              <div class="card-body">          
+                <p>What is your Marketing Automation Platform?</p>
+                <select class="form-control" name="map" id="map">
+					<option value="">Marketing Automation Platform</option>
+                    <option value="Eloqua">Eloqua</option>  
+                    <option value="Marketo">Marketo</option>  
+                    <option value="Pardot">Pardot</option>
+                    <option value="HubSpot">HubSpot</option>  
+                    <option value="Other">Other</option>                  
+                </select>  
+                <p>What campaign types is marketing automation used for in your organisation?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Batch Email Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Customer Communications</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Inbound Campaigns</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Nurture Campaigns</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Partner Communications</li>	              
+			</ul>
+          </div>                
+        </div>
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-shopping-cart fa-2x"></i> 
+                  <h3 class="card-title">Sales Tools</h3>
+              </div>
+              <div class="card-body">          
+                <p>What is your CRM System?</p>          
+                <select class="form-control" name="crmsystem" id="crmsystem">
+					<option value="">CRM System</option>
+                    <option value="Salesforce">Salesforce</option>  
+                    <option value="Microsoft Dynamics">Microsoft Dynamics</option>  
+                    <option value="Oracle Sales Cloud">Oracle Sales Cloud</option>  
+                    <option value="Other">Other</option>                  
+                </select>                 
+                <p>Which of the following are enabled by the tech stack within your organisation?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Based Marketing</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">AI & Predictive</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Conversational Marketing</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Channel / Partner Management</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Social Selling</li>	
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Sales Campaigning</li>	              
+			</ul>             
+          </div>   
+        </div>	        
+      </div>
+      <div class="row">      
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-laptop-code fa-2x"></i> 
+                  <h3 class="card-title">Web</h3>
+              </div>
+              <div class="card-body">          
+                <p>What is your primary web CMS?</p>
+                <select type="text" class="form-control" name="cms" id="cms">
+					<option value="">Primary CMS</option>
+                    <option value="Adobe Experience Manager">Adobe Experience Manager</option>  
+                    <option value="Drupal">Drupal</option>  
+                    <option value="Episerver">Episerver</option>  
+                    <option value="Joomla">Joomla</option>  
+                    <option value="OpenText">OpenText</option>  
+                    <option value="Oracle Web Center">Oracle Web Center</option>      
+                    <option value="Sitecore">Sitecore</option>  
+                    <option value="Wordpress">Wordpress</option>                    
+                    <option value="Other">Other</option>                  
+                </select>                
+                <p>Which of the following capabilities do you use on your website?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Personalisation</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Experience Platform</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Web Analytics</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Customer Data Platforms</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Form Management</li>	              
+			</ul>
+          </div>                
+        </div>
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-cogs fa-2x"></i> 
+                  <h3 class="card-title">Other MarTech</h3>
+              </div>
+              <div class="card-body">          
+                <p>What is your primary BI tool?</p>          
+                <select class="form-control" name="bitool" id="bitool">
+					<option value="">Primary BI Tool</option>
+                    <option value="Datorama">Datorama</option>  
+                    <option value="Domo">Domo</option>  
+                    <option value="PowerBI">PowerBI</option> 
+                    <option value="Qlik">Qlik</option>  
+                    <option value="Tableau">Tableau</option>                    
+                    <option value="Other">Other</option>                  
+                </select> 
+                <p>What other Martech do you have in your tech stack?</p>		
+			</div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Advertising Technology</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Budgets & Planning</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Management Platforms</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Events & Webinars</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Project Management</li>		              
+			</ul>             
+          </div>   
+        </div>	        
+      </div>
+     
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  		
+        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>         
+	</div>
+
+
+    <div id="marketing" class="tab-pane">  
+      <div id="demandMarkToolsDsc" class="row">
+        <div class="col-sm-12">
+          <p>Automating your event management while taking advantage of various marketing automation capabilities can help you run more campaigns while enabling you to gather relevant customer data. In turn, you can run more efficient and more targeted digital nurture programs which will enable you to expand your reach, better connect with and retarget your audience though various channels and platforms. </p>
+          <p>Are you making the most of the event management and digital nurture automation capabilites to run fully optimize your campaigns?</p>
+        </div>
+      </div>
+      <div class="row">		
+        <div class="col-sm-6">			
+            <div class="card card-primary">
+                <div class="card-header">
+                    <i class="fas fa-calendar-alt fa-2x"></i>               
+                    <h3 class="card-title">Event Management</h3>
+                </div>
+                <div class="card-body">
+                    <p>Which phases of an event are automated?</p>		
+                </div>
+                <ul class="list-group">  
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Follow-up Communications</li>              
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Invitation</li>              
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">In-Person Event Registation</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">In-Person Event Attendance</li>   
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Tradeshow Booth Visitor Capture</li>                 
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Virtual Event Registration</li>              
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Virtual Event Attendance</li>                 
+                </ul>			
+            </div>
+        </div>
+
+        <div class="col-sm-6">			
+            <div class="card card-primary">
+                <div class="card-header">
+                    <i class="fas fa-mail-bulk fa-2x"></i>               
+                    <h3 class="card-title">Marketing Channels</h3>
+                </div>
+                <div class="card-body">
+                    <p>Which of the following channels do you use for your campaigns?</p>			
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">SMS</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Paid Social</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Organic Social</li>   
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Paid Media</li>                
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">PPC</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">SEO</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Syndication</li>              
+
+                </ul>			
+            </div>
+        </div>
+      </div>	
+      <div class="row">  
+        <div class="col-sm-6">		
+            <div class="card card-primary">
+                  <div class="card-header">
+                      <i class="fas fa-seedling fa-2x"></i>               
+                      <h3 class="card-title">Digital Nurture</h3>
+                  </div>
+                  <div class="card-body">
+                      <p>Which of the following do you use for your automated nurture programs?</p>			
+                  </div>
+                  <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Email Nurture Programs</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Hubs</li>                
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">LinkedIn</li>	 
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Digital Advertising</li>	  
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Buyer Personas</li>	                    
+                  </ul>			
+              </div>          	
+        </div>  
+        <div class="col-sm-6">		
+            <div class="card card-primary">
+                <div class="card-header">
+                    <i class="fas fa-atom fa-2x"></i>               
+                    <h3 class="card-title">Marketing Automation Capabilities</h3>
+                </div>
+                <div class="card-body">
+                    <p>Which of the below marketing automation functions do you use?</p>			
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">A/B Testing</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Auto-Responder Emails</li>              
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Dynamic Content</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Progressive Profiling</li>              
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Shared Content Snippets</li>	                
+
+                </ul>			
+            </div>	
+        </div>
+
+      </div>
+      <div class="row">		
+        <div class="col-sm-12 m-b-lg button-row">	  		
+          <button type="button" class="next btn btn-primary pull-right">Next</button>          
+          <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+        </div>		
+      </div>   
+    </div>       
+
+<div id="ops" class="tab-pane">
+   <div id="markOpsDsc" class="row">
+        <div class="col-sm-12">
+          <p>Data and analytics tools provide valuable and actionable insights about your audince and their behaviour And when broken down and recombined corectly, they can tell you what makes your campaigns successful (or not). These data can give you useful indicators on when and how to engage your prospects and customers to ensure better conversion rates and stronger customer relationships</p>
+          <p>Which types of data, analytics and lead management tools and processes do you use to improve your sales efforts?</p>
+        </div>
+      </div>
+    <div class="row">  
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-database fa-2x"></i> 
+                  <h3 class="card-title">Data</h3>
+              </div>
+              <div class="card-body">
+                <p>What type of data tools and processes do you use?</p>               
+            </div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Central Customer Database</li>	              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Deduplication</li>               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Enrichment</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Normalisation</li>  
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Intent Data</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead to Account Matching</li>	     
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Partner Identification</li>	              
+			</ul>            
+          </div>                
+        </div>
+      <div class="col-sm-6">			
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-filter fa-2x"></i>               
+                  <h3 class="card-title">Lead Management</h3>
+              </div>
+              <div class="card-body">
+                  <p>The processes required to get the right leads to Sales at the right time</p>			
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Scoring</li>			
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Scoring</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Routing</li>				
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Funnel Modeling</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Account Funnel Modeling</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Handoff Processes</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">SLAs</li>                
+              </ul>			
+          </div>
+      </div>      
+    </div>	
+    <div class="row">
+        <div class="col-sm-6"> 
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-chart-area fa-2x"></i> 
+                  <h3 class="card-title">Analytics</h3>
+              </div>
+              <div class="card-body"> 
+                <p>What type of reporting is carried out in your organisation?</p>                 
+            </div>
+			<ul class="list-group">
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Performance Reports</li>               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign ROI Reporting</li>              
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Database Health Metrics</li>
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Funnel Reporting</li>	               
+				<li class="list-group-item" data-content="A currently missing description of what this item actually is">Multi Touch Attribution</li>
+			</ul>            
+          </div>                
+        </div>	
+      <div class="col-sm-6">			
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-credit-card fa-2x"></i> 
+                  <h3 class="card-title">Sales Enablement</h3>
+              </div>
+              <div class="card-body">               
+                  <p>How do you support Sales?</p>		
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Notification</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Automation Sales Tools</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Pipeline Acceleration Campaigns</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Sales Email Templates</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Lead Recycling Nurture</li>					  
+              </ul>			
+          </div>
+      </div>  
+ 
+ </div>
+
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  		
+        <button type="button" class="next btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>   
+</div>
+
+    
+	<div id="processes" class="tab-pane">  
+      <div id="pplProcessDsc" class="row">
+        <div class="col-sm-12">
+          <p>Standardizing your work, using templates and documenting your processes ensure work is done efficiently and uniformly, and provide smoother workflow and operations accross the organizations. While safety compliance and data protection ensure stronger, more trusting relationships with your audience. </p>
+          <p>Are you employing standardization and data protections in your organizational workflow?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="card card-primary">
+                <div class="card-header">
+                  <i class="fas fa-file-invoice fa-2x"></i>
+                  <h3 class="card-title">Templates & Standards</h3>
+                </div>
+                <div class="card-body">
+                    <p>For which of the following do you have documented standards?</p>	
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Naming Conventions</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Hierarchy</li>				
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Source Tracking</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Structure</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Folder Structures</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Templates</li>					
+              </ul>			
+            </div>	
+        </div>
+      <div class="col-sm-6">	
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-project-diagram fa-2x"></i> 
+                  <h3 class="card-title">Processes</h3>
+              </div>
+              <div class="card-body">
+                  <p>Do you have documented processes for the following</p>			
+              </div>
+              <ul class="list-group">
+  
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Request Processes</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Campaign Build Processes</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Uploads</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">End of Campaign Processes</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">User Training</li>   
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">System Monitoring</li>  				  
+              </ul>			
+          </div>	
+      </div>
+    </div>	
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="card card-primary">
+                <div class="card-header">
+                  <i class="fas fa-users-cog fa-2x"></i>
+                  <h3 class="card-title">Skills</h3>
+                </div>
+                <div class="card-body">
+                    <p>Which of the following skills do you have in your team?</p>	
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Marketing Automation</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Digital Marketing</li>				
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Web Development</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Management</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Design & Creative</li>
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Content Marketing</li>	
+                    <li class="list-group-item" data-content="A currently missing description of what this item actually is">Event Management</li>						
+              </ul>			
+            </div>	
+        </div>
+      <div class="col-sm-6">	
+          <div class="card card-primary">
+              <div class="card-header">
+                  <i class="fas fa-tasks fa-2x"></i> 
+                  <h3 class="card-title">Compliance</h3>
+              </div>
+              <div class="card-body">
+                  <p>What aspects of data protection are managed by your team?</p>			
+              </div>
+              <ul class="list-group">
+  
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Tracking Cookie Controls</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Consent Management</li>
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Retention Controls</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Purchased List Management</li>	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Data Deletion Process</li>   
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Contact Level Security</li>  	
+                  <li class="list-group-item" data-content="A currently missing description of what this item actually is">Preference Centre</li>  		               
+              </ul>			
+          </div>	
+      </div>
+    </div>	
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	          
+        <button type="button" class="calculate btn btn-primary pull-right">Next</button>
+        <button type="button" class="reset btn btn-secondary pull-right">Reset</button>
+      </div>		
+    </div>         
+</div>
+    
+  <div id="details" class="tab-pane pb-50">      
+    <div class="row stats-wrap mt-5 mb-5">
+        <div class="statwidget col-sm-3">
+          <span class="label">Your Marketing Maturity Score:</span>
+          <span class="value" id="totalScore">5</span>
+          <span class="postfix">/10</span>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center">            
+          <p><span id="totalHigh">You have a mature marketing organisation that’s using an outstanding variety of martech tools and best practices to support operations and automate most of your marketing processes. This allows you to scale your marketing efforts and plan and execute a diverse calendar of campaigns across a broad portfolio of tactics and channels. <br>
+			But you can always do more to stay ahead of the competition. Register below to to see your results and personalised recommendations, outlining opportunities for further improvement.</span>   
+          <span id="totalMid">You are well on your way to reach marketing maturity, but there’s still more work to be done. Consider improving your tech stack, implementing some of the latest practices and focusing more on marketing automation so can diversify your campaigns. <br>
+            If you wish to take your marketing maturity to the next level and challenge your competitors, register below to see your results and personalised recommendations, and areas for further improvement.</span> 
+          <span id="totalLow">Your overall score indicates that your organization is lagging behind the industry’s most mature marketing teams. It seems you have a basic martech stack and are not making the most of your resources, which limits your efforts and growth.<br> 
+            There’s a lot of room for development and progress if you want to compete with industry’s best. Register below to see your results and personalised recommendations outlining areas for further improvement. </span></p>   
+        </div> 
+    </div>  
+   
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card card-primary">
+                <div class="card-header">
+                  <i class="fas fa-database fa-2x"></i>
+                  <h3 class="card-title">About You</h3>
+                </div>
+                <div class="card-body">    
+    
+    <div class="col-sm-12 pl-0 mb-3"> 
+        <p>To see your personalised results and recommendations, please complete the details below</p>
+    </div>     
+      <div class="row">
+        <div class="col-sm-6 mb-4">  
+          <input required type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name">
+        </div>	
+        <div class="col-sm-6 mb-4">  
+          <input required type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name">
+        </div>
+      </div>       
+      <div class="row">
+        <div class="col-sm-6 mb-4">  
+          <input required type="email" class="form-control" name="emailAddress" id="emailAddress" placeholder="Email Address*">
+        </div>	
+        <div class="col-sm-6 mb-4">  
+          <input required type="text" class="form-control" name="company" id="company" placeholder="Company Name*">
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-sm-6">      
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="OptIn" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  Subscribe to Email Communications
+                </label>
+              </span>
+            </span>
+            <label class="instructions default other">
+              Adhoc news and announcements via email from CRMT
+            </label>
+          </p>    
+        </div>	
+        <div class="col-sm-6">  
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="subscribeToEvents1" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  Subscribe to Events and Webinars
+                </label>
+              </span>
+            </span>
+            <label class="instructions default other">
+              Adhoc email notifications about upcoming events and webinars
+            </label>
+          </p>          
+         </div>
+      </div>  
+
+        </div>              
+   </div>              
+    <div class="row">		
+      <div class="col-sm-12 m-b-lg button-row">	  
+        <button type="button" id="next" class="btn btn-primary pull-right">Submit</button>
+      </div>		
+    </div>         
+</div>    
+    </div>             
+</div>
+    
+  <div id="recommendations" class="tab-pane pb-50">      
+    <div class="row stats-wrap mt-5 mb-5">
+        <div class="statwidget col-sm-3">
+          <span class="label">Your Marketing Maturity Score:</span>
+          <span class="value" id="totalScore2">5</span>
+          <span class="postfix">/10</span>
+        </div>  
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="techStackHigh">Way to go! Your organization’s tech stack score is impressive! It seems you are using most of the available tools and follow best practices in your marketing processes. Leveraging the latest MarTech trends and cutting-edge technologies helps you level the marketing playing field and stay on par with the industry’s best. </span>   
+          <span id="techStackMid">Your organization’s tech stack score indicates that you are have a solid toolset, but you are not making full use of the available tools and best practices. Improving your tech stack can have a positive impact on the reach, efficacy, and success rates of your marketing campaigns. </span>           
+          <span id="techStackLow">According to your tech stack score, your organization is using some tech tools, but you are far behind the industry’s best. You should consider enriching your toolset and increasing the level of automation to support the planning and execution of marketing campaigns across different channels. </span>
+          <span id="marketingHigh">Your assorted stack of tools shows that you are making great use of marketing automation features and capabilities. And you have the right toolset executing a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
+          <span id="marketingMid">Your organization’s approach to marketing campaign planning and execution is good, and you have a solid campaign calendar. But consider further diversifying your efforts and incorporating a higher degree of automation to successfully scale your marketing efforts. </span>           
+          <span id="marketingLow">Your organization’s marketing campaign planning could use some improvement and support. Consider expanding your reach by executing a broader campaign calendar of tactics and channels to increase audience engagement and brand recognition. </span>               
+          <span id="opsHigh">Your organization has a very strong focus on marketing operations. And is using a great set of data collection and analytics tools that make your lead management and sales efforts better targeted and more successful.</span>   
+          <span id="opsMid">Even though your team is partly leveraging the data management and analytics tools to support marketing operations, you can further improve your sales efforts by taking advantage of advanced lead management and sales enablement tactics. </span>
+          <span id="opsLow">Although you are employing some data management tools and processes, your organization’s operations could use a more focused approach regarding analytics, lead management and sales enablement. </span>
+          <span id="processHigh">It seems your organization is doing a magnificent job in using the diverse set of skills, competences, and standardised processes to deliver true value to shareholders and customers alike! Keep up the great work! But stay on the lookout for the latest innovations and best practices that improve scalability! </span>   
+          <span id="processMid">Your organization is standardising and documenting some processes, but that does not translate into full use of the varied skills in your team. Make sure to clearly structure all your processes and set data safety protocols that generate true business value. </span>
+          <span id="processLow">Additionally, your organization could benefit greatly by recognizing and elevating the team’s skillset, standardizing the marketing and operations processes and their implementation to get the most out of your marketing budget. </span></p>     
+        </div>
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">
+        <div class="col-sm-12 text-center">  
+          <h3>Category Scores</h3>
+        </div>       
+        <div class="statwidget col-sm-3">
+          <span class="label">Tech Stack:</span>
+          <span class="value" id="techStackScore">5</span>
+          <span class="postfix">/10</span>
+        </div>      
+        <div class="statwidget col-sm-3">
+          <span class="label">Demand Marketing:</span>
+          <span class="value" id="marketingScore">5</span>
+          <span class="postfix">/10</span>
+        </div>  
+        <div class="statwidget col-sm-3">
+          <span class="label">Marketing Operations:</span>
+          <span class="value" id="opsScore">5</span>
+          <span class="postfix">/10</span>
+        </div>   
+        <div class="statwidget col-sm-3">
+          <span class="label">People & Processes:</span>
+          <span class="value" id="processScore">5</span>
+          <span class="postfix">/10</span>
+        </div>         
+    </div> 
+    
+    <div class="row mt-5 mb-5">
+        <div class="col-sm-12 text-center">  
+          <h3>Recommendations</h3>
+        </div>     
+    </div>     
+    <div id="rec0" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-database fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h5>Event Follow-up Communications</h5>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div>     
+
+    <div id="rec1" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-sticky-note fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h5>Event Follow-up Communications</h5>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div> 
+
+    <div id="rec2" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h5>Event Follow-up Communications</h5>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div>   
+
+    <div id="rec3" class="row mt-5 mb-5">
+        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+          <i class="fas fa-5x"></i>
+        </div>  
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center"> 
+          <h5>Event Follow-up Communications</h5>
+          <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
+        </div> 
+    </div>       
+    
+ </div>
+      
+    </div>             
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Thank You</h4>          
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        <div class="modal-body">
+          <p>Your data has been successfully submited. You will receive a summary of your personalised recommendations by email.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  var recs = {}; 
+  
+  $( document ).ready(function() {
+    
+    $(".list-group-item").each(function( index ) {
+    	$( this ).attr('name',  $( this ).text().replace(/([^A-Za-z0-9[\]{}_.:-])\s?/g, '') );      
+      $(this).html('<span data-toggle="popover" data-content="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
+	}); 
+    $('[data-toggle="popover"]').popover({ container: 'body' }); 
+
+	$( ".list-group-item .fa-check" ).click(function() {
+    	$( this ).parent().attr('data-status', 'Yes' );          
+		$( this ).parent().addClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning');
+	}); 
+	$( ".list-group-item .fa-minus" ).click(function() {
+    	$( this ).parent().attr('data-status', '' );        
+		$( this ).parent().removeClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning');
+	}); 
+	$( ".list-group-item .fa-question" ).click(function() {
+    	$( this ).parent().attr('data-status', 'Maybe' );        
+		$( this ).parent().addClass('list-group-item-warning').removeClass('list-group-item-success').removeClass('list-group-item-danger');
+	});     
+	$( ".list-group-item .fa-times" ).click(function() {
+    	$( this ).parent().attr('data-status', 'No' );      
+		$( this ).parent().removeClass('list-group-item-success').addClass('list-group-item-danger').removeClass('list-group-item-warning');
+	});
+    
+	$( ".reset" ).click(function() {
+		$(".list-group-item" ).removeClass('list-group-item-success').removeClass('list-group-item-danger').removeClass('list-group-item-warning').removeAttr('data-status');	
+		$("input").val("");
+ 	}); 
+	$( ".next" ).click(function() {
+		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');
+ 	}); 
+    
+	$( ".calculate" ).click(function() {
+		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
+      	$('#totalScore').html(totalScore); 
+
+        if (totalScore > 7) { $('#totalHigh').show(); } 
+      	else if (totalScore < 4) { $('#totalLow').show(); } 
+      	else {$('#totalMid').show(); }              
+      
+		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');      
+		 $('.nav-tabs, #page-intro').hide();
+      
+          var items = {};
+          $(".list-group-item").each(function() {
+              var itemVal = $( this ).data('status') || ""
+              var itemName = $( this ).attr('name');
+              var item = {[itemName]: itemVal}
+              Object.assign(items, item);
+          });      
+      
+         $.ajax({
+            url: "/.netlify/functions/maturity-index",
+            data: JSON.stringify(items),
+            type: "POST",
+            contentType: "application/json",          
+            success: function (response, textStatus, jqXHR) {
+                Object.assign(recs, JSON.parse(response)); 
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+             if (jqXHR['status'] != 200) {
+                console.log('Failed');
+                 }
+                }
+            });          
+      
+ 	});    
+    
+	$( "#next" ).click(function() {          
+      
+		 var techStackScore = Math.round( $("#home .list-group-item[data-status=Yes]").length / $("#home .list-group-item").length * 10 );
+		 var marketingScore = Math.round( $("#marketing .list-group-item[data-status=Yes]").length / $("#marketing .list-group-item").length * 10 );
+		 var opsScore = Math.round( $("#ops .list-group-item[data-status=Yes]").length / $("#ops .list-group-item").length * 10 );   
+		 var processScore = Math.round( $("#processes .list-group-item[data-status=Yes]").length / $("#processes .list-group-item").length * 10 );
+		 var totalScore  = Math.round( $(".list-group-item[data-status=Yes]").length / $(".list-group-item").length * 10 );
+      	$('#totalScore2').html(totalScore);
+      	$('#marketingScore').html(marketingScore);
+      	$('#opsScore').html(opsScore);
+      	$('#techStackScore').html(techStackScore);      
+      	$('#processScore').html(processScore);  
+      
+      	if (processScore > 7) { $('#processHigh').show(); } 
+      	else if (processScore < 4) { $('#processLow').show(); } 
+      	else {$('#processMid').show(); }
+
+        if (marketingScore > 7) { $('#marketingHigh').show(); } 
+      	else if (marketingScore < 4) { $('#marketingLow').show(); } 
+      	else {$('#marketingMid').show(); }
+
+        if (techStackScore > 7) { $('#techStackHigh').show(); } 
+      	else if (techStackScore < 4) { $('#techStackLow').show(); } 
+      	else {$('#techStackMid').show(); }
+
+        if (opsScore > 7) { $('#opsHigh').show(); } 
+      	else if (opsScore < 4) { $('#opsLow').show(); } 
+      	else {$('#opsMid').show(); }    
+      
+      var items = new Array();     
+      items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
+      items.push({name: "elqSiteID", value: "1010"});      
+
+      items.push({name: "techStackScore", value: techStackScore });     
+      items.push({name: "marketingScore", value: marketingScore});  
+      items.push({name: "opsScore", value: opsScore});     
+      items.push({name: "processScore", value: processScore});  
+      items.push({name: "totalScore", value: totalScore});  
+      
+       $("input[type=text], input[type=email], select").each(function() {
+        var item = {name: $( this ).attr('id'), value: $( this ).val()};
+         items.push(item);
+      });             
+      
+       $("input[type=checkbox]").each(function() {
+        if( $(this).is(":checked") ) {
+         var item = {name: $( this ).attr('name'), value: "on"};
+         items.push(item);
+        }  
+      });  
+      
+      $(".list-group-item[data-status]").each(function() {
+        var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
+         items.push(item);
+      });
+     $.ajax({
+        url: "https://s1010.t.eloqua.com/e/f2",
+        data: items,
+        type: "POST",
+        success: function (response, textStatus, jqXHR) {
+            console.log('Successful');          
+            $("#recommendations").show();
+            $("#details").hide();
+          if( recs[0] ) {
+          	$("#rec0 h5").html( recs[0].title ); 
+          	$("#rec0 p").html( recs[0].teaser );
+          	$("#rec0 i").addClass( recs[0].icon );
+            $("#rec0").addClass("d-flex"); 
+          }  
+          if( recs[1] ) {          
+          	$("#rec1 h5").html( recs[1].title ); 
+          	$("#rec1 p").html( recs[1].teaser );
+          	$("#rec1 i").addClass( recs[1].icon );
+            $("#rec1").addClass("d-flex"); 
+          }  
+          if( recs[2] ) {             
+          	$("#rec2 h5").html( recs[2].title ); 
+          	$("#rec2 p").html( recs[2].teaser );
+          	$("#rec2 i").addClass( recs[2].icon ); 
+            $("#rec2").addClass("d-flex");   
+          }  
+          if( recs[3] ) {                
+          	$("#rec3 h5").html( recs[3].title ); 
+          	$("#rec3 p").html( recs[3].teaser );
+          	$("#rec3 i").addClass( recs[3].icon ); 
+            $("#rec3").addClass("d-flex");   
+          }  
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+         if (jqXHR['status'] != 200) {
+            console.log('Failed');
+             }
+            }
+        });          
+ 	});    
+    
+  });  
+  </script>

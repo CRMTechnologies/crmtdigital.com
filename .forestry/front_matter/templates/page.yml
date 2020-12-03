@@ -26,3 +26,5 @@ fields:
 - name: carousel
   type: boolean
   label: carousel
+pages:
+- content/marketing-maturity-assessment.html
