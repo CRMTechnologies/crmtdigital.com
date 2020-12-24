@@ -3,7 +3,6 @@ author = "Len van Hoogenhuijze"
 banner_type = "none"
 date = 2020-12-24T14:00:00Z
 description = "As for most companies, this has been a rather interesting year for us."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
