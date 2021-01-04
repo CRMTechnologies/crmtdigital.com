@@ -2,7 +2,7 @@
 author = "Alan Chatfield"
 banner_type = "none"
 date = ""
-description = "Digital Marketing is the new normal, but there are still data, technology and process challenges that prevent the digital approach from reaching its maximum potential"
+description = "Digital Marketing is the new normal, but these data, technology and process challenges still need to be solved in 2021"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/iStock-1289850687.jpg"
