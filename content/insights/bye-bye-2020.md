@@ -34,3 +34,4 @@ Of course, the team has worked very hard and also smarter. We are in a lot of wa
 I am not going to try to predict what is coming in the new year for business. The economic situation will likely remain tough for many companies and that could spread to our sectors too. It could also be the overall economy improves when the situation normalises. For both scenarios, I think we have been able to contribute to putting our customers in good stead to take on whatever 2021 throws our way or even take advantage of the opportunities. And that is true for CRMT Digital as well. Happy New Year!
 
 _Written by Len van Hoogenhuijze – Product and Solutions Manager, CRMT Digital_
+
