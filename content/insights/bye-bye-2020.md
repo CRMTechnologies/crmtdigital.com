@@ -32,3 +32,5 @@ Ahead of all the lockdowns we as a company were already making changes in the wa
 Of course, the team has worked very hard and also smarter. We are in a lot of ways a ‘better’ company than we were a year ago. But I do also want to acknowledge the fact we have been lucky. Lucky we have the clients that we do, lucky that we made the right changes in our team at the right time and lucky we work in the field that we do. It is important to keep that in perspective.
 
 I am not going to try to predict what is coming in the new year for business. The economic situation will likely remain tough for many companies and that could spread to our sectors too. It could also be the overall economy improves when the situation normalises. For both scenarios, I think we have been able to contribute to putting our customers in good stead to take on whatever 2021 throws our way or even take advantage of the opportunities. And that is true for CRMT Digital as well. Happy New Year!
+
+_Written by Len van Hoogenhuijze – Product and Solutions Manager, CRMT Digital_
