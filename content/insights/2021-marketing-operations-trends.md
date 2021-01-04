@@ -65,3 +65,5 @@ Event organisers are planning their post-Easter schedules, and there is much tal
 Marketers will need to think about how in-person events can support existing digital campaigns. Larger events will take place in the second half of the year, but will need to be live-streamed for remote audiences unable or unwilling to attend in person. The most successful events will be those that reach both virtual and in-person audiences, allowing interaction and two-way communication between audiences and exhibitors regardless of location.
 
 2021 promises to be a return to normality. Spring will see a re-awakening for these sectors of the economy most affected by the pandemic. However, the new normal will not be the same as the old normal. The new digital ways of working and the old in-person methods will continue to co-exist. The most successful marketers in 2021, will be those best able to combine them.
+
+_Written by Alan Chatfield – Digital Marketing Consultant, CRMT Digital_
