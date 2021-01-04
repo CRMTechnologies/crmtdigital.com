@@ -1,7 +1,7 @@
 +++
 author = "Alan Chatfield"
 banner_type = "none"
-date = ""
+date = 2021-01-04T13:00:00Z
 description = "Digital Marketing is the new normal, but these data, technology and process challenges still need to be solved in 2021"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
