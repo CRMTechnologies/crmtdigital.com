@@ -2,7 +2,7 @@
 author = "Alan Chatfield"
 banner_type = "none"
 date = 2021-01-04T13:00:00Z
-description = "Digital Marketing may be the new normal, but these data, technology and process challenges still need to be solved in 2021"
+description = "Digital Marketing is the new normal. In 2021, marketing ops will need to overcome these data, technology and process challenges that are impacting results."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/iStock-1289850687.jpg"
