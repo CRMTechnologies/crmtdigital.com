@@ -828,6 +828,9 @@ title = "B2B Marketing Maturity Assessment Tool"
  	}); 
 	$( ".next" ).click(function() {
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');
+		 $('html, body').animate({
+            scrollTop: $(".nav-tabs").offset().top
+		 }, 100);      
  	}); 
     
 	$( ".calculate" ).click(function() {
