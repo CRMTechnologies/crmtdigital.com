@@ -76,6 +76,11 @@ title = "B2B Marketing Maturity Assessment Tool"
     .list-group-item.list-group-item-warning i.fa-minus {
       	display: inline-block;cursor:pointer;float:right;padding: 6px 6px 3px 0px;color: #333;
     }
+    .list-group-item.list-group-item-success i.fa-times, 
+    .list-group-item.list-group-item-danger i.fa-times, 
+    .list-group-item.list-group-item-warning i.fa-times {
+      	display: none;
+    }    
      .list-group-item span { 
        cursor: pointer;
     }
@@ -795,7 +800,7 @@ title = "B2B Marketing Maturity Assessment Tool"
     
     $(".list-group-item").each(function( index ) {
     	$( this ).attr('name',  $( this ).text().replace(/([^A-Za-z0-9[\]{}_.:-])\s?/g, '') );      
-      $(this).html('<span data-toggle="popover" data-content="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
+      $(this).html('<span data-toggle="tooltip" data-placement="top" title="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
 	}); 
     $('[data-toggle="popover"]').popover({ container: 'body' }); 
 
