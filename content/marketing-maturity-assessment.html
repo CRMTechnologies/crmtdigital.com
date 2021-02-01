@@ -974,7 +974,7 @@ title = "B2B Marketing Maturity Assessment Tool"
         var options = {
             background: '#fff' //background is transparent if you don't set it, which turns it black for some reason.
         };
-        pdf.addHTML($('#content')[0], options, function () {
+        pdf.addHTML($('#recommendations')[0], options, function () {
                 pdf.save('Test.pdf');
         });
  	});  
