@@ -765,7 +765,9 @@ title = "B2B Marketing Maturity Assessment Tool"
           <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
         </div> 
     </div>       
-    
+ 	<div data-html2canvas-ignore="true" class="justify-content-center align-items-center">
+    	<a id="pdf-new" href="javascript:demoFromHTML()" style="color: black;" class="btn btn-split btn-wide green-btn">Save as PDF</a>
+	</div>   
  </div>
       
     </div>             
@@ -794,6 +796,8 @@ title = "B2B Marketing Maturity Assessment Tool"
   </div> 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.0/jspdf.umd.min.js" integrity="sha512-GctVjwNNH1cjfoaMyi3WTXq/Y+NDpQ2q+tVPGtNNCgmKiokNiWR68MMYbgaCLg5IgHgZ3dM8EVcmRpJVBLkaiA==" crossorigin="anonymous"></script>
   <script>
   var recs = {}; 
   
@@ -964,6 +968,17 @@ title = "B2B Marketing Maturity Assessment Tool"
             }
         });          
  	});    
+    
+	$( "#pdf-new" ).click(function() {     
+        var pdf = new jsPDF('p', 'pt', 'letter');
+        var options = {
+            background: '#fff' //background is transparent if you don't set it, which turns it black for some reason.
+        };
+        pdf.addHTML($('#content')[0], options, function () {
+                pdf.save('Test.pdf');
+        });
+ 	});  
+    
     
   });  
   </script>
