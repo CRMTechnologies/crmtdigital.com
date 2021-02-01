@@ -799,6 +799,7 @@ title = "B2B Marketing Maturity Assessment Tool"
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" integrity="sha512-ToRWKKOvhBSS8EtqSflysM/S7v9bB9V0X3B1+E7xo7XZBEZCPL3VX5SFIp8zxY19r7Sz0svqQVbAOx+QcLQSAQ==" crossorigin="anonymous"></script>
   <script>
+    
   var recs = {}; 
   
   $( document ).ready(function() {
@@ -969,8 +970,16 @@ title = "B2B Marketing Maturity Assessment Tool"
         });          
  	});    
     
-	$( "#pdf-new" ).click(function() {     
-        var pdf = new jsPDF('p', 'pt', [877.5, 1125]);
+	$( "#pdf-new" ).click(function() {  
+		HTML_Width = $("#recommendations").width();
+		HTML_Height = $("#recommendations").height();
+		top_left_margin = 15;
+		PDF_Width = HTML_Width + (top_left_margin * 2) * 0.75;
+		PDF_Height = (PDF_Width * 1.2) + (top_left_margin * 2) * 0.75;
+		canvas_image_width = HTML_Width;
+		canvas_image_height = HTML_Height;
+      
+        var pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
         var options = {
             background: '#fff' //background is transparent if you don't set it, which turns it black for some reason.
         };
