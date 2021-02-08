@@ -9,10 +9,12 @@
       <input type="hidden" name="elqFormName" value="20contactus">
       <input type="hidden" name="elqSiteID" value="1010">
       <input type="hidden" name="elqCustomerGUID" value="">
-      <input type="hidden" name="elqCookieWrite" value="0">
-	  <input id="field13" type="hidden" name="utm_campaign" value=""  />	
-	  <input id="field14" type="hidden" name="utm_medium" value=""  />
-	  <input id="field15" type="hidden" name="utm_source" value=""  />	  
+      <input type="hidden" name="elqCookieWrite" value="0">	
+      <input type="hidden" id="htuk" name="hutk"  />
+      <input type="hidden" name="formGuid" value="fd6aba8e-5589-40ab-835c-ae7a47df3fcf" />			
+      <input id="field13" type="hidden" name="utm_campaign" value=""  />
+      <input id="field14" type="hidden" name="utm_medium" value=""  />
+      <input id="field15" type="hidden" name="utm_source" value=""  />	  
       <div class="row">	
         <div class="col-lg-6">
           <div class="row no-gutters">	
@@ -34,13 +36,13 @@
       </div>			
       <div class="row">	
         <div class="col-lg-6">		
-          <input type="checkbox" id="edit-subscribe-to-general-communications" name="subscribe_to_general_communications" value="1" class="form-checkbox">
-          <label for="edit-subscribe-to-general-communications" class="option">Subscribe to Email Communications</label>
+          <input type="checkbox" id="OptIn" name="OptIn" value="1" class="form-checkbox">
+          <label for="OptIn" class="option">Subscribe to Email Communications</label>
           <div class="description">Adhoc news and announcements via email from CRMT.</div>  
         </div>		      
         <div class="col-lg-6">		
-          <input type="checkbox" id="insights" name="insights" value="1" class="form-checkbox">
-          <label for="edit-subscribe-to-general-communications" class="option"> Subscribe to Insights from CRMT</label>
+          <input type="checkbox" id="subscribeToNewsletter1" name="subscribeToNewsletter1" value="1" class="form-checkbox">
+          <label for="subscribeToNewsletter1" class="option"> Subscribe to Insights from CRMT</label>
           <div class="description">Email content round-ups, hints and tips to help you improve marketing effectiveness.</div>       
           <button class="btn btn-split btn-wide indigo-btn">Submit</button>
         </div>	 		
@@ -48,40 +50,3 @@
     </form>  
   </div>
 </section>
-<script type='text/javascript'>
-var elqTimerId = null, timeout = 5;
-	
-function WaitUntilCustomerGUIDIsRetrieved() {
-	if (!!(elqTimerId)) {
-		if (timeout == 0) {
-			return;
-		}
-		if (typeof this.GetElqCustomerGUID === 'function') {
-			document.forms["formContact"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
-			return;
-		}
-		timeout -= 1;
-	}
-	elqTimerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
-	return;
-}
-
-function setHiddenFormFields() {
-  var query = window.location.search.substring(1); 
-  var vars = query.split("&"); 
-  if(document.location.search.length) {
-	for (var i=0;i < vars.length;i++) { 
-		var pair = vars[i].split("="); 
-		if($("[name='" + pair[0] + "']") && (pair[1] != "")) {
-			var xVal = pair[1].replace(/\+/g, '%20');
-			$("[name='" + pair[0] + "']").val( decodeURIComponent( xVal ) );
-		}            
-	} 
-  }
-  WaitUntilCustomerGUIDIsRetrieved();
-}
-
-
-window.onload = setHiddenFormFields;
-_elqQ.push(['elqGetCustomerGUID']);
-</script>
