@@ -86,4 +86,12 @@
 	</div>	
   </div>
 </section>
+<script>
+window.onload = function(){   
+	var thisStage = parseInt( localStorage.getItem("progPro") );
+	if( isNaN(thisStage) ) { thisStage = 1; }
+	thisStage = thisStage + 1; 
+	localStorage.setItem("progPro", thisStage);
+}
+</script>	
 {{ end }}
