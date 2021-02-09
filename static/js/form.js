@@ -39,7 +39,7 @@ var progPro = (function () {
 	var setRequired = function(requiredField) {
       if($("label[for=" + requiredField + "] .required").length == 0) {
 		window[requiredField].add(Validate.Presence, {failureMessage:"This field is required"});
-		$("label[for=" + requiredField + "]").append('<span class="required">*</span>');
+		$("#" + requiredField).prop('placeholder', $("#" + requiredField).prop('placeholder') + '*');
 		console.log($("#" + requiredField).prop("name") + " is Required");
       }
 	};
@@ -110,30 +110,15 @@ var progPro = (function () {
 	};
     
 	var setHiddenFields = function() {
-		var query = window.location.search.substring(1); 
-		var vars = query.split("&"); 
-		  if(document.location.search.length) {
-			for (var i=0;i < vars.length;i++) { 
-				var pair = vars[i].split("="); 
-				if($("[name='" + pair[0] + "']") && (pair[1] != "")) {
-					var xVal = pair[1].replace(/\+/g, '%20');
-					$("[name='" + pair[0] + "']").val( decodeURIComponent( xVal ) );
-				}            
-			} 
-		  }  
+		var hiddenFields = document.querySelectorAll("input[name^='utm_']");
+		for (var i=0; i<hiddenFields.length; i++) {
+			var param = sessionStorage.getItem(hiddenFields[i].name);
+			if (param) { 
+				document.getElementsByName(hiddenFields[i].name)[0].value = param;
+			}
+		}
+		document.getElementById('htuk').value = document.cookie.replace(/(?:(?:^|.*;\s*)hubspotutk\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 	};
- 
-	var mergeHiddenFields = function(uri) { 
-		var thisStage = parseInt( localStorage.getItem("progPro") ) + 1;
-		if( isNaN(thisStage) ) { thisStage = 1; } 
-		var query = window.location.search.substring(1); 
-		var vars = query.split("&"); 
-		for (var i=0;i < vars.length;i++) { 
-			var pair = vars[i].split("="); 
-			uri = updateQueryStringParameter(uri, pair[0],pair[1]);                         
-		}		
-		return uri + "&stage=" + thisStage;
-	}; 
   
 	var setStageCookie = function(e){   
         console.log("Received: " + e.data);
@@ -142,27 +127,10 @@ var progPro = (function () {
         }
 	}; 
   
-	var updateQueryStringParameter = function(uri, key, value) {   
-		var re = new RegExp("([?|&])" + key + "=.*?(&|#|$)", "i");
-		if (uri.match(re)) {
-          	return uri.replace(re, '$1' + key + "=" + value + '$2');
-		} else {
-			var hash =  '';
-          	if( uri.indexOf('#') !== -1 ){
-				hash = uri.replace(/.*#/, '#');
-				uri = uri.replace(/#.*/, '');
-          	}
-          	var separator = uri.indexOf('?') !== -1 ? "&" : "?";
-          	return uri + separator + key + "=" + value + hash;
-		} 
-    }; 
-  
     var setGeolookup = function() {
         setField("stateProv", progPro.stage);
         setField("OptIn", progPro.stage);
     };
-  
-    var findWhatProblem = function(problem) { return problem[0] == $("[name='p']").val(); };	
   
     var findProgType = function(progProObj) { return progProObj[0] == loopField; };	
 	
@@ -281,8 +249,7 @@ var progPro = (function () {
 		setField: setField,
 		setForm: setForm,
 		setRequired: setRequired,
-		setHiddenFields: setHiddenFields,
-		mergeHiddenFields: mergeHiddenFields,      
+		setHiddenFields: setHiddenFields,    
 		setGeolookup: setGeolookup,
 		resetForm: resetForm,
 		setStageCookie: setStageCookie
@@ -310,9 +277,10 @@ var progPro = (function () {
       progPro.stage = 0;      
       progPro.maxFields = 9;
       progPro.maxProgFields = 2;      
-      progPro.fixedFields = [   "emailAddress", "lastName", "company", "stateProv", "OptIn", "subscribeToEvents1", "subscribeToNewsletter1" ];	
-      progPro.firstVisit = [ "firstName", "jobTitle", "country", "busPhone", "industry1", "marketingAutomationProvider1" ];
-        
+      progPro.fixedFields = [ "emailAddress", "OptIn", "subscribeToEvents1", "subscribeToNewsletter1" ];	
+      progPro.firstVisit = [ "firstName", "lastName", "jobTitle", "company" ];
+      progPro.secondVisit = [ "country", "stateProv", "industry1" ];     
+      progPro.thirdVisit = [ "busPhone", "marketingAutomationProvider1" ];   	  
 	  
 	progPro.contactFields = [
 		[ 
@@ -395,14 +363,6 @@ var progPro = (function () {
 		]   
 	];
 
-
-window.onload = function() {   
-    if(progPro.formSet == false) {
-        $("p#reset").hide();
-        progPro.setForm();
-    } 
-} 
-  
 $( document ).ready(function() {
 
     $("form :input").each(function(index, elem) {
@@ -415,29 +375,21 @@ $( document ).ready(function() {
   
     if ( $(".elq-form").length > 0 ) {
 		$("form").hide();	   
-		progPro.setHiddenFields();  
+		progPro.setHiddenFields();  		
     }
 
 	if(iFrameDetection == true) {	
 		$("form").prop("target", "_top");
-	}
-	
-    if ( $(".elq-form").length == 0 ) { 
-		if (emailAddress == "") { 
-			_elqQ.push(['elqDataLookup', escape(VisitorLookupId), '']); 
-		}     
-    } else if (emailAddress == "") { 
-		console.log('Running Unknown');  
-		_elqQ.push(['elqDataLookup', escape(VisitorLookupId), '']);
-    } else  {
-		console.log('Running: ' + emailAddress);
-		FirstLookup = false;		
-		_elqQ.push(['elqDataLookup', escape(ContactLookupId), '<' + ContactUniqueField +'>' + emailAddress + '</' + ContactUniqueField + '>']);
-    }   
+	} 
 	
     $.each( progPro.contactFields, function( index, item) {
         $("[name='" + this[0] + "']").parents(".item-padding").hide();
     });	
+  
+    if ( $(".elq-form").length > 0 ) {
+        $("p#reset").hide();
+        progPro.setForm();		
+    }
 
 	$( "[name=country]" ).change(function() { 
 		progPro.setField("stateProv", -1);
@@ -456,61 +408,6 @@ $( document ).ready(function() {
 	$( "#resetForm" ).click(function(e) {  
         e.preventDefault();
         progPro.resetForm();
-    });  
-
-    $("a[href*='lightbox']").each(function( i ) {
-		console.log(this.href);               
-		var aVar = progPro.mergeHiddenFields( this.href );
-		console.log(aVar);        
-		$(this).data("fancybox-href", aVar );      
-    });  
+    });    
   
 });
-
-var VisitorLookupId = "3bcb6edea97748e891794b0903d716ce";	// LOOKUP A:  The ID of your Visitor Web Data Lookup
-var ContactLookupId = "d0c507a032e147a69a27b56c71c87221";	// LOOKUP B:  The ID of your Contact/Datacard Web Data Lookup
-var VisitorUniqueField = "V_ElqEmailAddress";				// Unique field's HTML Name from LOOKUP A (usually V_Email_Address)
-var ContactUniqueField = "C_EmailAddress";					// Unique field's HTML Name from LOOKUP B (usually C_EmailAddress)
-var FirstLookup = true;
-
-var _elqQ = _elqQ || [];
-_elqQ.push(['elqSetSiteId', '1010']);
-_elqQ.push(['elqTrackPageView']);
-
-(function () {
-	function async_load() {
-		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-		s.src = '//img.en25.com/i/elqCfg.min.js';
-		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-	}
-	if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
-	else if (window.attachEvent) window.attachEvent('onload', async_load);
-})();		
-		
-function SetElqContent() {
-	if (this.GetElqContentPersonalizationValue){
-		if (FirstLookup) {
-          emailAddress = GetElqContentPersonalizationValue(VisitorUniqueField);
-          if(progPro.formSet == false) {
-			_elqQ.push(['elqDataLookup', escape(ContactLookupId), '<' + ContactUniqueField +'>' + emailAddress + '</' + ContactUniqueField + '>']);
-			FirstLookup = false;
-          }
-		} else {
-			$.each( progPro.contactFields, function( index, item) {
-				item[2] =  GetElqContentPersonalizationValue(item[1]);
-                console.log(item[2] + " " + item[1]);
-				if($("[name=" + item[0] + "]").attr("type") != "checkbox") {              
-					$("[name=" + item[0] + "]").val( item[2] );                 
-                } else if(item[2] != "") {
-					$("[name=" + item[0] + "]").prop("checked",true);
-					$("[name=" + item[0] + "]").data("visible","false");                
-                } else {
-					$("[name=" + item[0] + "]").data("visible","");                   
-                }  
-			});
-			progPro.setForm();
-		}
-	} else {
-		return null;
-	}
-}
