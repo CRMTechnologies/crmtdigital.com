@@ -114,7 +114,7 @@
       "name": "Domo",
       "image": "https://static.crmtechnologies.com/sites/default/files/domo_logo.png",
       "url": "https://www.domo.com/",
-      "class": ""
+      "class": "square"
     },
     {
       "name": "Bombora",
