@@ -2,14 +2,13 @@
 banner_type = "highlight"
 carousel = false
 description = "Take our assessment to discover how your organisation measures against best-in-class marketing teams."
-draft = true
 heading = "Marketing Maturity Assessment"
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
 keywords = []
 resource = []
 show_contact = "none"
-slug = "maturity-index"
+slug = "/maturity-index/"
 statWidget = false
 subheading = "Are you making the most of your marketing budget? "
 testimonial = ""
@@ -77,6 +76,12 @@ title = "B2B Marketing Maturity Assessment Tool"
     .list-group-item.list-group-item-warning i.fa-minus {
       	display: inline-block;cursor:pointer;float:right;padding: 6px 6px 3px 0px;color: #333;
     }
+    .list-group-item i.fa-times, 
+    .list-group-item.list-group-item-success i.fa-times, 
+    .list-group-item.list-group-item-danger i.fa-times, 
+    .list-group-item.list-group-item-warning i.fa-times {
+      	display: none;
+    }    
      .list-group-item span { 
        cursor: pointer;
     }
@@ -668,7 +673,7 @@ title = "B2B Marketing Maturity Assessment Tool"
     </div>             
 </div>
     
-  <div id="recommendations" class="tab-pane pb-50">      
+  <div id="recommendations" class="tab-pane pb-50" style="background: #ffffff;">      
     <div class="row stats-wrap mt-5 mb-5">
         <div class="statwidget col-sm-3">
           <span class="label">Your Marketing Maturity Score:</span>
@@ -760,7 +765,9 @@ title = "B2B Marketing Maturity Assessment Tool"
           <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
         </div> 
     </div>       
-    
+ 	<div data-html2canvas-ignore="true" class="row justify-content-center align-items-center">
+    	<a id="pdf-new" class="btn btn-split btn-wide green-btn">Save as PDF</a>
+	</div>   
  </div>
       
     </div>             
@@ -789,14 +796,17 @@ title = "B2B Marketing Maturity Assessment Tool"
   </div> 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" integrity="sha512-ToRWKKOvhBSS8EtqSflysM/S7v9bB9V0X3B1+E7xo7XZBEZCPL3VX5SFIp8zxY19r7Sz0svqQVbAOx+QcLQSAQ==" crossorigin="anonymous"></script>
   <script>
+    
   var recs = {}; 
   
   $( document ).ready(function() {
     
     $(".list-group-item").each(function( index ) {
     	$( this ).attr('name',  $( this ).text().replace(/([^A-Za-z0-9[\]{}_.:-])\s?/g, '') );      
-      $(this).html('<span data-toggle="popover" data-content="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
+      $(this).html('<span data-toggle="tooltip" data-placement="top" title="' + $( this ).data('content') + '">' + $( this ).text() + '</span><i class="fa fa-check"></i> <i class="fa fa-times"></i> <i class="fa fa-minus"></i>');
 	}); 
     $('[data-toggle="popover"]').popover({ container: 'body' }); 
 
@@ -823,6 +833,9 @@ title = "B2B Marketing Maturity Assessment Tool"
  	}); 
 	$( ".next" ).click(function() {
 		 $('.nav-tabs .active').parent().next('li').find('a').trigger('click');
+		 $('html, body').animate({
+            scrollTop: $(".nav-tabs").offset().top
+		 }, 100);      
  	}); 
     
 	$( ".calculate" ).click(function() {
@@ -956,6 +969,25 @@ title = "B2B Marketing Maturity Assessment Tool"
             }
         });          
  	});    
+    
+	$( "#pdf-new" ).click(function() {  
+		HTML_Width = $("#recommendations").width();
+		HTML_Height = $("#recommendations").height();
+		top_left_margin = 15;
+		PDF_Width = HTML_Width * 0.75;
+		PDF_Height = HTML_Height * 0.75;
+		canvas_image_width = HTML_Width;
+		canvas_image_height = HTML_Height;
+      
+        var pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
+        var options = {
+            background: '#fff' //background is transparent if you don't set it, which turns it black for some reason.
+        };
+        pdf.addHTML($('#recommendations')[0], options, function () {
+                pdf.save('Test.pdf');
+        });
+ 	});  
+    
     
   });  
   </script>
