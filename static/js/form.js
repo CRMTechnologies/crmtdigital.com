@@ -387,6 +387,9 @@ $( document ).ready(function() {
     });	
   
     if ( $(".elq-form").length > 0 ) {
+	var thisStage = parseInt( localStorage.getItem("progPro") ) + 1;
+	if( isNaN(thisStage) ) { thisStage = 1; }
+	progPro.stage = thisStage;   
         $("p#reset").hide();
         progPro.setForm();		
     }
