@@ -111,12 +111,6 @@
   ],
   "partners": [
     {
-      "name": "Domo",
-      "image": "https://static.crmtechnologies.com/sites/default/files/domo_logo.png",
-      "url": "https://www.domo.com/",
-      "class": "square"
-    },
-    {
       "name": "Bombora",
       "image": "https://static.crmtechnologies.com/sites/default/files/Bombora-Tech.png",
       "url": "https://bombora.com",
@@ -126,12 +120,6 @@
       "name": "Bizible",
       "image": "https://static.crmtechnologies.com/sites/default/files/Bizible-Tech.png",
       "url": "",
-      "class": ""
-    },
-    {
-      "name": "Cyance",
-      "image": "https://static.crmtechnologies.com/sites/default/files/cyance.png",
-      "url": "https://cyance.com/",
       "class": ""
     },
     {
@@ -163,6 +151,18 @@
       "image": "https://static.crmtechnologies.com/sites/default/files/PF-Tech_0.png",
       "url": "",
       "class": ""
+    },
+    {
+      "name": "Cyance",
+      "image": "https://static.crmtechnologies.com/sites/default/files/cyance.png",
+      "url": "https://cyance.com/",
+      "class": ""
+    },
+    {
+      "name": "Domo",
+      "image": "https://static.crmtechnologies.com/sites/default/files/domo_logo.png",
+      "url": "https://www.domo.com/",
+      "class": "square"
     }
   ]
 }
