@@ -279,8 +279,8 @@ var progPro = (function () {
       progPro.maxProgFields = 4;      
       progPro.fixedFields = [ "emailAddress", "OptIn", "subscribeToEvents1", "subscribeToNewsletter1" ];	
       progPro.firstVisit = [ "firstName", "lastName", "jobTitle", "company" ];
-      progPro.secondVisit = [ "country", "stateProv", "industry1" ];     
-      progPro.thirdVisit = [ "busPhone", "marketingAutomationProvider1" ];   	  
+      progPro.secondVisit = [ "country", "stateProv", "marketingAutomationProvider1" ];     
+      progPro.thirdVisit = [ "busPhone", "industry1" ];   	  
 	  
 	progPro.contactFields = [
 		[ 
