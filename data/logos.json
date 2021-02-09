@@ -111,6 +111,12 @@
   ],
   "partners": [
     {
+      "name": "Cience ",
+      "image": "https://static.crmtechnologies.com/sites/default/files/cience_logoSmall-png.png",
+      "url": "https://cience.com/",
+      "class": ""
+    },
+    {
       "name": "Bombora",
       "image": "https://static.crmtechnologies.com/sites/default/files/Bombora-Tech.png",
       "url": "https://bombora.com",
