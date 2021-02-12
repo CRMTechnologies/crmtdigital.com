@@ -9,9 +9,6 @@ Staging URL: https://staging--zealous-liskov-3ee2f4.netlify.app/
 
 -------
 
-TODO:
-* Google Tag Manager [Push Live & Update GTM tag]
-
 MISSING CONTENT:
 * Preference Centre
 * Tag List on Excellence Hub
