@@ -5,7 +5,7 @@ description: Marketing Operations is playing a critical role in the future of gl
 keywords:
 - Marketing Operations
 - Marketing
-image: https://img.en25.com/EloquaImages/clients/CRMTechnologies/%7Bc052d1f0-df11-4641-87df-a5f101e8a9d8%7D_MOPs-Whitepaper-LP.jpg
+image: https://static.crmtechnologies.com/sites/default/files/MOPs-Whitepaper-LP.jpg
 thumbnail: https://static.crmtechnologies.com/sites/default/files/whitepaper-exc-hub_0.png
 cta_image: https://static.crmtechnologies.com/sites/default/files/mops-whitepaper-thumb_0.png
 cta: Read More
@@ -27,4 +27,4 @@ Marketing Operations is playing a critical role in the future of global  marketi
 * Industrialization of shared marketing services.
 * Taming of technology and standardization of processes.
 
-[Download](http://crmtechnologies.lookbookhq.com/c/marketing-ops-time-to-shine?x=Pylp84) our Marketing Operations Whitepaper to start influencing change.
+Download our Marketing Operations Whitepaper to start influencing change.
