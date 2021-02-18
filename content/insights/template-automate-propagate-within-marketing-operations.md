@@ -19,7 +19,7 @@ title = "Template, Automate, Propagate within Marketing Operations "
 +++
 There is some truth in the joke:
 
-![](sites/default/files/image1.png)
+![Templating. Automation](https://static.crmtechnologies.com/sites/default/files/image1.png)
 
 ### BUT WHY DO WE DO IT?
 
