@@ -14,7 +14,7 @@ if (body.data.OptIn == "on") {
 }
 
 var insightComms = false;
-if (body.data.insights == "on") {
+if (body.data.subscribeToNewsletter1 == "on") {
 	insightComms = true;
 }	
 
