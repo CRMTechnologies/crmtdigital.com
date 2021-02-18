@@ -19,7 +19,7 @@ title = "Template, Automate, Propagate within Marketing Operations "
 +++
 There is some truth in the joke:
 
-src="https://static.crmtechnologies.com/sites/default/files/image1.png
+<img src="https://static.crmtechnologies.com/sites/default/files/image1.png >
 
 ### BUT WHY DO WE DO IT?
 
