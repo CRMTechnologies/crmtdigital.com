@@ -17,7 +17,7 @@ testimonial = ""
 title = "Template, Automate, Propagate within Marketing Operations "
 
 +++
-We all know the joke, developers spend ages automating a task that would take a fraction of the time to actually do.
+We all know the joke, developers spend ages automating a task that would take a fraction of the time to actually do. There is certainly some truth in this meme.
 
 ![Templating. Automation](https://static.crmtechnologies.com/sites/default/files/image1.png)
 
