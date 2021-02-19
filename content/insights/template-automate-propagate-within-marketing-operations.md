@@ -56,3 +56,5 @@ Now that you know the answers to the above you can see how urgent it is to impro
 * Campaign Reporting
 
 But this list is not exhaustive. . We in Marketing Ops have a difficult and exciting challenge in keeping up with the latest trends. The last thing we want is to waste time on following and maintaining repetitive processes. And that is why you should be looking to Template where possible, offload the heavy lifting to bots and automated workflows and share these process/improvements with the wider organisation. This will make your marketing function not only more efficient, but it will also allow you to become more strategic.
+
+_Written by Dan Petersen – Digital Marketing Consultant, CRMT Digital_
