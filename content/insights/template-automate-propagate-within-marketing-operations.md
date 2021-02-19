@@ -2,7 +2,7 @@
 author = "Dan Petersen"
 banner_type = "none"
 date = 2021-02-17T23:00:00Z
-description = "Templating and automating are the two main not-so-secret weapons of Marketing Ops. They allow us to be more efficient, accurate and precise. Here are a few examples of how ans where to use templating and automation."
+description = "Templating and automating are the two main not-so-secret weapons of Marketing Ops. They allow us to be more efficient, accurate and precise. Here are a few examples of how and where to use templating and automation."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Template-Propagate-Automate_Banner.jpg"
