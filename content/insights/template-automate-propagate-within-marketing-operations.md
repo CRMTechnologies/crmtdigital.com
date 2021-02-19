@@ -33,7 +33,10 @@ Our Demand.Center platform is designed for this purpose. The core concept is "ne
 
 ### HOW DO I GET STARTED?
 
-But you don't always need a new Platform to start automating. It is a about a mindset of making processes repeatable and then aiming to automate as much possible. This is a key trend in businesses in general and in marketing ops even more so: [https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/](https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/ "https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/") It will help us all in becoming more efficient, more accurate and precise. Many tools we have that are commonplace also allow for automating the tedious stuff. Here are a few that save me hours every day!
+But you don't always need a new Platform to start automating. It is a about a mindset of making processes repeatable and then aiming to automate as much possible. This is a key trend in businesses in general and in marketing ops even more so:   
+[https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/](https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/ "https://chiefmartec.com/2020/11/martech-2030-trend-1-code-citizen-creators/") 
+
+It will help us all in becoming more efficient, more accurate and precise. Many tools we have that are commonplace also allow for automating the tedious stuff. Here are a few that save me hours every day!
 
 1. **Excel PowerQuery** - you don't need to be a Data expert to delve into this awesome feature of Excel. You can store simple processing steps such as moving/ hiding columns, filtering values, and sorting. The bigger the data set the easier the data manipulation.
 2. **Jira Automate** - while every company has its task management platform of choice the configuration and automation of task creation make this a real time saver.
@@ -55,6 +58,6 @@ Now that you know the answers to the above you can see how urgent it is to impro
 * Webinar end-to-end deployment
 * Campaign Reporting
 
-But this list is not exhaustive. . We in Marketing Ops have a difficult and exciting challenge in keeping up with the latest trends. The last thing we want is to waste time on following and maintaining repetitive processes. And that is why you should be looking to Template where possible, offload the heavy lifting to bots and automated workflows and share these process/improvements with the wider organisation. This will make your marketing function not only more efficient, but it will also allow you to become more strategic.
+But this list is not exhaustive. We in Marketing Ops have a difficult and exciting challenge in keeping up with the latest trends. The last thing we want is to waste time on following and maintaining repetitive processes. And that is why you should be looking to Template where possible, offload the heavy lifting to bots and automated workflows and share these process/improvements with the wider organisation. This will make your marketing function not only more efficient, but it will also allow you to become more strategic.
 
 _Written by Dan Petersen – Digital Marketing Consultant, CRMT Digital_
