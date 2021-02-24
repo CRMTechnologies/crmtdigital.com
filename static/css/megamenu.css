@@ -17,12 +17,13 @@
 
 .megaLink {
     font-size: 1.2em;
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 
 .megaLink:focus, hover {
-    color: #002D55;
-    background-color: #009FE3; 
+    color: white;
+    text-decoration: none;
+    background-color: #002D55; 
 }
 
 .descText {
