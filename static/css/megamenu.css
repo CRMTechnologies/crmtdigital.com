@@ -17,7 +17,7 @@
 
 .megaLinkBlue {
     font-size: 1.2em;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .megaLinkBlue:focus, hover {
@@ -28,7 +28,7 @@
 
 .megaLinkGreen {
     font-size: 1.2em;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .megaLinkGreen:focus, hover {
@@ -43,6 +43,7 @@
 
 .img-fluid {
     max-width: 70%;
+    padding-bottom: 5px;
 }
 
 .caseTitle {
