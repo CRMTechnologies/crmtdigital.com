@@ -1,0 +1,34 @@
+.dropdown {
+    position: static !important;
+    margin: auto;
+}
+
+.dropdown-menu {
+    width:100%;
+}
+
+.blueText {
+    color: #009FE3;
+}
+
+.greenText {
+    color: #a2bd1a
+}
+
+.megaLink {
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+.megaLink:focus, hover {
+    color: #002D55;
+    background-color: #009FE3; 
+}
+
+.descText {
+    font-size: 1em;
+}
+
+.img-fluid {
+    max-width: 70%;
+}
