@@ -15,15 +15,26 @@
     color: #a2bd1a
 }
 
-.megaLink {
+.megaLinkBlue {
     font-size: 1.2em;
     padding: 5px 10px;
 }
 
-.megaLink:focus, hover {
+.megaLinkBlue:focus, hover {
     color: white;
     text-decoration: none;
     background-color: #002D55; 
+}
+
+.megaLinkGreen {
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+.megaLinkGreen:focus, hover {
+    color: white;
+    text-decoration: none;
+    background-color: #00851d 
 }
 
 .descText {
@@ -33,3 +44,11 @@
 .img-fluid {
     max-width: 70%;
 }
+
+.caseTitle {
+    padding: 0 0 5px 0;
+}
+
+.caseTitle:focus, hover {
+    text-decoration: none;
+    background-color: #002D55; 
