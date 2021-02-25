@@ -5,6 +5,7 @@
 
 .dropdown-menu {
     width:100%;
+    background-color: darkslategrey;
 }
 
 .blueText {
@@ -16,29 +17,28 @@
 }
 
 .megaLinkBlue {
-    font-size: 1.2em;
-    padding: 10px 15px;
+    font-size: 1em;
+    padding: 8px 10px; 
 }
 
-.megaLinkBlue:focus, hover {
-    color: white;
+.megaLinkBlue:hover {
+    
     text-decoration: none;
     background-color: #002D55; 
 }
 
-.megaLinkGreen {
-    font-size: 1.2em;
-    padding: 10px 15px;
+/* .megaLinkGreen {
+    font-size: 1em;
+    padding: 8px 10px;
 }
 
-.megaLinkGreen:focus, hover {
-    color: white;
+.megaLinkGreen:hover {
     text-decoration: none;
-    background-color: #00851d 
+    background-color: #006315  */
 }
 
 .descText {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .img-fluid {
@@ -52,4 +52,4 @@
 
 .caseTitle:focus, hover {
     text-decoration: none;
-    background-color: #002D55; 
+    background-color: #006315; 
