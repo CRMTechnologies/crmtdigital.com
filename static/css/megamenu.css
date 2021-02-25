@@ -50,7 +50,7 @@
     padding: 0 0 5px 0;
 }
 
-.caseTitle:focus, hover {
+.caseTitle:hover {
     text-decoration: none;
     background-color: #006315; 
 }
