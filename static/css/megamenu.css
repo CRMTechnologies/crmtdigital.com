@@ -34,12 +34,12 @@
 
 .megaLinkGreen:hover {
     text-decoration: none;
-    background-color: #006315  */
-}
+    background-color: #006315 
+}  */
 
 .descText {
     font-size: 0.8em;
-}
+} 
 
 .img-fluid {
     max-width: 70%;
@@ -53,3 +53,4 @@
 .caseTitle:focus, hover {
     text-decoration: none;
     background-color: #006315; 
+}
