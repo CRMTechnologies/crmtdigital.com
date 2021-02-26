@@ -4,7 +4,7 @@
 }
 
 .dropdown-menu {
-    width:100%;
+    width: 100%;
 }  
 
 .blueText {
@@ -70,4 +70,9 @@
     text-decoration: none;
     background-color: #006315; 
     border-radius: 20px;
+}
+
+/* Products */
+.imgLogo {
+    height: 30px;
 }
