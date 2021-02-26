@@ -5,6 +5,7 @@
 
 .dropdown-menu {
     width: 100%;
+    padding: 20px 0;
 }  
 
 .blueText {
@@ -24,9 +25,9 @@
     font-size: 1.2em;
 }
 
-/* .megaLinkBlue {
-    padding: 10px 15px; 
-} */
+.megaLinkBlue {
+    width: fit-content;
+} 
 
 .megaLinkBlue:hover {
     color: white;
@@ -50,8 +51,8 @@
     margin-bottom: 12px;
 } 
 
-.bckGreen {
-    background-color: lightgray;
+.borderLeft {
+    border-left: 1px solid gray;
 }
 
 .caseImg {
