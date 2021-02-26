@@ -5,8 +5,7 @@
 
 .dropdown-menu {
     width:100%;
-    background-color: darkslategrey;
-}
+}  
 
 .blueText {
     color: #009FE3;
@@ -20,10 +19,14 @@
     margin-bottom: 5px;
 }
 
-.megaLinkBlue {
-    font-size: 1em;
-    padding: 10px 15px; 
+.navLinkStyle {
+    padding-bottom: 7px;
+    font-size: 1.2em;
 }
+
+/* .megaLinkBlue {
+    padding: 10px 15px; 
+} */
 
 .megaLinkBlue:hover {
     color: white;
@@ -53,8 +56,9 @@
 }
 
 .caseTitle {
-    padding: 0 0 5px 0;
+    padding: 5px 15px;
     margin-bottom: 5px;
+    width: fit-content;
 }
 
 .caseTitle:hover {
