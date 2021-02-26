@@ -50,7 +50,11 @@
     margin-bottom: 12px;
 } 
 
-.img-fluid {
+.bckGreen {
+    background-color: lightgray;
+}
+
+.caseImg {
     max-width: 70%;
     padding-bottom: 5px;
 }
