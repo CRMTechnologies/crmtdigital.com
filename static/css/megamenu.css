@@ -10,21 +10,26 @@
 
 .blueText {
     color: #009FE3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .greenText {
-    color: #a2bd1a
+    color: #a2bd1a;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .megaLinkBlue {
     font-size: 1em;
-    padding: 8px 10px; 
+    padding: 10px 15px; 
 }
 
 .megaLinkBlue:hover {
-    
+    color: white;
     text-decoration: none;
-    background-color: #002D55; 
+    background-color: #002D55;
+    border-radius: 20px;
 }
 
 /* .megaLinkGreen {
@@ -38,7 +43,8 @@
 }  */
 
 .descText {
-    font-size: 0.8em;
+    font-size: 1em;
+    margin-bottom: 12px;
 } 
 
 .img-fluid {
@@ -48,9 +54,12 @@
 
 .caseTitle {
     padding: 0 0 5px 0;
+    margin-bottom: 5px;
 }
 
 .caseTitle:hover {
+    color: white;
     text-decoration: none;
     background-color: #006315; 
+    border-radius: 20px;
 }
