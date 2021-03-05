@@ -21,8 +21,9 @@
 }
 
 .navLinkStyle {
-    padding-bottom: 7px;
-    font-size: 1.2em;
+    padding-bottom: 5px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 .megaLinkBlue {
@@ -58,6 +59,7 @@
 .caseImg {
     max-width: 70%;
     padding-bottom: 5px;
+    border-radius: 10px;
 }
 
 .caseTitle {
@@ -73,7 +75,6 @@
     border-radius: 20px;
 }
 
-/* Products */
-.imgLogo {
-    height: 30px;
+.prodImg {
+    max-width: 25%;
 }
