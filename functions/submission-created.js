@@ -48,7 +48,6 @@ if(body.data.elqFormName == "20contactus") {
 		}
 	  ],
 	  "context": {
-		"hutk": body.data.hutk, 
 		"pageUri": body.data.referrer,
 		"pageName": body.data.asset,
 		"ipAddress": body.data.ip
