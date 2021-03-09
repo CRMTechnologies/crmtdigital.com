@@ -124,7 +124,6 @@ if(body.data.elqFormName == "20contactus") {
 		}	  
 	  ],
 	  "context": {
-		"hutk": body.data.hutk, 
 		"pageUri": body.data.referrer,
 		"pageName": body.data.asset,
 		"ipAddress": body.data.ip
@@ -156,6 +155,10 @@ if(body.data.elqFormName == "20contactus") {
 	
 }
 
+if (body.data.hutk != "") {
+	post_data2.context.hutk = body.data.hutk;
+}
+	
   console.log(post_data2);
 	
   // An object of options to indicate where to post to
@@ -177,14 +180,14 @@ if(body.data.elqFormName == "20contactus") {
 			statusCode: 200,
 			body:  "Done" 
 		});
-		console.log( "Done" );	      
+		console.log( "Done: " + chunk );	      
       });
       res.on('error', function (e) {
 		callback(null, {
 			statusCode: 400,
-			body:  "Failed " + e.message 
+			body:  "Failed" 
 		});
-		console.log( "Failed " + e.message );
+		console.log( "Failed: " + e );
       });
 
   });
