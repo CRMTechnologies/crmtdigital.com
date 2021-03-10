@@ -3,7 +3,6 @@ author = "CRMT Digital"
 banner_type = "none"
 date = 2021-03-09T23:00:00Z
 description = "Our Demand.Center platform has earned us two nominations for this year’s B2B Marketing MarTech Awards - UK-founded martech vendor of the year and Emerging vendor of the year."
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/We've-been-shortlisted-web-banner.png"
