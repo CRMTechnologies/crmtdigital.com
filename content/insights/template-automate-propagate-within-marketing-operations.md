@@ -12,7 +12,7 @@ resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = ""
 slug = "template-automate"
 subheading = ""
-tags = ["marketing ops", "marketing automation"]
+tags = ["Marketing Ops", "Marketing Automation"] 
 testimonial = ""
 title = "Template, Automate, Propagate within Marketing Operations "
 
