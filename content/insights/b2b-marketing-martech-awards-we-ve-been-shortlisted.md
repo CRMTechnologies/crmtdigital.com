@@ -12,7 +12,7 @@ resource = "excellence-hub/developing-a-demand-center.md"
 show_contact = "form"
 slug = "b2b-martech-awards-shortlisted"
 subheading = ""
-tags = []
+tags = ["Demand Center"]
 testimonial = ""
 title = "B2B Marketing MarTech Awards: We’ve Been Shortlisted! "
 
