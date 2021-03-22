@@ -10,6 +10,7 @@
 
 .blueText {
     color: #009FE3;
+    padding-left: 0px;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
@@ -21,20 +22,26 @@
 }
 
 .navLinkStyle {
+    padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1em;
     line-height: 1.5em;
 }
 
+.nav-link:active {
+    color: #009FE3;
+}
+
 .megaLinkBlue {
     width: fit-content;
+    padding: 10px 15px;
 } 
 
 .megaLinkBlue:hover {
     color: white;
     text-decoration: none;
     background-color: #002D55;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 /* .megaLinkGreen {
@@ -50,6 +57,7 @@
 .descText {
     font-size: 1em;
     margin-bottom: 12px;
+    padding-left: 15px;
 } 
 
 .borderLeft {
@@ -76,5 +84,5 @@
 }
 
 .prodImg {
-    max-width: 25%;
+    max-width: 45%;
 }
