@@ -5,14 +5,22 @@
 
 .dropdown-menu {
     width: 100%;
-    padding: 20px 0;
 }  
+
+.dropTransp {
+    background-color: transparent;
+}
+
+.megaBckg {
+    background-color:  #194266;
+    padding: 20px;
+    border-radius: 5px;
+}
 
 .blueText {
     color: #009FE3;
-    padding-left: 0px;
     padding-bottom: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;s
 }
 
 .greenText {
@@ -83,6 +91,13 @@
     border-radius: 20px;
 }
 
+.lrnMore {
+    font-size: 0.8em;
+    color: lightgray;
+}
+
 .prodImg {
     max-width: 45%;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
