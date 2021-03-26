@@ -1,7 +1,7 @@
 +++
 author = "CRMT Digital"
 banner_type = "none"
-date = ""
+date = 2021-03-25T23:00:00Z
 description = "Our Demand.Center platform has own a Silver award this year’s B2B Marketing MarTech Awards for Emerging vendor of the year."
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
