@@ -1,15 +1,15 @@
 +++
-author = "CRMT Digital"
-banner_type = "highlight"
-date = ""
+author = "Dorina Axhirexha"
+banner_type = "none"
+date = 2021-04-01T10:00:00Z
 description = "Acquia Campaign Studio has been on the market for a while, but it started to hit charts just recently. And for a good reason. This fully featured, customisable tool has become one of our favourites too! "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
-intro = ""
-keywords = []
-resource = []
-show_contact = ""
+image = "https://static.crmtechnologies.com/sites/default/files/Acquia Campaign Studio.jpg"
+intro = "As a marketing automation enthusiast, I am always interested to learn about technologies that can streamline and scale marketing efforts. So far, I've used several well-known marketing automation (MA) tools, but today I want to write about Acquia Campaign Studio and some of its main features that I absolutely love."
+keywords = ["acquia campaign studio", "marketing automation tools", "marketing automation"]
+resource = "excellence-hub/my-awesome-guide-to-the-future-of-marketing-automation.md"
+show_contact = "form"
 slug = "acquia-campaign-studio-review"
 subheading = ""
 tags = []
@@ -17,8 +17,6 @@ testimonial = ""
 title = "Acquia Campaign Studio - a Marketing Automation enthusiast’s honest review"
 
 +++
-As a marketing automation enthusiast, I am always interested to learn about technologies that can streamline and scale marketing efforts. So far, I've used several well-known marketing automation (MA) tools, but today I want to write about Acquia Campaign Studio and some of its main features that I absolutely love.
-
 I've been using Acquia Campaign Studio for years and what I admire about it is that even though it hasn’t been in the market for decades like some of the other players, it came through as a fully featured MA tool. Recently, it has been hitting the top of the charts, rubbing shoulders with well-established marketing automation tools, so it is worth looking at what I think makes this product outstanding.
 
 ## What is Acquia Campaign Studio?
