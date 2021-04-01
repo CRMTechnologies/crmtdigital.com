@@ -14,7 +14,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "Acquia Campaign Studio - a Marketing Automation enthusiast’s honest review"
+title = "Acquia Campaign Studio - a Marketing Automation enthusiast’s review"
 
 +++
 As a marketing automation enthusiast, I am always interested to learn about technologies that can streamline and scale marketing efforts. So far, I've used several well-known marketing automation (MA) tools, but today I want to write about Acquia Campaign Studio and some of its main features that I absolutely love.
@@ -27,7 +27,7 @@ Mautic was founded in 2007 and was acquired by Acquia in 2019. Its name was chan
 
 There are numerous benefits from using it, however low or zero upfront cost and full data ownership are the core USP’s small and medium businesses as well as enterprises find attractive when compared to other tools. Moreover, it holds an EU privacy shield meaning that you can create content fully compliant with GDPR rules, and because you can run it off your own servers there is no need to transfer data to third parties.
 
-![Acquia](sites/default/files/Acquia_CampaignStudio_Dashboard.png "Acquia_Campaign Studio Dashboard")
+![Acquia](https://static.crmtechnologies.com/sites/default/files/Acquia_CampaignStudio_Dashboard.png "Acquia_Campaign Studio Dashboard")
 
 In the following you will read a quick review and about ACS as a marketing automation tool and insights for few of our favourite features such as: lead management, communication channels, user interface, tracking and reporting.
 
@@ -49,11 +49,11 @@ The Marketing Messages channel is the cherry on top of the cake. You can set up 
 
 What I love the most about ACS is its user interface. Unlike many other CRM and MA tools that require time and dedication to learn and get used to them, getting along with Acquia Campaign Studio is easy because of its intuitive and well-organized view. As an illustration let’s have a look at the email and campaign builder.
 
-![Acquia_Campaign-Studio-Email-Editor](sites/default/files/Acquia_CampaignStudio_EmailEditor.png "Acquia_Campaign Studio Email Editor")
+![Acquia](https://static.crmtechnologies.com/sites/default/files/Acquia_CampaignStudio_EmailEditor.png "Acquia_Campaign Studio Email Editor")
 
 Creating a well-structured email in Acquia Campaign Studio can be done in few steps. You can choose from the well-designed templates or add your custom HTML code. Acquia Campaign Studio’s built-in email creator is straight-forward to use with drag and drop features, yet customizable at a high level. Campaign Builder is where your marketing automation plan lives and it has a self-explanatory view. You can create anything, from simple onboarding campaigns to complex nurturing automation plans with a single campaign creation view and easy to be understood by everyone. By adding custom labels, you can name each step in your journey without the need to remember the internal names of segments and emails.
 
-![Acquia_Campaign-Studio-Campaign-Editor](sites/default/files/Acquia_CampaignStudio_CampaignEditor.png "Acquia_Campaign Studio Campaign Editor")
+![Acquia](https://static.crmtechnologies.com/sites/default/files/Acquia_CampaignStudio_CampaignEditor.png "Acquia_Campaign Studio Campaign Editor")
 
 You can also use various Decision, Action and Condition steps to create a highly customizable journey. Within this campaign flow view, you can trigger or schedule actions that depend on the contact’s behaviour in timeline. Moreover, your stakeholders don’t have to put efforts in understanding what and who is affected through the journey, because all audience segments and actions are tied together within a single view. These features make the campaign flow come out as a clean, organized and easy to understand customer journey.
 
@@ -83,11 +83,11 @@ In addition to website tracking, ACS offers a quite robust tracking in forum pos
 
 ACS includes a sophisticated reporting tool. You can get detailed insights about: assets, asset downloads, campaign events, messages, emails, form and form submissions, contacts, companies, pages and mobile notifications. What I like the most about reporting is that you can add filters and sort data before they are being processed for display or export. Hence, you can get great insights about a specific event, contact, or asset by manipulating the available filters.
 
-![Acquia_Campaign-Studio-Reporting-1](sites/default/files/Acquia_CampaignStudio_Reporting1.png "Acquia_Campaign Studio Reporting 1")
+![Acquia](https://static.crmtechnologies.com/sites/default/files/Acquia_CampaignStudio_Reporting1.png "Acquia_Campaign Studio Reporting 1")
 
-Similar solutions usually have a predefined table schema for reports, and you cannot change those easily. You would either need an admin account or you won’t be able to make changes at all. In that case, you might end up with a large table of data that will require additional efforts for further classification and data processing. In ACS, report filters will save your life! You can select if you want to generate a report about: campaign, form, landing page, email and so on, and then you can choose manually which columns to add to it. Don’t be scared! You don’t have to do this all the time because report templates can be saved and then reused (or modified) anytime.   
-  
-![Acquia_Campaign-Studio-Reporting-2](sites/default/files/Acquia_CampaignStudio_Reporting2.png "Acquia_Campaign Studio Reporting 2")
+Similar solutions usually have a predefined table schema for reports, and you cannot change those easily. You would either need an admin account or you won’t be able to make changes at all. In that case, you might end up with a large table of data that will require additional efforts for further classification and data processing. In ACS, report filters will save your life! You can select if you want to generate a report about: campaign, form, landing page, email and so on, and then you can choose manually which columns to add to it. Don’t be scared! You don’t have to do this all the time because report templates can be saved and then reused (or modified) anytime.
+
+![Acquia](https://static.crmtechnologies.com/sites/default/files/Acquia_CampaignStudio_Reporting2.png "Acquia_Campaign Studio Reporting 2")
 
 ## Summary
 
