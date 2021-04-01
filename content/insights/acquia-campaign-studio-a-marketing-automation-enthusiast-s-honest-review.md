@@ -14,7 +14,7 @@ slug = "acquia-campaign-studio-review"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Acquia Campaign Studio - a Marketing Automation enthusiast’s review"
+title = "Acquia Campaign Studio - a Marketing Automation enthusiast’s honest review"
 
 +++
 As a marketing automation enthusiast, I am always interested to learn about technologies that can streamline and scale marketing efforts. So far, I've used several well-known marketing automation (MA) tools, but today I want to write about Acquia Campaign Studio and some of its main features that I absolutely love.
