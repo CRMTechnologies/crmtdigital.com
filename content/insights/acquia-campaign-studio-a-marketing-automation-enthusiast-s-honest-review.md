@@ -2,7 +2,7 @@
 author = "CRMT Digital"
 banner_type = "highlight"
 date = ""
-description = "Marketing Automation tools are a must for "
+description = "Acquia Campaign Studio has been on the market for a while, but it started to hit charts just recently. And for a good reason. This fully featured, customisable tool has become one of our favourites too! "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
