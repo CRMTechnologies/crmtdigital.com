@@ -2,7 +2,7 @@
 author = "Dorina Axhirexha"
 banner_type = "none"
 date = 2021-04-01T10:00:00Z
-description = "Acquia Campaign Studio has been on the market for a while, but it started to hit charts just recently. And for a good reason. This fully featured, customisable tool has become one of our favourites too! "
+description = "Acquia Campaign Studio has been on the market for a while, but it started to hit charts recently. And for good reason. This fully featured, customisable tool has become one of our favourites too! "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Acquia Campaign Studio.jpg"
