@@ -28,7 +28,7 @@ if(body.data.elqFormName == "20contactus") {
 		},
 		{
 		  "name": "firstname",
-		  "value": body.data.firstnme
+		  "value": body.data.firstname
 		},
 		{
 		  "name": "lastname",
