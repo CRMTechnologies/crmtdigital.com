@@ -1,21 +1,20 @@
 +++
 author = "CRMT Digital"
 banner_type = "none"
-date = ""
-description = "Jumping on the "
-draft = true
+date = 2021-04-23T10:00:00Z
+description = "Jumping on the DIY data trend and getting all the tools and platforms you can put your hands on doesn't necessarily mean you'll get valuable insights. But you need to make sure that you have the right data and interpret it correctly. "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/data-charts.jpg"
 intro = "If you watch me perform DIY, it will quickly become apparent that the right tools in the wrong hands are ineffective. As my thumbs can attest to, a hammer in the wrong hands can deliver more damage than good."
-keywords = []
-resource = []
-show_contact = ""
-slug = ""
+keywords = ["data literacy", "data collection", "data analytics", "data"]
+resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.md"
+show_contact = "form"
+slug = "data-literacy-data-culture"
 subheading = ""
 tags = []
 testimonial = ""
-title = "Data Literacy and DIY Data – The Road Towards Data Driven Culture"
+title = "Data Literacy - The Road Towards a Data Driven Culture"
 
 +++
 We are surrounded by more and more data in our everyday lives. Casual sports fans will have noted the prominence of stats surrounding every single possible action in a game, with many actively holding up their favourites against another in a battle of wills. At times, these are considered and thought-provoking debates – in other states, misinformed and lacking wider context. Bookmakers capitalise on this, advertising the stats available across betting markets.
