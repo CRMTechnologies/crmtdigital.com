@@ -1,7 +1,7 @@
 +++
 author = "Jamie Webb"
 banner_type = "none"
-date = 2021-04-23T10:00:00Z
+date = 2021-04-27T10:00:00Z
 description = "Jumping on the DIY data trend and getting all the tools and platforms you can put your hands on doesn't necessarily mean you'll get valuable insights. But you need to make sure that you have the right data and interpret it correctly. "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
