@@ -40,3 +40,5 @@ Take interest into each data source, understand what drives the data points and 
 In closing, remember that data does not necessarily mean insight… and that insight does not always lead to the correct action being taken. Even the most informed decisions can lead to failure, but it certainly improves your overall chances vs a punt. Strategically, you will need to show some patience, resilience and focus to keep progressing your data driven culture.
 
 With the right people, being given the right context, empowered by the right tools at the right time, you have a winning formula for success. Now don’t forget to give the post a thumbs up (like), and remember that you do not need suffer with a ‘throbbing thumb’ when it comes to delivering on your vision of data driven marketing.
+
+*Written by Jamie Webb – Senior Digital Marketing Specialist, CRMT Digital*
