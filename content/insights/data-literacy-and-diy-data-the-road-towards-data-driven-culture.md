@@ -12,7 +12,7 @@ resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.
 show_contact = "form"
 slug = "data-literacy-data-culture"
 subheading = ""
-tags = []
+tags = ["data"]
 testimonial = ""
 title = "Data Literacy - The Road Towards a Data Driven Culture"
 
