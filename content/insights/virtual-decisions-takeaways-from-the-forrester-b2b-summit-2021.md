@@ -34,7 +34,7 @@ The newly announced “Forrester B2B Revenue Waterfall” goes further by embrac
 
 Oh, and the idea that the waterfall is represented as a funnel has gone. In real-life our funnels took on all sorts of bulges and contractions at the different funnel stages rather than the perfectly formed sloping sides seen in numerous best practice examples. Forrester have recognised this by turning the waterfall into a horizontal bar chart. Data analysts and dashboard designers will be rejoicing!
 
-Customer Retention Rules!
+1. Customer Retention Rules!
 
 There was a timely reminder at the Summit that marketers have typically focused their efforts and budgets on customer acquisition. In this new era of RevOps revenue contribution and influence become the overriding measures (as opposed to the value of MQL’s or Leads). This was brought home by one statistic that came out of recent research performed by Forrester:
 
@@ -42,7 +42,7 @@ _To replace one lost Retention opportunity you will, on average, need to find si
 
 This certainly puts priorities into perspective and further drives the necessity for Sales and Marketing (and Customer Service) to be fully aligned throughout the entire customer lifecycle.
 
-1. **Goodbye MQL’s hello Opportunities**
+1. Goodbye MQL’s hello Opportunities
 
 As a concept, the Lead record found on all CRM systems must now be close to 20 years old. Its purpose and functionality has never really changed in this time - primarily designed to act like a nightclub doorman, protecting access to your precious contact and account records until the right criteria is achieved.
 
@@ -52,7 +52,7 @@ So where does this leave the humble MQL? The MQL represented a single Lead that 
 
 So, together with Lead records, the MQL has been relegated to the archives and Opportunities now become the container for both the marketing and sales pipelines.
 
-1. **B2B Business drivers have changed**
+1. B2B Business drivers have changed
 
 The topic of the last two pandemic years and their influence on buying behaviours was peppered throughout many presentations, but Forrester’s 2021 B2B Buying Survey reflected these changes distinctly.
 
@@ -62,7 +62,7 @@ Adopting a cautious approach, buyers are doing more due diligence than ever, wit
 
 Interestingly both the C-suite and the Finance department are taking a bigger role in buying decisions now than in 2017, reinforcing the need to cover these personas in your buying groups.
 
-1. **The lexicon of B2B Marketing continues to grow**
+1. The lexicon of B2B Marketing continues to grow
 
 Well, I’m certainly familiar with the statistical segmentation terms “demographics” and the more recent company based “firmographics”, but I learnt a new one this year - “Technographics”. I’ve always called it installed base but from here on in I’ll be using the term Technographics at every opportunity to impress.
 
