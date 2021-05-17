@@ -1,13 +1,13 @@
 +++
-author = "CRMT Digital"
-banner_type = "highlight"
-date = ""
+author = "Andrew Freeman"
+banner_type = "none"
+date = 2021-05-17T23:00:00Z
 description = "A review of the Forrester/SiriusDecisions B2B Summit North America 2021"
 draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/iStock-1190012157.jpg"
-intro = ""
+intro = "I have been a serial SiriusDecisions (now Forrester) Summit attendee for over 10 years."
 keywords = ["The Demand Unit Waterfall", "The Revenue Waterfall", "MQL", "SiriusDecisions B2B Summit", "Forrester B2B Summit"]
 resource = []
 show_contact = ""
@@ -18,7 +18,7 @@ testimonial = ""
 title = "Virtual Decisions – Takeaways from the Forrester B2B Summit 2021 "
 
 +++
-I have been a serial SiriusDecisions (now Forrester) Summit attendee for over 10 years. The annual pilgrimage to a swanky stateside hotel via a long transatlantic flight became a right of passage for the serious European B2B Marketing practitioner looking to absorb the latest best practice and research - the “Woodstock of B2B Marketing” as a past attendee described it.
+The annual pilgrimage to a swanky stateside hotel via a long transatlantic flight became a right of passage for the serious European B2B Marketing practitioner looking to absorb the latest best practice and research - the “Woodstock of B2B Marketing” as a past attendee described it.
 
 This year’s journey for me involved a trip downstairs, a comfy sofa and a large mug of coffee. Distractions came in the form of a needy teenager and the 10 o’clock news as opposed to an enticing pool, casino or restaurant.
 
