@@ -26,7 +26,7 @@ This is actually the second year of the Summit going virtual, but this year Forr
 
 As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?) So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
 
-    <li>The Revenue Waterfall</li>
+1. The Revenue Waterfall
 
 The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
 
@@ -34,7 +34,7 @@ The newly announced “Forrester B2B Revenue Waterfall” goes further by embrac
 
 Oh, and the idea that the waterfall is represented as a funnel has gone. In real-life our funnels took on all sorts of bulges and contractions at the different funnel stages rather than the perfectly formed sloping sides seen in numerous best practice examples. Forrester have recognised this by turning the waterfall into a horizontal bar chart. Data analysts and dashboard designers will be rejoicing!
 
-    <li>Customer Retention Rules!</li>
+Customer Retention Rules!
 
 There was a timely reminder at the Summit that marketers have typically focused their efforts and budgets on customer acquisition. In this new era of RevOps revenue contribution and influence become the overriding measures (as opposed to the value of MQL’s or Leads). This was brought home by one statistic that came out of recent research performed by Forrester:
 
