@@ -7,12 +7,12 @@ heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/iStock-1190012157.jpg"
 intro = "I have been a serial SiriusDecisions (now Forrester) Summit attendee for over 10 years."
-keywords = ["Marketing Operations", "The Demand Unit Waterfall", "The Revenue Waterfall", "MQL", "SiriusDecisions B2B Summit", "Forrester B2B Summit"]
+keywords = ["The Demand Unit Waterfall", "The Revenue Waterfall", "MQL", "SiriusDecisions B2B Summit", "Forrester B2B Summit"]
 resource = []
 show_contact = "form"
 slug = "virtual-decisions-b2b-summit"
 subheading = ""
-tags = []
+tags = ["Marketing Operations"]
 testimonial = ""
 title = "Virtual Decisions – Takeaways from the Forrester B2B Summit 2021 "
 
