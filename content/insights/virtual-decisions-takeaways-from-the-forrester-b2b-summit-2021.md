@@ -27,6 +27,7 @@ This is actually the second year of the Summit going virtual, but this year Forr
 As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
 
 
+
 1. **The Revenue Waterfall**
 
 	The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
