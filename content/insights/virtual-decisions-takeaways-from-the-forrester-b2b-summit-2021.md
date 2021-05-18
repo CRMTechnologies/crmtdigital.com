@@ -12,7 +12,7 @@ resource = []
 show_contact = "form"
 slug = "virtual-decisions-b2b-summit"
 subheading = ""
-tags = ["Marketing Operations"]
+tags = []
 testimonial = ""
 title = "Virtual Decisions – Takeaways from the Forrester B2B Summit 2021 "
 
