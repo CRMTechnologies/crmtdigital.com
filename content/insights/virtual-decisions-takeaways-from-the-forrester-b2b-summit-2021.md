@@ -40,7 +40,7 @@ As usual, content came thick and fast with a very welcome “On Demand” replay
 
 	There was a timely reminder at the Summit that marketers have typically focused their efforts and budgets on customer acquisition. In this new era of RevOps revenue contribution and influence become the overriding measures (as opposed to the value of MQL’s or Leads). This was brought home by one statistic that came out of recent research performed by Forrester:
 
-_	To replace one lost Retention opportunity you will, on average, need to find six Upsell opportunities or sixteen Cross-sell opportunities or a staggering thirty Acquisition opportunities._
+	_To replace one lost Retention opportunity you will, on average, need to find six Upsell opportunities or sixteen Cross-sell opportunities or a staggering thirty Acquisition opportunities._
 
 	This certainly puts priorities into perspective and further drives the necessity for Sales and Marketing (and Customer Service) to be fully aligned throughout the entire customer lifecycle.
 
