@@ -24,8 +24,9 @@ This year’s journey for me involved a trip downstairs, a comfy sofa and a larg
 
 This is actually the second year of the Summit going virtual, but this year Forrester had time to maximise the attendee experience with their virtual Summit platform. Much like the physical event, this gave opportunities for peer networking, browsing the vendor Marketplace, entertainment (courtesy of the exuberant Jennifer Hudson) and even lunch, via an Uber Business voucher.
 
-As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.  
- 
+As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
+
+\###
 
 1. **The Revenue Waterfall**
 
