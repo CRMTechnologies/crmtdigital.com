@@ -3,7 +3,6 @@ author = "Andrew Freeman"
 banner_type = "none"
 date = 2021-05-17T23:00:00Z
 description = "A review of the Forrester/SiriusDecisions B2B Summit North America 2021"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/iStock-1190012157.jpg"
