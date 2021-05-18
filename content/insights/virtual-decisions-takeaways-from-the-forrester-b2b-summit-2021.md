@@ -26,13 +26,15 @@ This is actually the second year of the Summit going virtual, but this year Forr
 
 As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
 
+
 1. **The Revenue Waterfall**
 
-The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
+	The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
 
-The newly announced “Forrester B2B Revenue Waterfall” goes further by embracing Revenue Ops principles, fully combining the marketing and sales pipelines. It also importantly (especially given the last couple of years) recognises that “Demand” i.e. customer acquisition is only one of typically four types of opportunity that will move through the Waterfall. So acquisition is now joined by its bedfellows - retention, cross-sell and upsell. Each have their own average conversion rates and velocities and therefore demand separate measurement and optimisation.
+	The newly announced “Forrester B2B Revenue Waterfall” goes further by embracing Revenue Ops principles, fully combining the marketing and sales pipelines. It also importantly (especially given the last couple of years) recognises that “Demand” i.e. customer acquisition is only one of typically four types of opportunity that will move through the Waterfall. So acquisition is now joined by its bedfellows - retention, cross-sell and upsell. Each have their own average conversion rates and velocities and therefore demand separate measurement and optimisation.
 
-Oh, and the idea that the waterfall is represented as a funnel has gone. In real-life our funnels took on all sorts of bulges and contractions at the different funnel stages rather than the perfectly formed sloping sides seen in numerous best practice examples. Forrester have recognised this by turning the waterfall into a horizontal bar chart. Data analysts and dashboard designers will be rejoicing!
+	Oh, and the idea that the waterfall is represented as a funnel has gone. In real-life our funnels took on all sorts of bulges and contractions at the different funnel stages rather than the perfectly formed sloping sides seen in numerous best practice examples. Forrester have recognised this by turning the waterfall into a horizontal bar chart. Data analysts and dashboard designers will be rejoicing!
+
 
 1. **Customer Retention Rules!**
 
