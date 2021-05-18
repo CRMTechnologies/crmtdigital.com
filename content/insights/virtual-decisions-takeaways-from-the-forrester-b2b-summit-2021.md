@@ -25,6 +25,7 @@ This is actually the second year of the Summit going virtual, but this year Forr
 
 As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
 
+
 <h3>1. The Revenue Waterfall</h3>
 
 The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
@@ -41,6 +42,7 @@ _To replace one lost Retention opportunity you will, on average, need to find si
 
 This certainly puts priorities into perspective and further drives the necessity for Sales and Marketing (and Customer Service) to be fully aligned throughout the entire customer lifecycle.
 
+
 <h3>3. Goodbye MQL’s hello Opportunities</h3>
 
 As a concept, the Lead record found on all CRM systems must now be close to 20 years old. Its purpose and functionality has never really changed in this time - primarily designed to act like a nightclub doorman, protecting access to your precious contact and account records until the right criteria is achieved.
@@ -50,6 +52,7 @@ In today’s buying group based world the Lead record no longer cuts the mustard
 So where does this leave the humble MQL? The MQL represented a single Lead that matched your “let them in” criteria and showed enough interest to be considered good enough to pass to Sales or your BDR team. However, buying groups could potentially become multiple MQL’s for the same opportunity or worse important members of the buying group could be missed because they scored below the MQL threshold.
 
 So, together with Lead records, the MQL has been relegated to the archives and Opportunities now become the container for both the marketing and sales pipelines.
+
 
 <h3>4. B2B Business drivers have changed</h3>
 
