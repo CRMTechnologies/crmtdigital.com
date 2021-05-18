@@ -26,6 +26,7 @@ This is actually the second year of the Summit going virtual, but this year Forr
 As usual, content came thick and fast with a very welcome “On Demand” replay of each session if you didn’t manage to catch it live (did I mention the needy teenager?). So virtual experience aside, what were the key takeaways for me this year? Here are my top five.
 
 
+
 <h3>1. The Revenue Waterfall</h3>
 
 The original (MQL based) waterfall launched by SiriusDecisions has been modified over the years to encompass the latest best practice. In recent years it was updated to recognise that B2B buying is typically performed by buying groups rather than individuals and was therefore renamed the “Demand Unit Waterfall”.
@@ -34,6 +35,8 @@ The newly announced “Forrester B2B Revenue Waterfall” goes further by embrac
 
 Oh, and the idea that the waterfall is represented as a funnel has gone. In real-life our funnels took on all sorts of bulges and contractions at the different funnel stages rather than the perfectly formed sloping sides seen in numerous best practice examples. Forrester have recognised this by turning the waterfall into a horizontal bar chart. Data analysts and dashboard designers will be rejoicing!
 
+
+
 <h3>2. Customer Retention Rules!</h3>
 
 There was a timely reminder at the Summit that marketers have typically focused their efforts and budgets on customer acquisition. In this new era of RevOps revenue contribution and influence become the overriding measures (as opposed to the value of MQL’s or Leads). This was brought home by one statistic that came out of recent research performed by Forrester:
@@ -41,6 +44,7 @@ There was a timely reminder at the Summit that marketers have typically focused 
 _To replace one lost Retention opportunity you will, on average, need to find six Upsell opportunities or sixteen Cross-sell opportunities or a staggering thirty Acquisition opportunities._
 
 This certainly puts priorities into perspective and further drives the necessity for Sales and Marketing (and Customer Service) to be fully aligned throughout the entire customer lifecycle.
+
 
 
 <h3>3. Goodbye MQL’s hello Opportunities</h3>
@@ -54,6 +58,7 @@ So where does this leave the humble MQL? The MQL represented a single Lead that 
 So, together with Lead records, the MQL has been relegated to the archives and Opportunities now become the container for both the marketing and sales pipelines.
 
 
+
 <h3>4. B2B Business drivers have changed</h3>
 
 The topic of the last two pandemic years and their influence on buying behaviours was peppered throughout many presentations, but Forrester’s 2021 B2B Buying Survey reflected these changes distinctly.
@@ -63,6 +68,7 @@ Whilst “improving profitability” and “reducing costs” were common leadin
 Adopting a cautious approach, buyers are doing more due diligence than ever, with average purchase process interactions going up from 17 in 2019 to 27 in 2021 and purchase timeframes increasing in line with these. 80% of B2B purchases are now made by buying groups with 60% or more of these with four or more people involved (up from 47% in 2017).
 
 Interestingly both the C-suite and the Finance department are taking a bigger role in buying decisions now than in 2017, reinforcing the need to cover these personas in your buying groups.
+
 
 
 <h3>5. The lexicon of B2B Marketing continues to grow</h3>
