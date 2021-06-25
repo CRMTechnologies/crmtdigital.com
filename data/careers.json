@@ -1,7 +1,12 @@
 {
   "job": [
     {
-      "role": "Senior Customer Success Manager / Customer Success Director",
+      "role": "Marketing Operations Strategist",
+      "teaser": "We are looking for an experienced consultant to support our rapidly expanding B2B client base with their marketing and sales operations strategy.",
+      "spec": "https://static.crmtechnologies.com/sites/default/files/Job Spec - Marketing Operations Strategist.pdf"
+    },
+    {
+      "role": "Senior Customer Success Manager",
       "teaser": "You will be responsible for developing existing clients, spotting new business opportunities and maintaining our reputation for outstanding client relationships and first class service delivery.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT-Digital_Senior Customer Success Manager_Customer Success Director-Job Spec.pdf"
     },
@@ -17,18 +22,23 @@
     },
     {
       "role": "Data Analyst (Cloud)",
-      "teaser": "We are looking for experienced Data Analyst to join our experienced and expanding UK team.",
+      "teaser": "We are looking for experienced Data Analyst (Cloud) to join our experienced and expanding UK team.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT-Digital_ Data-Analyst-Cloud-Job_Spec-190312.pdf"
-    },
-    {
-      "role": "Graduate Opportunities",
-      "teaser": "We have a variety of graduate opportunities available in marketing, IT and business including internships and work placements.",
-      "spec": "https://static.crmtechnologies.com/sites/default/files/Graduate%20Opportunities%20.pdf"
     },
     {
       "role": "Full Stack Software Developer",
       "teaser": "We are looking for an experienced Full Stack Software Developer with strong skills in both back and front end technology.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT%20Full%20Stack%20Developer%20Job%20Spec.pdf"
+    },
+    {
+      "role": "Traffic Manager",
+      "teaser": "We are looking for an organised and enthusiastic Traffic Manager to manage workload across our Digital, Data and Technical teams.",
+      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT Traffic Manager Job Spec.pdf"
+    },
+    {
+      "role": "Graduate Opportunities",
+      "teaser": "We have a variety of graduate opportunities available in marketing, IT and business including internships and work placements.",
+      "spec": "https://static.crmtechnologies.com/sites/default/files/Graduate%20Opportunities%20.pdf"
     }
   ]
 }
