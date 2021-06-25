@@ -1,6 +1,11 @@
 {
   "job": [
     {
+      "role": "Traffic Manager",
+      "teaser": "We are looking for an organised and enthusiastic Traffic Manager to manage workload across our Digital, Data and Technical teams.",
+      "spec": ""
+    },
+    {
       "role": "Marketing Operations Strategist",
       "teaser": "We are looking for an experienced consultant to support our B2B clients with their marketing and sales operations strategy.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/Job Spec - Marketing Operations Strategist.pdf"
