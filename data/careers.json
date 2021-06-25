@@ -1,11 +1,6 @@
 {
   "job": [
     {
-      "role": "Traffic Manager",
-      "teaser": "We are looking for an organised and enthusiastic Traffic Manager to manage workload across our Digital, Data and Technical teams.",
-      "spec": ""
-    },
-    {
       "role": "Marketing Operations Strategist",
       "teaser": "We are looking for an experienced consultant to support our B2B clients with their marketing and sales operations strategy.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/Job Spec - Marketing Operations Strategist.pdf"
@@ -34,6 +29,11 @@
       "role": "Full Stack Software Developer",
       "teaser": "We are looking for an experienced Full Stack Software Developer with strong skills in both back and front end technology.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT%20Full%20Stack%20Developer%20Job%20Spec.pdf"
+    },
+    {
+      "role": "Traffic Manager",
+      "teaser": "We are looking for an organised and enthusiastic Traffic Manager to manage workload across our Digital, Data and Technical teams.",
+      "spec": "https://www.crmtechnologies.com/sites/default/files/CRMT Traffic Manager Job Spec.pdf"
     },
     {
       "role": "Graduate Opportunities",
