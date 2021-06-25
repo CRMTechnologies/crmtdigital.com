@@ -26,14 +26,14 @@
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT-Digital_ Data-Analyst-Cloud-Job_Spec-190312.pdf"
     },
     {
-      "role": "Graduate Opportunities",
-      "teaser": "We have a variety of graduate opportunities available in marketing, IT and business including internships and work placements.",
-      "spec": "https://static.crmtechnologies.com/sites/default/files/Graduate%20Opportunities%20.pdf"
-    },
-    {
       "role": "Full Stack Software Developer",
       "teaser": "We are looking for an experienced Full Stack Software Developer with strong skills in both back and front end technology.",
       "spec": "https://static.crmtechnologies.com/sites/default/files/CRMT%20Full%20Stack%20Developer%20Job%20Spec.pdf"
+    },
+    {
+      "role": "Graduate Opportunities",
+      "teaser": "We have a variety of graduate opportunities available in marketing, IT and business including internships and work placements.",
+      "spec": "https://static.crmtechnologies.com/sites/default/files/Graduate%20Opportunities%20.pdf"
     }
   ]
 }
