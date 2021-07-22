@@ -3,7 +3,6 @@ author = "Stojan Ezhov,  Digital Production Specialist"
 banner_type = "none"
 date = ""
 description = "Company Culture and the Covid Pandemic"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/TeamsMtg.png"
