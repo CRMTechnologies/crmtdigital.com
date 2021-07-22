@@ -1,5 +1,5 @@
 +++
-author = "CRMT Digital"
+author = "Stojan Ezhov,  Digital Production Specialist"
 banner_type = "none"
 date = ""
 description = "Company Culture and the Covid Pandemic"
