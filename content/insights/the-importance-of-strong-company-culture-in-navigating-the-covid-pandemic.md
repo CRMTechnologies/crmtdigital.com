@@ -1,5 +1,5 @@
 +++
-author = ""
+author = "Stojan Ezhov"
 banner_type = "none"
 date = 2021-07-22T11:00:00Z
 description = "Company Culture and the Covid Pandemic"
