@@ -1,5 +1,5 @@
 +++
-author = "Stojan Ezhov,  Digital Production Specialist"
+author = ""
 banner_type = "none"
 date = 2021-07-22T11:00:00Z
 description = "Company Culture and the Covid Pandemic"
@@ -40,5 +40,7 @@ The new reality of the pandemic has driven our lives online, which has resulted 
 ## Final Words
 
 Having well established processes, healthy work environment and company culture, means being able to adapt to changes, easier employee integration, as well as the ability to expand in these “interesting times”.
+
+_Written by Stojan Ezhov - Digital Production Specialist, CRMT Digital_
 
 ***
