@@ -41,6 +41,6 @@ The new reality of the pandemic has driven our lives online, which has resulted 
 
 Having well established processes, healthy work environment and company culture, means being able to adapt to changes, easier employee integration, as well as the ability to expand in these “interesting times”.
 
-_Written by Stojan Ezhov - Digital Production Specialist, CRMT Digital_
-
 ***
+
+_Written by Stojan Ezhov - Digital Production Specialist, CRMT Digital_
