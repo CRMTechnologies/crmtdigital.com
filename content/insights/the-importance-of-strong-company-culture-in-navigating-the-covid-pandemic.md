@@ -1,6 +1,6 @@
 +++
 author = "CRMT Digital"
-banner_type = "highlight"
+banner_type = "none"
 date = ""
 description = "Company Culture and the Covid Pandemic"
 draft = true
@@ -10,7 +10,7 @@ image = "https://static.crmtechnologies.com/sites/default/files/TeamsMtg.png"
 intro = "COVID has presented numerous challenges and uncertainties in the daily operation of workspaces across the globe. Here’s how a strong company culture has helped mitigate the impact."
 keywords = ["Marketing Automation", "Workspace", "Pandemic", "Company culture"]
 resource = []
-show_contact = ""
+show_contact = "form"
 slug = ""
 subheading = ""
 tags = ["Marketing Operations"]
