@@ -39,7 +39,7 @@ The new reality of the pandemic has driven our lives online, which has resulted 
 
 ## Final Words
 
-Having well established processes, healthy work environment and company culture, means being able to adapt to changes, easier employee integration, as well as the ability to expand in these “interesting times”.
+Having well established processes, a healthy work environment and a strong company culture, means the company can adapt to changes and have easier employee integration, allowing the company to continue to expand in these “interesting times".
 
 ***
 
