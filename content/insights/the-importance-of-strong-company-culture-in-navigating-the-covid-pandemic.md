@@ -1,7 +1,7 @@
 +++
 author = "Stojan Ezhov,  Digital Production Specialist"
 banner_type = "none"
-date = ""
+date = 2021-07-22T11:00:00Z
 description = "Company Culture and the Covid Pandemic"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
