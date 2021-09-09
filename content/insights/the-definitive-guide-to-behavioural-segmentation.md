@@ -43,15 +43,11 @@ Below I have listed out different areas of behavioural segment, depending on the
 
 * Better personal experiences – Hopefully the days of sending out the same messaging to your entire database have gone. By knowing and better understanding your customers you can connect to each customer on a personal level and send relevant offers and services, increasing both engagement and retention.
 * Amplified customer engagement – Filtering customers based on interested and uninterested will help you target your products and services towards customers who want it the most.
-
-
 * Increased targeting accuracy – This is a great to take advantage of customer behaviours, by knowing insights such as for example loyal customers enjoy VIP offers and rewards you direct your messaging and invest budget where you know it will have the best ROI.
-
-
 * Trackable – Constantly improve results by tracking engagement.
-
-
 * Growth in brand loyalty – We all know customers who feel loved will advocate your brand, and as customer loyalty increases customer lifetime value, so will your overall business revenue.
-
-
 * Cost – effectiveness – Stop wasting budget on cold leads, and invest in those customers that most valuable.
+
+  ***
+
+  _Written by Poonam Reid - Digital Marketing Specialist, CRMT Digital_
