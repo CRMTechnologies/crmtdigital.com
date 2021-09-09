@@ -3,7 +3,6 @@ author = "Poonam Reid"
 banner_type = "none"
 date = ""
 description = "A guide to the use of Behavioural Segmentation in B2B Marketing"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Behavioural Segmentation.jpg"
