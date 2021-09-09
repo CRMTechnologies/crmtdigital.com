@@ -1,16 +1,16 @@
 +++
-author = "CRMT Digital"
-banner_type = "highlight"
+author = "Poonam Reid"
+banner_type = "none"
 date = ""
-description = "The definitive guide to Behavioural Segmentation"
+description = "A guide to the use of Behavioural Segmentation in B2B Marketing"
 draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = ""
 intro = "What is it, how do we use it and most importantly how can it help with your marketing acquisition strategy?  When it comes selling and offering services no customer is the same, because of this it is key to identify trends that currently exist with your target audience and customers."
 keywords = ["digital marketing", "b2b marketing", "behavioural segmentation"]
-resource = []
-show_contact = ""
+resource = "excellence-hub/marketing-ops-time-to-shine.md"
+show_contact = "form"
 slug = ""
 subheading = ""
 tags = []
