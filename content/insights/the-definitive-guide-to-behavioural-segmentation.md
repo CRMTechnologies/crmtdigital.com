@@ -6,7 +6,7 @@ description = "A guide to the use of Behavioural Segmentation in B2B Marketing"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/Behavioural Segmentation.jpg"
-intro = "What is it, how do we use it and most importantly how can it help with your marketing acquisition strategy?  When it comes selling and offering services no customer is the same, because of this it is key to identify trends that currently exist with your target audience and customers."
+intro = "What is it, how do we use it and most importantly how can it help with your marketing acquisition strategy?  When it comes to selling and offering services no customer is the same, because of this it is key to identify trends that currently exist with your target audience and customers."
 keywords = ["digital marketing", "b2b marketing", "behavioural segmentation"]
 resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "form"
@@ -30,7 +30,7 @@ Behaviour of customers with regard to your products and services can be grouped 
 
 ## **Categories of behavioural segmentation**
 
-Below I have listed out different areas of behavioural segment, depending on the products and services your company offer some areas will be more relevant for you to take a deeper dive into when analysing your customers.
+Below I have listed the different areas of behavioural segmentation. Depending on the products and services your company offer some areas will be more relevant for you to take a deeper dive into when analysing your customers.
 
 1. **Purchasing behaviour** – Allows you to gain insight into customers transaction history showing you how and why they convert as well being able to delve deeper into which areas of the buyers’ journey perform well, this in turn will enable you to track trends and better focus marketing spend.
 2. **Usage behaviour –** Analyses the frequency of customer interaction with your products. You are able to see how often customers use it and which features they use more. Data gathered from this can be effectively used to update your company’s marketing strategy.
