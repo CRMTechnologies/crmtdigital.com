@@ -1,7 +1,7 @@
 +++
 author = "Poonam Reid"
 banner_type = "none"
-date = ""
+date = 2021-09-16T11:00:00Z
 description = "A guide to the use of Behavioural Segmentation in B2B Marketing"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
