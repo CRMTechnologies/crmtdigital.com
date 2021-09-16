@@ -12,7 +12,7 @@ resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "form"
 slug = ""
 subheading = ""
-tags = []
+tags = ["Demand Generation"]
 testimonial = ""
 title = "The definitive guide to Behavioural Segmentation"
 
