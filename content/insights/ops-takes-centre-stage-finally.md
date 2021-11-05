@@ -1,6 +1,6 @@
 +++
 author = "Joanna Mills"
-banner_type = "highlight"
+banner_type = "none"
 date = 2021-11-05T00:00:00Z
 description = "Scott Brinker joined our company FY22 kick-off as Guest Speaker and here’s what we learned"
 draft = true
