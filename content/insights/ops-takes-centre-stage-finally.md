@@ -5,7 +5,7 @@ date = 2021-11-05T00:00:00Z
 description = "Scott Brinker joined our company FY22 kick-off as Guest Speaker and here’s what we learned"
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
-image = ""
+image = "https://static.crmtechnologies.com/sites/default/files/sjb_headshot_b&w.jpg"
 intro = "Scott Brinker joined our company FY22 kick-off as Guest Speaker and here’s what we learned "
 keywords = ["Data ops", "MarTech", "B2B Marketing", "Ops", "Marketing operations"]
 resource = ""
@@ -17,7 +17,11 @@ testimonial = ""
 title = "Ops takes centre stage (finally)"
 
 +++
-<img alt="Ops takes centre stage (finally)" src="https://static.crmtechnologies.com/sites/default/files/sjb_headshot_b&amp;w.jpg" style="width: 250px;">
+<style>
+  #asset-block img {
+    width: 250px;
+  }
+</style>  
 
 What better way to kick off our new year than a thought-provoking presentation from B2B legend Scott Brinker. Scott has been analysing marketing technology and its impact on marketing organisations for more than a decade and his presentation focused on the concept “From Big Data to Big Ops”, illustrating how the growth of operations functions is becoming the new foundation of marketing and customer experience.
 
