@@ -18,8 +18,6 @@ testimonial = ""
 title = "Ops takes centre stage (finally)"
 
 +++
-![](sites/default/files/sjb_headshot_b&w.jpg)
-
 What better way to kick off our new year than a thought-provoking presentation from B2B legend Scott Brinker. Scott has been analysing marketing technology and its impact on marketing organisations for more than a decade and his presentation focused on the concept “From Big Data to Big Ops”, illustrating how the growth of operations functions is becoming the new foundation of marketing and customer experience.
 
 So, what does a move from “Big Data” to “Big Ops” actually mean? Scott described it as a move from dealing with the scale and complexity of data being collected, stored and analysed to the scale and complexity of apps and automations interacting with data. While data is continuing to grow, interactions with data are growing faster.
