@@ -19,7 +19,7 @@ title = "Ops takes centre stage (finally)"
 +++
 <style>
   #asset-block img {
-    width: 250px;
+    width: 250px !important;
   }
 </style>  
 
