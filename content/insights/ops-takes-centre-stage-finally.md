@@ -12,7 +12,7 @@ resource = ""
 show_contact = "form"
 slug = ""
 subheading = ""
-tags = ["Marketing Ops", "MarTech"]
+tags = ["Marketing Ops", "MarTech", "Sales Ops"]
 testimonial = ""
 title = "Ops takes centre stage (finally)"
 
