@@ -6,6 +6,14 @@ preserveTaxonomyNames = true
 title = "CRMT Digital"
 [markup.goldmark.renderer]
 unsafe = true
+[[menu.main]]
+name = "Insights"
+url = "/insights"
+weight = 5
+[[menu.main]]
+name = "Excellence Hub"
+url = "/excellence-hub"
+weight = 4
 [params]
 mainSections = ["marketing", "technology", "martech", "opinion"]
 [permalinks]
