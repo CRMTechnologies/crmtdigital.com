@@ -1,17 +1,15 @@
 baseurl = "https://www.crmtdigital.com/"
-languageCode = "en-gb"
-title = "CRMT Digital"
 description = "The marketing operations experts."
-preserveTaxonomyNames = true
 disableKinds = "taxonomyTerm"
-[permalinks]
-  post = "/:title/"
-  who-we-work-with = "/customers/:slug"
- [taxonomies]
-  tag = "tags"
+languageCode = "en-gb"
+preserveTaxonomyNames = true
+title = "CRMT Digital"
+[markup.goldmark.renderer]
+unsafe = true
 [params]
-  mainSections = ["marketing", "technology","martech","opinion"]
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+mainSections = ["marketing", "technology", "martech", "opinion"]
+[permalinks]
+post = "/:title/"
+who-we-work-with = "/customers/:slug"
+[taxonomies]
+tag = "tags"
