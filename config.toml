@@ -12,14 +12,14 @@ parent = "Excellence Hub"
 url = "/insights"
 weight = 1
 [[menu.footer]]
-name = "Excellence Hub"
-url = "/excellence-hub"
-weight = 4
-[[menu.footer]]
 name = "Who we work with"
 parent = "How We Work"
 url = "/who-we-work-with"
 weight = 1
+[[menu.footer]]
+name = "Excellence Hub"
+url = "/excellence-hub"
+weight = 4
 [[menu.main]]
 name = "Who we work with"
 url = "/who-we-work-with"
