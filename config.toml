@@ -7,6 +7,12 @@ title = "CRMT Digital"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
+name = "Who we are"
+weight = 3
+[[menu.main]]
+name = "What we do"
+weight = 1
+[[menu.main]]
 name = "Insights"
 url = "/insights"
 weight = 5
