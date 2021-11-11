@@ -1,109 +1,109 @@
-.dropdown {
+.navbar-meganav .dropdown {
     position: static !important;
     margin: auto;
 }
 
-.dropdown-menu {
+.navbar-meganav .dropdown-menu {
     width: 100%;
 }  
 
-.dropdown-menu .dropTransp {
+.navbar-meganav .dropdown-menu .dropTransp {
     background-color: transparent !important;
 }
 
-.megaBckg {
+.navbar-meganav .megaBckg {
     background-color:  #194266;
     padding: 20px;
     border-radius: 5px;
 }
 
-.blueText {
+.navbar-meganav .blueText {
     color: #009FE3;
     padding-bottom: 5px;
     margin-bottom: 5px;s
 }
 
-.greenText {
+.navbar-meganav .greenText {
     color: #a2bd1a;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
 
-.navLinkStyle {
+.navbar-meganav .navLinkStyle {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1em;
     line-height: 1.5em;
 }
 
-.nav-link:active {
+.navbar-meganav .nav-link:active {
     color: #009FE3;
 }
 
-.megaLinkBlue {
+.navbar-meganav .megaLinkBlue {
     width: fit-content;
     padding: 10px 15px;
 } 
 
-.megaLinkBlue:hover {
+.navbar-meganav .megaLinkBlue:hover {
     color: white;
     text-decoration: none;
     background-color: #002D55;
     border-radius: 15px;
 }
 
-/* .megaLinkGreen {
+/* .navbar-meganav .megaLinkGreen {
     font-size: 1em;
     padding: 8px 10px;
 }
 
-.megaLinkGreen:hover {
+.navbar-meganav .megaLinkGreen:hover {
     text-decoration: none;
     background-color: #006315 
 }  */
 
-.descText {
+.navbar-meganav .descText {
     font-size: 1em;
     margin-bottom: 12px;
     padding-left: 15px;
 } 
 
-.borderLeft {
+.navbar-meganav .borderLeft {
     border-left: 1px solid gray;
 }
 
-.caseImg {
+.navbar-meganav .caseImg {
     max-width: 70%;
     padding-bottom: 5px;
     border-radius: 10px;
 }
 
-.caseTitle {
+.navbar-meganav .caseTitle {
     padding: 5px 15px;
     margin-bottom: 5px;
     width: fit-content;
 }
 
-.caseTitle:hover {
+.navbar-meganav .caseTitle:hover {
     color: white;
     text-decoration: none;
     background-color: #006315; 
     border-radius: 20px;
 }
 
-.lrnMore {
+.navbar-meganav .lrnMore {
     font-size: 0.8em;
     color: lightgray;
     padding-left: 15px;
 }
 
-.prodImg {
+.navbar-meganav .prodImg {
     max-width: 45%;
     padding-left: 15px;
     padding-bottom: 10px;
 }
 
-.demoBtn {
+.navbar-meganav .demoBtn {
     display: flex;
     justify-content: center;
 }
