@@ -2,7 +2,7 @@
 	    <ol class="breadcrumb justify-content-center">
 		{{ $currentPage := . }}
 		{{ range .Site.Menus.services }}		    
-		<li class="breadcrumb-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+		<li class="breadcrumb-item {{ if $currentPage.IsMenuCurrent "services" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
 		{{ end }}
 	    </ol>	  
 	{{ end }}
