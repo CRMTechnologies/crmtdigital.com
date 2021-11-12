@@ -368,7 +368,9 @@ section.block-light + section#block-quote + section.block-caret::before { border
     border-right: none;
 }
 
+.team-container { max-width: 1300px; }
 .team-member  { max-width: 380px;width: 100%;position: relative;}
+.team-member img { max-height: 414px; }
 .team-member .text {
     background: #009FE3;
     top: auto;
