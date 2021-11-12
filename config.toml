@@ -12,7 +12,7 @@ parent = "Excellence Hub"
 url = "/insights"
 weight = 1
 [[menu.footer]]
-name = "Who we work with"
+name = "Clients"
 parent = "How We Work"
 url = "/who-we-work-with"
 weight = 1
