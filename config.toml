@@ -21,14 +21,14 @@ name = "Excellence Hub"
 url = "/excellence-hub"
 weight = 4
 [[menu.main]]
-name = "Who we work with"
+name = "Clients"
 url = "/who-we-work-with"
 weight = 3
 [[menu.main]]
 name = "Who we are"
 weight = 4
 [[menu.main]]
-name = "What we do"
+name = "Services"
 weight = 1
 [[menu.main]]
 name = "Insights"
