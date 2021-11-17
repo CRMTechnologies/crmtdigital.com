@@ -17,7 +17,7 @@ testimonial = ""
 title = "Ops takes centre stage (finally)"
 
 +++
-<img alt="Ops takes centre stage (finally)" src="https://static.crmtechnologies.com/sites/default/files/sjb_headshot_b&amp;w.jpg" style="width: 250px;">  
+<img alt="Ops takes centre stage (finally)" src="https://static.crmtechnologies.com/sites/default/files/sjb_headshot_b&amp;w.jpg" style="width: 250px;">
 
 What better way to kick off our new year than a thought-provoking presentation from B2B legend Scott Brinker. Scott has been analysing marketing technology and its impact on marketing organisations for more than a decade and his presentation focused on the concept “From Big Data to Big Ops”, illustrating how the growth of operations functions is becoming the new foundation of marketing and customer experience.
 

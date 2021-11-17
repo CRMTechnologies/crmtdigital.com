@@ -1,7 +1,7 @@
 +++
 author = "Jamie Webb"
 banner_type = "none"
-date = 2021-04-27T10:00:00Z
+date = 2021-04-27T10:00:00+01:00
 description = "Jumping on the DIY data trend and getting all the tools and platforms you can put your hands on doesn't necessarily mean you'll get valuable insights. But you need to make sure that you have the right data and interpret it correctly. "
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
@@ -12,7 +12,7 @@ resource = "excellence-hub/sales-marketing-and-it-your-cross-departmental-guide.
 show_contact = "form"
 slug = "data-literacy-data-culture"
 subheading = ""
-tags = ["Data"]
+tags = ["Data", "Analytics"]
 testimonial = ""
 title = "Data Literacy - The Road Towards a Data Driven Culture"
 
@@ -40,3 +40,5 @@ Take interest into each data source, understand what drives the data points and 
 In closing, remember that data does not necessarily mean insight… and that insight does not always lead to the correct action being taken. Even the most informed decisions can lead to failure, but it certainly improves your overall chances vs a punt. Strategically, you will need to show some patience, resilience and focus to keep progressing your data driven culture.
 
 With the right people, being given the right context, empowered by the right tools at the right time, you have a winning formula for success. Now don’t forget to give the post a thumbs up (like), and remember that you do not need suffer with a ‘throbbing thumb’ when it comes to delivering on your vision of data driven marketing.
+
+*Written by Jamie Webb – Senior Digital Marketing Specialist, CRMT Digital*
