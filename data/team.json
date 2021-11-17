@@ -13,12 +13,6 @@
       "photo": "https://static.crmtechnologies.com/sites/default/files/TonySprague_0.png"
     },
     {
-      "name": "Joanna Mills",
-      "role": "Sales & Marketing Director",
-      "bio": "Joanna is responsible for all aspects of our Sales & Marketing from strategy development through to nurturing successful relationships with prospects. She is experienced in Marketing Operations and with a background in Client Services, is ideally positioned to look for solutions to the complex challenges the modern marketer faces.",
-      "photo": "https://static.crmtechnologies.com/sites/default/files/Jo-bw.jpg"
-    },
-    {
       "name": "Alison Saunders",
       "role": "Client Services Director",
       "bio": "Alison Saunders manages our internal client teams and is responsible for developing and maintaining successful relationships with customers and prospects. She is highly experienced in marketing strategy and planning, so is ideally positioned to understand and advise on the many complex requirements and challenges our clients face.",
@@ -29,6 +23,12 @@
       "role": "Consultancy Director",
       "bio": "Len manages our team of consultants, developing solutions for complex client requirements to ensure we meet their goals and objectives, delivering results on time. Len is experienced in Marketing Operations consultancy and ideally positioned to lead the team, helping to solve the challenges our clients face.",
       "photo": "https://static.crmtechnologies.com/sites/default/files/Len BW.jpg"
+    },
+    {
+      "name": "Joanna Mills",
+      "role": "Sales & Marketing Director",
+      "bio": "Joanna is responsible for all aspects of our Sales & Marketing from strategy development through to nurturing successful relationships with prospects. She is experienced in Marketing Operations and with a background in Client Services, is ideally positioned to look for solutions to the complex challenges the modern marketer faces.",
+      "photo": "https://static.crmtechnologies.com/sites/default/files/Jo-bw.jpg"
     }
   ]
 }
