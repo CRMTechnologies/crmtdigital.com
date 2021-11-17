@@ -12,7 +12,7 @@ resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "form"
 slug = ""
 subheading = ""
-tags = []
+tags = ["Marketing Operations"]
 testimonial = ""
 title = "2021 Marketing Operations Trends"
 

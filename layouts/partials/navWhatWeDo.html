@@ -1,12 +1,8 @@
 	 {{ if in .Permalink "what-we-do" }} 	  	  
 	    <ol class="breadcrumb justify-content-center">
-		<li class="breadcrumb-item {{ if eq .Title "What we do" }}active{{ end }}"><a href="/what-we-do">Overview</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Marketing Operations Consultancy" }}active{{ end }}"><a href="/what-we-do/marketing-operations">Marketing Operations</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Demand Generation Agency" }}active{{ end }}"><a href="/what-we-do/campaign-services">Campaign Services</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Consulting & Best Practice" }}active{{ end }}"><a href="/what-we-do/consultancy">Consulting &amp; Best Practice</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Data Management and Analytics Services" }}active{{ end }}"><a href="/what-we-do/data-analytics">Data Management</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Technology Services" }}active{{ end }}"><a href="/what-we-do/technology-services">Technology Services</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Marketing Analytics & Performance Consultancy" }}active{{ end }}"><a href="/what-we-do/marketing-analytics-performance">Analytics &amp; Performance</a></li>
-		<li class="breadcrumb-item {{ if eq .Title "Marketing Operations Audits" }}active{{ end }}"><a href="/what-we-do/assessments-audits">Assessments &amp; Audits</a></li>
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.services }}		    
+		<li class="breadcrumb-item {{ if $currentPage.IsMenuCurrent "services" . }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+		{{ end }}
 	    </ol>	  
 	{{ end }}

@@ -368,7 +368,9 @@ section.block-light + section#block-quote + section.block-caret::before { border
     border-right: none;
 }
 
+.team-container { max-width: 1300px; }
 .team-member  { max-width: 380px;width: 100%;position: relative;}
+.team-member img { max-height: 414px; }
 .team-member .text {
     background: #009FE3;
     top: auto;
@@ -696,8 +698,8 @@ footer .footer-container ul.menu { margin-left: 1em; padding: 0; list-style: non
 footer .footer-container ul.menu li { margin: 0; padding-top: 0.2em; font-size: 1em; line-height: 1.2em; }
 footer .footer-container ul.menu li a { text-decoration: none; color: #fff; font-size: 0.75em; font-weight: 300; }
 footer .footer-container ul.menu li:first-child { margin-bottom: 0.4em; }
-footer .footer-container ul.menu li.menu-item-main { margin-bottom: 0.3em; }
-footer .footer-container ul.menu li:first-child a, footer .footer-container ul.menu li.menu-item-main a { font-size: 0.88em; font-weight: 400; }
+footer .footer-container ul.menu li.menu-item-main, footer .footer-container .row > div:nth-child(4) ul.menu li { margin-bottom: 0.3em; }
+footer .footer-container ul.menu li:first-child a, footer .footer-container ul.menu li.menu-item-main a, footer .footer-container .row > div:nth-child(4) ul.menu li a { font-size: 0.88em; font-weight: 400; }
 footer .footer-container h2 { font-size: 1em; color: #fff; font-weight: 400; padding-top: 0.2em; line-height: 1.2em; }
 footer .footer-container h2 span { font-size: 0.88em; }	
 footer .footer-container .newsletter-signup { margin: 1.5em 0; position:relative; }
