@@ -1,18 +1,6 @@
 {
   "bios": [
     {
-      "name": "Len van Hoogenhuijze",
-      "role": "Consultancy Director",
-      "bio": "Len manages our team of consultants, developing solutions for complex client requirements to ensure we meet their goals and objectives, delivering results on time. Len is experienced in Marketing Operations consultancy and ideally positioned to lead the team, helping to solve the challenges our clients face.",
-      "photo": "https://static.crmtechnologies.com/sites/default/files/Len BW.jfif"
-    },
-    {
-      "name": "Joanna Mills",
-      "role": "Sales & Marketing Director",
-      "bio": "Joanna is responsible for all aspects of our Sales & Marketing from strategy development through to nurturing successful relationships with prospects. She is experienced in Marketing Operations and with a background in Client Services, is ideally positioned to look for solutions to the complex challenges the modern marketer faces.",
-      "photo": "https://static.crmtechnologies.com/sites/default/files/JO BW.jpg"
-    },
-    {
       "name": "Andrew Freeman",
       "role": "Chief Executive Officer",
       "bio": "Andrew co-founded the company in 2000 and is responsible for the strategic direction of the business as well as maintaining close relationships with clients to ensure successful programme delivery. He leads CRMT Digital with a clear purpose to align clients’ sales and marketing processes to drive business revenue.",
@@ -29,6 +17,18 @@
       "role": "Client Services Director",
       "bio": "Alison Saunders manages our internal client teams and is responsible for developing and maintaining successful relationships with customers and prospects. She is highly experienced in marketing strategy and planning, so is ideally positioned to understand and advise on the many complex requirements and challenges our clients face.",
       "photo": "https://static.crmtechnologies.com/sites/default/files/AlisonSaunders_0.png"
+    },
+    {
+      "name": "Len van Hoogenhuijze",
+      "role": "Consultancy Director",
+      "bio": "Len manages our team of consultants, developing solutions for complex client requirements to ensure we meet their goals and objectives, delivering results on time. Len is experienced in Marketing Operations consultancy and ideally positioned to lead the team, helping to solve the challenges our clients face.",
+      "photo": "https://static.crmtechnologies.com/sites/default/files/Len BW.jpg"
+    },
+    {
+      "name": "Joanna Mills",
+      "role": "Sales & Marketing Director",
+      "bio": "Joanna is responsible for all aspects of our Sales & Marketing from strategy development through to nurturing successful relationships with prospects. She is experienced in Marketing Operations and with a background in Client Services, is ideally positioned to look for solutions to the complex challenges the modern marketer faces.",
+      "photo": "https://static.crmtechnologies.com/sites/default/files/JO BW.jpg"
     }
   ]
 }
