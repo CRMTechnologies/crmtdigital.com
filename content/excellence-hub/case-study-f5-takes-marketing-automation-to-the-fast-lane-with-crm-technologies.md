@@ -1,5 +1,5 @@
 +++
-asset_link = "sites/default/files/CRM_Case_Study_F5_V2.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRM_Case_Study_F5_V2.pdf"
 banner_type = "highlight"
 card_subtitle = "F5 Takes Marketing Automation to The Fast Lane with CRM Technologies"
 card_title = "Case Study:"
