@@ -14,15 +14,16 @@ card_title: Successful Execution of Your Marketing Ops Strategy
 card_subtitle: Through Cross Enterprise Collaboration
 content_type: eGuide
 gated: true
-thank_you: /ty/successful-execution-of-your-marketing-ops-strategy
-asset_link: https://img.en25.com/Web/CRMTechnologies/%7B62f5bb08-b1a9-4389-9231-4d1a1d3d5ddd%7D_Successful_execution_of_your_Marketing_Ops_strategy_through_cross_Enterprise_collaboration_V2.pdf
+thank_you: "/ty/successful-execution-of-your-marketing-ops-strategy"
+asset_link: https://static.crmtechnologies.com/sites/default/files/Successful_execution_of_your_Marketing_Ops_strategy_through_cross_Enterprise_collaboration_V2.pdf
 banner_type: highlight
 heading: Embed a collaborative culture shift throughout your business
 highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
-date: '2015-12-18T13:35:53+00:00'
+date: 2015-12-18T13:35:53+00:00
 type: resource
+
 ---
 Marketing Operations is becoming increasingly important, but it won’t work without cross enterprise collaboration.
 
