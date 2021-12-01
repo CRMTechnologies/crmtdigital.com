@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/%7Bcc4fa6a3-1174-42bb-88cc-4053e7b52eda%7D_My_Awesome_Guide_to_the_Future_of_Marketing_Automation.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/MA - marketing automation success_CRMTDigital.pdf"
 banner_type = "highlight"
 card_subtitle = "The Future of Marketing Automation"
 card_title = "My Awesome Guide to:"
