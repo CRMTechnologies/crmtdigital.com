@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/{b8da8fc2-12fd-43bb-8899-8c368832d809}_CRMT_Case_Study_McAfee_Integration-a-V2.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT_Case_Study_McAfee_Integration.pdf"
 banner_type = "highlight"
 card_subtitle = "McAfee"
 card_title = "Integration Innovation at"

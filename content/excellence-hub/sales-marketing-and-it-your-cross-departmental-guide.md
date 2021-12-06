@@ -15,15 +15,16 @@ card_title: 'Sales, Marketing and IT: '
 card_subtitle: Your cross departmental guide to designing a Marketing Operations strategy
 content_type: eGuide
 gated: true
-thank_you: /ty/sales-marketing-and-it-your-cross-departmental-guide
-asset_link: https://img.en25.com/Web/CRMTechnologies/%7Bdf63eafe-d030-4913-ac6b-d8ebc3d4be1f%7D_Sales__Marketing_and_IT_-_Your_cross_departmental_guide_V3.pdf
+thank_you: "/ty/sales-marketing-and-it-your-cross-departmental-guide"
+asset_link: https://static.crmtechnologies.com/sites/default/files/Sales__Marketing_and_IT_-_Your_cross_departmental_guide_V3.pdf
 banner_type: highlight
 heading: Align business goals between Sales, Marketing and IT with Marketing Ops.
 highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
-date: '2015-09-18 08:30:37'
+date: 2015-09-18 08:30:37
 type: resource
+
 ---
 Marketing Operations is an important strategic driver, aligning the goals of Marketing, Sales and IT and improving customer insight.
 

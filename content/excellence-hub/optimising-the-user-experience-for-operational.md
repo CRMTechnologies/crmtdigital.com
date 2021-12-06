@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/%7Bba048b92-55f8-4f5a-84aa-fa6620c7bdc3%7D_Optimising_the_user_experience_for_operational_excellence.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/Optimising the user experience for operational excellence.pdf"
 banner_type = "highlight"
 card_subtitle = "for operational excellence"
 card_title = "Optimising the user experience"
@@ -7,6 +7,7 @@ contact_type = "button"
 content_type = "eGuide"
 cta = "Read more"
 cta_image = "https://static.crmtechnologies.com/sites/default/files/Optimising-the-user-experience-for-operational-excellence.png"
+date = 2016-03-03T16:18:40Z
 description = "Download our eGuide to optimising the user experience for operational excellence."
 gated = true
 heading = "Enhance the user experience with collaboration & communication"
@@ -17,8 +18,8 @@ subheading = ""
 thank_you = "/ty/optimising-the-user-experience-for-operational"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/Optimising-the-user-experience-for-operational-excellence_0.png"
 title = "Optimising the User Experience for Operational Excellence"
-date = "2016-03-03T16:18:40+00:00"
 type = "resource"
+
 +++
 Achieving operational excellence begins with optimising the user experience.
 

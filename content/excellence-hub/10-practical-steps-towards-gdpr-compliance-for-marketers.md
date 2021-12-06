@@ -1,8 +1,8 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/%7B8e2aaba6-f914-482e-a2d3-dd130b440c28%7D_GDPR-EGUIDE-V2.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/GDPR%20EGUIDE%20FINAL.pdf"
 banner_type = "highlight"
 card_subtitle = ""
-card_title = "10 Practical Steps Towards GDPR Compliance"
+card_title = "10 Practical Steps Towards GDPR Compliance For Marketers"
 content_type = "eGuide"
 cta = "Download Now!"
 cta_image = "https://static.crmtechnologies.com/sites/default/files/gdpr-eguide-lp-thumb.png"

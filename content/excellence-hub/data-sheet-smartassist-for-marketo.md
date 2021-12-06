@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/{586ad999-3771-49f6-8d4e-71be93d762d4}_CRMT_Smartassist_Marketo_V2.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT_Smartassist_Marketo_2018.pdf"
 banner_type = "highlight"
 card_subtitle = "CRM SmartAssist for Marketing Automation with Marketo"
 card_title = "Data Sheet:"

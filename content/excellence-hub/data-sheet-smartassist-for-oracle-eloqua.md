@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/{7fe02a3e-8973-4bbc-b56a-f561bf534620}_CRMT_SmartAssist_Eloqua_V2.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT_SmartAssist_Eloqua 2018_CRMTDigital.pdf"
 banner_type = "highlight"
 card_subtitle = "Oracle Eloqua"
 card_title = "CRMT Smartassist for Marketing Automation with"
