@@ -14,8 +14,7 @@ card_subtitle: Successful Demand Gen Led Marketing Execution
 content_type: eGuide
 gated: true
 thank_you: "/ty/a-guide-to-successful-demand-gen-led-marketing"
-asset_link: sites/default/files/A guide to successful demand generation led marketing
-  execution_v2.pdf
+asset_link: https://static.crmtechnologies.com/sites/default/files/A%20guide%20to%20successful%20demand%20generation%20led%20marketing%20execution_v2.pdf
 banner_type: highlight
 heading: Successfully execute demand gen led marketing strategies
 highlight_colour: rgb(117, 65, 146)
