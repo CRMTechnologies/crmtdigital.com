@@ -1,5 +1,5 @@
 +++
-asset_link = "https://static.crmtechnologies.com/sites/default/files/CRMT_Case_Study_McAfee_Integration%20(1).pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/Eloqua%20McAfee%20Case%20Study_lead%20nurturing.pdf"
 banner_type = "highlight"
 card_subtitle = "Oracle Eloqua"
 card_title = "McAfee Benefits from Lead 'Temperature' with"
