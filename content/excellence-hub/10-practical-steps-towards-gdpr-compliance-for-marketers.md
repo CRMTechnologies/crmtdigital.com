@@ -1,5 +1,5 @@
 +++
-asset_link = "static.crmtechnologies.com/sites/default/files/GDPR EGUIDE FINAL.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/GDPR%20EGUIDE%20FINAL.pdf"
 banner_type = "highlight"
 card_subtitle = ""
 card_title = "static.crmtechnologies.com/sites/default/files/GDPR EGUIDE FINAL.pdf"
