@@ -2,7 +2,7 @@
 asset_link = "static.crmtechnologies.com/sites/default/files/GDPR EGUIDE FINAL.pdf"
 banner_type = "highlight"
 card_subtitle = ""
-card_title = "10 Practical Steps Towards GDPR Compliance"
+card_title = "static.crmtechnologies.com/sites/default/files/GDPR EGUIDE FINAL.pdf"
 content_type = "eGuide"
 cta = "Download Now!"
 cta_image = "https://static.crmtechnologies.com/sites/default/files/gdpr-eguide-lp-thumb.png"
