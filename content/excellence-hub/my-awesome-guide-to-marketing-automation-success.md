@@ -1,5 +1,5 @@
 +++
-asset_link = "https://img.en25.com/Web/CRMTechnologies/%7B4d0a2eac-4422-4f3c-8bea-c1fd7a8c58a5%7D_MA_-_marketing_automation_success.pdf"
+asset_link = "https://static.crmtechnologies.com/sites/default/files/MA%20-%20marketing%20automation%20success_CRMTDigital.pdf"
 banner_type = "highlight"
 card_subtitle = "Marketing Automation Success"
 card_title = "My Awesome Guide to:"
@@ -14,8 +14,11 @@ heading = "Your Step-by-step Guide From Marketing Automation to Marketing Awesom
 highlight_colour = "rgb(249, 0, 94)"
 image = "https://static.crmtechnologies.com/sites/default/files/LP-MA-EM1.jpg"
 keywords = []
+resource = ""
+show_contact = ""
 subheading = ""
 tags = ["Marketing Automation"]
+testimonial = ""
 thank_you = "/ty/my-awesome-guide-to-marketing-automation-success"
 thumbnail = "https://static.crmtechnologies.com/sites/default/files/MA---marketing-automation-success_1.png"
 title = "My Awesome Guide to: Marketing Automation Success"
