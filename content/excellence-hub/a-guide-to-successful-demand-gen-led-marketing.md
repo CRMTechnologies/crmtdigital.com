@@ -13,15 +13,17 @@ card_title: A Guide To
 card_subtitle: Successful Demand Gen Led Marketing Execution
 content_type: eGuide
 gated: true
-thank_you: /ty/a-guide-to-successful-demand-gen-led-marketing
-asset_link: https://img.en25.com/Web/CRMTechnologies/%7B37553f93-1818-4248-b31c-e50bc1d0fcc9%7D_A_guide_to_successful_demand_generation_led_marketing_execution_v3.pdf
+thank_you: "/ty/a-guide-to-successful-demand-gen-led-marketing"
+asset_link: sites/default/files/A guide to successful demand generation led marketing
+  execution_v2.pdf
 banner_type: highlight
 heading: Successfully execute demand gen led marketing strategies
 highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
-date: '2015-12-18T13:54:22+00:00'
+date: 2015-12-18T13:54:22+00:00
 type: resource
+
 ---
 Demand generation strategies can drive great marketing results, but you must get the creation and implementation of these strategies right.
 
