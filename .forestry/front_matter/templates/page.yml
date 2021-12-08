@@ -27,5 +27,6 @@ fields:
   type: boolean
   label: carousel
 pages:
+- content/consultancy-competition.html
 - content/marketing-maturity-assessment.html
 - content/partnerships.html
