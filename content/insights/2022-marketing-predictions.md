@@ -1,6 +1,6 @@
 +++
 author = "Joanna Mills"
-banner_type = "highlight"
+banner_type = "none"
 date = 2022-01-05T00:00:00Z
 description = "As we continue to battle our way through a global pandemic to reach digital marketing panacea, what will 2022 have in store"
 draft = true
