@@ -10,10 +10,10 @@ image = "https://static.crmtechnologies.com/sites/default/files/the-10-predictio
 intro = "As we continue to battle our way through a global pandemic to reach a digital marketing panacea, what will 2022 have in store?"
 keywords = ["2022 marketing predictions"]
 resource = []
-show_contact = ""
+show_contact = "banner"
 slug = ""
 subheading = ""
-tags = []
+tags = ["Demand Generation", "Marketing Operations"]
 testimonial = ""
 title = "2022 Marketing Predictions"
 
