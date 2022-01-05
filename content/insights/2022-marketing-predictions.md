@@ -3,7 +3,6 @@ author = "Joanna Mills"
 banner_type = "none"
 date = 2022-01-05T00:00:00Z
 description = "As we continue to battle our way through a global pandemic to reach a digital marketing panacea, what will 2022 have in store"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/the-10-predictions-for-crypto-and-web3-in-2022-by-coinbase_61d3079fdddc0.jpeg"
