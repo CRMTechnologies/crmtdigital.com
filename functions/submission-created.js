@@ -102,7 +102,7 @@ if(body.data.elqFormName == "20contactus") {
 		  "value": body.data.company
 		},
 		{
-		  "name": "country",
+		  "name": "eloqua_country",
 		  "value": body.data.country
 		},
 		{
