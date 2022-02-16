@@ -20,7 +20,7 @@ title = "5 Marketing Performance Metrics For Your C-Suite Dashboard"
 +++
 Earning the confidence of the CEO has always been an objective for marketing teams - and to do this there is a need to be able to prove the value of marketing. However, without being able to measure the right metrics, it’s difficult to demonstrate marketing performance. Data is a powerful asset to support this objective and platforms such as Domo and Power BI are great places to create dashboards to demonstrate marketing attribution.
 
-As starting point for marketers starting this journey of proving marketing's value, we've pulled together our top five metrics to look at deriving:
+As starting point for marketers on this journey of proving marketing's value, we've pulled together our top five metrics to look at deriving:
 
 **1. Leads by Channel**
 
@@ -46,8 +46,8 @@ This metric applies to organisations that may use other customer acquisition str
 
 Saving the best to last - Marketing ROI is probably the most important KPI to prove to your C-Suite. MROI allows for demonstrating the impact of every cost associated to marketing spend, which will help with planning budgets for the next fiscal year. * Leads by Channel = (Total sum of leads from every channel added up).
 
-Each and every business will find more value in specific marketing performance reports, compared to others, but remember that the most valuable of all is calculating revenue growth when it comes to proving your marketing performance to your C-Suite. 
+Each and every business will find more value in specific marketing performance reports, compared to others, but remember that the most valuable of all is calculating revenue growth when it comes to proving your marketing performance to your C-Suite.
 
 **Need help with creating visualisations for marketing reports?**
 
-CRMT Digital can help with pulling data from multiple martech platforms into one easy to read dashboard. [Get in touch](https://www.crmtdigital.com/contact/ "Contact US") if you need help showing your C-Suite the key metrics and proving your marketing performance. 
+CRMT Digital can help with pulling data from multiple martech platforms into one easy to read dashboard. [Get in touch](https://www.crmtdigital.com/contact/ "Contact US") if you need help showing your C-Suite the key metrics and proving your marketing performance.
