@@ -24,7 +24,7 @@ As starting point for marketers on this journey of proving marketing's value, we
 
 **1. Leads by Channel**
 
-This one may seem obvious, but in our experience, many organisations don’t consider breaking down leads by channel. This KPI is arguably the most valuable as you want to prove to your leadership team which channels are providing the best ROI.
+This one may seem obvious, but in our experience, many organisations don’t consider breaking down leads by channel. This KPI is arguably one of the most valuable as you want to prove to your leadership team which channels are providing the best ROI.
 
 **2. Quality of leads: Bounce Rate and MQL: SQL Ratio**
 
