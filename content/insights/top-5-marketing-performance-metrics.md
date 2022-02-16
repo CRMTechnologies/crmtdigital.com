@@ -12,7 +12,7 @@ resource = "excellence-hub/marketing-ops-time-to-shine.md"
 show_contact = "form"
 slug = ""
 subheading = ""
-tags = []
+tags = ["Reporting"]
 testimonial = ""
 title = "5 Marketing Performance Metrics For Your C-Suite Dashboard"
 
