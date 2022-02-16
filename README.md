@@ -12,7 +12,5 @@ Staging URL: https://staging--zealous-liskov-3ee2f4.netlify.app/
 MISSING CONTENT:
 * Preference Centre
 * Tag List on Excellence Hub
-* Other Eloqua Landing Pages
 * Merge Excellence Hub & Insights
-* Native Menus using Forestry
 * Filters on Insights
