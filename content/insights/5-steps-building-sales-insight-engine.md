@@ -14,7 +14,10 @@ subheading: ''
 show_contact: form
 resource: excellence-hub/successful-execution-of-your-marketing-ops-strategy.md
 author: Joanna Mills
-date: 2019-12-09T12:30:00+00:00
+date: 2019-12-09T12:30:00.000+00:00
+tags:
+- Analytics
+- Reporting
 
 ---
 Sales and Marketing alignment. Marketing and Sales alignment. Whichever way round you look at it, it’s still one of the biggest challenges facing B2B organisations and one which undoubtedly inhibits the achievement of opportunity and revenue potential. A project to move both functions towards singing from the same hymn sheet is not a small undertaking and is one which in my experience, that can be defined very differently organisation to organisation.
