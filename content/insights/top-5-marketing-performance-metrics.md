@@ -15,7 +15,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "Top 5 Marketing Performance Metrics"
+title = "5 Marketing Performance Metrics For Your C-Suite Dashboard"
 
 +++
 Earning the confidence of the CEO has always been an objective for marketing teams - and to do this there is a need to be able to prove the value of marketing. However, without being able to measure the right metrics, it’s difficult to demonstrate marketing performance. Data is a powerful asset to support this objective and platforms such as Domo and Power BI are great places to create dashboards to demonstrate marketing attribution.
