@@ -22,7 +22,7 @@ July 6th, London, and the stage is set for what could be a hat-trick of B2B Mark
 
 CRMT Digital for a Netflix Inspired Buyer Journey for Aruba, a Hewlett Packard Enterprise company. Wow! Having only just recovered from the photo opp with the Gold award, we were in shock at our name being called out a second time - this time it was Silver for Martech Agency of the Year. We are so thrilled to have been recognised by B2B Marketing and awarded these accolades and can't thank our friends at Aruba, a Hewlett Packard Enterprise company enough for allowing us to tell the story. A story which will be the focus of this article.
 
-Aruba, a Hewlett Packard Enterprise company, has a strong demand-generation function generating thousands of responses a quarter. Traditionally, these were scored, qualified, and then followed up by telemarketing. The team recognised that many of these “qualified leads” were not ready to engage with telemarketing and were not consuming relevant content on their web site.
+Aruba, a Hewlett Packard Enterprise company, has a strong demand-generation function generating thousands of responses a quarter. Historically, these were scored, qualified, and then followed up by telemarketing. The team recognised that many of these “qualified leads” were not ready to engage with telemarketing and were not consuming relevant content on their web site.
 
 Aruba, a Hewlett Packard Enterprise company needed to nurture these leads with a distinct personalised approach and deliver relevant content, depending on where they were on their journey, to encourage them to consider their products and services.
 
