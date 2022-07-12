@@ -15,7 +15,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for The Third Year Running"
+title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for Fourth Time in Three Years"
 
 +++
 July 6th, London, and the stage is set for what could be a hat-trick of B2B Marketing Martech Award wins for CRMT Digital. The nerves mount as the award winners for the first categories are announced until finally, we're up - Gold for Best Use of Marketing Automation goes to....  
