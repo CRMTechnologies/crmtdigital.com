@@ -18,7 +18,7 @@ testimonial = ""
 title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for Fourth Time in Three Years"
 
 +++
-July 6th, London, and the stage is set for what could be a hat-trick of B2B Marketing Martech Award wins for CRMT Digital. The nerves mount as the award winners for the first categories are announced, until finally, we're up - Gold for Best Use of Marketing Automation goes to....  
+July 6th, London, and the stage is set for what could be a hat-trick of B2B Marketing Martech Awards for CRMT Digital. The nerves mount as the award winners for the first categories are announced, until finally, we're up - Gold for Best Use of Marketing Automation goes to....  
 
 CRMT Digital for a Netflix Inspired Buyer Journey for Aruba, a Hewlett Packard Enterprise company. Wow! Having only just recovered from the photo opp with the Gold award, we were in shock at our name being called out a second time - this time it was Silver for Martech Agency of the Year. We are so thrilled to have been recognised by B2B Marketing and awarded these accolades and can't thank our friends at Aruba, a Hewlett Packard Enterprise company enough for allowing us to tell the story. That story being the focus of the this article.
 
