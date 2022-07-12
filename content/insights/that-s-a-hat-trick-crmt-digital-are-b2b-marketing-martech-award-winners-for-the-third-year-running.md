@@ -18,3 +18,4 @@ testimonial = ""
 title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for The Third Year Running"
 
 +++
+July 8th , London and the stage is set for what could be a hat-trick of B2B Marketing Martech Award wins for CRMT Digital.
