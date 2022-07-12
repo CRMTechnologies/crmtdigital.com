@@ -7,7 +7,7 @@ draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/IGNITE_Convention_London_2022-289-scaled-3fz0wkd90f9x47iplddybu.jpg"
-intro = "We are thrilled to be B2B Marketing Martech Award Winners once again"
+intro = "Sharing the secrets behind the award wins"
 keywords = ["Buyer Journey Orchestration", "Netflix Inspired Buyer Journey", "B2B Marketing Martech Awards", "Award Winning B2B Marketing Agency"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = ""
@@ -15,7 +15,7 @@ slug = ""
 subheading = ""
 tags = []
 testimonial = ""
-title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for Fourth Time in Three Years"
+title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners for the Fourth Time in Three Years"
 
 +++
 July 6th, London, and the stage is set for what could be a hat-trick of B2B Marketing Martech Awards for CRMT Digital. The nerves mount as the award winners for the first categories are announced, until finally, we're up - Gold for Best Use of Marketing Automation goes to....  
