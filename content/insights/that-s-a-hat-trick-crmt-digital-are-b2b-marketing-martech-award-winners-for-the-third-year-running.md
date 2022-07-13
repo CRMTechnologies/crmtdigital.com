@@ -12,7 +12,7 @@ resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = ""
 slug = ""
 subheading = ""
-tags = ["Demand Generation", "Digital Marketing"]
+tags = ["Demand Generation"]
 testimonial = ""
 title = "That's a Hat-Trick - CRMT Digital are B2B Marketing Martech Award Winners Three Years in a Row"
 
