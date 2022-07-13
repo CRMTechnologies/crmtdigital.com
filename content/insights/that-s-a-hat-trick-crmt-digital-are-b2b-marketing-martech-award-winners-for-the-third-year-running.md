@@ -1,5 +1,5 @@
 +++
-author = "CRMT Digital"
+author = "Joanna Mills"
 banner_type = "none"
 date = 2022-07-06T23:00:00Z
 description = "2022 B2B Marketing Martech Award Winners"
@@ -7,7 +7,7 @@ draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/IGNITE_Convention_London_2022-289-scaled-3fz0wkd90f9x47iplddybu.jpg"
-intro = "Sharing the secrets behind the award wins"
+intro = "The story behind the awards"
 keywords = ["Eloqua Nurture Program", "Nurture Engine", "Nurture Program", "Buyer Journey Orchestration", "Netflix Inspired Buyer Journey", "B2B Marketing Martech Awards", "Award Winning B2B Marketing Agency"]
 resource = "excellence-hub/a-guide-to-successful-demand-gen-led-marketing.md"
 show_contact = ""
