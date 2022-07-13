@@ -3,7 +3,6 @@ author = "Joanna Mills"
 banner_type = "none"
 date = 2022-07-06T23:00:00Z
 description = "2022 B2B Marketing Martech Award Winners"
-draft = true
 heading = ""
 highlight_colour = "rgb(55, 26, 190)"
 image = "https://static.crmtechnologies.com/sites/default/files/IGNITE_Convention_London_2022-289-scaled (1).jpg"
