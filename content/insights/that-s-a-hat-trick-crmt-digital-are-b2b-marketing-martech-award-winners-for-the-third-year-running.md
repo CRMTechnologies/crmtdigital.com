@@ -35,7 +35,7 @@ In addition, the team discovered that potential customers were finding it diffic
 * Maximise keyword conversions by serving relevant content as Organic search drove the most website traffic
 * Improve conversion from paid advertising and search via an enhanced content experience
 
-**What did the program cover?**
+**What did we deliver?**
 
  CRMT Digital were commissioned to design and build a class-leading “always on” nurturing engine to drive conversion through the sales pipeline by captivating buyers with a “Netflix-like” content experience. The nurture engine needed to:
 
@@ -80,4 +80,4 @@ In its first 11 months the nurture engine has achieved an ROI of over 260% with 
 
 Due to its success, the nurture engine is currently being replicated and deployed in other industry specific nurtures.
 
-Keen to find out more about the secrets to this program's success? [Book](https://www.crmtdigital.com/contact/ "Contact") some time with one of our experts today.
+Keen to find out more about the program and our secrets to success? [Book](https://www.crmtdigital.com/contact/ "Contact") some time with one of our experts today.
