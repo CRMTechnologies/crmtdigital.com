@@ -20,7 +20,7 @@ heading: Successfully execute demand gen led marketing strategies
 highlight_colour: rgb(117, 65, 146)
 subheading: ''
 show_contact: button
-date: 2015-12-18T13:54:22+00:00
+date: 2015-12-18T13:54:22.000+00:00
 type: resource
 
 ---
