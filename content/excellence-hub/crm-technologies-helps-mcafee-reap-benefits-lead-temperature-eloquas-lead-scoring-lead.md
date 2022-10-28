@@ -9,6 +9,7 @@ cta = "Read more"
 cta_image = ""
 date = 2016-01-21T09:52:43Z
 description = ""
+draft = true
 gated = false
 heading = "McAfee Benefits from Lead 'Temperature' with Oracle Eloqua"
 image = "https://static.crmtechnologies.com/themes/tp_theme/images/banners/banner-excellence-hub.jpg"
