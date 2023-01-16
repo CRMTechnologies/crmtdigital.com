@@ -1,6 +1,4 @@
 # www.crmtdigital.com
-CRMT Digital Website
-
-Netlify Hosting: https://app.netlify.com/sites/zealous-liskov-3ee2f4
+Old CRMT Digital Website
 
 Staging URL: https://zealous-liskov-3ee2f4.netlify.app/
