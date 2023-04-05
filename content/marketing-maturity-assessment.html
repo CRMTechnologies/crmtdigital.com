@@ -820,8 +820,8 @@ title = "B2B Marketing Maturity Assessment Tool"
   </div> 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" integrity="sha512-ToRWKKOvhBSS8EtqSflysM/S7v9bB9V0X3B1+E7xo7XZBEZCPL3VX5SFIp8zxY19r7Sz0svqQVbAOx+QcLQSAQ==" crossorigin="anonymous"></script>
+  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" integrity="sha512-ToRWKKOvhBSS8EtqSflysM/S7v9bB9V0X3B1+E7xo7XZBEZCPL3VX5SFIp8zxY19r7Sz0svqQVbAOx+QcLQSAQ==" crossorigin="anonymous"></script-->
   <script>
     
   var recs = {}; 
@@ -928,8 +928,8 @@ title = "B2B Marketing Maturity Assessment Tool"
       	else {$('#opsMid').show(); }    
       
       var items = new Array();     
-      items.push({name: "elqFormName", value: "UntitledForm-1559307409250"});     
-      items.push({name: "elqSiteID", value: "1010"});      
+      items.push({name: "elqFormName", value: "UntitledForm-1680711728671"});     
+      items.push({name: "elqSiteID", value: "1470613"});      
 
       items.push({name: "techStackScore", value: techStackScore });     
       items.push({name: "marketingScore", value: marketingScore});  
@@ -954,11 +954,11 @@ title = "B2B Marketing Maturity Assessment Tool"
          items.push(item);
       });
      $.ajax({
-        url: "https://s1010.t.eloqua.com/e/f2",
+        url: "https://s1470613.t.eloqua.com/e/f2",
         data: items,
         type: "POST",
         success: function (response, textStatus, jqXHR) {
-            console.log('Successful'); */         
+            console.log('Successful');         
             $("#recommendations").show();
             $("#details").hide();
         /*  if( recs[0] ) {
@@ -994,7 +994,7 @@ title = "B2B Marketing Maturity Assessment Tool"
         });     
  	});    
     
-	$( "#pdf-new" ).click(function() {  
+	/*$( "#pdf-new" ).click(function() {  
 		HTML_Width = $("#recommendations").width();
 		HTML_Height = $("#recommendations").height();
 		top_left_margin = 15;
@@ -1010,7 +1010,7 @@ title = "B2B Marketing Maturity Assessment Tool"
         pdf.addHTML($('#recommendations')[0], options, function () {
                 pdf.save('Test.pdf');
         });
- 	});  
+ 	});*/  
     
     
   });  
