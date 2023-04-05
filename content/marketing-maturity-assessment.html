@@ -586,7 +586,7 @@ title = "B2B Marketing Maturity Assessment Tool"
 </div>
     
   <div id="details" class="tab-pane pb-50">      
-    <div class="row stats-wrap mt-5 mb-5">
+    <!--div class="row stats-wrap mt-5 mb-5">
         <div class="statwidget col-sm-3">
           <span class="label">Your Marketing Maturity Score:</span>
           <span class="value" id="totalScore">5</span>
@@ -600,7 +600,7 @@ title = "B2B Marketing Maturity Assessment Tool"
           <span id="totalLow">Your overall score indicates that your organization is lagging behind the industry’s most mature marketing teams. It seems you have a basic martech stack and are not making the most of your resources, which limits your efforts and growth.<br> 
             There’s a lot of room for development and progress if you want to compete with industry’s best. Register below to see your results and personalised recommendations outlining areas for further improvement. </span></p>   
         </div> 
-    </div>  
+    </div-->  
    
     <div class="row">
         <div class="col-sm-12">
@@ -681,48 +681,70 @@ title = "B2B Marketing Maturity Assessment Tool"
           <span class="value" id="totalScore2">5</span>
           <span class="postfix">/10</span>
         </div>  
-        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
-          <p><span id="techStackHigh">Way to go! Your organization’s tech stack score is impressive! It seems you are using most of the available tools and follow best practices in your marketing processes. Leveraging the latest MarTech trends and cutting-edge technologies helps you level the marketing playing field and stay on par with the industry’s best. </span>   
-          <span id="techStackMid">Your organization’s tech stack score indicates that you are have a solid toolset, but you are not making full use of the available tools and best practices. Improving your tech stack can have a positive impact on the reach, efficacy, and success rates of your marketing campaigns. </span>           
-          <span id="techStackLow">According to your tech stack score, your organization is using some tech tools, but you are far behind the industry’s best. You should consider enriching your toolset and increasing the level of automation to support the planning and execution of marketing campaigns across different channels. </span>
-          <span id="marketingHigh">Your assorted stack of tools shows that you are making great use of marketing automation features and capabilities. And you have the right toolset executing a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
-          <span id="marketingMid">Your organization’s approach to marketing campaign planning and execution is good, and you have a solid campaign calendar. But consider further diversifying your efforts and incorporating a higher degree of automation to successfully scale your marketing efforts. </span>           
-          <span id="marketingLow">Your organization’s marketing campaign planning could use some improvement and support. Consider expanding your reach by executing a broader campaign calendar of tactics and channels to increase audience engagement and brand recognition. </span>               
-          <span id="opsHigh">Your organization has a very strong focus on marketing operations. And is using a great set of data collection and analytics tools that make your lead management and sales efforts better targeted and more successful.</span>   
-          <span id="opsMid">Even though your team is partly leveraging the data management and analytics tools to support marketing operations, you can further improve your sales efforts by taking advantage of advanced lead management and sales enablement tactics. </span>
-          <span id="opsLow">Although you are employing some data management tools and processes, your organization’s operations could use a more focused approach regarding analytics, lead management and sales enablement. </span>
-          <span id="processHigh">It seems your organization is doing a magnificent job in using the diverse set of skills, competences, and standardised processes to deliver true value to shareholders and customers alike! Keep up the great work! But stay on the lookout for the latest innovations and best practices that improve scalability! </span>   
-          <span id="processMid">Your organization is standardising and documenting some processes, but that does not translate into full use of the varied skills in your team. Make sure to clearly structure all your processes and set data safety protocols that generate true business value. </span>
-          <span id="processLow">Additionally, your organization could benefit greatly by recognizing and elevating the team’s skillset, standardizing the marketing and operations processes and their implementation to get the most out of your marketing budget. </span></p>     
-        </div>
+        <div id="resultsTeaser" class="col-sm-9 d-flex flex-column  justify-content-center">            
+          <p><span id="totalHigh">You have a mature marketing organisation that’s using an outstanding variety of martech tools and best practices to support operations and automate most of your marketing processes. This allows you to scale your marketing efforts and plan and execute a diverse calendar of campaigns across a broad portfolio of tactics and channels. <br>
+			But you can always do more to stay ahead of the competition. Register below to to see your results and personalised recommendations, outlining opportunities for further improvement.</span>   
+          <span id="totalMid">You are well on your way to reach marketing maturity, but there’s still more work to be done. Consider improving your tech stack, implementing some of the latest practices and focusing more on marketing automation so can diversify your campaigns. <br>
+            If you wish to take your marketing maturity to the next level and challenge your competitors, register below to see your results and personalised recommendations, and areas for further improvement.</span> 
+          <span id="totalLow">Your overall score indicates that your organization is lagging behind the industry’s most mature marketing teams. It seems you have a basic martech stack and are not making the most of your resources, which limits your efforts and growth.<br> 
+            There’s a lot of room for development and progress if you want to compete with industry’s best. Register below to see your results and personalised recommendations outlining areas for further improvement. </span></p>   
+        </div> 
     </div>  
     <div class="row stats-wrap mt-5 mb-5">
         <div class="col-sm-12 text-center">  
           <h3>Category Scores</h3>
-        </div>       
+        </div>
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">	    
         <div class="statwidget col-sm-3">
           <span class="label">Tech Stack:</span>
           <span class="value" id="techStackScore">5</span>
           <span class="postfix">/10</span>
-        </div>      
+        </div>
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="techStackHigh">Way to go! Your organization’s tech stack score is impressive! It seems you are using most of the available tools and follow best practices in your marketing processes. Leveraging the latest MarTech trends and cutting-edge technologies helps you level the marketing playing field and stay on par with the industry’s best. </span>   
+          <span id="techStackMid">Your organization’s tech stack score indicates that you are have a solid toolset, but you are not making full use of the available tools and best practices. Improving your tech stack can have a positive impact on the reach, efficacy, and success rates of your marketing campaigns. </span>           
+          <span id="techStackLow">According to your tech stack score, your organization is using some tech tools, but you are far behind the industry’s best. You should consider enriching your toolset and increasing the level of automation to support the planning and execution of marketing campaigns across different channels. </span></p>     
+        </div>	    
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">	    
         <div class="statwidget col-sm-3">
           <span class="label">Demand Marketing:</span>
           <span class="value" id="marketingScore">5</span>
           <span class="postfix">/10</span>
-        </div>  
+        </div> 
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="marketingHigh">Your assorted stack of tools shows that you are making great use of marketing automation features and capabilities. And you have the right toolset executing a diverse calendar of sophisticated campaigns across a broad portfolio of tactics and channels. </span>   
+          <span id="marketingMid">Your organization’s approach to marketing campaign planning and execution is good, and you have a solid campaign calendar. But consider further diversifying your efforts and incorporating a higher degree of automation to successfully scale your marketing efforts. </span>           
+          <span id="marketingLow">Your organization’s marketing campaign planning could use some improvement and support. Consider expanding your reach by executing a broader campaign calendar of tactics and channels to increase audience engagement and brand recognition. </span></p>     
+        </div>	    
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">	    
         <div class="statwidget col-sm-3">
           <span class="label">Marketing Operations:</span>
           <span class="value" id="opsScore">5</span>
           <span class="postfix">/10</span>
-        </div>   
+        </div> 
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="opsHigh">Your organization has a very strong focus on marketing operations. And is using a great set of data collection and analytics tools that make your lead management and sales efforts better targeted and more successful.</span>   
+          <span id="opsMid">Even though your team is partly leveraging the data management and analytics tools to support marketing operations, you can further improve your sales efforts by taking advantage of advanced lead management and sales enablement tactics. </span>
+          <span id="opsLow">Although you are employing some data management tools and processes, your organization’s operations could use a more focused approach regarding analytics, lead management and sales enablement. </span></p>     
+        </div>	    
+    </div>  
+    <div class="row stats-wrap mt-5 mb-5">	    
         <div class="statwidget col-sm-3">
           <span class="label">People & Processes:</span>
           <span class="value" id="processScore">5</span>
           <span class="postfix">/10</span>
-        </div>         
+        </div> 
+        <div id="results" class="col-sm-9 d-flex flex-column  justify-content-center">          
+          <p><span id="processHigh">It seems your organization is doing a magnificent job in using the diverse set of skills, competences, and standardised processes to deliver true value to shareholders and customers alike! Keep up the great work! But stay on the lookout for the latest innovations and best practices that improve scalability! </span>   
+          <span id="processMid">Your organization is standardising and documenting some processes, but that does not translate into full use of the varied skills in your team. Make sure to clearly structure all your processes and set data safety protocols that generate true business value. </span>
+          <span id="processLow">Additionally, your organization could benefit greatly by recognizing and elevating the team’s skillset, standardizing the marketing and operations processes and their implementation to get the most out of your marketing budget. </span></p>     
+        </div>	    
     </div> 
     
-    <div class="row mt-5 mb-5">
+    <!--div class="row mt-5 mb-5">
         <div class="col-sm-12 text-center">  
           <h3>Recommendations</h3>
         </div>     
@@ -765,10 +787,10 @@ title = "B2B Marketing Maturity Assessment Tool"
           <h5>Event Follow-up Communications</h5>
           <p>You have a basic marketing technology stack used to execute an active campaign calendar across a limited number of tactics and channels. Your team could focus more on analytics, lead management or sales enablement but lacks the people and processes to truly make the most from their resources. </p>   
         </div> 
-    </div>       
- 	<div data-html2canvas-ignore="true" class="row justify-content-center align-items-center">
+    </div-->       
+ 	<!--div data-html2canvas-ignore="true" class="row justify-content-center align-items-center">
     	<a id="pdf-new" class="btn btn-split btn-wide green-btn">Save as PDF</a>
-	</div>   
+	</div-->   
  </div>
       
     </div>             
@@ -858,7 +880,7 @@ title = "B2B Marketing Maturity Assessment Tool"
               Object.assign(items, item);
           });      
       
-         $.ajax({
+         /*$.ajax({
             url: "/.netlify/functions/maturity-index",
             data: JSON.stringify(items),
             type: "POST",
@@ -871,7 +893,7 @@ title = "B2B Marketing Maturity Assessment Tool"
                 console.log('Failed');
                  }
                 }
-            });          
+            });  */        
       
  	});    
     
