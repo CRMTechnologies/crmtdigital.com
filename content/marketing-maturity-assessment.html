@@ -747,7 +747,7 @@ title = "B2B Marketing Maturity Assessment Tool"
     <div class="row mt-5 mb-5">
         <div class="col-sm-12 text-center">  
           <h3>Recommendations</h3>
-          <p>A member of our team will be in touch with personalised recommendations for your organisation.</p>
+          <p>A member of our team will be in touch with personalised recommendations.</p>
         </div>     
     </div>     
     <!--div id="rec0" class="row mt-5 mb-5">
@@ -953,15 +953,15 @@ title = "B2B Marketing Maturity Assessment Tool"
         var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
          items.push(item);
       });
-     $.ajax({
+     /*$.ajax({
         url: "https://s1010.t.eloqua.com/e/f2",
         data: items,
         type: "POST",
         success: function (response, textStatus, jqXHR) {
-            console.log('Successful');          
+            console.log('Successful'); */         
             $("#recommendations").show();
             $("#details").hide();
-          if( recs[0] ) {
+        /*  if( recs[0] ) {
           	$("#rec0 h5").html( recs[0].title ); 
           	$("#rec0 p").html( recs[0].teaser );
           	$("#rec0 i").addClass( recs[0].icon );
@@ -991,7 +991,7 @@ title = "B2B Marketing Maturity Assessment Tool"
             console.log('Failed');
              }
             }
-        });          
+        });  */        
  	});    
     
 	$( "#pdf-new" ).click(function() {  
