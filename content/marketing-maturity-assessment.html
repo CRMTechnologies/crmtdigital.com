@@ -953,7 +953,7 @@ title = "B2B Marketing Maturity Assessment Tool"
         var item = {name: $( this ).attr('name'), value: $( this ).data('status')};
          items.push(item);
       });
-     /*$.ajax({
+     $.ajax({
         url: "https://s1010.t.eloqua.com/e/f2",
         data: items,
         type: "POST",
@@ -984,14 +984,14 @@ title = "B2B Marketing Maturity Assessment Tool"
           	$("#rec3 p").html( recs[3].teaser );
           	$("#rec3 i").addClass( recs[3].icon ); 
             $("#rec3").addClass("d-flex");   
-          }  
+          }  */  
         },
         error: function (jqXHR, textStatus, errorThrown) {
          if (jqXHR['status'] != 200) {
             console.log('Failed');
              }
             }
-        });  */        
+        });     
  	});    
     
 	$( "#pdf-new" ).click(function() {  
