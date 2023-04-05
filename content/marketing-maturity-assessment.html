@@ -927,8 +927,9 @@ title = "B2B Marketing Maturity Assessment Tool"
       	else if (opsScore < 4) { $('#opsLow').show(); } 
       	else {$('#opsMid').show(); }    
       
-      var items = new Array();     
-      items.push({name: "elqFormName", value: "UntitledForm-1680711728671"});     
+      var items = new Array();
+      items.push({name: "elqFormName", value: "maturity-index"});   		
+      items.push({name: "elqFormName", value: "UntitledForm-1680711728671"});     	
       items.push({name: "elqSiteID", value: "1470613"});      
 
       items.push({name: "techStackScore", value: techStackScore });     
@@ -954,7 +955,8 @@ title = "B2B Marketing Maturity Assessment Tool"
          items.push(item);
       });
      $.ajax({
-        url: "https://s1470613.t.eloqua.com/e/f2",
+        url: "/",
+	headers: { "Content-Type": "application/x-www-form-urlencoded" },     
         data: items,
         type: "POST",
         success: function (response, textStatus, jqXHR) {
