@@ -947,22 +947,7 @@ title = "B2B Marketing Maturity Assessment Tool"
               var itemName = $( this ).attr('name');
               var item = {[itemName]: itemVal}
               Object.assign(items, item);
-          });      
-      
-         /*$.ajax({
-            url: "/.netlify/functions/maturity-index",
-            data: JSON.stringify(items),
-            type: "POST",
-            contentType: "application/json",          
-            success: function (response, textStatus, jqXHR) {
-                Object.assign(recs, JSON.parse(response)); 
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-             if (jqXHR['status'] != 200) {
-                console.log('Failed');
-                 }
-                }
-            });  */        
+          });           
       
  	});    
     
@@ -1031,30 +1016,6 @@ title = "B2B Marketing Maturity Assessment Tool"
             console.log('Successful');         
             $("#recommendations").show();
             $("#details").hide();
-        /*  if( recs[0] ) {
-          	$("#rec0 h5").html( recs[0].title ); 
-          	$("#rec0 p").html( recs[0].teaser );
-          	$("#rec0 i").addClass( recs[0].icon );
-            $("#rec0").addClass("d-flex"); 
-          }  
-          if( recs[1] ) {          
-          	$("#rec1 h5").html( recs[1].title ); 
-          	$("#rec1 p").html( recs[1].teaser );
-          	$("#rec1 i").addClass( recs[1].icon );
-            $("#rec1").addClass("d-flex"); 
-          }  
-          if( recs[2] ) {             
-          	$("#rec2 h5").html( recs[2].title ); 
-          	$("#rec2 p").html( recs[2].teaser );
-          	$("#rec2 i").addClass( recs[2].icon ); 
-            $("#rec2").addClass("d-flex");   
-          }  
-          if( recs[3] ) {                
-          	$("#rec3 h5").html( recs[3].title ); 
-          	$("#rec3 p").html( recs[3].teaser );
-          	$("#rec3 i").addClass( recs[3].icon ); 
-            $("#rec3").addClass("d-flex");   
-          }  */  
         },
         error: function (jqXHR, textStatus, errorThrown) {
          if (jqXHR['status'] != 200) {
@@ -1063,24 +1024,6 @@ title = "B2B Marketing Maturity Assessment Tool"
             }
         });     
  	});    
-    
-	/*$( "#pdf-new" ).click(function() {  
-		HTML_Width = $("#recommendations").width();
-		HTML_Height = $("#recommendations").height();
-		top_left_margin = 15;
-		PDF_Width = HTML_Width * 0.75;
-		PDF_Height = HTML_Height * 0.75;
-		canvas_image_width = HTML_Width;
-		canvas_image_height = HTML_Height;
-      
-        var pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
-        var options = {
-            background: '#fff' //background is transparent if you don't set it, which turns it black for some reason.
-        };
-        pdf.addHTML($('#recommendations')[0], options, function () {
-                pdf.save('Test.pdf');
-        });
- 	});*/  
     
     
   });  
